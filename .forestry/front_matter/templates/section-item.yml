@@ -1,0 +1,102 @@
+---
+label: Section Item
+hide_body: true
+fields:
+- name: contentWidth
+  type: select
+  default: half
+  config:
+    required: true
+    options:
+    - half
+    - full
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Width
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: features
+  type: field_group
+  config: {}
+  fields:
+  - name: columns
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - two
+      - three
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Columns
+  - name: type
+    type: select
+    default: default
+    config:
+      required: false
+      options:
+      - default
+      - large
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type
+  - name: features
+    type: blocks
+    label: Features
+    template_types:
+    - feature
+    config:
+      min: 
+      max: 
+  label: Features
+- name: ctas
+  type: blocks
+  label: CTAs
+  template_types:
+  - cta
+  config:
+    min: 
+    max: 
+- name: code
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Bee
+    - Bee-js
+    - Swarm-CLI
+    - Bee API
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Code

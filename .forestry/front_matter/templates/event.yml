@@ -1,0 +1,37 @@
+---
+label: Event
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: 'Event title with date at the end, ie: <br>WAM Sessions, online, September
+    27'
+- name: href
+  type: text
+  config:
+    required: false
+  label: Link to event
+  description: URL
+- name: add_to_calendar
+  type: text
+  config:
+    required: false
+  label: Calendar link
+  description: "(Optional) Add to calendar link"
+- name: start_date
+  type: datetime
+  label: Event start date
+  description: For ordering purposes, not shown on the website.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+pages:
+- content/events/devcon-bogota-oct-11-14.md
+- content/events/last-shot-conference-prague-september-30-october-2.md
+- content/events/monthly-ecosystem-call-online-october-27.md
+- content/events/world-ethical-data-forum-oct-26-28.md

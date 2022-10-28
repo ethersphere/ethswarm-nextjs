@@ -1,0 +1,51 @@
+---
+label: Post
+hide_body: true
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  default: Post
+  hidden: true
+- name: data
+  type: field_group
+  config: {}
+  fields:
+  - name: border
+    type: boolean
+    label: Border
+    default: false
+  - name: sidebar
+    type: field_group
+    config: {}
+    fields:
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Content
+    - name: ctas
+      type: blocks
+      label: CTAs
+      template_types:
+      - cta
+      config:
+        min: 
+        max: 
+    label: Sidebar
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Content
+  label: Data

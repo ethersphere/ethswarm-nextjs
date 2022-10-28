@@ -1,0 +1,41 @@
+---
+label: Icon
+hide_body: true
+fields:
+- name: icon
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - PlusIcon
+    - LayersIcon
+    - ExpandIcon
+    - CompassIcon
+    - UploadIcon
+    - UnlimitedIcon
+    - OpenIcon
+    - FaultIcon
+    - DowntimeIcon
+    - PrivacyIcon
+    - DdosIcon
+    - CredibleIcon
+    - ForkIcon
+    - ConnectIcon
+    - GrowIcon
+    - LockIcon
+    - LeakIcon
+    - NutIcon
+    - OpenIcon
+    - BoxArrowIcon
+    - HeartIcon
+    - RouteIcon
+    - PushIcon
+    - PullIcon
+    - RetrieveIcon
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Icon

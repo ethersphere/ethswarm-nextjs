@@ -1,0 +1,79 @@
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >1</span
+  >
+  <span class="font-bold">import</span>&nbsp;{&nbsp;Bee&nbsp;}&nbsp;from&nbsp;
+  <span class="text-orange-onDark">"@ethersphere/bee-js"</span>
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >2</span
+  >
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >3</span
+  >
+  <span class="font-bold">const</span>&nbsp;bee&nbsp;=&nbsp;<span
+    class="font-bold"
+    >new</span
+  >&nbsp;Bee(<span class="text-orange-onDark">"http://localhost:1633"</span>)
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >4</span
+  >
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >5</span
+  >
+  <span class="pr-4 italic text-gray-400"
+    >// Be aware, this creates on-chain transactions that spend Eth and
+    BZZ!</span
+  >
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >6</span
+  >
+  <span class="font-bold">const</span>&nbsp;batchId&nbsp;=&nbsp;await
+  bee.createPostageBatch(<span class="text-orange-onDark">‘100’</span>, 17)
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >7</span
+  >
+  <span class="font-bold">const</span>&nbsp;uploadResult&nbsp;=&nbsp;await
+  bee.uploadData(batchId,
+  <span class="text-orange-onDark">"Bee is awesome!"</span>)
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >8</span
+  >
+  <span class="font-bold">const</span>&nbsp;data&nbsp;=&nbsp;await
+  bee.downloadData(uploadResult.reference)
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >9</span
+  >
+</div>
+
+<div class="whitespace-nowrap">
+  <span class="inline-block w-8 pr-4 text-right text-gray-400 select-none"
+    >10</span
+  >
+  <span>console.log(data.text())</span>&nbsp;<span class="italic text-gray-400"
+    >// prints ‘Bee is awesome!’</span
+  >
+</div>

@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "href": "/build",
+      "title": "Use Swarm",
+      "children": [
+        {
+          "href": "/build",
+          "title": "Build"
+        },
+        {
+          "href": "/build/run-a-full-node",
+          "title": "Run a full node"
+        },
+        {
+          "href": "/build/desktop",
+          "title": "Swarm desktop"
+        },
+        {
+          "title": "Swarm Gateway",
+          "href": "https://gateway.ethswarm.org/"
+        },
+        {
+          "href": "https://github.com/ethersphere/awesome-swarm",
+          "title": "Awesome Swarm"
+        }
+      ]
+    },
+    {
+      "href": "/why",
+      "title": "Resources",
+      "children": [
+        {
+          "href": "/why",
+          "title": "Why & How"
+        },
+        {
+          "href": "https://docs.ethswarm.org/docs/",
+          "title": "Bee Docs"
+        },
+        {
+          "href": "https://bee-js.ethswarm.org/docs/",
+          "title": "Bee.js Docs"
+        },
+        {
+          "href": "https://swarmscan.resenje.org/",
+          "title": "Network Stats"
+        },
+        {
+          "href": "/roadmap",
+          "title": "Roadmap"
+        }
+      ]
+    },
+    {
+      "href": "/grants",
+      "title": "Ecosystem",
+      "children": [
+        {
+          "href": "/grants",
+          "title": "Grants"
+        },
+        {
+          "href": "https://gitcoin.co/fairdatasociety",
+          "title": "Bounties"
+        },
+        {
+          "href": "https://fairdatasociety.org/",
+          "title": "Fair Data Society"
+        }
+      ]
+    },
+    {
+      "href": "https://medium.com/ethereum-swarm",
+      "title": "Blog"
+    },
+    {
+      "href": "/jobs",
+      "title": "Join team"
+    }
+  ]
+}

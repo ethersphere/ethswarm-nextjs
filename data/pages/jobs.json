@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Jobs"
+  },
+  "hero": {
+    "title": "Join the team",
+    "id": "join",
+    "background": {
+      "src": "/assets/hero/join_alt.png",
+      "alt": ""
+    },
+    "content": "<p>The Swarm Foundation is made by an international team of visionaries, developers, scientists, sysadmins, operation managers, graphic designers and even international artists. Join the team to shape the future of Web3.</p>",
+    "ctas": [
+      {
+        "title": "About Swarm Foundation",
+        "background": "orange",
+        "href": "/foundation",
+        "arrow": true
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "id": "bee",
+      "title": "Bee",
+      "content": "",
+      "items": [
+        {
+          "title": "QA Engineer (Go)",
+          "content": "<p>Bee is a Swarm client implemented in Go. It’s the basic building block for the Swarm Network. Bee provides low level constructs for file storage, feeds, key-value stores and untraceable communication, through solid, well-tested code delivered in an agile manner.</p>",
+          "href": "/"
+        }
+      ]
+    },
+    {
+      "id": "js-bee",
+      "title": "JS / Bee-JS",
+      "content": "<p>Nekaj vsebine</p>",
+      "items": [
+        {
+          "title": "Web3 Software Engineer (Javascript)",
+          "content": "<p>The Swarm Javascript team is working on a great variety of projects including client libraries, Swarm CLI tool, the Bee Dashboard, the Swarm Gateway and other user facing applications.</p>",
+          "href": "/"
+        },
+        {
+          "title": "Senior Javascript Developer",
+          "content": "<p>For the development of our client-facing APIs (HTTP and CLI), we’re looking for a strong candidate with experience designing and shaping APIs. Ideally, you should be fluent with API design principles, have experience with full-stack web development and are aware of the friction points of integrating application frameworks in browsers.</p>",
+          "href": "/"
+        }
+      ]
+    }
+  ]
+}

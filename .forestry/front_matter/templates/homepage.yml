@@ -1,0 +1,40 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- name: meta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  label: Meta
+- name: news
+  type: blocks
+  label: News items
+  template_types:
+  - news-item
+  config:
+    min: 3
+    max: 3
+- name: bounties
+  type: blocks
+  label: Bounties
+  template_types:
+  - feature
+  config:
+    min: 
+    max: 
+- name: grantees
+  type: blocks
+  label: Grantees
+  template_types:
+  - feature
+  config:
+    min: 
+    max: 
+pages:
+- content/home.md

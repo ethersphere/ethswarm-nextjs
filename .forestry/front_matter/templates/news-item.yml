@@ -1,0 +1,48 @@
+---
+label: News Item
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: category
+  type: tag_list
+  default: []
+  label: Category
+- name: readTime
+  type: text
+  config:
+    required: false
+  label: Read time
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: href
+  type: text
+  config:
+    required: false
+  label: URL
+- name: copy
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short copy
+  description: Will be trimmed if too long.
+- name: cta
+  type: field_group
+  config: {}
+  fields:
+  - name: cta
+    type: include
+    config: {}
+    template: cta
+    label: CTA
+  label: CTA

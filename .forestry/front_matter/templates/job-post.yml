@@ -1,0 +1,50 @@
+---
+label: Job post
+hide_body: false
+fields:
+- name: meta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Page/Job title
+  label: Meta
+- name: job
+  type: field_group
+  config: {}
+  fields:
+  - name: category
+    type: tag_list
+    default: []
+    label: Category
+    description: Job category
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+    description: Short description
+  label: Job
+pages:
+- content/jobs/browser-extension-developer.md
+- content/jobs/javascript-developer-fairdrive.md
+- content/jobs/modeller-swarm-research-team.md
+- content/jobs/qa-engineer-go.md
+- content/jobs/security-researcher.md
+- content/jobs/senior-javascript-developer.md
+- content/jobs/software-developer-swarm-research-team.md
+- content/jobs/technical-writer.md
+- content/jobs/web3-software-engineer-js.md

@@ -1,0 +1,419 @@
+{
+  "hero": {
+    "title": "Digital Freedom Now.",
+    "background": {
+      "src": "/assets/hero_background.png",
+      "alt": "Background graphic"
+    },
+    "content": "Swarm is a decentralised data storage and distribution technology. Ready to power the next generation of censorship-resistant, unstoppable, serverless dapps.",
+    "ctas": [
+      {
+        "href": "/build",
+        "background": "orange-onDark",
+        "color": "black",
+        "arrow": true,
+        "title": "Start building"
+      },
+      {
+        "href": "/build/desktop",
+        "background": "transparent",
+        "color": "gray",
+        "arrow": true,
+        "title": "Run your node"
+      }
+    ],
+    "quote": "“If Ethereum is the world’s CPU, Swarm is the world’s Hard Drive” - Viktor Tron"
+  },
+  "unstoppable": {
+    "tagline": "Privacy for individuals ↔ Trust for the data economy",
+    "title": "Unstoppable data",
+    "content": "Swarm continues where the blockchain ends, making the world computer real.",
+    "ctas": [
+      {
+        "href": "/why",
+        "background": "orange",
+        "color": "black",
+        "arrow": true,
+        "title": "Why Swarm"
+      },
+      {
+        "href": "/why#how",
+        "background": "transparent",
+        "color": "black",
+        "arrow": true,
+        "title": "How it works"
+      }
+    ],
+    "features_type": "three",
+    "features": [
+      {
+        "title": "Open & Borderless",
+        "content": "Swarm is open source code, limited only by the people who use and maintain it - Join a community building the future of the web.",
+        "icon": "OpenIcon"
+      },
+      {
+        "title": "Fault-tolerant",
+        "content": "Redundant storage with local replication ensures data availability even in the face of node dropouts or data loss.",
+        "icon": "FaultIcon"
+      },
+      {
+        "title": "No downtime",
+        "content": "Swarm is decentralised and distributed, and so it’s also always up, making it stable and reliable.",
+        "icon": "DowntimeIcon"
+      },
+      {
+        "title": "Privacy first",
+        "content": "Swarm nodes provide cryptographic support enabling you to use network in an unrestricted way while building blocks like “Single-owner-chunks” enable extraordinary zero-leak privacy.",
+        "icon": "PrivacyIcon"
+      },
+      {
+        "title": "DDOS resistant",
+        "content": "Swarm network is fully decentralised peer-to-peer network while it’s resilience against DDoS grows with every additional node in the network.",
+        "icon": "DdosIcon"
+      },
+      {
+        "title": "Credible neutrality",
+        "content": "Swarm is built to not discriminate - it’s in the very nature of our design, and permeates throughout our mission.",
+        "icon": "CredibleIcon"
+      }
+    ]
+  },
+  "wikipedia": {
+    "titleSuffix": "on Swarm",
+    "tagline": "In the spotlight",
+    "content": "Swarm powers a decentralised and unstoppable mirror of Wikipedia, making access to knowledge universal.",
+    "ctas": [
+      {
+        "href": "https://gitcoin.co/issue/28926",
+        "background": "black",
+        "color": "gray",
+        "arrow": true,
+        "title": "Participate"
+      },
+      {
+        "href": "https://gitcoin.co/explorer?network=mainnet&idx_status=open&applicants=ALL&order_by=-_val_usd_db&org=fairdatasociety",
+        "background": "transparent",
+        "color": "black",
+        "arrow": true,
+        "title": "Check other bounties"
+      }
+    ]
+  },
+  "develop": {
+    "tagline": "Real-world ready",
+    "title": "Develop fast and free",
+    "content": "Swarm provides a complete stack of essential base layer components for developers. Create and host dApps, NFT meta-data, and media files decentralised!",
+    "ctas": [
+      {
+        "href": "/build",
+        "background": "orange",
+        "color": "black",
+        "arrow": true,
+        "title": "Swarm stack"
+      },
+      {
+        "href": "/build/desktop",
+        "background": "transparent",
+        "color": "black",
+        "arrow": true,
+        "title": "Desktop app"
+      }
+    ],
+    "tabs": [
+      {
+        "title": "Bee",
+        "content": "Bee is a peer-to-peer client that connects you with other peers all over the world to become part of Swarm network, a global distributed p2p storage network that aims to store and distribute all of the world's data.",
+        "ctas": [
+          {
+            "title": "Documentation",
+            "href": "https://docs.ethswarm.org/docs/dapps-on-swarm/introduction",
+            "arrow": true,
+            "background": "transparent"
+          }
+        ],
+        "code": "Bee"
+      },
+      {
+        "title": "Bee.js",
+        "content": "Bee-js is Bee’s complementary JavaScript library. It’s the technology underpinning the swarm-cli and bee- dashboard tools and is a powerful tool for building completely decentralised apps with just a few lines of code.",
+        "ctas": [
+          {
+            "href": "https://github.com/ethersphere/bee-js",
+            "background": "transparent",
+            "color": "black",
+            "arrow": true,
+            "title": "Documentation"
+          }
+        ],
+        "code": "Bee-js"
+      },
+      {
+        "title": "Swarm-CLI",
+        "content": "Manage your Bee node and interact with the Swarm network in the command line. Upload and download files, folders and websites, as well as easily manage different feeds, identities, and nodes. Convenient access to even Swarm's more advanced features - including easier devops, postage stamps management from the command line, and other automation.",
+        "ctas": [
+          {
+            "href": "https://github.com/ethersphere/swarm-cli",
+            "background": "transparent",
+            "color": "black",
+            "arrow": true,
+            "title": "GitHub"
+          }
+        ],
+        "code": "Swarm-CLI"
+      },
+      {
+        "title": "Bee API",
+        "content": "The Bee API provides a HTTP interface with a rich set of endpoints for accessing data on the network - manage your node resources and get operational metrics and insights.",
+        "ctas": [
+          {
+            "href": "https://docs.ethswarm.org/api/",
+            "background": "transparent",
+            "color": "black",
+            "arrow": true,
+            "title": "Documentation"
+          }
+        ],
+        "code": "Bee API"
+      }
+    ]
+  },
+  "fairdata": {
+    "tagline": "Interoperability and data sovereignty",
+    "title": "Fair Data Protocol",
+    "content": "Fair data protocol enables a fairer data economy that promotes human rights through privacy, digital sovereignty, and data interoperability, and allows developers to focus on building their dapps rather than reinventing data stores.",
+    "ctas": [
+      {
+        "href": "https://fairdataprotocol.bzz.link/",
+        "background": "white",
+        "color": "black",
+        "arrow": true,
+        "title": "Fair data PROTOCOL"
+      },
+      {
+        "href": "https://fairdatasociety.org/",
+        "background": "transparent",
+        "color": "gray",
+        "arrow": true,
+        "title": "Fair data SOCIETY"
+      }
+    ]
+  },
+  "dapp": {
+    "tagline": "Decentralise web",
+    "title": "Your decentralised web3 dapp in 4 steps",
+    "content": "",
+    "features": [
+      {
+        "title": "1. Fork on GitHub",
+        "content": "Find a forkable project that should be decentralised or extended.",
+        "icon": "ForkIcon"
+      },
+      {
+        "title": "2. Connect to FDP",
+        "content": "Extend it with the Fair data protocol so that users have their data saved in their private data store.",
+        "icon": "ConnectIcon"
+      },
+      {
+        "title": "3. Upload to Swarm",
+        "content": "Once hosted on Swarm it becomes accessible to all, with essentially zero hosting costs for developers.",
+        "icon": "UploadIcon"
+      },
+      {
+        "title": "4. Grow through FDP",
+        "content": "Submit requests to be added in Fairdrive’s dapp store and make it available to existing Fairdrive users.",
+        "icon": "GrowIcon"
+      }
+    ],
+    "ctas": []
+  },
+  "news": {
+    "background": "bg-gray-800",
+    "textColor": "text-gray-100",
+    "content": {
+      "tagline": "What is happening",
+      "title": "Swarm News",
+      "news": [
+        {
+          "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
+          "image": {
+            "src": "/assets/news/desktop.png",
+            "alt": "Swarm Desktop App"
+          },
+          "category": "development",
+          "readTime": 3,
+          "title": "Swarm Desktop App - Web3 for everyone",
+          "copy": "The Swarm Foundation unveiled the beta version of the Swarm Desktop App (Beta). Its goal is to take the best from Web2 and replace the complex experience of Web3 with a familiar one.",
+          "cta": {
+            "title": "Read more",
+            "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
+            "background": "transparent",
+            "color": "white",
+            "arrow": true
+          }
+        },
+        {
+          "href": "https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c",
+          "category": "tutorials",
+          "image": {
+            "src": "/assets/news/wallet.png",
+            "alt": "Wallet"
+          },
+          "readTime": 3,
+          "title": "Bridge DAI from Ethereum Mainnet to Gnosis",
+          "copy": "Your Bee node uses the Gnosis Chain network to buy postage stamps, to keep your files and data alive in…",
+          "cta": {
+            "title": "Read more",
+            "href": "https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c",
+            "background": "transparent",
+            "color": "white",
+            "arrow": true
+          }
+        },
+        {
+          "href": "https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873",
+          "category": "bounties",
+          "image": {
+            "src": "/assets/news/wikipedia.jpg",
+            "alt": "Wikipedia news image"
+          },
+          "readTime": 2,
+          "title": "50k DAI prize to make Wikipedia unstoppable",
+          "copy": "The Swarm Association is announcing a 50,000 DAI “Wikipedia on Swarm ”prize (paid in BZZ) for a solution that…",
+          "cta": {
+            "title": "Read more",
+            "href": "https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873",
+            "background": "transparent",
+            "color": "white",
+            "arrow": true
+          }
+        }
+      ],
+      "ctas": [
+        {
+          "href": "https://medium.com/ethereum-swarm",
+          "background": "orange-onDark",
+          "color": "black",
+          "arrow": true,
+          "title": "Visit Blog"
+        }
+      ]
+    }
+  },
+  "builders": {
+    "tagline": "One Swarm, united in PLUR, guided by virtue",
+    "title": "Build on Swarm",
+    "content": "Swarm grants and online events support many interesting projects that are already building their products on top of Swarm.",
+    "features": [
+      {
+        "title": "Etherna",
+        "content": "Etherna is a transparent video platform FOR EVERYONE where freedom of speech is incentivized, not convicted.",
+        "cta": {
+          "href": "https://etherna.io/",
+          "title": "More"
+        }
+      },
+      {
+        "title": "Dapplets",
+        "content": "Dapplets aims to leverage target websites’ search results to pull data previously uploaded to Swarm, providing an interface for data interchange between the Dapplet and the search result provider.",
+        "cta": {
+          "href": "https://dapplets.org/",
+          "title": "More"
+        }
+      },
+      {
+        "title": "Copyright Delta",
+        "content": "Copyright Delta is building the Digital Rights Exchange & Network (DRX) which allows users to control their data and decide who has access to it. DRX also enables tokenised management of royalties, licensing and ownership.",
+        "cta": {
+          "href": "https://www.copyrightdelta.com/",
+          "title": "More"
+        }
+      },
+      {
+        "title": "Metaprovide",
+        "content": "Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralized future.",
+        "cta": {
+          "href": "https://metaprovide.org/nextcloud-swarm-plugin",
+          "title": "More"
+        }
+      }
+    ],
+    "ctas": [
+      {
+        "href": "https://my.ethswarm.org/grants",
+        "background": "orange",
+        "color": "black",
+        "arrow": true,
+        "title": "Apply for a grant"
+      },
+      {
+        "href": "/grants",
+        "background": "transparent",
+        "color": "black",
+        "arrow": true,
+        "title": "See who’s building"
+      }
+    ]
+  },
+  "millions": {
+    "tagline": "BUILDING A BRIGHTER, UNSTOPPABLE WEBZ",
+    "title": "Build on Swarm",
+    "content": "Imagine a society where human rights are respected and your data is not used against you to influence what you think.Explore the power of art, blockchain, and games and help create a fair, ethical, private, censorship-free, permissionless and unstoppable Web3. Join other like-minded artists, gamers, developers, activists, and crypto-enthusiasts, as well as curious and knowledgeable souls.",
+    "starts_in": {
+      "label": "Starts in:",
+      "date": "2023/03/01 00:00:00"
+    },
+    "ctas": [
+      {
+        "href": "https://www.wearemillions.online/",
+        "background": "white",
+        "color": "black",
+        "arrow": true,
+        "title": "Register"
+      }
+    ]
+  },
+  "bounties": {
+    "tagline": "Moving from knowledge to engagement",
+    "title": "Bounties for impact",
+    "content": "Swarm Bounties are a call to action for experts from various fields to contribute their knowledge and expertise, so we can move closer to a fairer data society.",
+    "features": [
+      {
+        "title": "Bounty #1",
+        "content": "Develop a censorship resistant blog architecture.",
+        "cta": {
+          "href": "https://gitcoin.co/issue/28924",
+          "title": "More"
+        }
+      },
+      {
+        "title": "Bounty #2",
+        "content": "Implement a subgraph to obtain BZZ price data.",
+        "cta": {
+          "href": "https://gitcoin.co/issue/29254",
+          "title": "More"
+        }
+      },
+      {
+        "title": "Bounty #3",
+        "content": "Integrate Social Archive and Dapplets to allow data to be found.",
+        "cta": {
+          "href": "https://gitcoin.co/issue/29165",
+          "title": "More"
+        }
+      },
+      {
+        "title": "Bounty #4",
+        "content": "Integrate WinAMP with Fairdrive."
+      }
+    ],
+    "ctas": [
+      {
+        "href": "https://gitcoin.co/explorer?network=mainnet&idx_status=open&applicants=ALL&order_by=-_val_usd_db&org=fairdatasociety",
+        "background": "orange",
+        "color": "black",
+        "arrow": true,
+        "title": "More at Gitcoin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "iA Mono";
+  src: url("../public/fonts/iAWriterMonoS-Regular.woff2") format("woff2"),
+    url("../public/fonts/iAWriterMonoS-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Mono";
+  src: url("../public/fonts/iAWriterMonoS-Bold.woff2") format("woff2"),
+    url("../public/fonts/iAWriterMonoS-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.heading-underline {
+  background-image: linear-gradient(#ff8a00, #ff8a00);
+  background-size: 100% 16px;
+  background-repeat: no-repeat;
+  background-position: left 90%;
+
+  text-decoration: none;
+}
+
+.heading-underline-onDark {
+  background-image: linear-gradient(#ff7a00, #ff7a00);
+  background-size: 100% 16px;
+  background-repeat: no-repeat;
+  background-position: left 90%;
+
+  text-decoration: none;
+}
+
+/* Prose overrides for body */
+.prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
+  @apply px-2 mt-16 text-xl border-l border-current sm:px-4 md:text-2xl md:-mx-4;
+}
+
+.prose.md\:prose-lg
+  :where(.prose > :first-child):not(:where([class~="not-prose"] *)) {
+  @apply mt-0;
+}
+
+.dotted-spaced {
+  background-image: linear-gradient(
+    to bottom,
+    #3c3f42 10%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: left;
+  background-size: 1px 6px;
+  background-repeat: repeat-y;
+}

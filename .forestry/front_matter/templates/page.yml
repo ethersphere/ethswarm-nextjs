@@ -1,0 +1,33 @@
+---
+label: Page
+hide_body: true
+fields:
+- name: meta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Page title
+  label: Meta
+- name: sections
+  type: blocks
+  label: Sections
+  template_types:
+  - section
+  - section-cta
+  - roadmap
+  - post
+  config:
+    min: 
+    max: 
+pages:
+- content/pages/build.md
+- content/pages/foundation.md
+- content/pages/grants.md
+- content/pages/milestone1.md
+- content/pages/roadmap.md
+- content/pages/why.md

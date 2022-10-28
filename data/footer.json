@@ -1,0 +1,102 @@
+{
+  "primary": [
+    {
+      "title": "Whitepaper",
+      "href": "/swarm-whitepaper.pdf"
+    },
+    {
+      "title": "Book of Swarm",
+      "href": "/The-Book-of-Swarm.pdf"
+    },
+    {
+      "title": "Foundation",
+      "href": "/foundation"
+    },
+    {
+      "title": "Jobs",
+      "href": "/jobs"
+    }
+  ],
+  "secondary": [
+    {
+      "title": "Use Swarm",
+      "items": [
+        {
+          "title": "Start Building",
+          "href": "/build"
+        },
+        {
+          "title": "Run a Node",
+          "href": "/build#run"
+        },
+        {
+          "title": "Swarm Desktop",
+          "href": "/build/desktop"
+        },
+        {
+          "title": "Awesome Swarm",
+          "href": "https://github.com/ethersphere/awesome-swarm"
+        },
+        {
+          "title": "Swarm Gateway",
+          "href": "https://gateway.ethswarm.org/"
+        },
+        {
+          "title": "Get BZZ",
+          "href": "https://bzz.exchange/"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "items": [
+        {
+          "title": "Why & How",
+          "href": "/why"
+        },
+        {
+          "title": "Bee docs",
+          "href": "https://docs.ethswarm.org/docs/"
+        },
+        {
+          "title": "Bee.js docs",
+          "href": "https://bee-js.ethswarm.org/docs/"
+        },
+        {
+          "title": "Network stats",
+          "href": "https://swarmscan.resenje.org/"
+        },
+        {
+          "title": "Roadmap",
+          "href": "/roadmap"
+        },
+        {
+          "title": "Blog",
+          "href": "https://medium.com/ethereum-swarm"
+        }
+      ]
+    },
+    {
+      "title": "Ecosystem",
+      "items": [
+        {
+          "title": "Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "Bounties",
+          "href": "https://gitcoin.co/fairdatasociety"
+        },
+        {
+          "title": "Fair Data Society",
+          "href": "https://fairdatasociety.org/"
+        }
+      ]
+    }
+  ],
+  "copyright": "Swarm Foundation",
+  "privacy_cta": {
+    "title": "Privacy policy",
+    "href": "/privacy"
+  }
+}
