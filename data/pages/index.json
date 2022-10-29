@@ -81,21 +81,14 @@
   "wikipedia": {
     "titleSuffix": "on Swarm",
     "tagline": "In the spotlight",
-    "content": "Swarm powers a decentralised and unstoppable mirror of Wikipedia, making access to knowledge universal.",
+    "content": "Wikipedia Prize has successfully concluded. More bounties to follow soon!",
     "ctas": [
       {
-        "href": "https://gitcoin.co/issue/28926",
+        "href": "https://bzzwiki.bzz.link/",
         "background": "black",
         "color": "gray",
         "arrow": true,
-        "title": "Participate"
-      },
-      {
-        "href": "https://gitcoin.co/explorer?network=mainnet&idx_status=open&applicants=ALL&order_by=-_val_usd_db&org=fairdatasociety",
-        "background": "transparent",
-        "color": "black",
-        "arrow": true,
-        "title": "Check other bounties"
+        "title": "Try out Wikipedia on Swarm"
       }
     ]
   },
