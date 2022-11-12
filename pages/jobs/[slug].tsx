@@ -65,6 +65,8 @@ export async function getStaticProps(context: any) {
 
   const content = await markdownToHtml(job.content || "");
 
+  console.log({ content });
+
   return {
     props: { ...job, content, events },
   };
