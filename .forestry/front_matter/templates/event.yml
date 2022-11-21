@@ -30,7 +30,3 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-pages:
-- content/events/last-shot-conference-prague-september-30-october-2.md
-- content/events/monthly-ecosystem-call-online-october-27.md
-- content/events/world-ethical-data-forum-oct-26-28.md
