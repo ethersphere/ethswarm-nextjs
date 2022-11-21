@@ -10,7 +10,7 @@ meta:
   title: Smart Contract Developer – JS Team
 
 ---
-Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service. 
+Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service.
 
 Swarm could shape the future towards a self-sovereign global society and permissionless open markets. On Swarm, applications run autonomously yet securely in a planetary-scale deployment and execution environment.
 
@@ -36,8 +36,7 @@ The Swarm Foundation core dev team is looking for a smart contract developer / S
 * You are a self-starter type and like to take the initiative
 * You can express yourself fluently in English, both verbally and in writing
 
-**  
-We appreciate**
+\**We appreciate**
 
 * A passionate open-source contributor
 * Keen interest in tokenomics
