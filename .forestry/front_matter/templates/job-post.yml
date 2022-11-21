@@ -39,7 +39,7 @@ fields:
     description: Short description
   label: Job
 pages:
-- content/jobs/Smart-Contract-Developer–JS Team.md
+- content/jobs/Smart-Contract-Developer–JS-Team.md
 - content/jobs/browser-extension-developer.md
 - content/jobs/javascript-developer-fairdrive.md
 - content/jobs/modeller-swarm-research-team.md
