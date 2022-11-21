@@ -36,7 +36,7 @@ The Swarm Foundation core dev team is looking for a smart contract developer / S
 * You are a self-starter type and like to take the initiative
 * You can express yourself fluently in English, both verbally and in writing
 
-\**We appreciate**
+**We appreciate**
 
 * A passionate open-source contributor
 * Keen interest in tokenomics
