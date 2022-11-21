@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CtaType } from "types";
 import { cx } from "utils";
 import { ButtonGroup, Container, SectionContent } from "../common";
+import markdownToHtml from "lib/markdownToHtml";
 
 type PostProps = {
   border?: boolean;
@@ -19,6 +20,14 @@ const Post: React.FC<PostProps> = ({
   sidebar,
   id,
 }) => {
+  const [md, setMd] = useState(content);
+
+  useEffect(() => {
+    markdownToHtml(content).then((html) => {
+      setMd(html);
+    });
+  }, []);
+
   return (
     <section
       className="relative z-10 flex justify-center -mt-20 sm:-mt-40"
@@ -38,7 +47,7 @@ const Post: React.FC<PostProps> = ({
         <div
           className="-ml-2 prose-sm prose leading-[20px] md:leading-[26px] md:prose-lg md:col-span-2 sm:ml-0"
           dangerouslySetInnerHTML={{
-            __html: content,
+            __html: md,
           }}
         />
       </Container>

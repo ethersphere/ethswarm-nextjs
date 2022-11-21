@@ -6,7 +6,6 @@ import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
 import { getJobBySlug, getJobsSlugs } from "lib/jobs";
 
-import markdownToHtml from "../../lib/markdownToHtml";
 import { getAllEvents } from "lib/events";
 
 const JobSingle: NextPage = (content: any) => {
@@ -63,12 +62,8 @@ export async function getStaticProps(context: any) {
     "content",
   ]);
 
-  const content = await markdownToHtml(job.content || "");
-
-  console.log({ content });
-
   return {
-    props: { ...job, content, events },
+    props: { ...job, content: job.content, events },
   };
 }
 
