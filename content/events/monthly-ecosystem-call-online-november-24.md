@@ -1,7 +1,7 @@
 ---
-title: Monthly Ecosystem Call, online, November 24
+title: Monthly Ecosystem Call, online, January 26
 href: ''
 add_to_calendar: ''
-start_date: 2022-11-24T22:00:00Z
+start_date: 2023-01-26T22:00:00Z
 
 ---
