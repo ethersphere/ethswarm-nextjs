@@ -3,52 +3,53 @@ meta:
   title: Digital Freedom Now
 news:
 - template: news-item
-  title: Swarm Desktop App - Web3 for everyone
+  title: The Mechanics of Swarm network’s Storage Incentives
   category:
   - development
-  readTime: "3"
-  image: "/assets/news/desktop.png"
-  href: https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf
-  copy: The Swarm Foundation unveiled the beta version of the Swarm Desktop App (Beta).
-    Its goal is to take the best from Web2 and replace the complex experience of Web3
-    with a familiar one.
+  readTime: '3'
+  image: "/uploads/postage-stamps.png"
+  href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
+  copy: |-
+    An economically self-sustaining mechanism to gather storage operators.
+
+    Historically, people had two choices when it came to hosting their data: they could either store it themselves or upload it to a trusted third party computer. Regarding the latter, the source of this trust is typically that the host — usually a corporation — is conducting a long term business requiring them to be reliable and reputable. On the other hand, self-hosting requires that one’s computer is online at all times, which is often not feasible.
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf
+    href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
     background: transparent
     color: white
     arrow: true
     back: false
     type: ''
 - template: news-item
-  title: Bridge DAI from Ethereum Mainnet to Gnosis
-  category:
-  - tutorials
-  readTime: "3"
-  image: "/assets/news/wallet.png"
-  href: https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c
-  copy: Your Bee node uses the Gnosis Chain network to buy postage stamps, to keep
-    your files and data alive in…
+  title: Monthly Ecosystem Call, 24 November 2022 — Recap
+  category: []
+  readTime: '3'
+  image: "/uploads/screenshot-2022-11-30-at-13-33-17.png"
+  href: https://medium.com/ethereum-swarm/monthly-ecosystem-call-24-november-2022-recap-28b771b81569
+  copy: End of the month is here, and as is now the habit, last Thursday was reserved
+    for the Monthly Ecosystem Call. The initial part of the call was dedicated to
+    the latest updates regarding the Swarm network and its ongoing upgrade.
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c
+    href: https://medium.com/ethereum-swarm/monthly-ecosystem-call-24-november-2022-recap-28b771b81569
     background: transparent
     color: white
     arrow: true
     back: false
     type: ''
 - template: news-item
-  title: 50k DAI prize to make Wikipedia unstoppable
-  category:
-  - bounties
-  readTime: "2"
-  image: "/assets/news/wikipedia.jpg"
-  href: https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873
-  copy: The Swarm Association is announcing a 50,000 DAI “Wikipedia on Swarm ”prize
-    (paid in BZZ) for a solution that…
+  title: Storage incentives — Timeline update
+  category: []
+  readTime: '2'
+  image: "/uploads/screenshot-2022-11-30-at-13-34-52.png"
+  href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
+  copy: 'The upgrade of the Swarm network storage incentives, which began on 13 September,
+    is now in full swing. Both, Phase 2 and 3 of the upgrade, are currently undergoing
+    extensive testing: Phase 2 on the public testnet and Phase 3 on a closed testnet.'
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873
+    href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
     background: transparent
     color: white
     arrow: true
