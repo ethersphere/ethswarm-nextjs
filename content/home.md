@@ -25,7 +25,7 @@ news:
   title: Monthly Ecosystem Call, 24 November 2022 — Recap
   category: []
   readTime: '3'
-  image: "/uploads/mec.png"
+  image: "/uploads/screenshot-2022-11-30-at-13-33-17.png"
   href: https://medium.com/ethereum-swarm/monthly-ecosystem-call-24-november-2022-recap-28b771b81569
   copy: End of the month is here, and as is now the habit, last Thursday was reserved
     for the Monthly Ecosystem Call. The initial part of the call was dedicated to
@@ -42,7 +42,7 @@ news:
   title: Storage incentives — Timeline update
   category: []
   readTime: '2'
-  image: "/uploads/incentives.webp"
+  image: "/uploads/screenshot-2022-11-30-at-13-34-52.png"
   href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
   copy: 'The upgrade of the Swarm network storage incentives, which began on 13 September,
     is now in full swing. Both, Phase 2 and 3 of the upgrade, are currently undergoing
