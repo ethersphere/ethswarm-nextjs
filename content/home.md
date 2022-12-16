@@ -3,6 +3,23 @@ meta:
   title: Digital Freedom Now
 news:
 - template: news-item
+  title: Swarm Odyssey 2023
+  category: []
+  readTime: '3'
+  image: "/uploads/frame-1.png"
+  href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
+  copy: On 21 December, when light symbolically conquers winter darkness, the Swarm
+    Foundation invites you to the winter solstice event. Let’s venture forth together
+    and explore the universe of possibilities enabled by Swarm and its emerging ecosystem.
+  cta:
+    title: Read more
+    href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
+    background: transparent
+    color: white
+    arrow: true
+    back: false
+    type: ''
+- template: news-item
   title: The Mechanics of Swarm network’s Storage Incentives
   category:
   - development
@@ -16,23 +33,6 @@ news:
   cta:
     title: Read more
     href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
-    background: transparent
-    color: white
-    arrow: true
-    back: false
-    type: ''
-- template: news-item
-  title: Monthly Ecosystem Call, 24 November 2022 — Recap
-  category: []
-  readTime: '3'
-  image: "/uploads/screenshot-2022-11-30-at-13-33-17.png"
-  href: https://medium.com/ethereum-swarm/monthly-ecosystem-call-24-november-2022-recap-28b771b81569
-  copy: End of the month is here, and as is now the habit, last Thursday was reserved
-    for the Monthly Ecosystem Call. The initial part of the call was dedicated to
-    the latest updates regarding the Swarm network and its ongoing upgrade.
-  cta:
-    title: Read more
-    href: https://medium.com/ethereum-swarm/monthly-ecosystem-call-24-november-2022-recap-28b771b81569
     background: transparent
     color: white
     arrow: true
