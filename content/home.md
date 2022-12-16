@@ -6,7 +6,7 @@ news:
   title: Swarm Odyssey 2023
   category: []
   readTime: '3'
-  image: "/uploads/frame-1.png"
+  image: "/uploads/frame-3.png"
   href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
   copy: On 21 December, when light symbolically conquers winter darkness, the Swarm
     Foundation invites you to the winter solstice event. Let’s venture forth together
