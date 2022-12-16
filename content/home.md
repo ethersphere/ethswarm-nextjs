@@ -4,7 +4,8 @@ meta:
 news:
 - template: news-item
   title: Swarm Odyssey 2023
-  category: []
+  category:
+  - Events
   readTime: '3'
   image: "/uploads/frame-3.png"
   href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
