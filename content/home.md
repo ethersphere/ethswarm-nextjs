@@ -3,18 +3,18 @@ meta:
   title: Digital Freedom Now
 news:
 - template: news-item
-  title: Swarm Odyssey 2023
+  title: Swarm network’s storage rewards go live as it moves towards a Web3 PC
   category:
   - Events
   readTime: '3'
   image: "/uploads/frame-3.png"
-  href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
-  copy: On 21 December, when light symbolically conquers winter darkness, the Swarm
-    Foundation invites you to the winter solstice event. Let’s venture forth together
-    and explore the universe of possibilities enabled by Swarm and its emerging ecosystem.
+  href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
+  copy: The Swarm Foundation announced exciting updates at its recent semi-annual
+    solstice event. Phase 2 of its ambitious network upgrade is now live on mainnet,
+    allowing Swarm’s storage node operators to be compensated for their contributions.
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
+    href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
     background: transparent
     color: white
     arrow: true
