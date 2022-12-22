@@ -44,13 +44,13 @@ news:
   category: []
   readTime: '2'
   image: "/uploads/screenshot-2022-11-30-at-13-34-52.png"
-  href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
+  href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
   copy: 'The upgrade of the Swarm network storage incentives, which began on 13 September,
     is now in full swing. Both, Phase 2 and 3 of the upgrade, are currently undergoing
     extensive testing: Phase 2 on the public testnet and Phase 3 on a closed testnet.'
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
+    href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
     background: transparent
     color: white
     arrow: true
