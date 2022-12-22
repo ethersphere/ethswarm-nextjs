@@ -26,14 +26,14 @@ news:
   - development
   readTime: '3'
   image: "/uploads/postage-stamps.png"
-  href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
+  href: https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/
   copy: |-
     An economically self-sustaining mechanism to gather storage operators.
 
     Historically, people had two choices when it came to hosting their data: they could either store it themselves or upload it to a trusted third party computer. Regarding the latter, the source of this trust is typically that the host — usually a corporation — is conducting a long term business requiring them to be reliable and reputable. On the other hand, self-hosting requires that one’s computer is online at all times, which is often not feasible.
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
+    href: https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/
     background: transparent
     color: white
     arrow: true
