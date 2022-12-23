@@ -3,18 +3,18 @@ meta:
   title: Digital Freedom Now
 news:
 - template: news-item
-  title: Swarm Odyssey 2023
+  title: Swarm network’s storage rewards go live as it moves towards a Web3 PC
   category:
   - Events
   readTime: '3'
   image: "/uploads/frame-3.png"
-  href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
-  copy: On 21 December, when light symbolically conquers winter darkness, the Swarm
-    Foundation invites you to the winter solstice event. Let’s venture forth together
-    and explore the universe of possibilities enabled by Swarm and its emerging ecosystem.
+  href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
+  copy: The Swarm Foundation announced exciting updates at its recent semi-annual
+    solstice event. Phase 2 of its ambitious network upgrade is now live on mainnet,
+    allowing Swarm’s storage node operators to be compensated for their contributions.
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/swarm-odyssey-2023-188b21daf28e
+    href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
     background: transparent
     color: white
     arrow: true
@@ -26,14 +26,14 @@ news:
   - development
   readTime: '3'
   image: "/uploads/postage-stamps.png"
-  href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
+  href: https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/
   copy: |-
     An economically self-sustaining mechanism to gather storage operators.
 
     Historically, people had two choices when it came to hosting their data: they could either store it themselves or upload it to a trusted third party computer. Regarding the latter, the source of this trust is typically that the host — usually a corporation — is conducting a long term business requiring them to be reliable and reputable. On the other hand, self-hosting requires that one’s computer is online at all times, which is often not feasible.
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb
+    href: https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/
     background: transparent
     color: white
     arrow: true
@@ -44,13 +44,13 @@ news:
   category: []
   readTime: '2'
   image: "/uploads/screenshot-2022-11-30-at-13-34-52.png"
-  href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
+  href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
   copy: 'The upgrade of the Swarm network storage incentives, which began on 13 September,
     is now in full swing. Both, Phase 2 and 3 of the upgrade, are currently undergoing
     extensive testing: Phase 2 on the public testnet and Phase 3 on a closed testnet.'
   cta:
     title: Read more
-    href: https://medium.com/ethereum-swarm/storage-incentives-timeline-update-26ab959d8ca3
+    href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
     background: transparent
     color: white
     arrow: true
