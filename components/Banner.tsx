@@ -13,7 +13,7 @@ const Banner: React.FC<BannerProps> = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("https://swarmscan-api.resenje.org/v1/network/stats")
+    fetch("https://api.swarmscan.io/v1/network/stats")
       .then((res) => res.json())
       .then((data) => {
         setColor("green");
