@@ -28,6 +28,7 @@ const Privacy: NextPage = (props: any) => {
               className="pt-8 pb-24 md:py-40"
               content={content.content}
               fullWidth={true}
+              markdown={false}
             />
           </Container>
         </div>
