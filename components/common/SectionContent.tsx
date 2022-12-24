@@ -7,16 +7,23 @@ type SectionContentProps = {
   content?: string;
   className?: string;
   fullWidth?: boolean;
+  markdown?: boolean;
 };
 
 const SectionContent: React.FC<SectionContentProps> = ({
   content = "",
   className = "",
   fullWidth = false,
+  markdown = true,
 }) => {
   const [md, setMd] = useState(content);
 
   useEffect(() => {
+    if (!markdown) {
+      setMd(content);
+      return;
+    }
+
     markdownToHtml(content).then((html) => {
       setMd(html);
     });
