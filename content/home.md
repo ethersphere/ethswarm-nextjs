@@ -40,14 +40,17 @@ news:
     back: false
     type: ''
 - template: news-item
-  title: Storage incentives — Timeline update
-  category: []
-  readTime: '2'
-  image: "/uploads/screenshot-2022-11-30-at-13-34-52.png"
-  href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
-  copy: 'The upgrade of the Swarm network storage incentives, which began on 13 September,
-    is now in full swing. Both, Phase 2 and 3 of the upgrade, are currently undergoing
-    extensive testing: Phase 2 on the public testnet and Phase 3 on a closed testnet.'
+  title: Monthly Development Update – December 2022
+  category:
+  - Development Updates
+  readTime: '4'
+  image: "/uploads/default.png"
+  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-december-2022/
+  copy: December was a big month for releases. Bee 1.10 was released on the mainnet
+    and with it Storage Incentives Phase 2. The latter allows node operators to participate
+    in the redistribution of storage fees. Over the next few weeks, the research team
+    will be watching closely to see how the new mechanism performs as it brings Phase
+    3 closer to release.
   cta:
     title: Read more
     href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
