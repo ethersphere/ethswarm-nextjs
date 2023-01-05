@@ -7,6 +7,7 @@ import {
 } from "@/components/common";
 import { CtaType, ImageType } from "types";
 import Quote from "./Hero/Quote";
+import Canvas from "./Hero/Canvas";
 import { ArrowIcon } from "@/icons/components/index";
 
 type HeroProps = {
@@ -27,14 +28,8 @@ const Hero: React.FC<HeroProps> = ({
   cta,
 }) => {
   return (
-    <section className="relative flex flex-col items-center h-full min-h-screen overflow-hidden text-gray-100 bg-gray-800">
-      <div className="absolute inset-0 flex items-start justify-end w-full h-full overflow-hidden pointer-events-none">
-        <img
-          src={background.src}
-          alt={background.alt}
-          className="w-[80vw] sm:w-[66vw] md:-mr-32 lg:w-[70vw] lg:-mr-64 xl:-mr-40 2xl:-mr-52 top-0 z-0 object-contain"
-        />
-      </div>
+    <section className="relative flex flex-col items-center h-full min-h-screen overflow-hidden text-gray-100 bg-gray-800 z-0">
+      <Canvas />
 
       <Container className="flex flex-col justify-end flex-grow pb-20 sm:pb-32 pt-28 sm:pt-60">
         <h1 className="text-5xl sm:text-6xl md:text-[88px] font-bold leading-[1.1] tracking-[-0.01em] mb-6 sm:mb-10 max-w-xl md:max-w-2xl">

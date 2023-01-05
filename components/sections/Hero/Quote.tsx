@@ -8,8 +8,8 @@ type QuoteProps = {
 
 const Quote: React.FC<QuoteProps> = ({ quote, className }) => {
   if (!quote || quote.length === 0) {
-    return null;
-  }
+	  return null;
+}
 
   return (
     <div
