@@ -24,7 +24,7 @@ Solid, well-tested code is delivered in an agile manner.
 
 Besides various innovative components, key technologies are libp2p, protobuf, leveldb, go-ethereum as well as various cryptographic libraries. We work with various development tools and practices to facilitate the agile development of well-tested code and timely delivery of our software.
 
-**Swarm Association is committed to creating an inclusive environment for everyone. As such, we strongly encourage women and other under-represented groups to apply for this position.**
+Swarm Foundation is committed to creating an inclusive environment for everyone. As such, we strongly encourage women and other under-represented groups to apply for this position.
 
 ### **Your role**
 
