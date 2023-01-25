@@ -352,8 +352,8 @@
     "title": "Build on Swarm",
     "content": "Imagine a society where human rights are respected and your data is not used against you to influence what you think.Explore the power of art, blockchain, and games and help create a fair, ethical, private, censorship-free, permissionless and unstoppable Web3. Join other like-minded artists, gamers, developers, activists, and crypto-enthusiasts, as well as curious and knowledgeable souls.",
     "starts_in": {
-      "label": "Starts in:",
-      "date": "2023/03/01 00:00:00"
+      "label": "Back in:",
+      "date": "2023/09/21 00:00:00"
     },
     "ctas": [
       {
@@ -361,7 +361,7 @@
         "background": "white",
         "color": "black",
         "arrow": true,
-        "title": "Register"
+        "title": "More"
       }
     ]
   },
