@@ -11,6 +11,8 @@ meta:
   title: QA Engineer (Go) - Jobs
 
 ---
+Please note: this is a pipeline builder announcement, preparing for the upcoming demand. Feel free to submit your application so we can get back to you as soon as the role is open.
+
 Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service.
 
 Swarm could shape the future towards a self-sovereign global society and permissionless open markets. On Swarm, applications run autonomously yet securely in a planetary-scale deployment and execution environment.
@@ -18,8 +20,6 @@ Swarm could shape the future towards a self-sovereign global society and permiss
 Bee is a Swarm client implemented in Go. It’s the basic building block for the Swarm Network. Bee provides low level constructs for file storage, feeds, key-value stores and untraceable communication, through solid, well-tested code delivered in an agile manner.
 
 Key technologies are Go, libp2p, protobuf, leveldb, and go-ethereum, as well as various cryptographic libraries.
-
-Please note: this is a pipeline builder announcement, preparing for the upcoming demand. Feel free to submit your application so we can get back to you as soon as the role is open.
 
 ## Your role
 
