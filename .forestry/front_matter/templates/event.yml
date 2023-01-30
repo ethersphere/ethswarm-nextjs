@@ -31,4 +31,5 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- content/events/monthly-community-call-online-april-27.md
 - content/events/monthly-community-call-online-march-30.md
