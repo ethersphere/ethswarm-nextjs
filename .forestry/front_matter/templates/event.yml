@@ -30,3 +30,5 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+pages:
+- content/events/monthly-community-call-online-march-30.md
