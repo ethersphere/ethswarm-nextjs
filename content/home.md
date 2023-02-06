@@ -53,7 +53,7 @@ news:
     and is making great progress in producing documentation for Phases 4 and 5.
   cta:
     title: Read more
-    href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
+    href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-january-2023/
     background: transparent
     color: white
     arrow: true
