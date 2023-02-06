@@ -40,17 +40,17 @@ news:
     back: false
     type: ''
 - template: news-item
-  title: Monthly Development Update – December 2022
+  title: Monthly Development Update – January 2023
   category:
   - Development Updates
   readTime: '4'
   image: "/uploads/default.png"
-  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-december-2022/
-  copy: December was a big month for releases. Bee 1.10 was released on the mainnet
-    and with it Storage Incentives Phase 2. The latter allows node operators to participate
-    in the redistribution of storage fees. Over the next few weeks, the research team
-    will be watching closely to see how the new mechanism performs as it brings Phase
-    3 closer to release.
+  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-january-2023/
+  copy: In January, the Bee Track released a new version of the Bee client (1.11)
+    that brings an important update to uploads with mutable batches. This update causes
+    newer chunks in a batch to replace older ones on the network. The Research Track,
+    on the other hand, is nearing completion of Phase 3 of the storage incentives
+    and is making great progress in producing documentation for Phases 4 and 5.
   cta:
     title: Read more
     href: https://blog.ethswarm.org/foundation/2022/storage-incentives-timeline-update/
