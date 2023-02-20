@@ -40,6 +40,7 @@ Swarm Foundation is committed to creating an inclusive environment for everyone.
 
 * You are enthusiastic about inspiring your team to perform at its best
 * You have a passion for decentralized technologies and are inspired by Swarm’s mission
+* You have Golang programming experience
 * You are flexible in thinking and doing
 * You like to finish things
 * You enjoy trying out experimental decentralized technologies first-hand
