@@ -3,6 +3,24 @@ meta:
   title: Digital Freedom Now
 news:
 - template: news-item
+  title: Postage Stamp Price Increases as Swarm Network Reaches Milestone of Self-Sustainability
+  category:
+  - development
+  readTime: '3'
+  image: "/uploads/postage-stamps.png"
+  href: https://blog.ethswarm.org/foundation/2023/postage-stamp-price-increases-as-swarm-network-reaches-milestone-of-self-sustainability/
+  copy: This upgrade is a significant milestone in the development of the Swarm network,
+    as it enables Swarm node operators to earn rewards in exchange for contributing
+    their storage resources to the network
+  cta:
+    title: Read more
+    href: https://blog.ethswarm.org/foundation/2023/postage-stamp-price-increases-as-swarm-network-reaches-milestone-of-self-sustainability/
+    background: transparent
+    color: white
+    arrow: true
+    back: false
+    type: ''
+- template: news-item
   title: Swarm network’s storage rewards go live as it moves towards a Web3 PC
   category:
   - Events
@@ -15,25 +33,6 @@ news:
   cta:
     title: Read more
     href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
-    background: transparent
-    color: white
-    arrow: true
-    back: false
-    type: ''
-- template: news-item
-  title: The Mechanics of Swarm network’s Storage Incentives
-  category:
-  - development
-  readTime: '3'
-  image: "/uploads/postage-stamps.png"
-  href: https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/
-  copy: |-
-    An economically self-sustaining mechanism to gather storage operators.
-
-    Historically, people had two choices when it came to hosting their data: they could either store it themselves or upload it to a trusted third party computer. Regarding the latter, the source of this trust is typically that the host — usually a corporation — is conducting a long term business requiring them to be reliable and reputable. On the other hand, self-hosting requires that one’s computer is online at all times, which is often not feasible.
-  cta:
-    title: Read more
-    href: https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/
     background: transparent
     color: white
     arrow: true
