@@ -160,7 +160,7 @@ upload:
   title: Odyssey Data Upload
   content: The Swarm Foundation aims to empower non-profits to store their data securely
     and censorship-resistant. Swarm will subsidize data uploads from selected projects
-    to incentivise public goods and advance the Sustainable Development Goals.
+    to incentivise public goods and advance the Great Data Upload.
   image: ''
   features:
     columns: ''
