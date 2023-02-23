@@ -22,15 +22,12 @@ const Odyssey: React.FC<OdysseyProps> = ({
 }) => {
   return (
     <section className="relative flex flex-col items-center overflow-hidden text-gray-100 bg-gray-800">
-      <div className="absolute inset-0 flex justify-end w-full h-full">
-        <div className="absolute h-full w-full inset-0 bg-[#FF7A00] mix-blend-multiply"></div>
-        <img
-          loading="lazy"
-          src="/assets/odyssey_background.png"
-          alt="Odyssey Graphic"
-          className="bottom-0 right-0 hidden pointer-events-none md:block md:top-0 md:h-full h-1/2"
-        />
-      </div>
+      <img
+        loading="lazy"
+        src="/assets/odyssey_background.png"
+        alt="Odyssey Graphic"
+        className="absolute bottom-0 right-0 hidden pointer-events-none md:block md:top-0 md:h-full h-1/2"
+      />
 
       <Container className="relative flex flex-col h-full pt-20 pb-16 md:pb-44 md:pt-40">
         <Tagline copy={tagline} />
