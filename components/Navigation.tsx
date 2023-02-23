@@ -42,15 +42,13 @@ const Navigation: React.FC<NavigationProps> = ({
       <Container className="">
         <div className="flex items-center justify-between">
           <div>
-            <Link href="/">
-              <a className="group">
-                <Logo
-                  className={cx(
-                    "h-6 lg:h-9 fill-current group-hover:text-opacity-75 duration-150",
-                    textColor
-                  )}
-                />
-              </a>
+            <Link href="/" className="group">
+              <Logo
+                className={cx(
+                  "h-6 lg:h-9 fill-current group-hover:text-opacity-75 duration-150",
+                  textColor
+                )}
+              />
             </Link>
           </div>
           <div className="justify-center hidden px-8 space-x-4 lg:flex">
@@ -84,26 +82,28 @@ const Navigation: React.FC<NavigationProps> = ({
           </div>
         </div>
 
-        {firstLevel && firstLevel.children && firstLevel.children.length > 0 && (
-          <div className="items-center justify-center hidden mt-4 space-x-4 lg:flex">
-            {firstLevel.children.map((child: any, index: any) => (
-              <RegularLink
-                key={index}
-                href={child.href}
-                className={cx(
-                  "inline-flex items-center px-4 py-1 text-lg antialiased font-bold leading-10 tracking-wider uppercase duration-150 font-display group hover:text-gray-400",
-                  child.href === router.asPath ? "text-gray-400" : ""
-                )}
-              >
-                <span>{child.title}</span>
-                <div className="relative w-4 h-4 ml-2">
-                  <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 group-hover:translate-x-4 group-hover:opacity-0 group-hover:text-gray-400" />
-                  <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 -translate-x-4 opacity-0 group-hover:text-gray-400 group-hover:translate-x-0 group-hover:opacity-100" />
-                </div>
-              </RegularLink>
-            ))}
-          </div>
-        )}
+        {firstLevel &&
+          firstLevel.children &&
+          firstLevel.children.length > 0 && (
+            <div className="items-center justify-center hidden mt-4 space-x-4 lg:flex">
+              {firstLevel.children.map((child: any, index: any) => (
+                <RegularLink
+                  key={index}
+                  href={child.href}
+                  className={cx(
+                    "inline-flex items-center px-4 py-1 text-lg antialiased font-bold leading-10 tracking-wider uppercase duration-150 font-display group hover:text-gray-400",
+                    child.href === router.asPath ? "text-gray-400" : ""
+                  )}
+                >
+                  <span>{child.title}</span>
+                  <div className="relative w-4 h-4 ml-2">
+                    <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 group-hover:translate-x-4 group-hover:opacity-0 group-hover:text-gray-400" />
+                    <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 -translate-x-4 opacity-0 group-hover:text-gray-400 group-hover:translate-x-0 group-hover:opacity-100" />
+                  </div>
+                </RegularLink>
+              ))}
+            </div>
+          )}
       </Container>
 
       <Transition
@@ -120,10 +120,8 @@ const Navigation: React.FC<NavigationProps> = ({
           <div className="bg-gray-800 shadow-lg">
             <div className="pt-6">
               <div className="flex items-center justify-between px-6 pb-6 border-b border-gray-500">
-                <Link href="/">
-                  <a onClick={() => setIsOpen(false)}>
-                    <Logo className={cx("w-auto h-6 text-gray-100")} />
-                  </a>
+                <Link href="/" onClick={() => setIsOpen(false)}>
+                  <Logo className={cx("w-auto h-6 text-gray-100")} />
                 </Link>
                 <div className="-mr-2">
                   <CloseButton onClick={() => setIsOpen(false)} />

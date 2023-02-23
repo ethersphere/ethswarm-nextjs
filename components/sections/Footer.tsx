@@ -54,37 +54,36 @@ const Footer: React.FC<FooterProps> = () => {
                 {content.privacy_cta.title}
               </RegularLink>
             </div>
-            <Link href="https://swarm.bzz.link/">
-              <a
-                target="_blank"
-                className="flex items-center justify-center mt-3 space-x-4 font-semibold text-orange-onDark lg:justify-start"
+            <Link
+              href="https://swarm.bzz.link/"
+              target="_blank"
+              className="flex items-center justify-center mt-3 space-x-4 font-semibold text-orange-onDark lg:justify-start"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 18 18"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M0 15.7485L4.05 18L8.1 15.7485V11.2545L4.05 9L0 11.2545V15.7485Z"
-                    fill="#FF7A00"
-                  />
-                  <path
-                    d="M13.9414 0L11.7024 1.34328L11.6992 1.36343V4.04664L13.9414 5.38993L13.9602 5.4L16.1992 4.06008V1.35336L13.9414 0Z"
-                    fill="#FF7A00"
-                  />
-                  <path
-                    d="M18.0004 11.2545L13.9504 9L9.90039 11.2545V15.7485L13.9504 18L18.0004 15.7485V11.2545Z"
-                    fill="#FF7A00"
-                  />
-                  <path
-                    d="M8.99332 0.899902L4.5 3.15214V7.64767L9 9.8999L13.5 7.64767V5.8572L11.3085 4.76088L10.7171 4.46594V3.86117V1.81748L8.99332 0.899902Z"
-                    fill="#FF7A00"
-                  />
-                </svg>
-                <span>Hosted on Swarm</span>
-              </a>
+                <path
+                  d="M0 15.7485L4.05 18L8.1 15.7485V11.2545L4.05 9L0 11.2545V15.7485Z"
+                  fill="#FF7A00"
+                />
+                <path
+                  d="M13.9414 0L11.7024 1.34328L11.6992 1.36343V4.04664L13.9414 5.38993L13.9602 5.4L16.1992 4.06008V1.35336L13.9414 0Z"
+                  fill="#FF7A00"
+                />
+                <path
+                  d="M18.0004 11.2545L13.9504 9L9.90039 11.2545V15.7485L13.9504 18L18.0004 15.7485V11.2545Z"
+                  fill="#FF7A00"
+                />
+                <path
+                  d="M8.99332 0.899902L4.5 3.15214V7.64767L9 9.8999L13.5 7.64767V5.8572L11.3085 4.76088L10.7171 4.46594V3.86117V1.81748L8.99332 0.899902Z"
+                  fill="#FF7A00"
+                />
+              </svg>
+              <span>Hosted on Swarm</span>
             </Link>
           </div>
           <div className="order-1 lg:w-1/2 lg:order-first">

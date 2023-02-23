@@ -66,10 +66,8 @@ const Button: React.FC<ButtonProps> = ({
   }
 
   return (
-    <Link href={href}>
-      <a className={classNameButton}>
-        <ButtonInternals title={title} arrow={arrow} back={back} />
-      </a>
+    <Link href={href} className={classNameButton}>
+      <ButtonInternals title={title} arrow={arrow} back={back} />
     </Link>
   );
 };

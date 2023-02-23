@@ -3,7 +3,7 @@ import {
   Dapp,
   DevelopSection,
   FairdDriveSection,
-  Wikipedia,
+  Odyssey,
   Banner,
   Hero,
   Builders,
@@ -44,11 +44,19 @@ const Home: NextPage = (props: any) => {
         {/* @ts-ignore */}
         <GeneralSection content={content.unstoppable} textColor="text-black" />
 
-        <Wikipedia
+        {/* We hide this section for now */}
+        {/* <Wikipedia
           titleSuffix={content.wikipedia.titleSuffix}
           content={content.wikipedia.content}
           ctas={content.wikipedia.ctas as Array<CtaType>}
           tagline={content.wikipedia.tagline}
+        /> */}
+
+        <Odyssey
+          title={content.odyssey.title}
+          content={content.odyssey.content}
+          ctas={content.odyssey.ctas as Array<CtaType>}
+          tagline={content.odyssey.tagline}
         />
 
         <DevelopSection
