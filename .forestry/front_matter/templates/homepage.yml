@@ -12,6 +12,11 @@ fields:
       required: false
     label: Title
   label: Meta
+- name: upload
+  type: include
+  config: {}
+  template: section-item
+  label: Upload
 - name: news
   type: blocks
   label: News items
