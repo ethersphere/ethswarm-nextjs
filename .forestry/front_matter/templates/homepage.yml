@@ -13,10 +13,16 @@ fields:
     label: Title
   label: Meta
 - name: upload
-  type: include
+  type: field_group
   config: {}
-  template: section-item
+  fields:
+  - name: upload
+    type: include
+    config: {}
+    template: section-item
+    label: Upload
   label: Upload
+  description: Odyssey upload section
 - name: news
   type: blocks
   label: News items
