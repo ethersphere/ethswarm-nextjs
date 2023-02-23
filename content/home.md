@@ -155,5 +155,26 @@ grantees:
     with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer
     to the vision of a decentralized future.
   icon: ''
+upload:
+  contentWidth: half
+  title: Odyssey Data Upload
+  content: The Swarm Foundation aims to empower non-profits to store their data securely
+    and censorship-resistant. Swarm will subsidize data uploads from selected projects
+    to incentivise public goods and advance the Great Data Upload.
+  image: ''
+  features:
+    columns: ''
+    type: ''
+    features: []
+  ctas:
+  - template: cta
+    arrow: true
+    type: default
+    title: Apply
+    href: https://my.ethswarm.org/uploads
+    background: white
+    back: false
+  code: ''
+  tagline: Sustainable Development Goals
 
 ---

@@ -18,6 +18,7 @@ import Section from "./sections/Section";
 import Cta from "./sections/Cta";
 import Post from "./sections/Post";
 import Roadmap from "./sections/Roadmap";
+import Odyssey from "./sections/Odyssey";
 
 export {
   GeneralSection,
@@ -36,6 +37,7 @@ export {
   Hero,
   Unstoppable,
   Post,
+  Odyssey,
   Roadmap,
   Section,
   Wikipedia,

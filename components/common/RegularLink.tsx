@@ -28,10 +28,8 @@ export const RegularLink: React.FC<RegularLinkProps<LinkType>> = ({
   }
 
   return (
-    <Link href={href}>
-      <a onClick={onClick} className={className}>
-        {children}
-      </a>
+    <Link href={href} onClick={onClick} className={className}>
+      {children}
     </Link>
   );
 };

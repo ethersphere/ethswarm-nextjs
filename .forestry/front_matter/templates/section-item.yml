@@ -16,6 +16,11 @@ fields:
       file: 
       path: 
   label: Content Width
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
 - name: title
   type: text
   config:

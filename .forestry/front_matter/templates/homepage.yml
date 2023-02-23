@@ -12,6 +12,17 @@ fields:
       required: false
     label: Title
   label: Meta
+- name: upload
+  type: field_group
+  config: {}
+  fields:
+  - name: upload
+    type: include
+    config: {}
+    template: section-item
+    label: Upload
+  label: Upload
+  description: Odyssey upload section
 - name: news
   type: blocks
   label: News items
