@@ -180,7 +180,7 @@ upload:
       type: default
       title: Apply
       href: https://my.ethswarm.org/uploads
-      background: ""
+      background: "white"
       back: false
   code: ""
 ---
