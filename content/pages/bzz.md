@@ -5,7 +5,7 @@ sections:
 - template: section
   type: Section
   data:
-    disclaimer: true
+    disclaimer: false
     hero:
       title: BZZ token
       id: bzz
