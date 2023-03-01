@@ -1,5 +1,4 @@
 const React = require("react");
-
 function ConnectIcon({
   title,
   titleId,
@@ -20,6 +19,5 @@ function ConnectIcon({
     d: "M14.09 17.4c-.44 0-.8.36-.8.8v3.59c0 .44.36.8.8.8s.8-.36.8-.8V18.2c0-.44-.36-.8-.8-.8ZM20.55 22.6c.44 0 .8-.36.8-.8v-3.59c0-.44-.36-.8-.8-.8s-.8.36-.8.8v3.59c0 .44.36.8.8.8Z"
   }));
 }
-
 const ForwardRef = React.forwardRef(ConnectIcon);
 module.exports = ForwardRef;

@@ -9,6 +9,7 @@ import {
   Post,
   Roadmap,
   Section,
+  Disclaimer,
 } from "@/components/index";
 import { getPageSlugs, getPageBySlug } from "lib/pages";
 import meta from "data/meta.json";

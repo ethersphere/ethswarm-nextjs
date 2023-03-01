@@ -2,32 +2,44 @@
 label: Feature
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Content
-- name: icon
-  type: include
-  config: {}
-  template: icon
-  label: Icon
-- name: cta
-  type: field_group
-  config: {}
-  fields:
-  - name: cta
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: content
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Content
+  - name: exchanges
+    type: boolean
+    label: Show exchanges
+    default: false
+  - name: bzzPrice
+    type: boolean
+    label: Show BZZ Token Price
+    default: false
+  - name: bzzPot
+    type: boolean
+    label: Show BZZ Pot value
+    default: false
+  - name: icon
     type: include
     config: {}
-    template: cta
+    template: icon
+    label: Icon
+  - name: cta
+    type: field_group
+    config: {}
+    fields:
+      - name: cta
+        type: include
+        config: {}
+        template: cta
+        label: CTA
     label: CTA
-  label: CTA

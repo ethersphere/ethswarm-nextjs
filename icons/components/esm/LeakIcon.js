@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function LeakIcon({
   title,
   titleId,
@@ -20,6 +19,5 @@ function LeakIcon({
     d: "M16.92 24.4a.8.8 0 0 0-.29 1.1c.15.26.42.4.7.4.14 0 .27-.03.4-.11l4.81-2.78v-6.02l-4.81-2.78a.811.811 0 0 0-1.1.29c-.22.38-.09.87.29 1.1l4.01 2.31v4.16l-4.01 2.31Z"
   }));
 }
-
 const ForwardRef = React.forwardRef(LeakIcon);
 export default ForwardRef;

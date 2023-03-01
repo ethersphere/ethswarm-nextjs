@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function SearchIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function SearchIcon({
     stroke: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(SearchIcon);
 export default ForwardRef;

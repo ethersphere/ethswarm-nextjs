@@ -1,5 +1,4 @@
 const React = require("react");
-
 function StatsIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function StatsIcon({
     stroke: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(StatsIcon);
 module.exports = ForwardRef;

@@ -1,5 +1,4 @@
 const React = require("react");
-
 function FaultIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function FaultIcon({
     d: "M17.34 23.15c.44 0 .8-.36.8-.8V10.46c0-.44-.36-.8-.8-.8s-.8.36-.8.8v11.88c0 .44.36.8.8.8ZM19.07 28.29c0-.97-.79-1.75-1.75-1.75s-1.75.79-1.75 1.75.79 1.75 1.75 1.75 1.75-.79 1.75-1.75Z"
   }));
 }
-
 const ForwardRef = React.forwardRef(FaultIcon);
 module.exports = ForwardRef;

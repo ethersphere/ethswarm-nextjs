@@ -1,5 +1,4 @@
 const React = require("react");
-
 function YouTubeIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function YouTubeIcon({
     fill: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(YouTubeIcon);
 module.exports = ForwardRef;

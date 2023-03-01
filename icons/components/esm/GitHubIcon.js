@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function GitHubIcon({
   title,
   titleId,
@@ -27,6 +26,5 @@ function GitHubIcon({
     d: "M0 0h24v24H0z"
   }))));
 }
-
 const ForwardRef = React.forwardRef(GitHubIcon);
 export default ForwardRef;

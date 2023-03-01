@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function DiscordIcon({
   title,
   titleId,
@@ -27,6 +26,5 @@ function DiscordIcon({
     d: "M0 0h24v24H0z"
   }))));
 }
-
 const ForwardRef = React.forwardRef(DiscordIcon);
 export default ForwardRef;

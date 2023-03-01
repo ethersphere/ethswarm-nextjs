@@ -19,6 +19,7 @@ import Cta from "./sections/Cta";
 import Post from "./sections/Post";
 import Roadmap from "./sections/Roadmap";
 import Odyssey from "./sections/Odyssey";
+import Disclaimer from "./sections/Disclaimer";
 
 export {
   GeneralSection,
@@ -32,6 +33,7 @@ export {
   News,
   Dapp,
   DevelopSection,
+  Disclaimer,
   FairdDriveSection,
   Banner,
   Hero,

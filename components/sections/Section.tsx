@@ -1,15 +1,22 @@
 import React from "react";
 import SecondaryHero from "./SecondaryHero";
 import ContentContainer from "./ContentContainer";
+import Disclaimer from "./Disclaimer";
 import { cx } from "utils";
 
 type SectionProps = {
+  disclaimer: boolean;
   index: number;
   hero?: any; // Hero type?
   items?: any;
 };
 
-const Section: React.FC<SectionProps> = ({ index, hero, items = [] }) => {
+const Section: React.FC<SectionProps> = ({
+  index,
+  hero,
+  items = [],
+  disclaimer = false,
+}) => {
   return (
     <section className="pb-20 md:pb-40 md:overflow-hidden">
       {hero ? <SecondaryHero index={index} {...hero} /> : ""}
@@ -21,6 +28,8 @@ const Section: React.FC<SectionProps> = ({ index, hero, items = [] }) => {
           ))}
         </div>
       )}
+
+      {disclaimer ? <Disclaimer /> : ""}
     </section>
   );
 };
