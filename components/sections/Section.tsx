@@ -5,7 +5,7 @@ import Disclaimer from "./Disclaimer";
 import { cx } from "utils";
 
 type SectionProps = {
-  disclaimer: boolean;
+  disclaimer?: boolean;
   index: number;
   hero?: any; // Hero type?
   items?: any;
