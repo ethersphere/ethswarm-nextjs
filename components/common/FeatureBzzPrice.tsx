@@ -18,7 +18,7 @@ const FeatureBzzPrice: React.FC = () => {
     <FeatureBzzBase
       title="Current storage price"
       value={`${price}`}
-      description="for 1 GByte for 1 year"
+      description="for 1 GByte for 1 month"
       icon={<Icons.WriteIcon className="h-12 mt-8" />}
     />
   );

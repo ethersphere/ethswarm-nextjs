@@ -43,12 +43,15 @@ const FeatureExchanges: React.FC<Props> = () => {
               href={url}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center px-4 py-3 space-x-4"
+              className="flex items-center px-4 py-3 space-x-4 duration-200 group md:hover:bg-gray-200"
             >
               <IconTag className="w-6 max-h-6" />
               <span className="flex items-center justify-between grow">
                 <span className="">{label}</span>
-                <ArrowIcon className="w-4 h-4 text-black" />
+                <div className="relative w-4 h-4 text-black">
+                  <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 group-hover:translate-x-4 group-hover:opacity-0" />
+                  <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100" />
+                </div>
               </span>
             </a>
           </li>

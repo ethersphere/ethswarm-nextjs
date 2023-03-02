@@ -17,12 +17,12 @@
           "title": "Swarm desktop"
         },
         {
-          "title": "Swarm Gateway",
-          "href": "https://gateway.ethswarm.org/"
-        },
-        {
           "href": "https://github.com/ethersphere/awesome-swarm",
           "title": "Awesome Swarm"
+        },
+        {
+          "href": "/get-bzz",
+          "title": "Get BZZ"
         }
       ]
     },
