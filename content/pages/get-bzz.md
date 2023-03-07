@@ -21,7 +21,7 @@ sections:
             arrow: true
             type: default
             title: Get bzz
-            href: https://grants.ethswarm.org/
+            href: "#how-to-acquire-bzz"
             background: orange
             back: false
         footnote: ""
@@ -88,7 +88,7 @@ sections:
                   arrow: true
                   background: []
                   type: default
-                  title: Read more
+                  title: Run
                   href: "/build/run-a-full-node"
               - template: feature
                 title: Swarm Desktop
@@ -97,7 +97,7 @@ sections:
                   arrow: true
                   background: []
                   type: default
-                  title: Read more
+                  title: Install
                   href: "/build/desktop"
               - template: feature
                 title: Awesome Swarm
@@ -106,7 +106,7 @@ sections:
                   arrow: true
                   background: []
                   type: default
-                  title: Read more
+                  title: Browse
                   href: "https://github.com/ethersphere/awesome-swarm"
           title: How to use BZZ
           content: ""

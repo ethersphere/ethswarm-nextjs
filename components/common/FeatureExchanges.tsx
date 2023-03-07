@@ -16,19 +16,14 @@ const items = [
     icon: Icons.OpenbzzIcon,
   },
   {
-    label: "HoneySwap",
+    label: "Honeyswap",
     url: "https://honeyswap.1hive.eth.limo/#/swap?chain=xdai&outputCurrency=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
     icon: Icons.HoneyswapIcon,
   },
   {
     label: "Uniswap",
-    url: "https://app.uniswap.org/#/swap?chain=ethereum&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
+    url: "https://app.uniswap.org/#/swap?chain=ethereum&inputCurrency=ETH&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
     icon: Icons.UniswapIcon,
-  },
-  {
-    label: "Pancakeswap",
-    url: "https://pancakeswap.finance/swap?outputCurrency=0x076b6AE0Fd55aBcD013d6B2295bF1B3Dcdb1006f",
-    icon: Icons.PancakeswapIcon,
   },
 ];
 

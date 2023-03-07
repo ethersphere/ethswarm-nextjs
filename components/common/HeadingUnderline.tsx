@@ -32,6 +32,10 @@ const HeadingUnderline: React.FC<HeadingUnderlineProps> = ({
       whileInView={{
         backgroundSize: [`0% ${underlineSize}px`, `100% ${underlineSize}px`],
       }}
+      id={title
+        .toLowerCase()
+        .replace(/ /g, "-")
+        .replace(/[^\w-]+/g, "")}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: 0.3 }}
       className={cx(
