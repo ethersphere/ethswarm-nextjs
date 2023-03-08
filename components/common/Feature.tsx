@@ -99,7 +99,7 @@ const Feature: React.FC<FeatureType> = ({
         </div>
       )}
 
-      {cta && cta.href.length > 0 && (
+      {cta && cta.href && cta.href.length > 0 && (
         <div className="px-2 sm:-my-2 sm:px-4">
           <Button
             href={cta.href}
