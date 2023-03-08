@@ -21,18 +21,20 @@ news:
     back: false
     type: ''
 - template: news-item
-  title: Swarm network’s storage rewards go live as it moves towards a Web3 PC
+  title: Monthly Development Update – February 2023
   category:
-  - Events
+  - Development update
   readTime: '3'
-  image: "/uploads/frame-3.png"
-  href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
-  copy: The Swarm Foundation announced exciting updates at its recent semi-annual
-    solstice event. Phase 2 of its ambitious network upgrade is now live on mainnet,
-    allowing Swarm’s storage node operators to be compensated for their contributions.
+  image: "/uploads/devupdatefeb.png"
+  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
+  copy: February was a big month for the Swarm network. The price of postage stamps
+    has been recalibrated with the release of Bee 1.12.0, which marks a major milestone
+    for Swarm’s self-sustaining network. The Research Track has also completed the
+    documentation for Phase 4, which details the work of this phase of the Storage
+    incentives roadmap.
   cta:
     title: Read more
-    href: https://blog.ethswarm.org/foundation/2022/swarm-networks-storage-rewards-go-live-as-it-moves-towards-a-web3-pc/
+    href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
     background: transparent
     color: white
     arrow: true
@@ -70,6 +72,9 @@ bounties:
   title: 'Bounty #1'
   content: Develop a censorship resistant blog architecture.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 - template: feature
   cta:
     arrow: true
@@ -81,6 +86,9 @@ bounties:
   title: 'Bounty #2'
   content: Implement a subgraph to obtain BZZ price data.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 - template: feature
   cta:
     arrow: true
@@ -92,6 +100,9 @@ bounties:
   title: 'Bounty #3'
   content: Integrate Social Archive and Dapplets to allow data to be found.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 - template: feature
   cta:
     arrow: true
@@ -103,6 +114,9 @@ bounties:
   title: 'Bounty #4'
   content: Integrate WinAMP with Fairdrive.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 grantees:
 - template: feature
   cta:
@@ -116,6 +130,9 @@ grantees:
   content: Etherna is a transparent video platform FOR EVERYONE where freedom of speech
     is incentivized, not convicted.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 - template: feature
   cta:
     arrow: true
@@ -129,6 +146,9 @@ grantees:
     previously uploaded to Swarm, providing an interface for data interchange between
     the Dapplet and the search result provider.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 - template: feature
   cta:
     arrow: true
@@ -142,6 +162,9 @@ grantees:
     which allows users to control their data and decide who has access to it. DRX
     also enables tokenised management of royalties, licensing and ownership.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 - template: feature
   cta:
     arrow: true
@@ -155,6 +178,9 @@ grantees:
     with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer
     to the vision of a decentralized future.
   icon: ''
+  exchanges: false
+  bzzPrice: false
+  bzzPot: false
 upload:
   contentWidth: half
   title: Odyssey Data Upload
