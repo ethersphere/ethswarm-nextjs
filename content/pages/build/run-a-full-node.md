@@ -19,6 +19,12 @@ sections:
             href: https://discord.ethswarm.org/
             background: orange-onDark
             type: default
+          - template: cta
+            arrow: true
+            title: Get BZZ
+            href: /get-bzz
+            background: transparent
+            type: default
         background:
           src: "/assets/hero/run.png"
           alt: ""

@@ -68,4 +68,8 @@ fields:
     config:
       min: 
       max: 
+  - name: disclaimer
+    type: boolean
+    label: Show disclaimer
+    default: false
   label: Data

@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function HeartIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function HeartIcon({
     d: "M6.26 14.72v10.59l11.07 6.39 11.07-6.39V14.72l-5.94-3.49-5.13 3.02-5.14-3.02-5.94 3.49Zm16.21-1.63 4.33 2.55v8.75l-9.47 5.47-9.47-5.47v-8.75l4.33-2.55 5.14 3.02 5.13-3.02Z"
   }));
 }
-
 const ForwardRef = React.forwardRef(HeartIcon);
 export default ForwardRef;

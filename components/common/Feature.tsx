@@ -5,6 +5,9 @@ import Button from "./Button";
 import Icons from "@/icons/components/index";
 import { useEffect, useState } from "react";
 import markdownToHtml from "lib/markdownToHtml";
+import FeatureBzzPrice from "./FeatureBzzPrice";
+import FeatureBzzPot from "./FeatureBzzPot";
+import FeatureExchanges from "./FeatureExchanges";
 
 const Feature: React.FC<FeatureType> = ({
   title,
@@ -12,6 +15,9 @@ const Feature: React.FC<FeatureType> = ({
   icon,
   cta,
   type = "default",
+  exchanges = false,
+  bzzPrice = false,
+  bzzPot = false,
   copyClass = "",
 }) => {
   const [md, setMd] = useState(content ?? "");
@@ -80,6 +86,12 @@ const Feature: React.FC<FeatureType> = ({
           }}
         />
       )}
+
+      {exchanges !== false && <FeatureExchanges />}
+
+      {bzzPrice !== false && <FeatureBzzPrice />}
+
+      {bzzPot !== false && <FeatureBzzPot />}
 
       {IconTag !== false && (
         <div className="flex items-end flex-grow px-2 sm:px-4">

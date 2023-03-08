@@ -1,5 +1,4 @@
 const React = require("react");
-
 function RedditIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function RedditIcon({
     fill: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(RedditIcon);
 module.exports = ForwardRef;

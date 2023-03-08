@@ -1,5 +1,4 @@
 const React = require("react");
-
 function LockIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function LockIcon({
     d: "M0 10v20l17.32 10 17.32-10V10L17.32 0 0 10Zm33.03 19.07-15.72 9.07-15.7-9.07V10.93l15.71-9.08 15.72 9.07v18.15Z"
   }));
 }
-
 const ForwardRef = React.forwardRef(LockIcon);
 module.exports = ForwardRef;

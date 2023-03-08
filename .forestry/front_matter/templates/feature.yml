@@ -16,6 +16,18 @@ fields:
     schema:
       format: markdown
   label: Content
+- name: exchanges
+  type: boolean
+  label: Show exchanges
+  default: false
+- name: bzzPrice
+  type: boolean
+  label: Show BZZ Token Price
+  default: false
+- name: bzzPot
+  type: boolean
+  label: Show BZZ Pot value
+  default: false
 - name: icon
   type: include
   config: {}

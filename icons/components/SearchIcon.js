@@ -1,5 +1,4 @@
 const React = require("react");
-
 function SearchIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function SearchIcon({
     stroke: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(SearchIcon);
 module.exports = ForwardRef;

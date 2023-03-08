@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function ArrowIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function ArrowIcon({
     fill: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(ArrowIcon);
 export default ForwardRef;

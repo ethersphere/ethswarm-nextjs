@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function StatsIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function StatsIcon({
     stroke: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(StatsIcon);
 export default ForwardRef;

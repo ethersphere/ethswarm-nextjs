@@ -1,5 +1,4 @@
 const React = require("react");
-
 function TwitterIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function TwitterIcon({
     fill: "currentColor"
   }));
 }
-
 const ForwardRef = React.forwardRef(TwitterIcon);
 module.exports = ForwardRef;

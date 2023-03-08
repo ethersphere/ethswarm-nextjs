@@ -1,5 +1,4 @@
 import * as React from "react";
-
 function BoxArrowIcon({
   title,
   titleId,
@@ -18,6 +17,5 @@ function BoxArrowIcon({
     d: "M34.53 10.87c.22-.38.09-.87-.29-1.1L17.32 0 0 10v20l17.32 10 16.92-9.77a.8.8 0 0 0 .29-1.1.8.8 0 0 0-1.1-.29l-16.12 9.3-15.7-9.07V10.93l15.71-9.08 16.12 9.3c.38.22.88.09 1.1-.29Z"
   }));
 }
-
 const ForwardRef = React.forwardRef(BoxArrowIcon);
 export default ForwardRef;

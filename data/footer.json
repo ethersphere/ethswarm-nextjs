@@ -27,7 +27,7 @@
         },
         {
           "title": "Run a Node",
-          "href": "/build#run"
+          "href": "/build/run-a-full-node"
         },
         {
           "title": "Swarm Desktop",
@@ -43,7 +43,7 @@
         },
         {
           "title": "Get BZZ",
-          "href": "https://bzz.exchange/"
+          "href": "/get-bzz"
         }
       ]
     },
