@@ -45,7 +45,7 @@ news:
   category:
   - Events
   readTime: '4'
-  image: "/uploads/default.png"
+  image: "/uploads/scc-recap-copy.png"
   href: https://blog.ethswarm.org/foundation/2023/swarm-community-call-23-february-recap/
   copy: The main topic of the February Swarm Community Call was the postage stamp
     price calibration, which took place on 22 February. The recalibration increased
