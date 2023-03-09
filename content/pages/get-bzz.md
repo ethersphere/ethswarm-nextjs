@@ -138,8 +138,8 @@ sections:
           title: Where is the BZZ token present?
           content: BZZ is an ERC-20 token created on the Ethereum network and can
             be bridged to other networks through [Omnichain](https://omnibridge.gnosischain.com/bridge)
-            for Gnosis Chain or [Celer Network](https://cbridge.celer.network/) for
-            Binance Smart Chain.
+            for Gnosis Chain or [Celer Network](https://cbridge.celer.network/1/56/BZZ)
+            for Binance Smart Chain.
       title: FAQ
       content: ''
       image: ''
