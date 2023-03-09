@@ -25,7 +25,7 @@ news:
   category:
   - Development update
   readTime: '3'
-  image: "/uploads/default.png"
+  image: "/uploads/devupdatefeb-copy.png"
   href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
   copy: February was a big month for the Swarm network. The price of postage stamps
     has been recalibrated with the release of Bee 1.12.0, which marks a major milestone
@@ -45,7 +45,7 @@ news:
   category:
   - Events
   readTime: '4'
-  image: "/uploads/default.png"
+  image: "/uploads/scc-recap-copy.png"
   href: https://blog.ethswarm.org/foundation/2023/swarm-community-call-23-february-recap/
   copy: The main topic of the February Swarm Community Call was the postage stamp
     price calibration, which took place on 22 February. The recalibration increased
