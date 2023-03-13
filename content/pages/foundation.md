@@ -35,6 +35,7 @@ sections:
       image: ''
       ctas: []
       code: ''
+      tagline: ''
     - template: section-item
       contentWidth: full
       features:
@@ -51,6 +52,7 @@ sections:
       image: ''
       ctas: []
       code: ''
+      tagline: ''
     - template: section-item
       contentWidth: half
       features:
@@ -66,6 +68,7 @@ sections:
       image: ''
       ctas: []
       code: ''
+      tagline: ''
     - template: section-item
       contentWidth: half
       features:
@@ -74,10 +77,12 @@ sections:
         features: []
       title: Connect with the Foundation
       content: "Email: [info@swarm.foundation](mailto:info@swarm.foundation)\n\nAddress:
-        \ \nSwarm Foundation  \nRue des Usines 44  \n2000 Neuchâtel  \nSwitzerland\n\nUID
+        \ \nSwarm Foundation  \nPlace Numa-Droz 2  \n2000 Neuchâtel  \nSwitzerland\n\nUID
         Registration number: CHE-190.844.260, Canton of Neuchâtel"
       image: ''
       ctas: []
       code: ''
+      tagline: ''
+    disclaimer: false
 
 ---
