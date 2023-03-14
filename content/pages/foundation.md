@@ -20,7 +20,7 @@ sections:
     - template: section-item
       contentWidth: full
       features:
-        columns: []
+        columns: ''
         type: default
         features: []
       title: About Swarm Foundation
@@ -77,8 +77,8 @@ sections:
         features: []
       title: Connect with the Foundation
       content: "Email: [info@swarm.foundation](mailto:info@swarm.foundation)\n\nAddress:
-        \ \nSwarm Foundation  \nPlace Numa-Droz 2  \n2000 Neuchâtel  \nSwitzerland\n\nUID
-        Registration number: CHE-190.844.260, Canton of Neuchâtel"
+        \ \nSwarm Foundation  \nPlace Numa-Droz 2  \n2000 Neuchâtel  \nSwitzerland
+        \n\nUID Registration number: CHE-190.844.260, Canton of Neuchâtel"
       image: ''
       ctas: []
       code: ''
