@@ -78,7 +78,8 @@ sections:
         features:
         - template: feature
           title: Run a full node
-          content: Suport the network and earn rewards for your services.
+          content: Suport the network and [earn rewards](https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/)
+            for your services.
           cta:
             arrow: true
             background: []
