@@ -40,5 +40,3 @@ fields:
   label: Job
 pages:
 - content/jobs/bee-product-owner.md
-- content/jobs/qa-engineer-go.md
-- content/jobs/security-researcher.md
