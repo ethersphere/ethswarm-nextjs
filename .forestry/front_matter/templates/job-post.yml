@@ -39,11 +39,4 @@ fields:
     description: Short description
   label: Job
 pages:
-- content/jobs/Smart-Contract-Developer–JS-Team.md
 - content/jobs/bee-product-owner.md
-- content/jobs/browser-extension-developer.md
-- content/jobs/qa-engineer-go.md
-- content/jobs/security-researcher.md
-- content/jobs/senior-javascript-developer.md
-- content/jobs/software-developer-swarm-research-team.md
-- content/jobs/web3-software-engineer-js.md
