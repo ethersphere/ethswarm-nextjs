@@ -21,6 +21,27 @@ news:
     back: false
     type: ''
 - template: news-item
+  title: Swarm commits 2 million BZZ to drive privacy, interoperability, and data
+    sovereignty
+  category:
+  - Ecosystem
+  readTime: '4'
+  image: "/uploads/fds-blog.png"
+  href: https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
+  copy: Following years of incubation, the Fair Data Society initiative graduated
+    and moved onto an independent path. With this, Swarm Foundation has pledged 2
+    million BZZ in the coming 10 years, to champion support for layer 2 projects that
+    empower digital freedom, privacy, and interoperability. The pledge was officially
+    announced at the Fair Data Society graduation event, ‘New Day’ on March 21st 2023.
+  cta:
+    title: Read more
+    href: https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
+    background: transparent
+    color: white
+    arrow: true
+    back: false
+    type: ''
+- template: news-item
   title: Monthly Development Update – February 2023
   category:
   - Development update
@@ -35,24 +56,6 @@ news:
   cta:
     title: Read more
     href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
-    background: transparent
-    color: white
-    arrow: true
-    back: false
-    type: ''
-- template: news-item
-  title: Swarm Community Call, 23 February - Recap
-  category:
-  - Events
-  readTime: '4'
-  image: "/uploads/scc-recap-copy.png"
-  href: https://blog.ethswarm.org/foundation/2023/swarm-community-call-23-february-recap/
-  copy: The main topic of the February Swarm Community Call was the postage stamp
-    price calibration, which took place on 22 February. The recalibration increased
-    the price of storage by 6000x.
-  cta:
-    title: Read more
-    href: https://blog.ethswarm.org/foundation/2023/swarm-community-call-23-february-recap/
     background: transparent
     color: white
     arrow: true
