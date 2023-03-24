@@ -21,26 +21,6 @@ news:
     back: false
     type: ''
 - template: news-item
-  title: Monthly Development Update – February 2023
-  category:
-  - Development update
-  readTime: '3'
-  image: "/uploads/devupdatefeb-copy.png"
-  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
-  copy: February was a big month for the Swarm network. The price of postage stamps
-    has been recalibrated with the release of Bee 1.12.0, which marks a major milestone
-    for Swarm’s self-sustaining network. The Research Track has also completed the
-    documentation for Phase 4, which details the work of this phase of the Storage
-    incentives roadmap.
-  cta:
-    title: Read more
-    href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
-    background: transparent
-    color: white
-    arrow: true
-    back: false
-    type: ''
-- template: news-item
   title: Swarm commits 2 million BZZ to drive privacy, interoperability, and data
     sovereignty
   category:
@@ -56,6 +36,26 @@ news:
   cta:
     title: Read more
     href: https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
+    background: transparent
+    color: white
+    arrow: true
+    back: false
+    type: ''
+- template: news-item
+  title: Monthly Development Update – February 2023
+  category:
+  - Development update
+  readTime: '3'
+  image: "/uploads/devupdatefeb-copy.png"
+  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
+  copy: February was a big month for the Swarm network. The price of postage stamps
+    has been recalibrated with the release of Bee 1.12.0, which marks a major milestone
+    for Swarm’s self-sustaining network. The Research Track has also completed the
+    documentation for Phase 4, which details the work of this phase of the Storage
+    incentives roadmap.
+  cta:
+    title: Read more
+    href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
     background: transparent
     color: white
     arrow: true
