@@ -81,11 +81,11 @@ bounties:
     arrow: true
     type: default
     title: More
-    href: https://gitcoin.co/issue/29254
+    href: https://bounties.gitcoin.co/issue/29812
     background: transparent
     back: false
   title: 'Bounty #2'
-  content: Implement a subgraph to obtain BZZ price data.
+  content: PDF Viewer Dapp For Fairdrive, Using Blossom To Access Fdp-Storage
   icon: ''
   exchanges: false
   bzzPrice: false
