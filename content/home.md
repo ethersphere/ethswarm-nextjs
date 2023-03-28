@@ -96,10 +96,10 @@ bounties:
     type: default
     background: transparent
     title: More
-    href: https://gitcoin.co/issue/29165
+    href: https://bounties.gitcoin.co/issue/29335
     back: false
   title: 'Bounty #3'
-  content: Integrate Social Archive and Dapplets to allow data to be found.
+  content: Integrate WinAMP With Fairdrive
   icon: ''
   exchanges: false
   bzzPrice: false
