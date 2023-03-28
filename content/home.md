@@ -67,11 +67,11 @@ bounties:
     arrow: true
     type: default
     title: More
-    href: https://gitcoin.co/issue/28924
+    href: https://bounties.gitcoin.co/issue/29811
     background: transparent
     back: false
   title: 'Bounty #1'
-  content: Develop a censorship resistant blog architecture.
+  content: Implement A DApp Using Blossom Extension And Fdp-Storage
   icon: ''
   exchanges: false
   bzzPrice: false
@@ -107,7 +107,7 @@ bounties:
 - template: feature
   cta:
     arrow: true
-    background: []
+    background: ''
     type: default
     title: ''
     href: ''
