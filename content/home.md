@@ -67,11 +67,11 @@ bounties:
     arrow: true
     type: default
     title: More
-    href: https://gitcoin.co/issue/28924
+    href: https://bounties.gitcoin.co/issue/29811
     background: transparent
     back: false
   title: 'Bounty #1'
-  content: Develop a censorship resistant blog architecture.
+  content: Implement A DApp Using Blossom Extension And Fdp-Storage
   icon: ''
   exchanges: false
   bzzPrice: false
@@ -81,11 +81,11 @@ bounties:
     arrow: true
     type: default
     title: More
-    href: https://gitcoin.co/issue/29254
+    href: https://bounties.gitcoin.co/issue/29812
     background: transparent
     back: false
   title: 'Bounty #2'
-  content: Implement a subgraph to obtain BZZ price data.
+  content: PDF Viewer Dapp For Fairdrive, Using Blossom To Access Fdp-Storage
   icon: ''
   exchanges: false
   bzzPrice: false
@@ -96,24 +96,10 @@ bounties:
     type: default
     background: transparent
     title: More
-    href: https://gitcoin.co/issue/29165
+    href: https://bounties.gitcoin.co/issue/29335
     back: false
   title: 'Bounty #3'
-  content: Integrate Social Archive and Dapplets to allow data to be found.
-  icon: ''
-  exchanges: false
-  bzzPrice: false
-  bzzPot: false
-- template: feature
-  cta:
-    arrow: true
-    background: []
-    type: default
-    title: ''
-    href: ''
-    back: false
-  title: 'Bounty #4'
-  content: Integrate WinAMP with Fairdrive.
+  content: Integrate WinAMP With Fairdrive
   icon: ''
   exchanges: false
   bzzPrice: false
