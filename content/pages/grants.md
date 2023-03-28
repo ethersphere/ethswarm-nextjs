@@ -46,6 +46,7 @@ sections:
       image: ''
       ctas: []
       code: ''
+      tagline: ''
     - template: section-item
       contentWidth: full
       features:
@@ -64,6 +65,9 @@ sections:
           content: Etherna is building a decentralised video sharing platform to bring
             a fair data economy to creators, curators and fans.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -77,6 +81,9 @@ sections:
             data previously uploaded to Swarm, providing an interface for data interchange
             between the Dapplet and the search result provider.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -90,6 +97,9 @@ sections:
             their own nodes on Ethereum Swarm and use it for digital rights management,
             administration and verification.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -103,6 +113,9 @@ sections:
             protocol to provide NFTs with intrinsic value and liquidity that will
             increase with every transaction.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -116,6 +129,9 @@ sections:
             and educate eagers and professionals in cryptocurrencies and blockchain
             technology in the MENA Region.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -128,6 +144,9 @@ sections:
           content: By building on Swarm, OSN creates a censorship-resistant, permissionless
             and decentralised social media platform.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -141,6 +160,9 @@ sections:
             sovereignty to keep it from and/or integrate it with other services if
             they wish to do so.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -155,6 +177,9 @@ sections:
             understanding it as a new form of creativity and playful interaction within
             a closed society.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -167,6 +192,9 @@ sections:
           content: An interconnectable open source PDS (Personal Data Store) server
             envisioning a world wide web of protected data APIs.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -180,6 +208,9 @@ sections:
             where users can store, publish and view memes that are saved in Swarm
             and aligned with Fair Data Society principles.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -194,6 +225,9 @@ sections:
             and tools for open source investigations, so that democracy does not slide
             into tyranny.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -207,6 +241,9 @@ sections:
             currently maintained by Scaleout. Federated learning enables machine learning
             without moving, pooling or disclosing data.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -220,6 +257,9 @@ sections:
             to distributed file storage. The approach will be based on the Swarm base
             layer of the Ethereum stack.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -232,6 +272,9 @@ sections:
           content: Zoomerok is a mobile app with short entertainment videos stored
             on Swarm and you’re in control of your privacy and data.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -245,6 +288,9 @@ sections:
             starting with a mini-app that connects to the Fairdrive personal data
             store.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -258,6 +304,9 @@ sections:
             marginalised communities to take charge of their own livelihoods and economic
             future.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -271,6 +320,9 @@ sections:
             content via a semantic web-based multi-dimensional UX, visually linking
             the NFTs to relevant semantic nodes. Will there be a new ERC?
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -285,6 +337,9 @@ sections:
             of Production Certificates and Guarantees of Origin on Swarm. Clean energy
             is the new deal.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -299,6 +354,9 @@ sections:
             Bernstein in which the sender, and not the recipient, is responsible for
             storing the email messages.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -311,6 +369,9 @@ sections:
           content: VideoWiki is a democratized, tokenized, AI-based immersive content
             creation platform capable of rewarding millions of digital content creators.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -324,12 +385,15 @@ sections:
             open curriculums, blockchains, and decentralised technologies like Swarm
             to tokenize the successful transfer of knowledge from mentor to student.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
             type: default
             title: More
-            href: https://agorapp.xyz
+            href: https://agorapp.dev
             background: ''
             back: false
           title: AgorApp
@@ -337,6 +401,9 @@ sections:
             development paired with an AI-driven skills-matching marketplace. Finding
             the perfect match between enterprises and talented developers.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -352,6 +419,9 @@ sections:
             a dapp execution session. Users can fork, share, and modify compute pods
             in an easy and intuitive manner.'
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
         - template: feature
           cta:
             arrow: true
@@ -364,10 +434,15 @@ sections:
           content: An EVM-based communities focused blockchain, using Swarm as its
             storage layer.
           icon: ''
+          exchanges: false
+          bzzPrice: false
+          bzzPot: false
       title: Build on Swarm
       content: Find a list of current grantees below. Yours could be next.
       image: ''
       ctas: []
       code: ''
+      tagline: ''
+    disclaimer: false
 
 ---
