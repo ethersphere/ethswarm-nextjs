@@ -104,20 +104,6 @@ bounties:
   exchanges: false
   bzzPrice: false
   bzzPot: false
-- template: feature
-  cta:
-    arrow: true
-    background: ''
-    type: default
-    title: ''
-    href: ''
-    back: false
-  title: 'Bounty #4'
-  content: Integrate WinAMP with Fairdrive.
-  icon: ''
-  exchanges: false
-  bzzPrice: false
-  bzzPot: false
 grantees:
 - template: feature
   cta:
