@@ -42,20 +42,19 @@ news:
     back: false
     type: ''
 - template: news-item
-  title: Monthly Development Update – February 2023
+  title: Monthly Development Update – March 2023
   category:
   - Development update
   readTime: '3'
   image: "/uploads/devupdatefeb-copy.png"
-  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
-  copy: February was a big month for the Swarm network. The price of postage stamps
-    has been recalibrated with the release of Bee 1.12.0, which marks a major milestone
-    for Swarm’s self-sustaining network. The Research Track has also completed the
-    documentation for Phase 4, which details the work of this phase of the Storage
-    incentives roadmap.
+  href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
+  copy: Bee client is now version 1.13.0 and is bringing breaking changes. This includes
+    the upgrade of the go-libp2p, which uses a new format for the p2p keys. The update
+    will exclude nodes from storage incentives unless they have enough balance to
+    cover at least five storage-incentives-related transactions.
   cta:
     title: Read more
-    href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-february-2023/
+    href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
     background: transparent
     color: white
     arrow: true
