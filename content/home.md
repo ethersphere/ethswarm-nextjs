@@ -46,7 +46,7 @@ news:
   category:
   - Development update
   readTime: '3'
-  image: "/uploads/devupdatefeb-copy.png"
+  image: "/uploads/devupdate-3-crop.png"
   href: https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
   copy: Bee client is now version 1.13.0 and is bringing breaking changes. This includes
     the upgrade of the go-libp2p, which uses a new format for the p2p keys. The update
