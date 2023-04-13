@@ -2,36 +2,34 @@
 meta:
   title: Digital Freedom Now
 news:
-  - template: news_item
-    title: >-
+  - title: >-
       Postage Stamp Price Increases as Swarm Network Reaches Milestone of
       Self-Sustainability
     category:
       - development
-    readTime: "3"
+    readTime: '3'
     image: /uploads/postage-stamps.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/postage-stamp-price-increases-as-swarm-network-reaches-milestone-of-self-sustainability/
     copy: >-
       This upgrade is a significant milestone in the development of the Swarm
       network, as it enables Swarm node operators to earn rewards in exchange
-      for contributing their storage resources to the network
+      for contributing their storage resources to the network.
     cta:
       title: Read more
       href: >-
         https://blog.ethswarm.org/foundation/2023/postage-stamp-price-increases-as-swarm-network-reaches-milestone-of-self-sustainability/
-      background: transparent
-      color: white
       arrow: true
+      background: transparent
+      type: ''
       back: false
-      type: ""
-  - template: news_item
-    title: >-
+    template: news_item
+  - title: >-
       Swarm commits 2 million BZZ to drive privacy, interoperability, and data
       sovereignty
     category:
       - Ecosystem
-    readTime: "4"
+    readTime: '4'
     image: /uploads/fds-blog.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
@@ -46,16 +44,15 @@ news:
       title: Read more
       href: >-
         https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
-      background: transparent
-      color: white
       arrow: true
+      background: transparent
+      type: ''
       back: false
-      type: ""
-  - template: news_item
-    title: Monthly Development Update – March 2023
+    template: news_item
+  - title: Monthly Development Update – March 2023
     category:
       - Development update
-    readTime: "3"
+    readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
@@ -69,145 +66,145 @@ news:
       title: Read more
       href: >-
         https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
-      background: transparent
-      color: white
       arrow: true
+      background: transparent
+      type: ''
       back: false
-      type: ""
+    template: news_item
 bounties:
-  - template: feature
-    cta:
-      arrow: true
-      type: default
-      title: More
-      href: "https://bounties.gitcoin.co/issue/29811"
-      background: transparent
-      back: false
-    title: "Bounty #1"
+  - title: 'Bounty #1'
     content: Implement A DApp Using Blossom Extension And Fdp-Storage
-    icon: ""
     exchanges: false
     bzzPrice: false
     bzzPot: false
-  - template: feature
+    icon: ''
     cta:
-      arrow: true
-      type: default
       title: More
-      href: "https://bounties.gitcoin.co/issue/29812"
+      href: 'https://bounties.gitcoin.co/issue/29811'
+      arrow: true
       background: transparent
+      type: default
       back: false
-    title: "Bounty #2"
-    content: "PDF Viewer Dapp For Fairdrive, Using Blossom To Access Fdp-Storage"
-    icon: ""
+    template: feature
+  - title: 'Bounty #2'
+    content: 'PDF Viewer Dapp For Fairdrive, Using Blossom To Access Fdp-Storage'
     exchanges: false
     bzzPrice: false
     bzzPot: false
-  - template: feature
+    icon: ''
     cta:
-      arrow: true
-      type: default
-      background: transparent
       title: More
-      href: "https://bounties.gitcoin.co/issue/29335"
+      href: 'https://bounties.gitcoin.co/issue/29812'
+      arrow: true
+      background: transparent
+      type: default
       back: false
-    title: "Bounty #3"
+    template: feature
+  - title: 'Bounty #3'
     content: Integrate WinAMP With Fairdrive
-    icon: ""
     exchanges: false
     bzzPrice: false
     bzzPot: false
-grantees:
-  - template: feature
+    icon: ''
     cta:
-      arrow: true
-      type: default
       title: More
-      href: "https://etherna.io/"
+      href: 'https://bounties.gitcoin.co/issue/29335'
+      arrow: true
       background: transparent
+      type: default
       back: false
-    title: Etherna
+    template: feature
+grantees:
+  - title: Etherna
     content: >-
       Etherna is a transparent video platform FOR EVERYONE where freedom of
       speech is incentivized, not convicted.
-    icon: ""
     exchanges: false
     bzzPrice: false
     bzzPot: false
-  - template: feature
+    icon: ''
     cta:
-      arrow: true
-      type: default
       title: More
+      href: 'https://etherna.io/'
+      arrow: true
       background: transparent
-      href: "https://dapplets.org/"
+      type: default
       back: false
-    title: Dapplets
+    template: feature
+  - title: Dapplets
     content: >-
       Dapplets aims to leverage target websites’ search results to pull data
       previously uploaded to Swarm, providing an interface for data interchange
       between the Dapplet and the search result provider.
-    icon: ""
     exchanges: false
     bzzPrice: false
     bzzPot: false
-  - template: feature
+    icon: ''
     cta:
-      arrow: true
-      type: default
       title: More
-      href: "https://www.copyrightdelta.com/"
+      href: 'https://dapplets.org/'
+      arrow: true
       background: transparent
+      type: default
       back: false
-    title: Copyright Delta
+    template: feature
+  - title: Copyright Delta
     content: >-
       Copyright Delta is building the Digital Rights Exchange & Network (DRX)
       which allows users to control their data and decide who has access to it.
       DRX also enables tokenised management of royalties, licensing and
       ownership.
-    icon: ""
     exchanges: false
     bzzPrice: false
     bzzPot: false
-  - template: feature
+    icon: ''
     cta:
-      arrow: true
-      type: default
       title: More
-      href: "https://metaprovide.org/nextcloud-swarm-plugin"
+      href: 'https://www.copyrightdelta.com/'
+      arrow: true
       background: transparent
+      type: default
       back: false
-    title: Metaprovide
+    template: feature
+  - title: Metaprovide
     content: >-
       Metaprovide has implemented a Nextcloud plugin that enables users to
       interact with Swarm storage directly in Nextcloud Files bringing Nextcloud
       users closer to the vision of a decentralized future.
-    icon: ""
     exchanges: false
     bzzPrice: false
     bzzPot: false
+    icon: ''
+    cta:
+      title: More
+      href: 'https://metaprovide.org/nextcloud-swarm-plugin'
+      arrow: true
+      background: transparent
+      type: default
+      back: false
+    template: feature
 upload:
   contentWidth: half
+  tagline: Sustainable Development Goals
   title: Odyssey Data Upload
   content: >-
     The Swarm Foundation aims to empower non-profits to store their data
     securely and censorship-resistant. Swarm will subsidize data uploads from
     selected projects to incentivise public goods and advance the Great Data
     Upload.
-  image: ""
+  image: ''
   features:
-    columns: ""
-    type: ""
+    columns: ''
+    type: ''
     features: []
   ctas:
-    - template: cta
+    - title: Apply
+      href: 'https://my.ethswarm.org/uploads'
       arrow: true
-      type: default
-      title: Apply
-      href: "https://my.ethswarm.org/uploads"
       background: white
+      type: default
       back: false
-  code: ""
-  tagline: Sustainable Development Goals
-_template: homepage
+      template: cta
+  code: ''
 ---
+
