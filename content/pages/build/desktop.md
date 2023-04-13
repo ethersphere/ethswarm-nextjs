@@ -33,7 +33,7 @@ sections:
           monitoring and bug reporting software which automatically collects data in
           order to help improve the software.
       items:
-        - template: section-item
+        - template: section_item
           contentWidth: full
           features:
             type: default

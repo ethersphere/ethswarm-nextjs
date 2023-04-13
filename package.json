@@ -3,9 +3,9 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
     "export": "next export",
     "lint": "next lint",
     "build-icons": "node ./scripts/build-icons.js"
@@ -14,6 +14,7 @@
     "@fontsource/inter": "^4.5.15",
     "@fontsource/space-grotesk": "^4.5.13",
     "@headlessui/react": "^1.7.12",
+    "@tinacms/cli": "^1.5.5",
     "framer-motion": "^10.0.1",
     "gray-matter": "^4.0.3",
     "next": "13.3.0",
@@ -22,7 +23,8 @@
     "react-dom": "18.2.0",
     "remark": "^14.0.2",
     "remark-external-links": "^9.0.1",
-    "remark-html": "^15.0.2"
+    "remark-html": "^15.0.2",
+    "tinacms": "^1.4.5"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
