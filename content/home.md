@@ -14,7 +14,7 @@ news:
     copy: >-
       This upgrade is a significant milestone in the development of the Swarm
       network, as it enables Swarm node operators to earn rewards in exchange
-      for contributing their storage resources to the network.
+      for contributing their storage resources to the network
     cta:
       title: Read more
       href: >-
@@ -207,4 +207,5 @@ upload:
       template: cta
   code: ''
 ---
+
 
