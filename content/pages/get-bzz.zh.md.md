@@ -50,7 +50,7 @@ sections:
         columns: two
         features:
         - template: feature
-          title: Decentralized exchanges (DEXs)
+          title: 去中心化交易所 (DEXs)
           exchanges: true
           content: Publishers in Swarm use BZZ to write data on Swarm and have it
             stored over time.
@@ -60,11 +60,11 @@ sections:
             price-tracking websites such as [Coingecko](https://www.coingecko.com/en/coins/swarm#markets)
             or [Coinmarketcap](https://coinmarketcap.com/currencies/ethereum-swarm/markets/)
             under their ‘markets’ tab.
-      title: How to acquire BZZ
+      title: 如何获得BZZ。
       content: |-
-        There are many ways to acquire BZZ token, either on custodial centralised exchanges where you can trade traditional currencies andcryptocurrency, or through decentralised exchanges and protocols where you can trade between cryptocurrencies.
+        有许多途径可以获得BZZ代币：可以在托管的中心化交易所上，您可以交易传统货币和加密货币，或者通过去中心化交易所和协议，在不同的加密货币之间进行交易。
 
-        *Note: All of these mechanisms entail risks: please get informed on best practices to stay safe and have a good experience with tokens and exchanges prior to using them*.
+        注意：所有这些机制都存在风险，请在使用之前了解关于令牌和交易所的最佳实践，以确保安全并获得良好的体验。
       image: ''
       ctas: []
     - template: section-item
