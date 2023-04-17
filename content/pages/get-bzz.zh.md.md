@@ -114,20 +114,15 @@ sections:
           title: 您可以使用BZZ在Swarm网络上存储哪些内容？
           content: 您可以使用BZZ在Swarm网络上存储各种类型的数据，包括网页、NFTs、存档、数据存储、音乐流媒体服务等等。
         - template: feature
-          title: Will I receive BZZ if I run a full node?
-          content: The storage incentives system compensates storage providers through
-            a redistribution mechanism, depending on the amount of BZZ tokens they
-            stake, and whether or not they are selected for redistribution. Read more
-            [here](https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb).
+          title: 如果我运行一个完整节点，我会收到BZZ吗？
+          content: 存储激励系统通过重新分配机制对存储提供者进行补偿，具体取决于他们抵押的BZZ代币数量以及是否被选中进行重新分配。[(link)](https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb)
         - template: feature
           cta:
             arrow: true
             type: default
-          title: Where is the BZZ token present?
-          content: BZZ is an ERC-20 token created on the Ethereum network and can
-            be bridged to other networks through [Omnichain](https://omnibridge.gnosischain.com/bridge)
-            for Gnosis Chain or [Celer Network](https://cbridge.celer.network/1/56/BZZ)
-            for Binance Smart Chain.
+          title: BZZ代币存在于哪里？
+          content: BZZ是在以太坊网络上创建的ERC-20代币，可以通过Omnichain用于[Gnosis Chain](https://omnibridge.gnosischain.com/bridge)或通过[Celer
+            Network](https://cbridge.celer.network/1/56/BZZ)用于币安智能链进行桥接。
       title: FAQ
       content: ''
       image: ''
