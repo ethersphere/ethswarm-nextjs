@@ -7,10 +7,9 @@ sections:
   data:
     disclaimer: true
     hero:
-      title: BZZ token
+      title: BZZ代币
       id: bzz
-      content: Swarm’s native token provides users with access to data relay and storage
-        services, and compensates node operators for these services.
+      content: Swarm的原生代币提供用户访问数据中继和存储服务的权限，并为节点运营者提供相应的报酬。
       background:
         src: "/assets/hero/bzz.png"
         alt: ''
