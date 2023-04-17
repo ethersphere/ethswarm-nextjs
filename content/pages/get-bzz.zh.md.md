@@ -54,11 +54,8 @@ sections:
           exchanges: true
           content: ''
         - template: feature
-          title: Centralised exchanges (CEXs)
-          content: An updated list of centralised exchanges can be found listed on
-            price-tracking websites such as [Coingecko](https://www.coingecko.com/en/coins/swarm#markets)
-            or [Coinmarketcap](https://coinmarketcap.com/currencies/ethereum-swarm/markets/)
-            under their ‘markets’ tab.
+          title: 集中式交易所 (CEXs)
+          content: 在价格追踪网站（如[Coingecko](https://www.coingecko.com/en/coins/swarm#markets)或[Coinmarketcap](https://coinmarketcap.com/currencies/ethereum-swarm/markets/)）的“市场”选项卡下可以找到最新的集中式交易所列表。
       title: 如何获得BZZ。
       content: |-
         有许多途径可以获得BZZ代币：可以在托管的中心化交易所上，您可以交易传统货币和加密货币，或者通过去中心化交易所和协议，在不同的加密货币之间进行交易。
