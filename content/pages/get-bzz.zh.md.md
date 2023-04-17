@@ -108,16 +108,11 @@ sections:
         columns: two
         features:
         - template: feature
-          title: Is the token supply deflationary like Bitcoin?
-          content: The token supply is not fixed and can increase or decrease via
-            the bonding curve. Put simply, if the supply goes up by one token, so
-            does its price in the bonding curve contract, and vice versa. This makes
-            BZZ neither inflationary nor deflationary. You can read about Swarm’s
-            supply and bonding curve in detail [here](https://medium.com/ethereum-swarm/swarm-and-its-bzzaar-bonding-curve-ac2fa9889914).
+          title: 数字货币BZZ的供应量是否像比特币一样通缩？
+          content: 数字货币BZZ的供应量并不是固定的，而是可以通过债券曲线（bonding curve）增加或减少。简而言之，如果供应量增加了一个代币，那么其在债券曲线合约中的价格也会相应增加，反之亦然。因此，BZZ既不是通胀型货币，也不是通缩型货币。您可以在这里详细了解Swarm的供应量和债券曲线机制。[(link)](https://medium.com/ethereum-swarm/swarm-and-its-bzzaar-bonding-curve-ac2fa9889914)
         - template: feature
-          title: What can I store with BZZ?
-          content: You can store data, from webpages, NFTs, archives, to data stores,
-            music streaming services and much more.
+          title: 您可以使用BZZ在Swarm网络上存储哪些内容？
+          content: 您可以使用BZZ在Swarm网络上存储各种类型的数据，包括网页、NFTs、存档、数据存储、音乐流媒体服务等等。
         - template: feature
           title: Will I receive BZZ if I run a full node?
           content: The storage incentives system compensates storage providers through
