@@ -70,34 +70,33 @@ sections:
         columns: three
         features:
         - template: feature
-          title: Run a full node
-          content: Suport the network and [earn rewards](https://blog.ethswarm.org/foundation/2022/the-mechanics-of-swarm-networks-storage-incentives/)
-            for your services.
+          title: 运行一个完整的节点
+          content: 支持网络并为您的服务赚取奖励。
           cta:
             arrow: true
-            background: []
+            background: ''
             type: default
-            title: Run
+            title: 运行。
             href: "/build/run-a-full-node"
         - template: feature
-          title: Swarm Desktop
-          content: Direct peer-to-peer access to the network.
+          title: Swarm桌面版
+          content: 直接的点对点访问网络。
           cta:
             arrow: true
-            background: []
+            background: ''
             type: default
-            title: Install
+            title: 安装
             href: "/build/desktop"
         - template: feature
           title: Awesome Swarm
-          content: Free and open source projects related to Swarm and its ecosystem.
+          content: 与Swarm及其生态系统相关的免费和开源项目。
           cta:
             arrow: true
-            background: []
+            background: ''
             type: default
-            title: Browse
+            title: 浏览
             href: https://github.com/ethersphere/awesome-swarm
-      title: How to use BZZ
+      title: 如何使用BZZ代币：
       content: ''
       image: ''
       ctas: []
