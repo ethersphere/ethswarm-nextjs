@@ -11,14 +11,14 @@ sections:
       id: bzz
       content: Swarm的原生代币提供用户访问数据中继和存储服务的权限，并为节点运营者提供相应的报酬。
       background:
-        src: "/assets/hero/bzz.png"
+        src: ''
         alt: ''
         position: ''
       ctas:
       - template: cta
         arrow: true
         type: default
-        title: Get bzz
+        title: 获取BZZ
         href: "#how-to-acquire-bzz"
         background: orange
         back: false
