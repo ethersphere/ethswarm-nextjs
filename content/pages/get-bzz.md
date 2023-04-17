@@ -55,8 +55,7 @@ sections:
         - template: feature
           title: Decentralized exchanges (DEXs)
           exchanges: true
-          content: Publishers in Swarm use BZZ to write data on Swarm and have it
-            stored over time.
+          content: Open markets connecting buyers and sellers through smart contracts.
         - template: feature
           title: Centralised exchanges (CEXs)
           content: An updated list of centralised exchanges can be found listed on
