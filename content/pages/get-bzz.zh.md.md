@@ -31,16 +31,14 @@ sections:
         columns: two
         features:
         - template: feature
-          title: Write and persist data
-          content: Publishers in Swarm use BZZ to write data on Swarm and have it
-            stored over time.
+          title: 编写和持久化数据
+          content: 在Swarm网络中，发布者使用BZZ代币来编写数据并将其存储在Swarm网络中以便长期保存。
           bzzPrice: true
         - template: feature
-          title: Participate as a storage provider
-          content: Receive BZZ through Swarm’s redistribution mechanism for providing
-            storage services.
+          title: 作为存储提供者参与。
+          content: 通过Swarm的重新分配机制，作为存储服务提供者接收BZZ。
           bzzPot: true
-      title: Uses
+      title: 用途
       content: ''
       image: ''
       ctas: []
