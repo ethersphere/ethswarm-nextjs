@@ -52,8 +52,7 @@ sections:
         - template: feature
           title: 去中心化交易所 (DEXs)
           exchanges: true
-          content: Publishers in Swarm use BZZ to write data on Swarm and have it
-            stored over time.
+          content: ''
         - template: feature
           title: Centralised exchanges (CEXs)
           content: An updated list of centralised exchanges can be found listed on
