@@ -31,7 +31,7 @@ sections:
           position: ""
         footnote: ""
       items:
-        - template: section-item
+        - template: section_item
           contentWidth: full
           title: Incentivised P2P Storage
           content: |-

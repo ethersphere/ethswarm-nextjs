@@ -49,8 +49,8 @@ module.exports = {
         },
         yellow: {
           200: "#FFE2C0",
-          400: "#EB7000"
-        }
+          400: "#EB7000",
+        },
       },
       typography: {
         DEFAULT: {
@@ -68,9 +68,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/line-clamp"),
-    require("@tailwindcss/typography"),
-  ],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };
