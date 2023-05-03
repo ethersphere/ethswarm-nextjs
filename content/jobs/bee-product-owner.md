@@ -9,7 +9,6 @@ job:
     key-value stores and untraceable communication.
 meta:
   title: Bee Product Owner
-_template: job_post
 ---
 
 ### **About Swarm**
@@ -64,4 +63,4 @@ Swarm Foundation is committed to creating an inclusive environment for everyone.
 * Flexible working hours
 * We care about our swarm: Incentives through BZZ, Swarm’s token
 
-**To apply please send your resume and motivation letter to** [**talent@ethswarm.org**](talent@ethswarm.org)
+**To apply please send your resume and motivation letter to** **[talent@ethswarm.org](talent@ethswarm.org)**

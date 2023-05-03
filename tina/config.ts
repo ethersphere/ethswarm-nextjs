@@ -9,12 +9,16 @@ import {
 } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
+const branch =
+  process.env.HEAD ||
+  process.env.VERCEL_GIT_COMMIT_REF ||
+  process.env.TINA_BRANCH ||
+  "main";
 
 export default defineConfig({
   branch,
-  clientId: "e7e3847a-f67b-48dc-9d7f-fcfa3b8cfe1a", // Get this from tina.io
-  token: "e332431bbf7aec4afc82665e85b5eb17e4e72ffa", // Get this from tina.io
+  clientId: process.env.TINA_CLIENT_ID || "", // Get this from tina.io
+  token: process.env.TINA_TOKEN || "", // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
