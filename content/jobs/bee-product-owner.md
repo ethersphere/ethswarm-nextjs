@@ -1,15 +1,16 @@
 ---
 job:
   category:
-  - Bee
+    - Bee
   title: Bee Product Owner
-  description: Bee is a Swarm client implemented in Go. It’s the basic building block
-    for Swarm Network. Bee provides low level constructs for file storage, feeds,
+  description: >-
+    Bee is a Swarm client implemented in Go. It’s the basic building block for
+    Swarm Network. Bee provides low level constructs for file storage, feeds,
     key-value stores and untraceable communication.
 meta:
   title: Bee Product Owner
-
 ---
+
 ### **About Swarm**
 
 Swarm is a system of peer-to-peer networked nodes that create a decentralised storage and communication service. The system is economically self-sustaining due to a built-in incentive system enforced through smart contracts on the Ethereum blockchain.
@@ -62,4 +63,4 @@ Swarm Foundation is committed to creating an inclusive environment for everyone.
 * Flexible working hours
 * We care about our swarm: Incentives through BZZ, Swarm’s token
 
-**To apply please send your resume and motivation letter to** [**talent@ethswarm.org**](talent@ethswarm.org)
+**To apply please send your resume and motivation letter to** **[talent@ethswarm.org](talent@ethswarm.org)**
