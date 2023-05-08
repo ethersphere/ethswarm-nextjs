@@ -9,6 +9,7 @@ import { Meta } from "@/components/common";
 import ContentContainer from "@/components/sections/ContentContainer";
 import { getAllJobs } from "lib/jobs";
 import { getAllEvents } from "lib/events";
+import { Container } from "@/components/common";
 
 const Jobs: NextPage = ({ jobs, events }: any) => {
   return (
@@ -22,6 +23,12 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
 
         {/* @ts-ignore */}
         <SecondaryHero index={0} {...content.hero} />
+
+        {jobs && jobs.length === 0 && (
+          <div className="flex justify-center pb-8">
+            <Container>No positions available at this time.</Container>
+          </div>
+        )}
 
         {jobs && jobs.length > 0 && (
           <div className="relative z-10 flex flex-col items-center pb-24 space-y-16 lg:pb-40 md:space-y-32">
