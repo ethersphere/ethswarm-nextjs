@@ -49,23 +49,22 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – March 2023
+  - title: Monthly Development Update – April 2023
     category:
       - Development update
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-april-2023/
     copy: >-
-      Bee client is now version 1.13.0 and is bringing breaking changes. This
-      includes the upgrade of the go-libp2p, which uses a new format for the p2p
-      keys. The update will exclude nodes from storage incentives unless they
-      have enough balance to cover at least five storage-incentives-related
-      transactions.
+      In April, the Bee Track laid out the blueprint for the upcoming releases
+      of the Bee client to fix the issues uncovered in their investigation. The
+      localstore rewrite project is in its final phase before testing, which is
+      expected to begin in the coming weeks.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-march-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-april-2023/
       arrow: true
       background: transparent
       type: ''
@@ -207,5 +206,6 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
