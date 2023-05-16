@@ -25,25 +25,23 @@ news:
       back: false
     template: news_item
   - title: >-
-      Swarm commits 2 million BZZ to drive privacy, interoperability, and data
-      sovereignty
-    category:
-      - Ecosystem
-    readTime: '4'
-    image: /uploads/fds-blog.png
+      How to Publish a Website on Swarm Using the Swarm Desktop App: A
+      Step-by-Step Guide
+    readTime: '5'
+    image: /how-to_website.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
+      https://blog.ethswarm.org/foundation/2023/how-to-publish-a-website-on-swarm-using-the-swarm-desktop-app-a-step-by-step-guide/
     copy: >-
-      Following years of incubation, the Fair Data Society initiative graduated
-      and moved onto an independent path. With this, Swarm Foundation has
-      pledged 2 million BZZ in the coming 10 years, to champion support for
-      layer 2 projects that empower digital freedom, privacy, and
-      interoperability. The pledge was officially announced at the Fair Data
-      Society graduation event, ‘New Day’ on March 21st 2023.
+      TL;DR: This guide will walk you through the process of publishing a
+      website on Swarm using the Swarm Desktop App. You’ll learn how to install
+      the app, fund your account, upload your website, and connect an ENS domain
+      for a user-friendly experience. By following these steps, you’ll be able
+      to host a censorship-resistant website on decentralised storage and make
+      it easily accessible for users.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/swarm-commits-2-million-bzz-to-drive-privacy-interoperability-and-data-sovereignty/
+        https://blog.ethswarm.org/foundation/2023/how-to-publish-a-website-on-swarm-using-the-swarm-desktop-app-a-step-by-step-guide/
       arrow: true
       background: transparent
       type: ''
@@ -206,6 +204,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
