@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: '16'
       - name: Build
+        env:
+          TINA_BRANCH: ${{ secrets.TINA_BRANCH }}
+          TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: |
           npm ci
           npm run build
