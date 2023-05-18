@@ -106,7 +106,6 @@ sections:
             Fatemeh Fannizadeh, Member of the Board
             Edina Lovas, Member of the Board
             Alexis Roussel, Member of the Board
-            Attila Gazso, Member of the Board
           image: ""
           ctas: []
           code: ""
@@ -124,6 +123,7 @@ sections:
             Address:
             Swarm Foundation
             Place Numa-Droz 2
+            c/o Coworking Neuchâtel SARL
             2000 Neuchâtel
             Switzerland
 
