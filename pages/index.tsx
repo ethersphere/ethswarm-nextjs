@@ -20,6 +20,7 @@ import Bounties from "@/components/sections/Bounties";
 import { Meta } from "@/components/common";
 import { getAllEvents } from "lib/events";
 import { getHome } from "lib/home";
+import Summit from "@/components/sections/Summit";
 
 const Home: NextPage = (props: any) => {
   return (
@@ -103,14 +104,22 @@ const Home: NextPage = (props: any) => {
           features={props.home.grantees as Array<FeatureType>}
         />
 
-        <Millions
+        <Summit
+          tagline={content.summit.tagline}
+          title={content.summit.title}
+          content={content.summit.content}
+          // @ts-ignore
+          ctas={content.summit.ctas}
+        />
+
+        {/* <Millions
           tagline={content.millions.tagline}
           title={content.millions.title}
           content={content.millions.content}
           ctas={content.millions.ctas as Array<CtaType>}
           // @ts-ignore
           starts_in={content.millions.starts_in}
-        />
+        /> */}
 
         <Bounties
           tagline={content.bounties.tagline}
