@@ -43,6 +43,10 @@
   @apply px-2 mt-16 text-xl border-l border-current sm:px-4 md:text-2xl md:-mx-4;
 }
 
+.prose :where(strong):not(:where([class~="not-prose"] *)) {
+  @apply font-bold text-gray-100;
+}
+
 .prose.md\:prose-lg
   :where(.prose > :first-child):not(:where([class~="not-prose"] *)) {
   @apply mt-0;

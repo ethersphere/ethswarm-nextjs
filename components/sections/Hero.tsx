@@ -14,7 +14,11 @@ type HeroProps = {
   background: ImageType;
   content: string;
   ctas?: Array<CtaType>;
-  quote: string;
+  quote: {
+    title: string;
+    href?: string;
+    background_gradient?: boolean;
+  };
   cta?: CtaType;
 };
 
