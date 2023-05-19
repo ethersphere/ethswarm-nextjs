@@ -50,7 +50,7 @@ const Summit: React.FC<SummitProps> = ({
       <img
         src="/assets/summit.png"
         alt="Summit Graphic"
-        className="object-contain object-right w-screen -mt-40 pointer-events-none max-h-96 md:hidden"
+        className="object-contain w-screen -mt-40 pointer-events-none max-h-96 md:hidden"
       />
     </section>
   );
