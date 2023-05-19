@@ -25,7 +25,7 @@ const Summit: React.FC<SummitProps> = ({
       className="relative flex flex-col items-center overflow-hidden text-gray-100 bg-gray-800"
       id="summit"
     >
-      <Container className="relative flex flex-col h-full pt-20 pb-16 md:pb-44 md:pt-40">
+      <Container className="relative flex flex-col min-h-full !h-auto pt-20 pb-16 md:pb-44 md:pt-40">
         <div className="sm:w-2/3">
           <Tagline copy={tagline} />
 
@@ -41,7 +41,6 @@ const Summit: React.FC<SummitProps> = ({
         </div>
 
         <img
-          loading="lazy"
           src="/assets/summit.png"
           alt="Summit Graphic"
           className="absolute bottom-0 right-0 hidden pointer-events-none md:block md:top-8 md:h-full h-1/2 xl:-right-16 2xl:right-0"
@@ -49,7 +48,6 @@ const Summit: React.FC<SummitProps> = ({
       </Container>
 
       <img
-        loading="lazy"
         src="/assets/summit.png"
         alt="Summit Graphic"
         className="object-contain object-right w-screen -mt-40 pointer-events-none max-h-96 md:hidden"
