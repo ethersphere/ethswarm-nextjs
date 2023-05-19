@@ -28,7 +28,7 @@ news:
       How to Publish a Website on Swarm Using the Swarm Desktop App: A
       Step-by-Step Guide
     readTime: '5'
-    image: /How-to-w.png
+    image: /blog_swarm-howto.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/how-to-publish-a-website-on-swarm-using-the-swarm-desktop-app-a-step-by-step-guide/
     copy: >-
@@ -204,6 +204,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
