@@ -5,6 +5,8 @@ job:
     This is not the usual accountant job. This is your opportunity to implement
     your innovative ideas in the subject matter. Stretch your creativity and
     have an impact for the social good!
+meta:
+  title: Accounting Consultant
 ---
 
 \### The team
@@ -13,7 +15,7 @@ Swarm Foundation (SF) is a non-profit organization established in 2021 in Switze
 
 Swarm Foundation empowers digital freedom by making data unstoppable which reclaims privacy for the individual, and brings trust into the data economy, in a decentralised, open, trustless, censorship-resistant, and game-changing way.
 
-\### The consultancy 
+\### The consultancy
 
 This is not the usual accountant job. This is your opportunity to implement your innovative ideas in the subject matter. Stretch your creativity and have an impact for the social good!
 
@@ -81,7 +83,7 @@ The ideal candidate is proactive and approaches work with a solution-oriented mi
 
 \* Resilient while working in a fully remote capacity
 
-\* Shows creativity and innovation in the professional context related to the work 
+\* Shows creativity and innovation in the professional context related to the work
 
 \* Flexibility, adaptation, open-mindedness, constructive approach, good vibes, balanced personality
 
