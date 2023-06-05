@@ -1,5 +1,7 @@
 ---
 job:
+  category:
+    - Other
   title: Accounting Consultant
   description: >-
     This is not the usual accountant job. This is your opportunity to implement
