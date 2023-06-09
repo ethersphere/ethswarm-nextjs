@@ -2,7 +2,7 @@
 job:
   category:
     - Other
-  title: Accounting Consultant
+  title: Accounting Consultant - part-time job
   description: >-
     This is not the usual accountant job. This is your opportunity to implement
     your innovative ideas in the subject matter. Stretch your creativity and
