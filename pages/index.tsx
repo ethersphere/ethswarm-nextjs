@@ -38,6 +38,9 @@ const Home: NextPage = (props: any) => {
           content={content.summit.content}
           // @ts-ignore
           ctas={content.summit.ctas}
+          quote={content.hero.quote}
+          //  @ts-ignore
+          cta={content.hero.cta}
         />
 
         <Hero
@@ -120,14 +123,14 @@ const Home: NextPage = (props: any) => {
           // @ts-ignore
           starts_in={content.millions.starts_in}
         /> */}
-
+        {/*
         <Bounties
           tagline={content.bounties.tagline}
           title={content.bounties.title}
           content={content.bounties.content}
           ctas={content.bounties.ctas as Array<CtaType>}
           features={props.home.bounties as Array<FeatureType>}
-        />
+        /> */}
 
         <Connect events={props.events} />
         <Footer />
