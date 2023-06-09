@@ -32,6 +32,14 @@ const Home: NextPage = (props: any) => {
 
         <Navigation />
 
+        <Summit
+          tagline={content.summit.tagline}
+          title={content.summit.title}
+          content={content.summit.content}
+          // @ts-ignore
+          ctas={content.summit.ctas}
+        />
+
         <Hero
           title={content.hero.title}
           background={content.hero.background}
@@ -102,14 +110,6 @@ const Home: NextPage = (props: any) => {
           content={content.builders.content}
           ctas={content.builders.ctas as Array<CtaType>}
           features={props.home.grantees as Array<FeatureType>}
-        />
-
-        <Summit
-          tagline={content.summit.tagline}
-          title={content.summit.title}
-          content={content.summit.content}
-          // @ts-ignore
-          ctas={content.summit.ctas}
         />
 
         {/* <Millions
