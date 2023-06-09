@@ -32,6 +32,17 @@ const Home: NextPage = (props: any) => {
 
         <Navigation />
 
+        <Summit
+          tagline={content.summit.tagline}
+          title={content.summit.title}
+          content={content.summit.content}
+          // @ts-ignore
+          ctas={content.summit.ctas}
+          quote={content.hero.quote}
+          //  @ts-ignore
+          cta={content.hero.cta}
+        />
+
         <Hero
           title={content.hero.title}
           background={content.hero.background}
@@ -104,14 +115,6 @@ const Home: NextPage = (props: any) => {
           features={props.home.grantees as Array<FeatureType>}
         />
 
-        <Summit
-          tagline={content.summit.tagline}
-          title={content.summit.title}
-          content={content.summit.content}
-          // @ts-ignore
-          ctas={content.summit.ctas}
-        />
-
         {/* <Millions
           tagline={content.millions.tagline}
           title={content.millions.title}
@@ -120,14 +123,14 @@ const Home: NextPage = (props: any) => {
           // @ts-ignore
           starts_in={content.millions.starts_in}
         /> */}
-
+        {/*
         <Bounties
           tagline={content.bounties.tagline}
           title={content.bounties.title}
           content={content.bounties.content}
           ctas={content.bounties.ctas as Array<CtaType>}
           features={props.home.bounties as Array<FeatureType>}
-        />
+        /> */}
 
         <Connect events={props.events} />
         <Footer />
