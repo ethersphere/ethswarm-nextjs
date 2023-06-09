@@ -8,7 +8,7 @@ job:
     your innovative ideas in the subject matter. Stretch your creativity and
     have an impact for the social good!
 meta:
-  title: Accounting Consultant
+  title: Accounting Consultant - part-time job
 ---
 
 ## The team
