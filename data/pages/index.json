@@ -24,7 +24,8 @@
     ],
     "quote": {
       "title": "Swarm Summit, 2023 - 21-23 June",
-      "background_gradient": true
+      "background_gradient": true,
+      "href": "https://summit.ethswarm.org/swarm-summit-2023/talk/#"
     }
   },
   "unstoppable": {
@@ -368,7 +369,15 @@
     "tagline": " ",
     "title": "Swarm Virtual Summit 21-23 June",
     "content": "The Swarm Virtual Summit brings together the Swarm Foundation team members and the Swarm Community in the virtual space this time. These three days will be packed with talks, product demos, and new ideas.",
-    "ctas": []
+    "ctas": [
+      {
+        "href": "https://summit.ethswarm.org/swarm-summit-2023/talk/#",
+        "background": "orange",
+        "color": "black",
+        "arrow": true,
+        "title": "View program"
+      }
+    ]
   },
   "millions": {
     "tagline": "BUILDING A BRIGHTER, UNSTOPPABLE WEBZ",
