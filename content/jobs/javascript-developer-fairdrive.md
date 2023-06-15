@@ -65,4 +65,4 @@ FairOS-dfs can be used along with Swarm to enable web 3.0 Dapps. Following are s
 * Flexible working hours
 * We care about our swarm: Incentives through BZZ, Swarm’s token
 
-Should you be interested in the position, please send your CV to **[talent@ethswarm.org](mailto:talent@ethswarm.org)**.
+Should you be interested in the position, please send your CV to [talent@ethswarm.org](mailto:talent@ethswarm.org).
