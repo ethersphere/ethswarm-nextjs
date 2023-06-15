@@ -12,7 +12,7 @@ meta:
   title: JavaScript Developer for Fairdrive protocol - Jobs
 ---
 
-**Please note, this is a pipeline builder announcement, preparing for the upcoming demand. Feel free to submit your application so we can get back to you as soon as the role is open.**
+Please note, this is a pipeline builder announcement, preparing for the upcoming demand. Feel free to submit your application so we can get back to you as soon as the role is open.
 
 Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service.
 
@@ -36,7 +36,7 @@ FairOS-dfs can be used along with Swarm to enable web 3.0 Dapps. Following are s
 * Distributed Application data store (ex: email app, photo app, content management system, code hub, video app etc.)
 * Data sharing with everyone over the internet (Wikipedia, Open Street Map, Ethereum transactions etc.)
 
-**[Fairdrive protocol](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md)** is aimed to be a set of specifications and reference implementations with 6 milestones. The first 5 are about creating a web3 ecosystem and utilizing the potential of Ethereum Swarm. The last planned step is about tackling integrations with other P2P and web3 systems.
+[Fairdrive protocol](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md) is aimed to be a set of specifications and reference implementations with 6 milestones. The first 5 are about creating a web3 ecosystem and utilizing the potential of Ethereum Swarm. The last planned step is about tackling integrations with other P2P and web3 systems.
 
 ## Your role
 
