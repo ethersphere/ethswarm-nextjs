@@ -3,10 +3,11 @@ job:
   category:
     - Fair Data Society project
   title: Browser extension developer
-  description:
-    Fair Data Society project is looking for a browser extension developer.
-    For this role, it's required you have proficiency in developing browser extensions,
-    knowledgeable about Swarm and experience in writing technical documentation.
+  description: >-
+    Fair Data Society project is looking for a browser extension developer. For
+    this role, it's required you have proficiency in developing browser
+    extensions, knowledgeable about Swarm and experience in writing technical
+    documentation.
 meta:
   title: Browser extension developer - Jobs
 ---
@@ -21,32 +22,32 @@ Swarm could shape the future towards a self-sovereign global society and permiss
 
 ## Your role
 
-- Implementing Browser <-> Dapp interaction capabilities for:
-  - Authentication
-  - Authorisation
-  - Data economics
-  - Addressing web3 resources
-  - Content verifications
-- Swarm extensions implementation
-- web2 compatibility (research)
-- Firefox compatibility
-- Feed and immutable addressing
-- Swarm in browser
-- P2P connectivity
-- Kademlia routing, etc.
+* Implementing Browser \<-> Dapp interaction capabilities for:
+  * Authentication
+  * Authorisation
+  * Data economics
+  * Addressing web3 resources
+  * Content verifications
+* Swarm extensions implementation
+* web2 compatibility (research)
+* Firefox compatibility
+* Feed and immutable addressing
+* Swarm in browser
+* P2P connectivity
+* Kademlia routing, etc.
 
 ## Skills and requirements:
 
-- Proficiency in developing browser extensions
-- Knowledgeable about Swarm
-- Experience in writing technical documentation
-- Ideally, you have formal computer science background
+* Proficiency in developing browser extensions
+* Knowledgeable about Swarm
+* Experience in writing technical documentation
+* Ideally, you have formal computer science background
 
 ## Swarm offers/Team perks:
 
-- An open, flat and transparent work environment
-- 100% remote friendly
-- Flexible working hours
-- We care about our swarm: Incentives through BZZ, Swarm’s token
+* An open, flat and transparent work environment
+* 100% remote friendly
+* Flexible working hours
+* We care about our swarm: Incentives through BZZ, Swarm’s token
 
 Should you be interested in the position, please send your CV to [talent@ethswarm.org](mailto:talent@ethswarm.org).
