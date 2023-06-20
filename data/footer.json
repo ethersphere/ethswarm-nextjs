@@ -51,7 +51,7 @@
       "title": "Resources",
       "items": [
         {
-          "title": "Why & How",
+          "title": "Why",
           "href": "/why"
         },
         {
@@ -69,6 +69,10 @@
         {
           "title": "Roadmap",
           "href": "/roadmap"
+        },
+        {
+          "title": "Contribute",
+          "href": "/contribute"
         },
         {
           "title": "Blog",
