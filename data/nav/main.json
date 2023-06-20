@@ -32,7 +32,7 @@
       "children": [
         {
           "href": "/why",
-          "title": "Why & How"
+          "title": "Why"
         },
         {
           "href": "https://docs.ethswarm.org/docs/",
@@ -49,6 +49,10 @@
         {
           "href": "/roadmap",
           "title": "Roadmap"
+        },
+        {
+          "href": "/contribute",
+          "title": "Contribute"
         }
       ]
     },
