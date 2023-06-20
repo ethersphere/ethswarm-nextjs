@@ -19,8 +19,8 @@ sections:
           - template: cta
             arrow: true
             type: default
-            title: Link
-            href: "#"
+            title: SWIP repository
+            href: "https://github.com/ethersphere/SWIPs/"
             background: orange
             back: false
         footnote: ""
@@ -36,43 +36,43 @@ sections:
           image: ""
           ctas: []
           code: ""
-        - template: section_item
-          contentWidth: full
-          features:
-            type: default
-            columns: three
-            features:
-              - template: feature
-                title: Lorem Ipsum
-                exchanges: false
-                content: Sit cillum ut cillum magna velit ipsum minim eu pariatur sint velit.
-                cta:
-                  arrow: true
-                  background: []
-                  type: default
-                  title: More
-                  href: "#"
-              - template: feature
-                title: Lorem Ipsum
-                content: Sit cillum ut cillum magna velit ipsum minim eu pariatur sint velit.
-                cta:
-                  arrow: true
-                  background: []
-                  type: default
-                  title: More
-                  href: "#"
-              - template: feature
-                title: Lorem Ipsum
-                content: Sit cillum ut cillum magna velit ipsum minim eu pariatur sint velit.
-                cta:
-                  arrow: true
-                  background: []
-                  type: default
-                  title: More
-                  href: "#"
-          title: SWIP list
-          content: |-
-            Find a list of contributions below.
-          image: ""
-          ctas: []
+        # - template: section_item
+        #   contentWidth: full
+        #   features:
+        #     type: default
+        #     columns: three
+        #     features:
+        #       - template: feature
+        #         title: Lorem Ipsum
+        #         exchanges: false
+        #         content: Sit cillum ut cillum magna velit ipsum minim eu pariatur sint velit.
+        #         cta:
+        #           arrow: true
+        #           background: []
+        #           type: default
+        #           title: More
+        #           href: "#"
+        #       - template: feature
+        #         title: Lorem Ipsum
+        #         content: Sit cillum ut cillum magna velit ipsum minim eu pariatur sint velit.
+        #         cta:
+        #           arrow: true
+        #           background: []
+        #           type: default
+        #           title: More
+        #           href: "#"
+        #       - template: feature
+        #         title: Lorem Ipsum
+        #         content: Sit cillum ut cillum magna velit ipsum minim eu pariatur sint velit.
+        #         cta:
+        #           arrow: true
+        #           background: []
+        #           type: default
+        #           title: More
+        #           href: "#"
+        #   title: SWIP list
+        #   content: |-
+        #     Find a list of contributions below.
+        #   image: ""
+        #   ctas: []
 ---
