@@ -27,7 +27,10 @@ sections:
       items:
         - template: section_item
           contentWidth: full
-          features: []
+          features:
+            columns: ""
+            type: default
+            features: []
           title: Contribute through SWIPs
           content: |-
             Swarm Improvement Proposals (SWIPs) describe standards for the Swarm platform, including core protocol specifications, client APIs, and contract standards. Interested parties can follow the the SWIP process to submit their specification proposals on said topics. It is best to first test the ideas for proposals with the rest of the Swarm community on the [Swarm Discord](https://discord.ethswarm.org) channels, followed up by formalising them in the [SWIP repository](https://github.com/ethersphere/SWIPs/).
