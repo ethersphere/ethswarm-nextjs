@@ -107,7 +107,7 @@ sections:
         - template: section_item
           contentWidth: full
           title: Layer2 tooling through ecosystem initiatives
-          content: >-
+          content: |-
             Below are several ecosystem-based projects that enable faster
             development while promoting data interoperability and sovereignty.
             The Swarm Foundation is pleased to support the projects presented,
@@ -116,8 +116,8 @@ sections:
 
             All projects are in an intensive development phase, but
             contributions are more than welcome. Additionally, contributions to
-            the projects listed below can be supported through [**Swarm
-            grants**](https://my.ethswarm.org/grants).
+            the projects listed below can be supported through [Swarm
+            grants](https://my.ethswarm.org/grants).
           features:
             columns: three
             features:
