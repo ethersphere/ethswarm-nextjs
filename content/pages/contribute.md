@@ -12,7 +12,10 @@ sections:
         content:
           Swarm Improvement Proposals (SWIPs) describe standards for the Swarm platform,
           including core protocol specifications, client APIs, and contract standards.
-        src: "/assets/hero/bzz.png"
+        background:
+          src: /assets/hero/contribute.png
+          alt: ""
+          position: ""
         alt: ""
         position: ""
         ctas:

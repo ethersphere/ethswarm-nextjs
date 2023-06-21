@@ -371,18 +371,18 @@
     "content": "The Swarm Virtual Summit brings together the Swarm Foundation team members and the Swarm Community in the virtual space this time. These three days will be packed with talks, product demos, and new ideas.",
     "ctas": [
       {
-        "href": "https://swarm.streameth.org/",
+        "href": "https://swarm.streameth.org/stage/main",
         "background": "orange",
         "color": "black",
         "arrow": true,
-        "title": "Program"
+        "title": "Live Stream"
       },
       {
-        "href": "https://swarm.streameth.org/stage/main",
+        "href": "https://swarm.streameth.org/",
         "background": "transparent",
         "color": "gray",
         "arrow": true,
-        "title": "Live Stream"
+        "title": "Program"
       }
     ]
   },
