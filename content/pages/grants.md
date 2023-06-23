@@ -19,13 +19,6 @@ sections:
             type: default
             back: false
             template: cta
-          - title: Gitcoin Bounties
-            href: 'https://gitcoin.co/fairdatasociety'
-            arrow: true
-            background: transparent
-            type: default
-            back: false
-            template: cta
         background:
           src: /assets/hero/impact.png
           alt: ''
@@ -487,5 +480,6 @@ sections:
       disclaimer: false
     template: section
 ---
+
 
 
