@@ -13,7 +13,7 @@ sections:
           ecosystem with tooling and infrastructure.
         ctas:
           - title: Apply for a grant
-            href: 'https://my.ethswarm.org/swarm-odyssey-grants-wave-closed'
+            href: 'https://grants.ethswarm.org/'
             arrow: true
             background: orange
             type: default
@@ -487,4 +487,5 @@ sections:
       disclaimer: false
     template: section
 ---
+
 
