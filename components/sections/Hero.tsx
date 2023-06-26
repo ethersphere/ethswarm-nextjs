@@ -31,8 +31,7 @@ const Hero: React.FC<HeroProps> = ({
   cta,
 }) => {
   return (
-    // Removed h-screen from className of section, since it was moved to the 2nd place
-    <section className="relative flex flex-col items-center h-full overflow-hidden text-gray-100 bg-gray-800">
+    <section className="relative flex flex-col items-center h-screen overflow-hidden text-gray-100 bg-gray-800">
       <div className="absolute inset-0 flex items-start justify-end w-full h-full overflow-hidden pointer-events-none">
         <img
           src={background.src}
@@ -54,7 +53,7 @@ const Hero: React.FC<HeroProps> = ({
         <ButtonGroup ctas={ctas} className="my-4" />
       </Container>
 
-      {/* {cta && cta.title && cta.href ? (
+      {cta && cta.title && cta.href ? (
         <div className="flex items-center justify-center w-full px-6 py-1 font-semibold tracking-wider text-center text-gray-100 bg-gray-500 sm:text-lg sm:px-8 sm:py-1 font-display">
           <RegularLink href={cta.href} className="flex items-center py-3 group">
             <span>{cta.title}</span>
@@ -66,7 +65,7 @@ const Hero: React.FC<HeroProps> = ({
         </div>
       ) : (
         <Quote quote={quote} />
-      )} */}
+      )}
     </section>
   );
 };
