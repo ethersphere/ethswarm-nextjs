@@ -23,9 +23,7 @@
       }
     ],
     "quote": {
-      "title": "Swarm Summit, 2023 - 21-23 June",
-      "background_gradient": true,
-      "href": "https://swarm.streameth.org/"
+      "title": "“If Ethereum is the world’s CPU, Swarm is the world’s Hard Drive” - Viktor Tron"
     }
   },
   "unstoppable": {
@@ -362,27 +360,6 @@
         "color": "black",
         "arrow": true,
         "title": "See who’s building"
-      }
-    ]
-  },
-  "summit": {
-    "tagline": " ",
-    "title": "Swarm Virtual Summit 21-23 June",
-    "content": "The Swarm Virtual Summit brings together the Swarm Foundation team members and the Swarm Community in the virtual space this time. These three days will be packed with talks, product demos, and new ideas.",
-    "ctas": [
-      {
-        "href": "https://swarm.streameth.org/stage/main",
-        "background": "orange",
-        "color": "black",
-        "arrow": true,
-        "title": "Live Stream"
-      },
-      {
-        "href": "https://swarm.streameth.org/",
-        "background": "transparent",
-        "color": "gray",
-        "arrow": true,
-        "title": "Program"
       }
     ]
   },

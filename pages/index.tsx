@@ -32,17 +32,6 @@ const Home: NextPage = (props: any) => {
 
         <Navigation />
 
-        <Summit
-          tagline={content.summit.tagline}
-          title={content.summit.title}
-          content={content.summit.content}
-          // @ts-ignore
-          ctas={content.summit.ctas}
-          quote={content.hero.quote}
-          //  @ts-ignore
-          cta={content.hero.cta}
-        />
-
         <Hero
           title={content.hero.title}
           background={content.hero.background}
