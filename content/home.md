@@ -47,22 +47,23 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – April 2023
+  - title: Monthly Development Update – June 2023
     category:
       - Development update
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-april-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-june-2023/
     copy: >-
-      In April, the Bee Track laid out the blueprint for the upcoming releases
-      of the Bee client to fix the issues uncovered in their investigation. The
-      localstore rewrite project is in its final phase before testing, which is
-      expected to begin in the coming weeks.
+      June marked an important point in the Swarm network development. The new
+      localstore was released on private and public testnet and the new revised
+      and updated edition of the Book of Swarm is now available. The Research
+      Track has also made it much easier to find nodes that couldn’t enter the
+      storage incentives game and understand the circumstances.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-april-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-june-2023/
       arrow: true
       background: transparent
       type: ''
@@ -204,4 +205,5 @@ upload:
       template: cta
   code: ''
 ---
+
 
