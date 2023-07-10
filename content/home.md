@@ -6,7 +6,7 @@ news:
     category:
       - development
     readTime: '3'
-    image: /state-of-network-blog1.png
+    image: /state-of-network1.png
     href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/'
     copy: >-
       The last few months have been a transformative time for Swarm. Development
@@ -205,6 +205,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
