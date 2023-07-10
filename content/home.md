@@ -2,23 +2,26 @@
 meta:
   title: Digital Freedom Now
 news:
-  - title: >-
-      Postage Stamp Price Increases as Swarm Network Reaches Milestone of
-      Self-Sustainability
+  - title: State of the Network - June 2023
     category:
       - development
     readTime: '3'
-    image: /uploads/postage-stamps.png
-    href: >-
-      https://blog.ethswarm.org/foundation/2023/postage-stamp-price-increases-as-swarm-network-reaches-milestone-of-self-sustainability/
+    image: /state-of-network-blog1.png
+    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/'
     copy: >-
-      This upgrade is a significant milestone in the development of the Swarm
-      network, as it enables Swarm node operators to earn rewards in exchange
-      for contributing their storage resources to the network
+      The last few months have been a transformative time for Swarm. Development
+      is progressing on multiple fronts, and the hard work of the research and
+      development teams is reflected by network growth and performance
+      improvements. In this article we discuss the state of the network on
+      multiple fronts. We’ll kick things off with an overview of Swarm network
+      economics and network growth. In the next section we will tackle the issue
+      of network capacity, and to wrap things up we’ll take a closer look at how
+      the recent developments on the Bee client have led to advances in network
+      performance.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/postage-stamp-price-increases-as-swarm-network-reaches-milestone-of-self-sustainability/
+        https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/
       arrow: true
       background: transparent
       type: ''
@@ -202,6 +205,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
