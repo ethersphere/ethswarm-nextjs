@@ -24,24 +24,21 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: >-
-      How to Publish a Website on Swarm Using the Swarm Desktop App: A
-      Step-by-Step Guide
+  - title: Swarm Virtual Summit – Swarm is ready. Ready to grow.
     readTime: '5'
-    image: /blog_swarm-howto.png
+    image: /Swarm-summit.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/how-to-publish-a-website-on-swarm-using-the-swarm-desktop-app-a-step-by-step-guide/
+      https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
     copy: >-
-      TL;DR: This guide will walk you through the process of publishing a
-      website on Swarm using the Swarm Desktop App. You’ll learn how to install
-      the app, fund your account, upload your website, and connect an ENS domain
-      for a user-friendly experience. By following these steps, you’ll be able
-      to host a censorship-resistant website on decentralised storage and make
-      it easily accessible for users.
+      As the summer light symbolically vanquished the darkness on 21 June, Swarm
+      network kicked off its three-day Swarm Virtual Summit. This year, the
+      network’s global community gathered in the virtual world, giving all its
+      diverse members a chance to watch and listen to leading voices and keen
+      enthusiasts across different fields on the online stage.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/how-to-publish-a-website-on-swarm-using-the-swarm-desktop-app-a-step-by-step-guide/
+        https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
       arrow: true
       background: transparent
       type: ''
@@ -205,5 +202,6 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
