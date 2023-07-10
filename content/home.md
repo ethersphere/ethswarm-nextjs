@@ -29,7 +29,7 @@ news:
     template: news_item
   - title: Swarm Virtual Summit – Swarm is ready. Ready to grow.
     readTime: '5'
-    image: /Swarm-summit.png
+    image: ''
     href: >-
       https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
     copy: >-
@@ -205,6 +205,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
