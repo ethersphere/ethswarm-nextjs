@@ -6,7 +6,7 @@ news:
     category:
       - development
     readTime: '3'
-    image: /state-of-network-blog1.png
+    image: /state-of-network1.png
     href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/'
     copy: >-
       The last few months have been a transformative time for Swarm. Development
@@ -29,7 +29,7 @@ news:
     template: news_item
   - title: Swarm Virtual Summit – Swarm is ready. Ready to grow.
     readTime: '5'
-    image: /Swarm-summit.png
+    image: /svsf.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
     copy: >-
@@ -205,7 +205,3 @@ upload:
       template: cta
   code: ''
 ---
-
-
-
-
