@@ -10,6 +10,8 @@ job:
     Bee provides low level constructs for file storage, feeds, key-value stores
     and untraceable communication, through solid, well-tested code delivered in
     an agile manner.
+meta:
+  title: 'Software Engineer (Go, blockchain) - Jobs'
 ---
 
 Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service. 
@@ -22,7 +24,7 @@ Bee provides low level constructs for file storage, feeds, key-value stores and 
 
 Key technologies are Go, libp2p, protobuf, leveldb, and go-ethereum, as well as various cryptographic libraries. 
 
-Your role:
+## Your role:
 
 * Development of the reference Swarm implementation in Go aka Bee
 * Developing domain-specific knowledge and expertise in the Swarm incentive layer implementation
@@ -30,8 +32,7 @@ Your role:
 * Delivering well-tested code
 * Conducting thorough code reviews to your peers
 
-
-Your profile:
+## Your profile:
 
 * You have 3+ years of experience in GoLang
 * Desire to learn or familiarity with large-scale distributed systems
@@ -43,7 +44,7 @@ Your profile:
 * You are available around the CET timezone
 * You can express yourself fluently in English, both verbally and in writing
 
-We appreciate:
+## We appreciate:
 
 * You have a solid grasp of blockchain principles and application design considerations
 * Familiarity with infrastructure tools (we use k8s, helm)
@@ -54,14 +55,11 @@ We appreciate:
 * Knowledge of Solidity
 * A passionate open-source contributor
 
-We offer/Team perks:
+## We offer/Team perks:
 
 * An open, flat and transparent work environment
 * 100% remote friendly
 * Flexible working hours
 * We care about our swarm: Incentives through BZZ, our token
 
-
 Should you be interested in the position, please send your CV to talent@ethswarm.org
-
-
