@@ -1,5 +1,7 @@
 ---
 job:
+  category:
+    - Bee team
   title: 'Senior Software Engineer (Go, blockchain)'
   description: >-
     Bee is a Swarm client implemented in Go. It’s the basic building block for
