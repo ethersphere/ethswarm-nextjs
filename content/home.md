@@ -50,17 +50,18 @@ news:
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-june-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-august-2023/
     copy: >-
-      June marked an important point in the Swarm network development. The new
-      localstore was released on private and public testnet and the new revised
-      and updated edition of the Book of Swarm is now available. The Research
-      Track has also made it much easier to find nodes that couldn’t enter the
-      storage incentives game and understand the circumstances.
+      In the past month, the Swarm ecosystem has seen some significant
+      developments. The Bee Track team released the much anticipated localstore
+      rewrite and has already ironed out some of the notable issues in version
+      1.17.3. Meanwhile, anticipation builds for the release of Phase 4 items
+      and the price oracle, both set to further enhance the storage incentive
+      system.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-june-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-august-2023/
       arrow: true
       background: transparent
       type: ''
@@ -202,5 +203,6 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
