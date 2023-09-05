@@ -25,6 +25,8 @@ news:
       back: false
     template: news_item
   - title: 'The Hivemaker''s code: Introduction'
+    category:
+      - Ecosystem
     readTime: '5'
     image: /THC-introduction.png
     href: >-
@@ -200,6 +202,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
