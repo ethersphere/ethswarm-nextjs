@@ -24,21 +24,18 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Swarm Virtual Summit – Swarm is ready. Ready to grow.
+  - title: 'The Hivemaker''s code: Introduction'
     readTime: '5'
     image: /svsf.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
+      https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
     copy: >-
-      As the summer light symbolically vanquished the darkness on 21 June, Swarm
-      network kicked off its three-day Swarm Virtual Summit. This year, the
-      network’s global community gathered in the virtual world, giving all its
-      diverse members a chance to watch and listen to leading voices and keen
-      enthusiasts across different fields on the online stage.
+      The document you’re about to read will help you create a living digital
+      ecosystem.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
+        https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
       arrow: true
       background: transparent
       type: ''
@@ -203,6 +200,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
