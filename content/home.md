@@ -6,7 +6,7 @@ news:
     category:
       - development
     readTime: '3'
-    image: /state-of-network1.png
+    image: /bee-1-17-0.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
     copy: >-
@@ -202,4 +202,5 @@ upload:
       template: cta
   code: ''
 ---
+
 
