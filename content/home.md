@@ -28,7 +28,7 @@ news:
     category:
       - Ecosystem
     readTime: '5'
-    image: /THC-introduction.png
+    image: /Screenshot 2023-09-05 at 16.32.55.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
     copy: >-
@@ -202,6 +202,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
