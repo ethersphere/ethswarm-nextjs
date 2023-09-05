@@ -43,7 +43,7 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – June 2023
+  - title: Monthly Development Update – August 2023
     category:
       - Development update
     readTime: '3'
@@ -202,6 +202,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
