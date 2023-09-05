@@ -10,9 +10,9 @@ news:
     href: >-
       https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
     copy: >-
-      Bee 1.17 is almost here! This update represents a significant step forward
-      in terms of increased ease of code maintainability and reduced time for
-      new feature development. With the storage incentives rollout nearing
+      Bee 1.17 is here! This update represents a significant step forward in
+      terms of increased ease of code maintainability and reduced time for new
+      feature development. With the storage incentives rollout nearing
       completion, the team has in recent months focused on the completion of the
       1.17 update.
     cta:
@@ -202,6 +202,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
