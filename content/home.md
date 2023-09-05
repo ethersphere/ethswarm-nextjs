@@ -26,7 +26,7 @@ news:
     template: news_item
   - title: 'The Hivemaker''s code: Introduction'
     readTime: '5'
-    image: /svsf.png
+    image: /THC-introduction.png
     href: >-
       https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
     copy: >-
@@ -200,6 +200,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
