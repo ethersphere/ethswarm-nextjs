@@ -2,26 +2,23 @@
 meta:
   title: Digital Freedom Now
 news:
-  - title: State of the Network - June 2023
+  - title: Bee 1.17 Paves the Way for the Future of Swarm
     category:
       - development
     readTime: '3'
     image: /state-of-network1.png
-    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/'
+    href: >-
+      https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
     copy: >-
-      The last few months have been a transformative time for Swarm. Development
-      is progressing on multiple fronts, and the hard work of the research and
-      development teams is reflected by network growth and performance
-      improvements. In this article we discuss the state of the network on
-      multiple fronts. We’ll kick things off with an overview of Swarm network
-      economics and network growth. In the next section we will tackle the issue
-      of network capacity, and to wrap things up we’ll take a closer look at how
-      the recent developments on the Bee client have led to advances in network
-      performance.
+      Bee 1.17 is almost here! This update represents a significant step forward
+      in terms of increased ease of code maintainability and reduced time for
+      new feature development. With the storage incentives rollout nearing
+      completion, the team has in recent months focused on the completion of the
+      1.17 update.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/
+        https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
       arrow: true
       background: transparent
       type: ''
@@ -205,3 +202,4 @@ upload:
       template: cta
   code: ''
 ---
+
