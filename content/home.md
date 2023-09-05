@@ -2,68 +2,65 @@
 meta:
   title: Digital Freedom Now
 news:
-  - title: State of the Network - June 2023
+  - title: Bee 1.17 Paves the Way for the Future of Swarm
     category:
       - development
     readTime: '3'
-    image: /state-of-network1.png
-    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/'
-    copy: >-
-      The last few months have been a transformative time for Swarm. Development
-      is progressing on multiple fronts, and the hard work of the research and
-      development teams is reflected by network growth and performance
-      improvements. In this article we discuss the state of the network on
-      multiple fronts. We’ll kick things off with an overview of Swarm network
-      economics and network growth. In the next section we will tackle the issue
-      of network capacity, and to wrap things up we’ll take a closer look at how
-      the recent developments on the Bee client have led to advances in network
-      performance.
-    cta:
-      title: Read more
-      href: >-
-        https://blog.ethswarm.org/foundation/2023/state-of-the-network-june-2023/
-      arrow: true
-      background: transparent
-      type: ''
-      back: false
-    template: news_item
-  - title: Swarm Virtual Summit – Swarm is ready. Ready to grow.
-    readTime: '5'
-    image: /svsf.png
+    image: /bee-1-17-0.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
+      https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
     copy: >-
-      As the summer light symbolically vanquished the darkness on 21 June, Swarm
-      network kicked off its three-day Swarm Virtual Summit. This year, the
-      network’s global community gathered in the virtual world, giving all its
-      diverse members a chance to watch and listen to leading voices and keen
-      enthusiasts across different fields on the online stage.
+      Bee 1.17 is here! This update represents a significant step forward in
+      terms of increased ease of code maintainability and reduced time for new
+      feature development. With the storage incentives rollout nearing
+      completion, the team has in recent months focused on the completion of the
+      1.17 update.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/swarm-virtual-summit-swarm-is-ready.-ready-to-grow./
+        https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
       arrow: true
       background: transparent
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – June 2023
+  - title: 'The Hivemaker''s code: Introduction'
+    category:
+      - Ecosystem
+    readTime: '5'
+    image: /THC-introduction.png
+    href: >-
+      https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
+    copy: >-
+      The document you’re about to read will help you create a living digital
+      ecosystem.
+    cta:
+      title: Read more
+      href: >-
+        https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
+      arrow: true
+      background: transparent
+      type: ''
+      back: false
+    template: news_item
+  - title: Monthly Development Update – August 2023
     category:
       - Development update
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-june-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-august-2023/
     copy: >-
-      June marked an important point in the Swarm network development. The new
-      localstore was released on private and public testnet and the new revised
-      and updated edition of the Book of Swarm is now available. The Research
-      Track has also made it much easier to find nodes that couldn’t enter the
-      storage incentives game and understand the circumstances.
+      In the past month, the Swarm ecosystem has seen some significant
+      developments. The Bee Track team released the much anticipated localstore
+      rewrite and has already ironed out some of the notable issues in version
+      1.17.3. Meanwhile, anticipation builds for the release of Phase 4 items
+      and the price oracle, both set to further enhance the storage incentive
+      system.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-june-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-august-2023/
       arrow: true
       background: transparent
       type: ''
@@ -205,3 +202,11 @@ upload:
       template: cta
   code: ''
 ---
+
+
+
+
+
+
+
+
