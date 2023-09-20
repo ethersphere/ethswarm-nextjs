@@ -2,23 +2,22 @@
 meta:
   title: Digital Freedom Now
 news:
-  - title: Bee 1.17 Paves the Way for the Future of Swarm
+  - title: 'State of the Network: August'
     category:
       - development
     readTime: '3'
-    image: /General graphic.png
-    href: >-
-      https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
+    image: /state-of-network1.png
+    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-august/'
     copy: >-
-      Bee 1.17 is here! This update represents a significant step forward in
-      terms of increased ease of code maintainability and reduced time for new
-      feature development. With the storage incentives rollout nearing
-      completion, the team has in recent months focused on the completion of the
-      1.17 update.
+      This report provides an in-depth overview of the state of storage
+      incentives on the Swarm network for the month of August. Detailed below
+      are insights into monthly rewards in BZZ tokens, single node monthly
+      earnings, median win values, average win values, monthly unique staking
+      nodes, and the geographic distribution of nodes. This data serves as a
+      valuable indicator of the ongoing growth trends within the Swarm network.
     cta:
       title: Read more
-      href: >-
-        https://blog.ethswarm.org/foundation/2023/bee-1.17-paves-the-way-for-the-future-of-swarm/
+      href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-august/'
       arrow: true
       background: transparent
       type: ''
@@ -202,6 +201,7 @@ upload:
       template: cta
   code: ''
 ---
+
 
 
 
