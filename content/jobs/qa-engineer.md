@@ -2,6 +2,8 @@
 meta:
   title: 'QA Engineer (Go, blockchain)'
 job:
+  category:
+    - Bee team
   title: 'QA Engineer (Go, blockchain)'
   description: >-
     This role expects the candidate to perform actually like a large node
