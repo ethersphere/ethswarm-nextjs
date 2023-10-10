@@ -57,4 +57,4 @@ This role expects the candidate to perform actually like a large node operator i
 * Flexible working hours
 * We care about our swarm: Incentives through BZZ, our token
 
-To apply, please send your CV and GitHub repo to \[talent@ethswarm.org]\(talent@ethswarm.org).
+To apply, please send your CV and GitHub repo to [talent@ethswarm.org](talent@ethswarm.org "talent@ethswarm.org").
