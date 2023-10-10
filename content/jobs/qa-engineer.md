@@ -1,6 +1,14 @@
 ---
 meta:
   title: 'QA Engineer (Go, blockchain)'
+job:
+  title: 'QA Engineer (Go, blockchain)'
+  description: >-
+    This role expects the candidate to perform actually like a large node
+    operator in order to perform testing and get in the shoes of the node
+    operators. This requires the candidate to have experience in a similar QA
+    position, have some coding skills and also have interest in devops related
+    stuff.
 ---
 
 Swarm is a system of peer-to-peer networked nodes for a decentralized storage and communication service. 
@@ -33,9 +41,7 @@ This role expects the candidate to perform actually like a large node operator i
 * You can express yourself fluently in English, both verbally and in writing
 * You are available around CET timezone
 
-
-Your role:
-----------
+## Your role:
 
 * Exposure to infrastructure related tasks (will be needed to set up environments)
 * You are familiar with the blockchain ecosystem
@@ -50,5 +56,3 @@ Your role:
 * We care about our swarm: Incentives through BZZ, our token
 
 To apply, please send your CV and GitHub repo to \[talent@ethswarm.org]\(talent@ethswarm.org).
-
-
