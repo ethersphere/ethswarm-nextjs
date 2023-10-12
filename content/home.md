@@ -25,7 +25,7 @@ upload:
       template: cta
   code: ''
 news:
-  - title: 'State of the Network: August'
+  - title: 'State of the Network: September'
     category:
       - development
     readTime: '3'
