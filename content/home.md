@@ -30,17 +30,17 @@ news:
       - development
     readTime: '3'
     image: /state-of-network1.png
-    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-august/'
+    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-september/'
     copy: >-
-      This report provides an in-depth overview of the state of storage
-      incentives on the Swarm network for the month of August. Detailed below
-      are insights into monthly rewards in BZZ tokens, single node monthly
-      earnings, median win values, average win values, monthly unique staking
-      nodes, and the geographic distribution of nodes. This data serves as a
-      valuable indicator of the ongoing growth trends within the Swarm network.
+      Let’s take a dive into the Swarm network’s performance metrics for
+      September. The details below offer a window into individual node earnings,
+      win value statistics, and the geographical node distribution. By
+      juxtaposing September’s metrics with August’s data, we can explore the
+      network’s growth patterns.
     cta:
       title: Read more
-      href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-august/'
+      href: >-
+        https://blog.ethswarm.org/foundation/2023/state-of-the-network-september/
       arrow: true
       background: transparent
       type: ''
