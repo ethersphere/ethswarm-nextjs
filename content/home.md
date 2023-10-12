@@ -1,6 +1,29 @@
 ---
 meta:
   title: Digital Freedom Now
+upload:
+  contentWidth: half
+  tagline: Sustainable Development Goals
+  title: Odyssey Data Upload
+  content: >-
+    The Swarm Foundation aims to empower non-profits to store their data
+    securely and censorship-resistant. Swarm will subsidize data uploads from
+    selected projects to incentivise public goods and advance the Great Data
+    Upload.
+  image: ''
+  features:
+    columns: ''
+    type: ''
+    features: []
+  ctas:
+    - title: Apply
+      href: 'https://my.ethswarm.org/uploads'
+      arrow: true
+      background: white
+      type: default
+      back: false
+      template: cta
+  code: ''
 news:
   - title: 'State of the Network: August'
     category:
@@ -42,24 +65,22 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – August 2023
+  - title: Monthly Development Update – September 2023
     category:
       - Development update
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-august-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-september-2023/
     copy: >-
-      In the past month, the Swarm ecosystem has seen some significant
-      developments. The Bee Track team released the much anticipated localstore
-      rewrite and has already ironed out some of the notable issues in version
-      1.17.3. Meanwhile, anticipation builds for the release of Phase 4 items
-      and the price oracle, both set to further enhance the storage incentive
-      system.
+      September saw a fresh stream of new releases, announcements and
+      publications that reflect Swarm’s evolving vitality. A new Bee 1.17.4 is
+      out and it comes with a sizable changelog, a breaking change (make sure to
+      update your node) and improved user experience for node operators.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-august-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-september-2023/
       arrow: true
       background: transparent
       type: ''
@@ -177,38 +198,5 @@ grantees:
       type: default
       back: false
     template: feature
-upload:
-  contentWidth: half
-  tagline: Sustainable Development Goals
-  title: Odyssey Data Upload
-  content: >-
-    The Swarm Foundation aims to empower non-profits to store their data
-    securely and censorship-resistant. Swarm will subsidize data uploads from
-    selected projects to incentivise public goods and advance the Great Data
-    Upload.
-  image: ''
-  features:
-    columns: ''
-    type: ''
-    features: []
-  ctas:
-    - title: Apply
-      href: 'https://my.ethswarm.org/uploads'
-      arrow: true
-      background: white
-      type: default
-      back: false
-      template: cta
-  code: ''
 ---
-
-
-
-
-
-
-
-
-
-
 
