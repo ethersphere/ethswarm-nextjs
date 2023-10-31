@@ -39,8 +39,7 @@ news:
       network’s growth patterns.
     cta:
       title: Read more
-      href: >-
-        https://blog.ethswarm.org/foundation/2023/state-of-the-network-september/
+      href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-september'
       arrow: true
       background: transparent
       type: ''
