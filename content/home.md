@@ -64,22 +64,22 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – September 2023
+  - title: Monthly Development Update – October 2023
     category:
       - Development update
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-september-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-october-2023/
     copy: >-
-      September saw a fresh stream of new releases, announcements and
-      publications that reflect Swarm’s evolving vitality. A new Bee 1.17.4 is
-      out and it comes with a sizable changelog, a breaking change (make sure to
-      update your node) and improved user experience for node operators.
+      October has seen some important shifts in the wider Swarm ecosystem. The
+      Bee Track successfully released Bee 1.17.5 featuring smaller but impactful
+      improvements. The team’s next steps are focused on refining the upload and
+      download experiences, along with diligent monitoring of data longevity.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-september-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-october-2023/
       arrow: true
       background: transparent
       type: ''
