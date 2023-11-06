@@ -12,6 +12,7 @@ import {
   Footer,
   GeneralSection,
   Navigation,
+  Swarm20,
 } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/index.json";
@@ -32,7 +33,14 @@ const Home: NextPage = (props: any) => {
 
         <Navigation />
 
-        <Hero
+        <Swarm20
+          tagline={content.swarm20.tagline}
+          title={content.swarm20.title}
+          content={content.swarm20.content}
+          ctas={content.swarm20.ctas as Array<CtaType>}
+        />
+
+        {/* <Hero
           title={content.hero.title}
           background={content.hero.background}
           content={content.hero.content}
@@ -40,7 +48,7 @@ const Home: NextPage = (props: any) => {
           quote={content.hero.quote}
           //  @ts-ignore
           cta={content.hero.cta}
-        />
+        /> */}
 
         {/* @ts-ignore */}
         <GeneralSection content={content.unstoppable} textColor="text-black" />

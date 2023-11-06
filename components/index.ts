@@ -20,6 +20,7 @@ import Post from "./sections/Post";
 import Roadmap from "./sections/Roadmap";
 import Odyssey from "./sections/Odyssey";
 import Disclaimer from "./sections/Disclaimer";
+import Swarm20 from "./sections/Swarm20";
 
 export {
   GeneralSection,
@@ -44,4 +45,5 @@ export {
   Section,
   Wikipedia,
   Navigation,
+  Swarm20,
 };

@@ -1,4 +1,18 @@
 {
+  "swarm20": {
+    "tagline": "Generate freedom",
+    "title": "Swarm 2.0<br />December 21st",
+    "content": "The Swarm Virtual Summit brings together the Swarm Foundation team members and the Swarm Community in the virtual space this time. These three days will be packed with talks, product demos, and new ideas. ",
+    "ctas": [
+      {
+        "href": "#",
+        "background": "white",
+        "color": "black",
+        "arrow": true,
+        "title": "Add to calendar"
+      }
+    ]
+  },
   "hero": {
     "title": "Digital Freedom Now.",
     "background": {
