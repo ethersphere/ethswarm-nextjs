@@ -26,7 +26,7 @@ const Swarm20: React.FC<Swarm20Props> = ({
         <img
           src="/assets/swarm20.png"
           alt="Swarm 2.0 Graphic"
-          className="absolute bottom-0 right-0 hidden pointer-events-none md:block md:top-0 md:h-4/5 h-1/2"
+          className="absolute bottom-0 right-0 hidden pointer-events-none md:block md:top-[56px] md:h-4/5 h-1/2"
         />
         <Tagline copy={tagline} />
 
