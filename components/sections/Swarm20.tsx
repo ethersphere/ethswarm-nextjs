@@ -22,7 +22,7 @@ const Swarm20: React.FC<Swarm20Props> = ({
 }) => {
   return (
     <section className="relative flex flex-col items-center justify-end overflow-hidden text-gray-100 bg-gray-800">
-      <Container className="relative flex flex-col h-full pt-20 pb-16 md:pb-44 md:pt-56">
+      <Container className="relative flex flex-col h-full pt-20 pb-16 md:pb-36 md:pt-56">
         <img
           src="/assets/swarm20.png"
           alt="Swarm 2.0 Graphic"
