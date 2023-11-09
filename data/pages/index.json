@@ -1,12 +1,12 @@
 {
   "swarm20": {
     "tagline": "Generate freedom",
-    "title": "Swarm 2.0<br />December 21st",
+    "title": "Swarm 2.0<br />Dec. 21st",
     "content": "Join the Swarm Foundation team members and community for a virtual event to commemorate the beginning of Swarm 2.0.",
     "ctas": [
       {
         "href": "https://www.addevent.com/event/lf19253018",
-        "background": "white",
+        "background": "orange-onDark",
         "color": "black",
         "arrow": true,
         "title": "Add to calendar"
