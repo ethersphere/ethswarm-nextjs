@@ -25,21 +25,19 @@ upload:
       template: cta
   code: ''
 news:
-  - title: 'State of the Network: September'
+  - title: 'State of the Network: October'
     category:
       - development
     readTime: '3'
     image: /state-of-network1.png
-    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-september/'
+    href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-october/'
     copy: >-
       Let’s take a dive into the Swarm network’s performance metrics for
-      September. The details below offer a window into individual node earnings,
-      win value statistics, and the geographical node distribution. By
-      juxtaposing September’s metrics with August’s data, we can explore the
-      network’s growth patterns.
+      October. The details below offer a window into individual node earnings,
+      win value statistics, and the geographical node distribution. 
     cta:
       title: Read more
-      href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-september'
+      href: 'https://blog.ethswarm.org/foundation/2023/state-of-the-network-october/'
       arrow: true
       background: transparent
       type: ''
