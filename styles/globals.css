@@ -44,7 +44,7 @@
 }
 
 .prose :where(strong):not(:where([class~="not-prose"] *)) {
-  @apply font-bold text-gray-100;
+  @apply font-bold;
 }
 
 .prose.md\:prose-lg
