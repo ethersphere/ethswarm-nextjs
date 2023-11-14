@@ -99,12 +99,15 @@ sections:
             type: default
             features: []
           title: Foundation Board
-          content: |-
+          content: |
             Viktor Tron, President of the Swarm Foundation
-            Daniel Nagy, Vice-president of the Swarm Foundation
+
             Gregor Žavcer, Director of the Swarm Foundation
+
             Fatemeh Fannizadeh, Member of the Board
+
             Edina Lovas, Member of the Board
+
             Alexis Roussel, Member of the Board
           image: ""
           ctas: []
