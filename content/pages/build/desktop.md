@@ -9,8 +9,7 @@ sections:
         title: Swarm Desktop
         id: desktop
         content:
-          Swarm Desktop (Beta) offers decentralised access to the Swarm network
-          and an easy-to-use experience.
+         Swarm Desktop (Beta) provides a user-friendly and decentralized gateway to the Swarm network.
         background:
           src: "/assets/hero/desktop.png"
           position: container
@@ -29,9 +28,7 @@ sections:
             href: https://github.com/ethersphere/swarm-desktop/releases
             type: default
         footnote:
-          Swarm Desktop is in Beta and currently includes the Sentry application
-          monitoring and bug reporting software which automatically collects data in
-          order to help improve the software.
+          Swarm Desktop is currently in its beta phase and features the Sentry application for monitoring and reporting bugs. This software automatically gathers data to contribute to software enhancement.
       items:
         - template: section_item
           contentWidth: full
@@ -46,10 +43,9 @@ sections:
                   type: default
                   title: ""
                   href: ""
-                title: Join Swarm with just 1 click
+                title: Join Swarm in a single click
                 content:
-                  Joining the Swarm network has never been easier, simply download
-                  and install Swarm Desktop.
+                  Connecting to the Swarm network has never been simpler—just download and install Swarm Desktop.
                 icon: PlusIcon
               - template: feature
                 cta:
@@ -60,8 +56,7 @@ sections:
                   href: ""
                 title: Unlimited access
                 content:
-                  Upload and share content without limitations on the Swarm network
-                  by funding your node with BZZ.
+                  Unlock boundless content sharing possibilities on the Swarm network by fueling your node with BZZ tokens.
                 icon: UnlimitedIcon
               - template: feature
                 cta:
@@ -72,8 +67,7 @@ sections:
                   href: ""
                 title: Manage your data persistence
                 content:
-                  Swarm Desktop (Beta) makes it easy to buy and manage the stamps
-                  that will keep your content alive on the Swarm network.
+                  Swarm Desktop (Beta) simplifies the process of purchasing and managing stamps to ensure the longevity of your content on the Swarm network.
                 icon: LayersIcon
               - template: feature
                 cta:
@@ -82,11 +76,9 @@ sections:
                   type: default
                   title: ""
                   href: ""
-                title: Easily host websites
+                title: Effortlessly host websites
                 content:
-                  Upload your website to the Swarm network and make it universally
-                  accessible. Easily share it with preview URLs, or link it with your ENS
-                  name for easy discovery.
+                  Upload your website to the Swarm network to ensure universal accessibility. Easily share it using preview URLs or link it to your ENS name for convenient discovery.
                 icon: ExpandIcon
               - template: feature
                 cta:
@@ -97,9 +89,7 @@ sections:
                   href: ""
                 title: Explore before you build
                 content:
-                  Swarm Desktop makes it simple for you to try out and explore the
-                  functionality of the Swarm network. Easily check your Swarm light-node's
-                  status, settings, and wallet.
+                  Swarm Desktop simplifies the process of exploring the capabilities of the Swarm network. Quickly check the status of your Swarm light-node, access settings, and manage your wallet with ease.
                 icon: CompassIcon
               - template: feature
                 cta:
@@ -110,15 +100,14 @@ sections:
                   href: ""
                 title: Upload and forget
                 content:
-                  No need to keep your node running. Once you have uploaded your
-                  content to Swarm, it will automatically be kept alive by a worldwide network
-                  of peers.
+                  No need to keep your node running. After uploading your
+                  content to Swarm, it will automatically be kept alive by a worldwide network of peers.
                 icon: UploadIcon
           title: Access Swarm network
           content: |-
-            Run a lightweight Swarm node on your own computer, and you'll have direct peer-to-peer access to the network. No need to rely on centralised gateways.
+            By running a lightweight Swarm node on your computer, you can enjoy direct peer-to-peer network access, without the need for centralized gateways.
 
-            Use your favourite web browser to manage your node, browse websites, and upload or download data directly from peers in the Swarm network.
+            Utilise your favourite web browser to manage your node, browse websites, and upload or download data directly from peers in the Swarm network.
           ctas:
             - template: cta
               arrow: true
