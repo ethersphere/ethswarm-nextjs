@@ -1,5 +1,5 @@
 ---
-title: 'Workshop: Setting Up a Private Swarm Gateway'
+title: 'Workshop: Setting Up a Private Swarm Gateway, Dec 13'
 href: >-
   https://blog.ethswarm.org/foundation/2023/swarm-workshops-permissionless-publishing/
 add_to_calendar: 'https://www.addevent.com/event/Gr19334590'
