@@ -1,5 +1,5 @@
 ---
-title: 'Workshop: A Guide to Censorship-Resistant Blogging'
+title: 'Workshop: A Guide to Censorship-Resistant Blogging, Dec 6'
 href: >-
   https://blog.ethswarm.org/foundation/2023/swarm-workshops-permissionless-publishing/
 add_to_calendar: 'https://www.addevent.com/event/sU19334495'
