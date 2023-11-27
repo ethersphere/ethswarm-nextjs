@@ -9,7 +9,7 @@ sections:
         title: Swarm Desktop
         id: desktop
         content:
-         Swarm Desktop (Beta) provides a user-friendly and decentralized gateway to the Swarm network.
+         Swarm Desktop (Beta) provides user-friendly access to the Swarm network.
         background:
           src: "/assets/hero/desktop.png"
           position: container
