@@ -9,9 +9,7 @@ sections:
         title: Build
         id: build
         content: >-
-          Swarm provides a complete stack of essential base layer components for
-          developers. Create and host dApps, NFT meta-data, and media files -
-          all decentralised!
+          Swarm provides a complete stack of essential base layer components for developers. Build and host dApps, NFT meta-data, and media files, all within a decentralised framework!
         ctas: []
         background:
           src: /assets/hero/build.png
@@ -28,9 +26,9 @@ sections:
           title: Bee
           content: >-
             Bee is a peer-to-peer client that connects you with other peers all
-            over the world to become part of Swarm network, a global distributed
-            p2p storage network that aims to store and distribute all of the
-            world's data. Running a full Bee node gives you all the
+            over the world to become part of the Swarm network, a global distributed
+            P2P storage network that aims to store and distribute all of the
+            world's data. Running a full Bee node gives you access to all the
             functionalities of Swarm.
           ctas:
             - template: cta

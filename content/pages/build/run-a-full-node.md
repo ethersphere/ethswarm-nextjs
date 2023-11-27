@@ -33,7 +33,7 @@ sections:
           contentWidth: full
           title: Incentivised P2P Storage
           content: |-
-            Swarm uses the blockchain to provide a layer of incentivisation that has been missing from p2p file sharing and data transfer technologies in the decades since their inception.
+            Swarm uses the blockchain to provide a layer of incentivisation that has been missing from P2P file sharing and data transfer technologies in the decades since their inception.
 
             Built-in incentives have been designed to optimise the allocation of bandwidth (SWAP) and storage resources (Postage stamps) to render Swarm economically self-sustaining.
 
