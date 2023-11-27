@@ -67,17 +67,12 @@ sections:
             type: ""
           title: Swarm-CLI
           content: >-
-            Manage your Bee node and interact with the Swarm network in the
-            command line. Upload and download files, folders, and websites, or
-            manage different feeds, identities and nodes easily. Convenient
-            access to advanced Swarm features, including easier coding with
-            swarm-cli, postage stamps management from the command line, and
-            automation.
+           Swarm-CLI simplifies the process of node management and decentralised application development on the Swarm network by offering an intuitive and user-friendly command line interface which can be used for engaging with the Swarm ecosystem. This powerful tool enables effortless uploading and downloading of files, folders, and entire websites. Additionally, it streamlines the process of managing feeds and identities, and it makes node management a breeze.  
           ctas:
             - template: cta
               arrow: true
               type: default
-              title: Read more on Github
+              title: Learn more on Github
               href: "https://github.com/ethersphere/swarm-cli"
               background: transparent
           image: ""
@@ -90,9 +85,8 @@ sections:
             type: ""
           title: Bee API
           content: >-
-            The Bee API provides a HTTP interface with a rich set of endpoints
-            for accessing data on the network - manage your node resources and
-            get operational metrics and insights.
+            The Bee API is a powerful HTTP interface with a rich set of endpoints
+            for interacting with the Swarm network. It offers a wide range of functionalities for managing node resources and obtaining operational metrics and insights which are vital for node operators and decentralised application developers.
           ctas:
             - template: cta
               arrow: true
@@ -106,16 +100,9 @@ sections:
           contentWidth: full
           title: Layer2 tooling through ecosystem initiatives
           content: |-
-            Below are several ecosystem-based projects that enable faster
-            development while promoting data interoperability and sovereignty.
-            The Swarm Foundation is pleased to support the projects presented,
-            but makes no guarantees about how they'll work.
+            Highlighted below are various ecosystem-driven projects designed to accelerate decentralised application development and foster data interoperability and sovereignty. The Swarm Foundation proudly supports these initiatives but does not guarantee their performance.
 
-
-            All projects are in an intensive development phase, but
-            contributions are more than welcome. Additionally, contributions to
-            the projects listed below can be supported through [Swarm
-            grants](https://my.ethswarm.org/grants).
+            Currently, all projects are undergoing intensive development, and contributions are highly encouraged. Additionally, the Swarm Foundation offers [grants](https://my.ethswarm.org/grants) to support contributions to the projects listed.
           features:
             columns: three
             features:
@@ -123,15 +110,12 @@ sections:
                 cta:
                   arrow: true
                   type: default
-                  title: Read more
+                  title: Learn more
                   href: "https://docs.fairos.fairdatasociety.org/docs/"
                   background: transparent
-                title: fairOS - run a database on top of Swarm
+                title: fairOS - powering databases on Swarm
                 content: >-
-                  With fairOS, instead of dealing with chunks and separate files
-                  directly on Swarm you can work with a distributed file system,
-                  key-value database or database doc (multi-index). fairOS
-                  provides developers a head start and a decentralised backend.
+                  fairOS transforms the way you interact with Swarm by offering a distributed file system and versatile database solutions, including key-value and document (multi-index) databases. By freeing up developers to focus on building their applications rather than worrying about the intricacies of Swarm, fairOS gives developers a significant head start on their projects.  
                 icon: ""
               - template: feature
                 cta:
@@ -140,28 +124,20 @@ sections:
                   title: Test fairdrive
                   href: "https://fairdrive.fairdatasociety.org/"
                   background: transparent
-                title: fairDRIVE - data store for your users
-                content: >-
-                  Fairdrive is decentralised “Dropbox / Google drive”, running
-                  on Swarm. A UI for dapp and personal data. (D)apps can save
-                  and read data from it, which enables users to reclaim, own and
-                  manage their data while enabling developers to use it as a
-                  white-label and save on development time.
+                title: Fairdrive - take back control of your data
+                content: >-                                  
+                  Fairdrive is a decentralised alternative to services like Dropbox and Google Drive, powered by Swarm. It provides a user-friendly interface for decentralized applications (dApps) and personal data storage. Fairdrive empowers users to take control of their data and allows developers to leverage it to easily add decentralised storage to their dApps.
                 icon: ""
               - template: feature
                 cta:
                   arrow: true
                   type: default
-                  title: Read more
+                  title: Learn more
                   href: "https://fdp.fairdatasociety.org"
                   background: transparent
                 title: Fair data protocol - interoperability
                 content: >-
-                  Swarm imagines a plural future with multiple data stores
-                  serving different purposes. FDP is the glue between them,
-                  enabling interoperability. Currently, the project is under
-                  intense development. The community can contribute to or
-                  suggest improvements through Fair data improvement proposals.
+                  Swarm envisions a diverse future with multiple data stores catering to various needs. Fair Data Protocol (FDP) acts as the connecting link, facilitating interoperability. Presently, the project is in an active development phase, and community members are encouraged to participate by contributing to or proposing enhancements through [Fair data Improvement Proposals](https://github.com/fairDataSociety/FIPs).
                 icon: ""
             type: default
           ctas: []
