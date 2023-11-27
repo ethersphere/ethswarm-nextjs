@@ -124,7 +124,7 @@ sections:
                   title: Test fairdrive
                   href: "https://fairdrive.fairdatasociety.org/"
                   background: transparent
-                title: Fairdrive - take back control of your data
+                title: Fairdrive - giving back control of your data
                 content: >-                                  
                   Fairdrive is a decentralised alternative to services like Dropbox and Google Drive, powered by Swarm. It provides a user-friendly interface for decentralized applications (dApps) and personal data storage. Fairdrive empowers users to take control of their data and allows developers to leverage it to easily add decentralised storage to their dApps.
                 icon: ""
@@ -135,7 +135,7 @@ sections:
                   title: Learn more
                   href: "https://fdp.fairdatasociety.org"
                   background: transparent
-                title: Fair data protocol - interoperability
+                title: Fair data protocol - fostering interoperability
                 content: >-
                   Swarm envisions a diverse future with multiple data stores catering to various needs. Fair Data Protocol (FDP) acts as the connecting link, facilitating interoperability. Presently, the project is in an active development phase, and community members are encouraged to participate by contributing to or proposing enhancements through [Fair data Improvement Proposals](https://github.com/fairDataSociety/FIPs).
                 icon: ""
