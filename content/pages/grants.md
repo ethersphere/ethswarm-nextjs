@@ -8,9 +8,7 @@ sections:
         title: Make an impact
         id: impact
         content: >-
-          Swarm grants support many interesting projects that are already
-          building their products on top of Swarm. Swarm bounties extend the
-          ecosystem with tooling and infrastructure.
+          Swarm grants offer support to numerous exciting projects that are already building on top of Swarm. Swarm bounties are utilised to facilitate the expansion of the ecosystem with improved tooling and infrastructure.
         ctas:
           - title: Apply for a grant
             href: 'https://grants.ethswarm.org/'
@@ -29,16 +27,10 @@ sections:
           tagline: ''
           title: Swarm Grant Waves
           content: >-
-            The purpose of Swarm grant waves is to enable developers,
-            researchers, the community and artists to get to know Swarm and
-            start exploring by creating proof(s)-of-concept, and MVPs that
-            showcase their vision. This is just the start of collaboration.
-            Those who successfully reach their milestones can apply for
-            follow-up grants.
+            Swarm grant waves enable developers, researchers, the community, and artists to familiarise themselves with Swarm by creating proofs-of-concept and minimum viable products (MVPs) that reflect their vision. The initial grants mark the beginning of collaboration, and those who achieve their milestones successfully are eligible to apply for subsequent grants.
 
 
-            If you have any questions regarding the process, reach out to the
-            Swarm team on Discord.
+            If you have any questions regarding the process, reach out to a Swarm team member on the official [Swarm Discord server](https://discord.gg/wV5sm2bkhF).
           image: ''
           features:
             columns: ''
@@ -50,7 +42,7 @@ sections:
         - contentWidth: full
           tagline: ''
           title: Build on Swarm
-          content: Find a list of current grantees below. Yours could be next.
+          content: Explore the list of current grantees below. Yours could be next!
           image: ''
           features:
             columns: three
@@ -93,7 +85,7 @@ sections:
               - title: Copyright Delta
                 content: >-
                   Copyright Delta wants to make it easy for copyright owners to
-                  host their own nodes on Ethereum Swarm and use it for digital
+                  host their own nodes on Swarm and use them for digital
                   rights management, administration and verification.
                 exchanges: false
                 bzzPrice: false

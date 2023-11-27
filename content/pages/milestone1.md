@@ -33,28 +33,28 @@ sections:
         ## Host unstoppable content on Swarm
 
 
-        Uploading and downloading content such as websites or nft-data is
+        Uploading and downloading content such as websites or nft-metadata is
         optimised and predictable. This functionality can be accessed through
         all Swarm products:
 
 
-        * bee
+        * Bee
 
-        * gateway
+        * Gateway
 
-        * swarm-cli
+        * Swarm-CLI
 
-        * chrome extension
+        * Google Chrome extension
 
-        * dashboard
+        * Dashboard
 
-        * bee-js
+        * Bee-js
 
 
         ## Measuring success
 
 
-        * Small data and dapps (\~5MB) can be uploaded and downloaded reliably
+        * Small amounts of data and dApps (\~5MB) can be uploaded and downloaded reliably
 
         * Websites can be accessed by means of a human-readable name without the
         need for completing a blockchain transaction for every update

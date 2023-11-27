@@ -9,7 +9,7 @@ sections:
         title: Run a full node
         id: run
         content:
-          The Swarm Network achieves economic self-sustainability through a robust incentive system built with blockchain based smart-contracts. This system is powered by the BZZ token which serves as the foundation of Swarm's incentivization model.
+          Full node operators share their disk space with the Swarm network and are in turn rewarded for their services through a robust and self sustaining incentive system built with blockchain based smart-contracts and powered by the BZZ token.
         ctas:
           - template: cta
             arrow: true
