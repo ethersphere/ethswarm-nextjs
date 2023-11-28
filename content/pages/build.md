@@ -9,8 +9,9 @@ sections:
         title: Build
         id: build
         content: >-
-          Swarm provides a complete stack of essential base layer components for developers. 
-          Build and host dApps, NFT meta-data, and media files, all within a decentralised framework!
+          Swarm provides a complete stack of essential base 
+          layer components for developers. Build and host dApps, 
+          NFT meta-data, and media files, all within a decentralised framework!
         ctas: []
         background:
           src: /assets/hero/build.png
@@ -68,7 +69,12 @@ sections:
             type: ""
           title: Swarm-CLI
           content: >-
-           Swarm-CLI simplifies the process of node management and decentralised application development on the Swarm network by offering an intuitive and user-friendly command line interface which can be used for engaging with the Swarm ecosystem. This powerful tool enables effortless uploading and downloading of files, folders, and entire websites. Additionally, it streamlines the process of managing feeds and identities, and it makes node management a breeze.  
+           Swarm-CLI simplifies the process of node management and decentralised application 
+           development on the Swarm network by offering an intuitive and user-friendly command 
+           line interface which can be used for engaging with the Swarm ecosystem. 
+           This powerful tool enables effortless uploading and downloading of files, folders, 
+           and entire websites. Additionally, it streamlines the process of managing feeds and 
+           identities, and it makes node management a breeze.  
           ctas:
             - template: cta
               arrow: true
@@ -87,7 +93,9 @@ sections:
           title: Bee API
           content: >-
             The Bee API provides a powerful HTTP interface with a rich set of endpoints
-            for interacting with the Swarm network. It offers a wide range of functionalities for managing node resources and obtaining operational metrics and insights which are vital for node operators and decentralised application developers.
+            for interacting with the Swarm network. It offers a wide range of functionalities 
+            for managing node resources and obtaining operational metrics and insights which 
+            are vital for node operators and decentralised application developers.
           ctas:
             - template: cta
               arrow: true
@@ -116,7 +124,11 @@ sections:
                   background: transparent
                 title: fairOS - decentralise your app
                 content: >-
-                  fairOS transforms the way you interact with Swarm by offering a distributed file system and versatile database solutions, including key-value and document (multi-index) databases. By freeing up developers to focus on building their applications rather than worrying about the intricacies of Swarm, fairOS gives developers a significant head start on their projects.  
+                  fairOS transforms the way you interact with Swarm by offering a distributed 
+                  file system and versatile database solutions, including key-value and document 
+                  (multi-index) databases. By freeing up developers to focus on building their 
+                  applications rather than worrying about the intricacies of Swarm, fairOS 
+                  gives developers a significant head start on their projects.  
                 icon: ""
               - template: feature
                 cta:
@@ -127,7 +139,11 @@ sections:
                   background: transparent
                 title: Fairdrive - take back control of your data
                 content: >-                                  
-                  Fairdrive is a decentralised alternative to services like Dropbox and Google Drive, powered by Swarm. It provides a user-friendly interface for decentralised applications (dApps) and personal data storage. Fairdrive empowers users to take control of their data and allows developers to leverage it to easily add decentralised storage to their dApps.
+                  Fairdrive is a decentralised alternative to services like Dropbox 
+                  and Google Drive, powered by Swarm. It provides a user-friendly 
+                  interface for decentralised applications (dApps) and personal data storage. 
+                  Fairdrive empowers users to take control of their data and allows developers 
+                  to leverage it to easily add decentralised storage to their dApps.
                 icon: ""
               - template: feature
                 cta:
@@ -138,7 +154,12 @@ sections:
                   background: transparent
                 title: Fair data protocol - help foster interoperability
                 content: >-
-                  Swarm envisions a diverse future with multiple data stores catering to various needs. Fair Data Protocol (FDP) acts as the connecting link, facilitating interoperability. Presently, the project is in an active development phase, and community members are encouraged to participate by contributing to or proposing enhancements through [Fair data Improvement Proposals](https://github.com/fairDataSociety/FIPs).
+                  Swarm envisions a diverse future with multiple data stores catering 
+                  to various needs. Fair Data Protocol (FDP) acts as the connecting link, 
+                  facilitating interoperability. Presently, the project is in an active 
+                  development phase, and community members are encouraged to participate 
+                  by contributing to or proposing enhancements through 
+                  [Fair data Improvement Proposals](https://github.com/fairDataSociety/FIPs).
                 icon: ""
             type: default
           ctas: []

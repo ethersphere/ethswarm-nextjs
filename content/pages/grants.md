@@ -27,10 +27,16 @@ sections:
           tagline: ''
           title: Swarm Grant Waves
           content: >-
-            Swarm grant waves enable developers, researchers, the community, and artists to familiarise themselves with Swarm by creating proofs-of-concept and minimum viable products (MVPs) that reflect their vision. The initial grants mark the beginning of collaboration, and those who achieve their milestones successfully are eligible to apply for subsequent grants.
+            Swarm grant waves enable developers, researchers, the community, 
+            and artists to familiarise themselves with Swarm by creating 
+            proofs-of-concept and minimum viable products (MVPs) that reflect 
+            their vision. The initial grants mark the beginning of collaboration, 
+            and those who achieve their milestones successfully are eligible 
+            to apply for subsequent grants.
 
 
-            If you have any questions regarding the process, reach out to a Swarm team member on the official [Swarm Discord server](https://discord.gg/wV5sm2bkhF).
+            If you have any questions regarding the process, reach out to a 
+            Swarm team member on the official [Swarm Discord server](https://discord.gg/wV5sm2bkhF).
           image: ''
           features:
             columns: ''

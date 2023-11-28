@@ -142,8 +142,14 @@ sections:
                   arrow: true
                   type: default
                 title: Where is the BZZ token present?
-                content:
-                  BZZ is an ERC-20 token which was originally created on the Ethereum network and was later also bridged to the Gnosis Chain blockchain to serve as the payment and incentive token for the Swarm network. BZZ may be transferred back and forth between the two chains using the [Omnibridge](https://omnibridge.gnosischain.com/bridge) decentralised cross-chain token bridge, however it is only the Gnosis Chain version which may be used to directly interact with Swarm. 
+                content: >-
+                  BZZ is an ERC-20 token which was originally created on the 
+                  Ethereum network and was later also bridged to the Gnosis Chain 
+                  blockchain to serve as the payment and incentive token for 
+                  the Swarm network. BZZ may be transferred back and forth between 
+                  the two chains using the [Omnibridge](https://omnibridge.gnosischain.com/bridge) 
+                  decentralised cross-chain token bridge, however it is only the Gnosis Chain 
+                  version which may be used to directly interact with Swarm. 
           title: FAQ
           content: ""
           image: ""

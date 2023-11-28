@@ -8,8 +8,11 @@ sections:
       hero:
         title: Run a full node
         id: run
-        content:
-          Full node operators share their disk space with the Swarm network and are in turn rewarded for their services through a robust and self sustaining incentive system built with blockchain based smart-contracts and powered by the BZZ token.
+        content: >-
+          Full node operators share their disk space with the Swarm network 
+          and are in turn rewarded for their services through a robust and 
+          self sustaining incentive system built with blockchain based 
+          smart-contracts and powered by the BZZ token.
         ctas:
           - template: cta
             arrow: true
@@ -49,8 +52,10 @@ sections:
                   title: ""
                   href: ""
                 title: Champion digital freedom
-                content:
-                  Running a full Swarm node enables the vision of a decentralised P2P data storage network which empowers web3 publishers and app developers to make their content unstoppable.
+                content: >-
+                  Running a full Swarm node enables the vision of a decentralised 
+                  P2P data storage network which empowers web3 publishers 
+                  and app developers to make their content unstoppable.
                 icon: ""
               - template: feature
                 cta:
@@ -60,8 +65,10 @@ sections:
                   title: ""
                   href: ""
                 title: Foster public data projects
-                content:
-                  Swarm cultivates a nurturing ground in which vital public data initiatives like Open Street Maps can be collectively funded by their community members.
+                content: >-
+                  Swarm cultivates a nurturing ground in which vital public 
+                  data initiatives like Open Street Maps can be collectively 
+                  funded by their community members.
                 icon: ""
             type: large
           ctas: []
