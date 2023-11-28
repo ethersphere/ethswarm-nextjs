@@ -53,7 +53,7 @@ sections:
             columns: two
             features:
               - template: feature
-                title: Decentralized exchanges (DEXs)
+                title: Decentralised exchanges (DEXs)
                 exchanges: true
                 content:
                   Make certain to check you are connected to the correct blockchain in your browser extension wallet (such as Metamask) when using any of these DEXes. 

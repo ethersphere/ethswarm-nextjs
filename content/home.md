@@ -182,7 +182,7 @@ grantees:
     content: >-
       Metaprovide has implemented a Nextcloud plugin that enables users to
       interact with Swarm storage directly in Nextcloud Files bringing Nextcloud
-      users closer to the vision of a decentralized future.
+      users closer to the vision of a decentralised future.
     exchanges: false
     bzzPrice: false
     bzzPot: false

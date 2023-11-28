@@ -56,7 +56,7 @@ sections:
                   href: ""
                 title: Secure & unstoppable P2P messaging 
                 content: >-
-                  PSS (Postal Service over Swarm) is a secure-by-design messaging protocol with end-to-end encryption powered by Swarm's decentralized P2P network of nodes. PSS allows for truly unstoppable messaging.
+                  PSS (Postal Service over Swarm) is a secure-by-design messaging protocol with end-to-end encryption powered by Swarm's decentralised P2P network of nodes. PSS allows for truly unstoppable messaging.
                 icon: LeakIcon
               - template: feature
                 cta:

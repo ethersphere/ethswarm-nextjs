@@ -361,7 +361,7 @@ sections:
                 template: feature
               - title: Waggle
                 content: >-
-                  A spam-free, secure and decentralized email service on top of
+                  A spam-free, secure and decentralised email service on top of
                   Swarm, inspired by the idea of a mail-transfer protocol
                   proposed by Daniel J. Bernstein in which the sender, and not
                   the recipient, is responsible for storing the email messages.
@@ -396,7 +396,7 @@ sections:
                 template: feature
               - title: Bittopia
                 content: >-
-                  Bittopia is a Decentralized Autonomous University and
+                  Bittopia is a Decentralised Autonomous University and
                   leverages open curriculums, blockchains, and decentralised
                   technologies like Swarm to tokenize the successful transfer of
                   knowledge from mentor to student.

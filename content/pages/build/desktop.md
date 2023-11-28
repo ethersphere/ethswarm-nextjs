@@ -100,12 +100,11 @@ sections:
                   href: ""
                 title: Upload and forget
                 content:
-                  No need to keep your node running. After uploading your
-                  content to Swarm, it will automatically be kept alive by a worldwide network of peers.
+                  There's no need to continuously run your node to make your content accessible. Once you upload your content to the Swarm network, it will be automatically sustained and kept accessible by a global network of peers.
                 icon: UploadIcon
           title: Access Swarm network
           content: |-
-            By running a lightweight Swarm node on your computer, you can enjoy direct peer-to-peer network access, without the need for centralized gateways.
+            By running a lightweight Swarm node on your computer, you get direct access to the Swarm peer-to-peer network, without the need for centralised gateways.
 
             Utilise your favourite web browser to manage your node, browse websites, and upload or download data directly from peers in the Swarm network.
           ctas:

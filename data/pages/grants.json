@@ -92,7 +92,7 @@
                 },
                 {
                   "title": "Metaprovide - Nextcloud Swarm Plugin ",
-                  "content": "<p>Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralized future.</p>",
+                  "content": "<p>Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralised future.</p>",
                   "cta": {
                     "href": "https://metaprovide.org/nextcloud-swarm-plugin",
                     "title": "More"
@@ -250,7 +250,7 @@
                 },
                 {
                   "title": "Waggle",
-                  "content": "<p>A spam-free, secure and decentralized email service on top of Swarm, inspired by the idea of a mail-transfer protocol proposed by Daniel J. Bernstein in which the sender, and not the recipient, is responsible for storing the email messages.</p>",
+                  "content": "<p>A spam-free, secure and decentralised email service on top of Swarm, inspired by the idea of a mail-transfer protocol proposed by Daniel J. Bernstein in which the sender, and not the recipient, is responsible for storing the email messages.</p>",
                   "cta": {
                     "title": "More",
                     "href": "https://github.com/WaggleMail/docs",
@@ -270,7 +270,7 @@
                 },
                 {
                   "title": "Bittopia",
-                  "content": "<p>Bittopia is a Decentralized Autonomous University and leverages open curriculums, blockchains, and decentralised technologies like Swarm to tokenize the successful transfer of knowledge from mentor to student.</p>",
+                  "content": "<p>Bittopia is a Decentralised Autonomous University and leverages open curriculums, blockchains, and decentralised technologies like Swarm to tokenize the successful transfer of knowledge from mentor to student.</p>",
                   "cta": {
                     "title": "More",
                     "href": "https://bittopia.org",
