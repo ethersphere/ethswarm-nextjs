@@ -379,7 +379,7 @@ sections:
                 template: feature
               - title: VideoWiki
                 content: >-
-                  VideoWiki is a democratized, tokenized, AI-based immersive
+                  VideoWiki is a democratised, tokenised, AI-based immersive
                   content creation platform capable of rewarding millions of
                   digital content creators.
                 exchanges: false
@@ -398,7 +398,7 @@ sections:
                 content: >-
                   Bittopia is a Decentralised Autonomous University and
                   leverages open curriculums, blockchains, and decentralised
-                  technologies like Swarm to tokenize the successful transfer of
+                  technologies like Swarm to tokenise the successful transfer of
                   knowledge from mentor to student.
                 exchanges: false
                 bzzPrice: false

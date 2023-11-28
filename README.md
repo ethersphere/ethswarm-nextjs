@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Icons (development)
 
-Icons are in the `./icons/svg` folder, optimized and stripped of the width and height values.
+Icons are in the `./icons/svg` folder, optimised and stripped of the width and height values.
 
 Create components from the icons by running:
 

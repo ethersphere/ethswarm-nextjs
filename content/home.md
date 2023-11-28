@@ -7,7 +7,7 @@ upload:
   title: Odyssey Data Upload
   content: >-
     The Swarm Foundation aims to empower non-profits to store their data
-    securely and censorship-resistant. Swarm will subsidize data uploads from
+    securely and censorship-resistant. Swarm will subsidise data uploads from
     selected projects to incentivise public goods and advance the Great Data
     Upload.
   image: ''
@@ -130,7 +130,7 @@ grantees:
   - title: Etherna
     content: >-
       Etherna is a transparent video platform FOR EVERYONE where freedom of
-      speech is incentivized, not convicted.
+      speech is incentivised, not convicted.
     exchanges: false
     bzzPrice: false
     bzzPot: false

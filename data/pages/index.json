@@ -111,7 +111,7 @@
   "odyssey": {
     "title": "Odyssey Data Upload",
     "tagline": "Sustainable Development Goals",
-    "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidize data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
+    "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidise data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
     "ctas": [
       {
         "href": "https://my.ethswarm.org/uploads",
@@ -329,7 +329,7 @@
     "features": [
       {
         "title": "Etherna",
-        "content": "Etherna is a transparent video platform FOR EVERYONE where freedom of speech is incentivized, not convicted.",
+        "content": "Etherna is a transparent video platform FOR EVERYONE where freedom of speech is incentivised, not convicted.",
         "cta": {
           "href": "https://etherna.io/",
           "title": "More"
