@@ -35,7 +35,7 @@ const Navigation: React.FC<NavigationProps> = ({
   return (
     <div
       className={cx(
-        "absolute left-0 right-0 z-20 flex justify-center w-full top-8 lg:top-24",
+        "absolute left-0 right-0 z-20 flex justify-center w-full top-8 lg:top-24 z-50",
         textColor
       )}
     >
@@ -116,12 +116,12 @@ const Navigation: React.FC<NavigationProps> = ({
         leaveFrom="opacity-100"
         leaveTo="opacity-0 scale-90"
       >
-        <div className="absolute inset-x-0 -top-8">
+        <div className="absolute inset-x-0 z-50 -top-8">
           <div className="bg-gray-800 shadow-lg">
             <div className="pt-6">
               <div className="flex items-center justify-between px-6 pb-6 border-b border-gray-500">
                 <Link href="/" onClick={() => setIsOpen(false)}>
-                  <Logo className={cx("w-auto h-6 text-gray-100")} />
+                  <Logo className={cx("w-auto h-6 text-white fill-current")} />
                 </Link>
                 <div className="-mr-2">
                   <CloseButton onClick={() => setIsOpen(false)} />
