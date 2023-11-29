@@ -39,7 +39,7 @@ sections:
               - template: feature
                 title: Participate as a storage provider
                 content:
-                  The BZZ tokens which publishers p ay to upload and store data on the Swarm network are redistributed to full node operators in exchange for the data storage services which they provide.
+                  The BZZ tokens which publishers pay to upload and store data on the Swarm network are redistributed to full node operators in exchange for the data storage services which they provide.
                 bzzPot: true
           title: Uses
           content: ""
