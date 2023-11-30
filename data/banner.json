@@ -6,5 +6,5 @@
   "searchPlaceholder": "Search Swarm Hash",
   "loading": "Loading Swarm data…",
   "error": "Unable to fetch nodes.",
-  "nodes": " nodes active"
+  "nodes": " nodes"
 }

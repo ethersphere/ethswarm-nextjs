@@ -29,7 +29,7 @@ const Home: NextPage = (props: any) => {
       <Meta title={meta.title} />
 
       <main className="">
-        <Banner />
+        {/* <Banner /> */}
 
         <Navigation />
 

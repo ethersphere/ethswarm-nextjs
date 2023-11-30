@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { cx } from "utils";
-import ButtonInternals from "./button/ButtonInternals";
+
 import { ButtonBackgroundType, ButtonTextColorType } from "types";
 
 type ButtonProps = {
@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({
   back = false,
 }) => {
   let classNameBackground =
-    "bg-orange-500 focus:outline-none hover:bg-opacity-80 px-4";
+    "bg-orange-500 focus:outline-none text-gray-100 hover:bg-opacity-80 px-4";
 
   if (background === "transparent") {
     classNameBackground =
@@ -33,9 +33,6 @@ const Button: React.FC<ButtonProps> = ({
     classNameBackground = "bg-white focus:ring-white px-4";
   } else if (background === "black") {
     classNameBackground = "bg-black focus:outline-none px-4";
-  } else if (background === "orange-onDark") {
-    classNameBackground =
-      "bg-orange-onDark focus:outline-none hover:bg-orange-hover px-4";
   }
 
   let classNameColor = "text-black";
@@ -45,7 +42,7 @@ const Button: React.FC<ButtonProps> = ({
   }
 
   const classNameButton = cx(
-    "transition duration-200 uppercase inline-flex justify-center rounded-full items-center text-sm font-semibold tracking-wider leading-[2.3]  font-display gap-3 group focus:outline-none",
+    "transition duration-200 inline-flex justify-center rounded-full items-center text-sm font-semibold  leading-[2.3]  font-display gap-3 group focus:outline-none",
     classNameBackground,
     classNameColor,
     className
@@ -60,14 +57,14 @@ const Button: React.FC<ButtonProps> = ({
         rel="noreferrer"
         className={classNameButton}
       >
-        <ButtonInternals title={title} arrow={arrow} back={back} />
+        {title}
       </a>
     );
   }
 
   return (
     <Link href={href} className={classNameButton}>
-      <ButtonInternals title={title} arrow={arrow} back={back} />
+      {title}
     </Link>
   );
 };

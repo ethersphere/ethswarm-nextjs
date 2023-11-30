@@ -1,4 +1,4 @@
-import Banner from "./Banner";
+import Banner from "./Stats";
 import Hero from "./sections/Hero";
 import Unstoppable from "./sections/Unstoppable";
 import Wikipedia from "./sections/Wikipedia";

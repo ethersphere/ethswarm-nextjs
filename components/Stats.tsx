@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { SearchInput, Semaphore } from "@/components/Banner/index";
+import { Semaphore } from "@/components/Stats/Semaphore";
 import { StatsIcon } from "@/icons/components/index";
 import { RegularLink } from "@/components/common";
 import content from "../data/banner.json";
+import { cx } from "utils";
 
-type BannerProps = {};
+type StatsProps = {};
 
-const Banner: React.FC<BannerProps> = () => {
+export const Stats: React.FC<StatsProps> = () => {
   const [nodes, setNodes] = useState("");
   const [color, setColor] = useState<"orange" | "green" | "red">("green"); // default to orange?
   const [isLoading, setLoading] = useState(true);
@@ -34,31 +35,29 @@ const Banner: React.FC<BannerProps> = () => {
   }, []);
 
   return (
-    <div className="absolute top-0 left-0 right-0 z-20 hidden text-white bg-black lg:block">
-      <div className="py-3 px-4.5 flex items-center justify-between">
-        <div className="flex items-center text-xs font-semibold leading-none text-gray-300 gap-x-2">
+    <div className="ml-auto lg:block">
+      <div className="pr-4.5 flex items-center justify-between space-x-4">
+        <div
+          className={cx(
+            "flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all  duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md"
+          )}
+        >
           {color && <Semaphore color={color} />}
           {isLoading === true ? (
             <div>{content.loading}</div>
           ) : (
             <div>{nodes}</div>
           )}
-
-          <StatsIcon className="w-3.5 h-3.5" />
-
-          {content.link && content.link.href && content.link.children && (
-            <RegularLink className="hover:underline" href={content.link.href}>
-              {content.link.children}
-            </RegularLink>
-          )}
         </div>
 
-        <div className="hidden sm:block">
-          <SearchInput placeholder={content.searchPlaceholder} />
+        <div className="flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md">
+          99.9%
+        </div>
+
+        <div className="flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md">
+          #
         </div>
       </div>
     </div>
   );
 };
-
-export default Banner;

@@ -10,6 +10,7 @@ import { cx } from "utils";
 import { ArrowIcon } from "@/icons/components/index";
 
 import navigation from "../data/nav/main.json";
+import { Stats } from "@/components/Stats";
 
 type NavigationProps = {
   textColor?: "text-gray-100" | "text-gray-700";
@@ -19,23 +20,13 @@ const Navigation: React.FC<NavigationProps> = ({
   textColor = "text-gray-100",
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [firstLevel, setFirstLevel] = useState<any>(false);
   const [offset, setOffset] = useState<number | null>();
   const [value, setValue] = useState<string | null>();
-  const [activeTrigger, setActiveTrigger] = useState<HTMLButtonElement>(null);
+  const [activeTrigger, setActiveTrigger] = useState<HTMLButtonElement | null>(
+    null
+  );
   const listRef = useRef<HTMLUListElement>(null);
   const router = useRouter();
-
-  useEffect(() => {
-    // find navigation item that matches current route
-    const item = navigation.items.find((item) =>
-      router.asPath.startsWith(item.href)
-    );
-
-    if (item) {
-      setFirstLevel(item);
-    }
-  }, [router]);
 
   useEffect(() => {
     const list = listRef.current;
@@ -58,99 +49,89 @@ const Navigation: React.FC<NavigationProps> = ({
   return (
     <div
       className={cx(
-        "absolute left-0 right-0 z-40 flex justify-center w-full top-8 lg:top-24",
+        "absolute left-0 right-0 z-40 flex justify-center w-full top-8 lg:top-12",
         textColor
       )}
     >
       <Container className="">
-        <NavigationMenu.Root onValueChange={setValue} className="relative">
-          <NavigationMenu.List ref={listRef}>
-            <div className="flex items-center">
-              <div>
-                <Link href="/" className="group">
-                  <Logo
-                    className={cx(
-                      "h-6 lg:h-9 fill-current group-hover:text-opacity-75 duration-150",
-                      textColor
-                    )}
-                  />
-                </Link>
-              </div>
-              <div className="justify-center hidden px-8 space-x-4 lg:flex">
-                {navigation.items.length > 0 &&
-                  navigation.items.map((link, index) => (
-                    <>
-                      <NavigationMenu.Item key={link.title} value={link.title}>
-                        {link.children ? (
-                          <NavigationMenu.Trigger
-                            ref={(node) => {
-                              if (
-                                link.title === value &&
-                                activeTrigger !== node
-                              ) {
-                                setActiveTrigger(node);
-                              }
-                              return node;
-                            }}
-                            className="flex items-center duration-200 hover:opacity-70 "
-                          >
-                            <MenuLink
-                              key={index}
-                              {...link}
-                              textColor={textColor}
-                              selected={router.asPath.startsWith(link.href)}
-                            />
-                            <ArrowIcon
-                              className={cx(
-                                "w-3 h-3 duration-200",
-                                link.title === value
-                                  ? " -rotate-90"
-                                  : " rotate-90"
-                              )}
-                            />
-                          </NavigationMenu.Trigger>
-                        ) : (
-                          <MenuLink
-                            key={index}
-                            {...link}
-                            textColor={textColor}
-                            selected={router.asPath.startsWith(link.href)}
-                          />
-                        )}
-                        {link.children && (
-                          <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
-                            <div className="grid p-1.5 w-56">
-                              {link.children.map((child: any, index: any) => (
-                                <RegularLink
-                                  key={index}
-                                  href={child.href}
-                                  className={cx(
-                                    "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] bg-opacity-50 rounded-lg"
-                                  )}
-                                >
-                                  <div className="text-sm font-semibold text-gray-100">
-                                    {child.title}
-                                  </div>
-                                  {child.subtitle && (
-                                    <div className="text-xs text-gray-100 text-opacity-70">
-                                      {child.subtitle}
-                                    </div>
-                                  )}
-                                </RegularLink>
-                              ))}
-                            </div>
-                          </NavigationMenu.Content>
-                        )}
-                      </NavigationMenu.Item>
-                    </>
-                  ))}
-              </div>
+        <NavigationMenu.Root
+          onValueChange={setValue}
+          className="relative flex items-center w-full"
+        >
+          <Link href="/" className="group">
+            <Logo
+              className={cx(
+                "h-6 lg:h-8 fill-current group-hover:text-opacity-75 duration-150",
+                textColor
+              )}
+            />
+          </Link>
+          <NavigationMenu.List
+            ref={listRef}
+            className="items-center justify-center hidden w-full px-8 mr-auto lg:flex"
+          >
+            {navigation.items.length > 0 &&
+              navigation.items.map((link, index) => (
+                <>
+                  <NavigationMenu.Item key={link.title} value={link.title}>
+                    {link.children ? (
+                      <NavigationMenu.Trigger
+                        ref={(node) => {
+                          if (link.title === value && activeTrigger !== node)
+                            setActiveTrigger(node);
 
-              <div className="flex items-center lg:hidden">
-                <HamburgerButton onClick={() => setIsOpen(true)} />
-              </div>
-            </div>
+                          return node;
+                        }}
+                      >
+                        <MenuLink
+                          key={index}
+                          {...link}
+                          icon
+                          selected={value === link.title}
+                        />
+                      </NavigationMenu.Trigger>
+                    ) : (
+                      <MenuLink
+                        key={index}
+                        {...link}
+                        selected={router.asPath.startsWith(link.href)}
+                      />
+                    )}
+                    {link.children && (
+                      <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
+                        <div className="grid p-1.5 w-56">
+                          {link.children.map((child: any, index: any) => (
+                            <RegularLink
+                              key={index}
+                              href={child.href}
+                              className={cx(
+                                "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
+                              )}
+                            >
+                              <div className="text-sm font-semibold text-gray-100">
+                                {child.title}
+                              </div>
+                              {child.subtitle && (
+                                <div className="text-xs text-gray-100 text-opacity-70">
+                                  {child.subtitle}
+                                </div>
+                              )}
+                            </RegularLink>
+                          ))}
+                        </div>
+                      </NavigationMenu.Content>
+                    )}
+                  </NavigationMenu.Item>
+                </>
+              ))}
           </NavigationMenu.List>
+
+          <Stats />
+
+          <div className="flex items-center lg:hidden">
+            <HamburgerButton onClick={() => setIsOpen(true)} />
+          </div>
+
           <div className="perspective-[2000px] absolute top-full left-0 flex w-full justify-center">
             <NavigationMenu.Viewport
               className="data-[state=open]:animate-scaleIn data-[state=closed]:animate-scaleOut relative mt-[10px] h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] backdrop-blur-md rounded-xl    duration-200 sm:w-[var(--radix-navigation-menu-viewport-width)] transition-all "
@@ -158,7 +139,7 @@ const Navigation: React.FC<NavigationProps> = ({
                 // Avoid transitioning from initial position when first opening
                 // display: !offset ? "none" : undefined,
                 transform: `translateX(${offset}px)`,
-                transition: "all 0.2s ease",
+                transition: "all 0.25s ease",
               }}
             />
           </div>
@@ -231,23 +212,31 @@ export default Navigation;
 type MenuLinkProps = {
   href?: string;
   title: string;
-  textColor?: "text-gray-100" | "text-gray-700";
   selected?: boolean;
+  icon?: boolean;
 };
 const MenuLink: React.FC<MenuLinkProps> = ({
   href = "/",
   title,
-  textColor,
+  icon,
   selected = false,
 }) => {
   return (
     <RegularLink
       href={href}
       className={cx(
-        "px-4 py-1 text-sm antialiased font-semibold   duration-150   text-gray-100"
+        "px-5 py-1 text-sm antialiased font-semibold  flex items-center duration-200 hover:opacity-70   text-gray-100"
       )}
     >
       {title}
+      {icon && (
+        <ArrowIcon
+          className={cx(
+            "w-3 h-3 duration-200",
+            selected ? " -rotate-90" : " rotate-90"
+          )}
+        />
+      )}
     </RegularLink>
   );
 };

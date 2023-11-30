@@ -1,6 +1,5 @@
 import * as React from "react";
 import { cx } from "utils";
-import ButtonInternals from "./button/ButtonInternals";
 import { ButtonBackgroundType, ButtonTextColorType } from "types";
 import { useOsAsset } from "hooks/useOsAsset";
 
@@ -16,7 +15,7 @@ const DownloadButton: React.FC<ButtonProps> = ({
   color = "black",
 }) => {
   let classNameBackground =
-    "bg-orange-500 focus:outline-none hover:bg-orange-hover";
+    "bg-orange-500 focus:outline-none hover:bg-opacity-80";
 
   if (background === "transparent") {
     classNameBackground = "bg-orange-transparent focus:outline-none";
@@ -24,9 +23,6 @@ const DownloadButton: React.FC<ButtonProps> = ({
     classNameBackground = "bg-white focus:ring-white";
   } else if (background === "black") {
     classNameBackground = "bg-black focus:outline-none";
-  } else if (background === "orange-onDark") {
-    classNameBackground =
-      "bg-orange-onDark focus:outline-none hover:bg-orange-hover";
   }
 
   let classNameColor = "text-black";
@@ -55,11 +51,7 @@ const DownloadButton: React.FC<ButtonProps> = ({
       rel="noreferrer"
       className={className}
     >
-      <ButtonInternals
-        title={`Download for ${asset.osName}`}
-        arrow={arrow}
-        back={false}
-      />
+      {`Download for ${asset.osName}`}
     </a>
   );
 };

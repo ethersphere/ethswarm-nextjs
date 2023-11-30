@@ -37,27 +37,33 @@
       "children": [
         {
           "href": "/why",
-          "title": "Why"
+          "title": "Swarm Technology",
+          "subtitle": "Why & how"
         },
         {
           "href": "https://docs.ethswarm.org/docs/",
-          "title": "Bee Docs"
+          "title": "Bee Docs",
+          "subtitle": "Official documentation"
         },
         {
           "href": "https://bee-js.ethswarm.org/docs/",
-          "title": "Bee.js Docs"
+          "title": "Bee.js Docs",
+          "subtitle": "Documentation"
         },
         {
           "href": "https://swarmscan.io/",
-          "title": "Network Stats"
+          "title": "Network Stats",
+          "subtitle": "Swarm network scanner"
         },
         {
           "href": "/roadmap",
-          "title": "Roadmap"
+          "title": "Roadmap",
+          "subtitle": "Swarm milestones"
         },
         {
           "href": "/contribute",
-          "title": "Contribute"
+          "title": "SWIPs",
+          "subtitle": "Swarm standards"
         }
       ]
     },
@@ -67,19 +73,23 @@
       "children": [
         {
           "href": "/grants",
-          "title": "Grants"
+          "title": "Grants",
+          "subtitle": "Make an impact"
         },
         {
           "href": "https://gitcoin.co/fairdatasociety",
-          "title": "Bounties"
+          "title": "Bounties",
+          "subtitle": "Swarm bounties"
         },
         {
           "href": "https://fairdatasociety.org/",
-          "title": "Fair Data Society"
+          "title": "Fair Data Society",
+          "subtitle": "Fair Data Principles"
         },
         {
+          "href": "https://toolkit.ethswarm.org/",
           "title": "The Hivemaker’s Code",
-          "href": "https://toolkit.ethswarm.org/"
+          "subtitle": "Toolkit"
         }
       ]
     },
