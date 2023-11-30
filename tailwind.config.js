@@ -10,7 +10,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
-        display: ["Space GroteskVariable", ...defaultTheme.fontFamily.sans],
         mono: ["iA Mono", ...defaultTheme.fontFamily.mono],
       },
       spacing: {

@@ -11,8 +11,6 @@
     "build-icons": "node ./scripts/build-icons.js"
   },
   "dependencies": {
-    "@fontsource/inter": "^5.0.15",
-    "@fontsource/space-grotesk": "^5.0.15",
     "@headlessui/react": "^1.7.17",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "framer-motion": "^10.16.5",
