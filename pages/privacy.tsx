@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Banner, Connect, Footer, Navigation } from "@/components/index";
+import { Connect, Footer, Navigation } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/privacy.json";
 import { Container, Meta, SectionContent } from "@/components/common";
@@ -12,8 +12,6 @@ const Privacy: NextPage = (props: any) => {
       <Meta title={`Privacy policy`} />
 
       <main className="">
-        <Banner />
-
         <Navigation textColor="text-gray-700" />
 
         <div className="absolute z-0 w-screen min-h-screen pointer-events-none bg-gray-gradient"></div>

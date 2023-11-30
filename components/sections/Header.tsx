@@ -9,6 +9,7 @@ type HeaderProps = {
   content?: string;
   ctas?: Array<CtaType>;
   size?: "small" | "large";
+  className?: string;
 };
 
 const Header: React.FC<HeaderProps> = ({
@@ -17,9 +18,10 @@ const Header: React.FC<HeaderProps> = ({
   content,
   ctas,
   size = "small",
+  className = "",
 }: HeaderProps) => {
   return (
-    <div className={cx("max-w-[50%]")}>
+    <div className={cx("", className)}>
       {tagline && <Tagline copy={tagline} />}
 
       <h2

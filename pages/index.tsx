@@ -11,7 +11,7 @@ import {
   Footer,
   GeneralSection,
   Navigation,
-  Swarm20,
+  LandingHero,
 } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/index.json";
@@ -32,11 +32,10 @@ const Home: NextPage = (props: any) => {
 
         <Navigation />
 
-        <Swarm20
-          tagline={content.swarm20.tagline}
-          title={content.swarm20.title}
-          content={content.swarm20.content}
-          ctas={content.swarm20.ctas as Array<CtaType>}
+        <LandingHero
+          title={content.LandingHero.title}
+          content={content.LandingHero.content}
+          ctas={content.LandingHero.ctas as Array<CtaType>}
         />
 
         {/* <Hero
@@ -129,7 +128,7 @@ const Home: NextPage = (props: any) => {
         /> */}
 
         <Connect events={props.events} />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </div>
   );

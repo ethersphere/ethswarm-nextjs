@@ -19,7 +19,7 @@ import Post from "./sections/Post";
 import Roadmap from "./sections/Roadmap";
 import Odyssey from "./sections/Odyssey";
 import Disclaimer from "./sections/Disclaimer";
-import Swarm20 from "./sections/Swarm20";
+import LandingHero from "./sections/LandingHero";
 import Header from "./sections/Header";
 import Stats from "./Stats";
 
@@ -47,5 +47,5 @@ export {
   Section,
   Wikipedia,
   Navigation,
-  Swarm20,
+  LandingHero,
 };
