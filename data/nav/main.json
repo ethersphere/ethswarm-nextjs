@@ -6,23 +6,28 @@
       "children": [
         {
           "href": "/build",
-          "title": "Build"
+          "title": "Build",
+          "subtitle": "Complete stack of components"
         },
         {
           "href": "/build/run-a-full-node",
-          "title": "Run a full node"
+          "title": "Run a full node",
+          "subtitle": "Incentivised P2P storage"
         },
         {
           "href": "/build/desktop",
-          "title": "Swarm desktop"
+          "title": "Swarm desktop",
+          "subtitle": "P2P desktop client"
         },
         {
           "href": "https://github.com/ethersphere/awesome-swarm",
-          "title": "Awesome Swarm"
+          "title": "Awesome Swarm",
+          "subtitle": "Open source projects list"
         },
         {
           "href": "/get-bzz",
-          "title": "Get BZZ"
+          "title": "Get BZZ",
+          "subtitle": "BZZ token information"
         }
       ]
     },
@@ -84,7 +89,7 @@
     },
     {
       "href": "/jobs",
-      "title": "Join team"
+      "title": "Jobs"
     }
   ]
 }

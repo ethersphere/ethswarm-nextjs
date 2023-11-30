@@ -17,6 +17,7 @@ const Banner: React.FC<BannerProps> = () => {
       .then((res) => res.json())
       .then((data) => {
         setColor("green");
+        console.log(data);
         if (!data || !data.count) {
           setNodes("Network active");
         } else {

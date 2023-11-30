@@ -1,7 +1,8 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Transition } from "@headlessui/react";
+import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 
 import { Container, RegularLink } from "@/components/common";
 import Logo from "./Logo";
@@ -11,14 +12,18 @@ import { ArrowIcon } from "@/icons/components/index";
 import navigation from "../data/nav/main.json";
 
 type NavigationProps = {
-  textColor?: "text-white" | "text-gray-700";
+  textColor?: "text-gray-100" | "text-gray-700";
 };
 
 const Navigation: React.FC<NavigationProps> = ({
-  textColor = "text-white",
+  textColor = "text-gray-100",
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [firstLevel, setFirstLevel] = useState<any>(false);
+  const [offset, setOffset] = useState<number | null>();
+  const [value, setValue] = useState<string | null>();
+  const [activeTrigger, setActiveTrigger] = useState<HTMLButtonElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -32,78 +37,132 @@ const Navigation: React.FC<NavigationProps> = ({
     }
   }, [router]);
 
+  useEffect(() => {
+    const list = listRef.current;
+
+    if (activeTrigger && list) {
+      const listWidth = list.offsetWidth;
+      const listCenter = listWidth / 2;
+
+      const triggerOffsetRight =
+        listWidth - activeTrigger.offsetLeft - activeTrigger.offsetWidth + 6;
+
+      setOffset(Math.round(listCenter - triggerOffsetRight));
+    } else if (value === "") {
+      setOffset(null);
+    }
+  }, [activeTrigger, value]);
+
+  console.log(offset);
+
   return (
     <div
       className={cx(
-        "absolute left-0 right-0 z-20 flex justify-center w-full top-8 lg:top-24",
+        "absolute left-0 right-0 z-40 flex justify-center w-full top-8 lg:top-24",
         textColor
       )}
     >
       <Container className="">
-        <div className="flex items-center justify-between">
-          <div>
-            <Link href="/" className="group">
-              <Logo
-                className={cx(
-                  "h-6 lg:h-9 fill-current group-hover:text-opacity-75 duration-150",
-                  textColor
-                )}
-              />
-            </Link>
-          </div>
-          <div className="justify-center hidden px-8 space-x-4 lg:flex">
-            {navigation.items.length > 0 &&
-              navigation.items
-                .slice(0, navigation.items.length - 1)
-                .map((link, index) => (
-                  <MenuLink
-                    key={index}
-                    {...link}
-                    textColor={textColor}
-                    selected={router.asPath.startsWith(link.href)}
+        <NavigationMenu.Root onValueChange={setValue} className="relative">
+          <NavigationMenu.List ref={listRef}>
+            <div className="flex items-center">
+              <div>
+                <Link href="/" className="group">
+                  <Logo
+                    className={cx(
+                      "h-6 lg:h-9 fill-current group-hover:text-opacity-75 duration-150",
+                      textColor
+                    )}
                   />
-                ))}
-          </div>
+                </Link>
+              </div>
+              <div className="justify-center hidden px-8 space-x-4 lg:flex">
+                {navigation.items.length > 0 &&
+                  navigation.items.map((link, index) => (
+                    <>
+                      <NavigationMenu.Item key={link.title} value={link.title}>
+                        {link.children ? (
+                          <NavigationMenu.Trigger
+                            ref={(node) => {
+                              if (
+                                link.title === value &&
+                                activeTrigger !== node
+                              ) {
+                                setActiveTrigger(node);
+                              }
+                              return node;
+                            }}
+                            className="flex items-center duration-200 hover:opacity-70 "
+                          >
+                            <MenuLink
+                              key={index}
+                              {...link}
+                              textColor={textColor}
+                              selected={router.asPath.startsWith(link.href)}
+                            />
+                            <ArrowIcon
+                              className={cx(
+                                "w-3 h-3 duration-200",
+                                link.title === value
+                                  ? " -rotate-90"
+                                  : " rotate-90"
+                              )}
+                            />
+                          </NavigationMenu.Trigger>
+                        ) : (
+                          <MenuLink
+                            key={index}
+                            {...link}
+                            textColor={textColor}
+                            selected={router.asPath.startsWith(link.href)}
+                          />
+                        )}
+                        {link.children && (
+                          <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
+                            <div className="grid p-1.5 w-56">
+                              {link.children.map((child: any, index: any) => (
+                                <RegularLink
+                                  key={index}
+                                  href={child.href}
+                                  className={cx(
+                                    "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] bg-opacity-50 rounded-lg"
+                                  )}
+                                >
+                                  <div className="text-sm font-semibold text-gray-100">
+                                    {child.title}
+                                  </div>
+                                  {child.subtitle && (
+                                    <div className="text-xs text-gray-100 text-opacity-70">
+                                      {child.subtitle}
+                                    </div>
+                                  )}
+                                </RegularLink>
+                              ))}
+                            </div>
+                          </NavigationMenu.Content>
+                        )}
+                      </NavigationMenu.Item>
+                    </>
+                  ))}
+              </div>
 
-          <div className="hidden text-lg antialiased font-bold leading-10 tracking-wider uppercase font-display lg:flex">
-            {navigation.items.length > 1 && (
-              <MenuLink
-                textColor={textColor}
-                {...navigation.items[navigation.items.length - 1]}
-                selected={router.asPath.startsWith(
-                  navigation.items[navigation.items.length - 1].href
-                )}
-              />
-            )}
-          </div>
-
-          <div className="flex items-center lg:hidden">
-            <HamburgerButton onClick={() => setIsOpen(true)} />
-          </div>
-        </div>
-
-        {firstLevel &&
-          firstLevel.children &&
-          firstLevel.children.length > 0 && (
-            <div className="items-center justify-center hidden mt-4 space-x-4 lg:flex">
-              {firstLevel.children.map((child: any, index: any) => (
-                <RegularLink
-                  key={index}
-                  href={child.href}
-                  className={cx(
-                    "inline-flex items-center px-4 py-1 text-lg antialiased font-bold leading-10 tracking-wider uppercase duration-150 font-display group hover:text-gray-400",
-                    child.href === router.asPath ? "text-gray-400" : ""
-                  )}
-                >
-                  <span>{child.title}</span>
-                  <div className="relative w-4 h-4 ml-2">
-                    <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 group-hover:translate-x-4 group-hover:opacity-0 group-hover:text-gray-400" />
-                    <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 -translate-x-4 opacity-0 group-hover:text-gray-400 group-hover:translate-x-0 group-hover:opacity-100" />
-                  </div>
-                </RegularLink>
-              ))}
+              <div className="flex items-center lg:hidden">
+                <HamburgerButton onClick={() => setIsOpen(true)} />
+              </div>
             </div>
-          )}
+          </NavigationMenu.List>
+          <div className="perspective-[2000px] absolute top-full left-0 flex w-full justify-center">
+            <NavigationMenu.Viewport
+              className="data-[state=open]:animate-scaleIn data-[state=closed]:animate-scaleOut relative mt-[10px] h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] backdrop-blur-md rounded-xl    duration-200 sm:w-[var(--radix-navigation-menu-viewport-width)] transition-all "
+              style={{
+                // Avoid transitioning from initial position when first opening
+                // display: !offset ? "none" : undefined,
+                transform: `translateX(${offset}px)`,
+                transition: "all 0.2s ease",
+              }}
+            />
+          </div>
+        </NavigationMenu.Root>
       </Container>
 
       <Transition
@@ -172,7 +231,7 @@ export default Navigation;
 type MenuLinkProps = {
   href?: string;
   title: string;
-  textColor?: "text-white" | "text-gray-700";
+  textColor?: "text-gray-100" | "text-gray-700";
   selected?: boolean;
 };
 const MenuLink: React.FC<MenuLinkProps> = ({
@@ -185,9 +244,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({
     <RegularLink
       href={href}
       className={cx(
-        "px-4 py-1 text-lg antialiased font-bold leading-10 tracking-wider uppercase duration-150 font-display hover:bg-black hover:text-gray-100",
-        selected ? "bg-black text-gray-100" : "",
-        textColor === "text-white" ? "bg-gray-800" : ""
+        "px-4 py-1 text-sm antialiased font-semibold   duration-150   text-gray-100"
       )}
     >
       {title}
