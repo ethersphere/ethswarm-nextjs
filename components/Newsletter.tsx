@@ -9,6 +9,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
       id="mauticform_wrapper_websitenewslettersubscription"
       className="mauticform_wrapper"
     >
+      {/*
       <form
         autoComplete="false"
         role="form"
@@ -102,27 +103,8 @@ const Newsletter: React.FC<NewsletterProps> = () => {
           value="1"
         />
       </form>
+       */}
     </div>
-    // <form className="flex flex-wrap justify-center w-full gap-4 lg:flex-nowrap">
-    //   <label className="sr-only" htmlFor="email">
-    //     Enter your email address
-    //   </label>
-    //   <InputField
-    //     onChange={() => {}}
-    //     value={""}
-    //     placeholder="Enter your email address"
-    //     type="email"
-    //     name="email"
-    //     className="px-4 py-2.5 text-lg flex-grow lg:w-full"
-    //   />
-    //   <Button
-    //     title="Subscribe"
-    //     arrow={true}
-    //     href="/"
-    //     background="transparent"
-    //     color="gray"
-    //   />
-    // </form>
   );
 };
 
