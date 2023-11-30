@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import { Banner, Connect, Footer, Navigation } from "@/components/index";
+import { Connect, Footer, Navigation } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/jobs.json";
 import SecondaryHero from "@/components/sections/SecondaryHero";
@@ -17,8 +17,6 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
       <Meta title={content.meta.title ?? meta.title} />
 
       <main className="overflow-hidden">
-        <Banner />
-
         <Navigation textColor="text-gray-700" />
 
         {/* @ts-ignore */}

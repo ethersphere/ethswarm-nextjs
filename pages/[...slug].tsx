@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 
 import {
-  Banner,
   Connect,
   Cta,
   Footer,
@@ -29,8 +28,6 @@ const Page: NextPage = (content: any) => {
       <Meta title={content.meta.title ?? meta.title} />
 
       <main>
-        <Banner />
-
         <Navigation textColor="text-gray-700" />
 
         {content.sections.map((section: any, index: number) => {

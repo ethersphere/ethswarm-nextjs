@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-import { Banner, Connect, Footer, Navigation, Post } from "@/components/index";
+import { Connect, Footer, Navigation, Post } from "@/components/index";
 import meta from "data/meta.json";
 import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
@@ -14,8 +14,6 @@ const JobSingle: NextPage = (content: any) => {
       <Meta title={content.meta.title ?? meta.title} />
 
       <main>
-        <Banner />
-
         <Navigation textColor="text-gray-700" />
 
         {/* @ts-ignore */}

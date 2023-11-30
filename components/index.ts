@@ -36,7 +36,6 @@ export {
   DevelopSection,
   Disclaimer,
   FairdDriveSection,
-  Banner,
   Hero,
   Unstoppable,
   Post,
