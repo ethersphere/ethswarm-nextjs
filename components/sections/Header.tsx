@@ -1,6 +1,7 @@
 import { CtaType } from "types";
 import { ButtonGroup, SectionContent, Tagline } from "../common";
 import { cx } from "utils";
+import exp from "constants";
 
 type HeaderProps = {
   tagline?: string;
@@ -10,13 +11,13 @@ type HeaderProps = {
   size?: "small" | "large";
 };
 
-export function Header({
+const Header: React.FC<HeaderProps> = ({
   tagline,
   title,
   content,
   ctas,
   size = "small",
-}: HeaderProps) {
+}: HeaderProps) => {
   return (
     <div className={cx("max-w-[50%]")}>
       {tagline && <Tagline copy={tagline} />}
@@ -47,4 +48,6 @@ export function Header({
       {ctas && ctas.length > 0 && <ButtonGroup ctas={ctas} className="mb-4" />}
     </div>
   );
-}
+};
+
+export default Header;

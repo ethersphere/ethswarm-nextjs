@@ -1,4 +1,3 @@
-import Banner from "./Stats";
 import Hero from "./sections/Hero";
 import Unstoppable from "./sections/Unstoppable";
 import Wikipedia from "./sections/Wikipedia";
@@ -21,6 +20,8 @@ import Roadmap from "./sections/Roadmap";
 import Odyssey from "./sections/Odyssey";
 import Disclaimer from "./sections/Disclaimer";
 import Swarm20 from "./sections/Swarm20";
+import Header from "./sections/Header";
+import Stats from "./Stats";
 
 export {
   GeneralSection,
@@ -38,6 +39,8 @@ export {
   FairdDriveSection,
   Hero,
   Unstoppable,
+  Header,
+  Stats,
   Post,
   Odyssey,
   Roadmap,

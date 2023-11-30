@@ -129,7 +129,7 @@ const Home: NextPage = (props: any) => {
         /> */}
 
         <Connect events={props.events} />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   );

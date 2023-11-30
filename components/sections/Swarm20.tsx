@@ -1,12 +1,7 @@
 import * as React from "react";
-import {
-  ButtonGroup,
-  Container,
-  SectionContent,
-  Tagline,
-} from "@/components/common";
+import { Container } from "@/components/common";
+import { Header } from "@/components/index";
 import { CtaType } from "types";
-import { Header } from "./Header";
 
 type Swarm20Props = {
   title: string;
