@@ -60,13 +60,9 @@ export type TabType = {
 };
 
 export type CardType = {
+  content?: string;
+  icon?: React.ReactNode;
   className?: string;
   title: string;
-  href: string;
-  image?: string;
-  copy?: string;
-  cta?: CtaType;
-  type?: "large" | "regular";
-  category?: string;
-  readTime?: Number;
+  ctas?: CtaType[];
 };

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={inter.className}>
+    <div className={`${inter.className} antialiased`}>
       <Component {...pageProps} />
     </div>
   );
