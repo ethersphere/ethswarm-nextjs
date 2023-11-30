@@ -53,7 +53,7 @@ const Navigation: React.FC<NavigationProps> = ({
         textColor
       )}
     >
-      <Container className="">
+      <Container className="w-full">
         <NavigationMenu.Root
           onValueChange={setValue}
           className="relative flex items-center w-full"
