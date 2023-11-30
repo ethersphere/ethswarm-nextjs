@@ -6,11 +6,13 @@ type ContainerProps = {
   children?: React.ReactNode;
 };
 
-const Container: React.FC<ContainerProps> = ({
+const GridContainer: React.FC<ContainerProps> = ({
   children = null,
   className = "",
 }) => {
-  return <div className={cn("max-w-6xl mx-auto", className)}>{children}</div>;
+  return (
+    <div className={cn("grid grid-cols-12 px-8", className)}>{children}</div>
+  );
 };
 
-export default Container;
+export default GridContainer;
