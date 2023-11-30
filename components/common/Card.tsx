@@ -2,6 +2,7 @@ import * as React from "react";
 import { CardType } from "types";
 import { cn } from "utils";
 import ButtonGroup from "./ButtonGroup";
+import Icon from "./Icon";
 
 type CardProps = CardType;
 
@@ -19,8 +20,12 @@ const Card: React.FC<CardProps> = ({
         className
       )}
     >
-      <div className="">
-        {icon && <span className="inline-block w-5 mr-4">{icon}</span>}
+      <div className="flex items-center">
+        {icon && (
+          <span className="inline-block mr-4">
+            <Icon icon={icon} className="w-5 text-[#F6F7F9] fill-current" />
+          </span>
+        )}
         <h4 className="inline font-bold text-[#F6F7F9] text-[17px] leading-6">
           {title}
         </h4>

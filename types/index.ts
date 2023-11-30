@@ -61,7 +61,7 @@ export type TabType = {
 
 export type CardType = {
   content?: string;
-  icon?: React.ReactNode;
+  icon?: string;
   className?: string;
   title: string;
   ctas?: CtaType[];
