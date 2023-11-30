@@ -232,7 +232,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({
       {icon && (
         <ArrowIcon
           className={cx(
-            "w-3 h-3 duration-200",
+            "w-2.5 h-2 ml-2 duration-200",
             selected ? " -rotate-90" : " rotate-90"
           )}
         />

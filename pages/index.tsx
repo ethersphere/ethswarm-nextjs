@@ -4,7 +4,6 @@ import {
   DevelopSection,
   FairdDriveSection,
   Odyssey,
-  Banner,
   Hero,
   Builders,
   Millions,
@@ -25,7 +24,7 @@ import Summit from "@/components/sections/Summit";
 
 const Home: NextPage = (props: any) => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-[#0D1216]">
       <Meta title={meta.title} />
 
       <main className="">

@@ -23,8 +23,8 @@ const Swarm20: React.FC<Swarm20Props> = ({
 }) => {
   return (
     <section className="relative flex flex-col items-center justify-end h-full  text-gray-100 bg-[#0D1216]">
-      <Container className="relative flex flex-col h-full pt-20 pb-16 md:pb-36 md:pt-56 ">
-        <Header title={title} content={content} ctas={ctas} />
+      <Container className="relative flex flex-col justify-center h-screen pt-20 pb-16 md:pb-36 md:pt-56 ">
+        <Header title={title} content={content} ctas={ctas} size="large" />
       </Container>
 
       <img
