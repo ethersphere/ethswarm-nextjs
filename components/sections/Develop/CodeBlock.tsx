@@ -12,7 +12,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ code = "", className = "" }) => {
 
   return (
     <div className={className}>
-      <div className="px-4 py-8 overflow-x-scroll text-xs leading-[20px] text-gray-100 bg-gray-900">
+      <div className="px-4 py-8 overflow-x-auto text-xs leading-[20px] text-gray-100 bg-gray-900 border border-[#2D3843] rounded-xl">
         <pre
           dangerouslySetInnerHTML={{
             __html: blocks[code],

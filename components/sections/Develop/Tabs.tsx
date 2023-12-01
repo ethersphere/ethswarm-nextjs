@@ -1,10 +1,11 @@
-import * as React from "react";
 import { Tab } from "@headlessui/react";
 
-import { ButtonGroup, SectionContent } from "@/components/common";
+import { ButtonGroup, Container, SectionContent } from "@/components/common";
 
 import { TabType } from "types";
 import CodeBlock from "./CodeBlock";
+import { useState } from "react";
+import GridContainer from "@/components/common/GridContainer";
 
 type TabsProps = {
   tabs?: Array<TabType>;
@@ -12,22 +13,24 @@ type TabsProps = {
 };
 
 const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
+  const [selected, setSelected] = useState(0);
+
   if (tabs.length === 0) {
     return null;
   }
 
   return (
-    <div className="flex flex-col">
-      <div className="text-lg">
-        <Tab.Group>
-          <Tab.List className="flex pb-4 gap-x-2 sm:gap-x-4">
+    <Container className="">
+      <GridContainer className="items-center ">
+        <Tab.Group as="div" onChange={setSelected} className="col-span-6 py-20">
+          <Tab.List className="flex gap-x-2 sm:gap-x-4">
             {tabs.map((tab, index) => (
               <Tab
                 key={index}
                 className={({ selected }: any) =>
                   selected
-                    ? "font-display font-bold px-3 md:px-4 bg-black py-2 text-gray-100 text-sm md:text-lg tracking-wider uppercase focus:outline-none"
-                    : "font-display font-bold px-3 md:px-4 bg-transparent py-2 text-black text-sm md:text-lg tracking-wider uppercase"
+                    ? "font-display font-bold px-3 md:px-4 bg-[#F6F7F9] leading-8 rounded-full text-[#0D1216] text-sm  focus:outline-none"
+                    : "font-display font-bold px-3 md:px-4 bg-transparent leading-8  text-[#F6F7F9] text-sm "
                 }
               >
                 {tab.title}
@@ -36,18 +39,20 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
           </Tab.List>
           <Tab.Panels className="pt-4">
             {tabs.map((tab, index) => (
-              <Tab.Panel key={index}>
-                <SectionContent className="pb-8" content={tab.content} />
+              <Tab.Panel key={index} className="mr-8">
+                <SectionContent
+                  className="pb-8 text-[#F6F7F9]"
+                  content={tab.content}
+                />
 
                 <ButtonGroup className="" ctas={tab.ctas} />
-
-                <CodeBlock className="mt-8 -mx-4" code={tab.code} />
               </Tab.Panel>
             ))}
           </Tab.Panels>
-        </Tab.Group>
-      </div>
-    </div>
+        </Tab.Group>{" "}
+        <CodeBlock className="col-span-6 " code={tabs[selected].code} />
+      </GridContainer>
+    </Container>
   );
 };
 

@@ -58,8 +58,7 @@
         "title": "How it works"
       }
     ],
-    "features_type": "three",
-    "features": [
+    "cards": [
       {
         "title": "Open & Borderless",
         "content": "Swarm is open source code, limited only by the people who use and maintain it - Join a community building the future of the web.",
@@ -222,7 +221,7 @@
     "tagline": "Decentralise web",
     "title": "Your decentralised web3 dapp in 4 steps",
     "content": "",
-    "features": [
+    "cards": [
       {
         "title": "1. Fork on GitHub",
         "content": "Find a forkable project that should be decentralised or extended.",
@@ -252,7 +251,8 @@
     "content": {
       "tagline": "What is happening",
       "title": "Swarm News",
-      "news": [
+      "content": "An open-source, censorship-resistant blog hosted on Swarm.",
+      "cards": [
         {
           "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
           "image": {
@@ -262,7 +262,7 @@
           "category": "development",
           "readTime": 3,
           "title": "Swarm Desktop App - Web3 for everyone",
-          "copy": "The Swarm Foundation unveiled the beta version of the Swarm Desktop App (Beta). Its goal is to take the best from Web2 and replace the complex experience of Web3 with a familiar one.",
+          "content": "The Swarm Foundation unveiled the beta version of the Swarm Desktop App (Beta). Its goal is to take the best from Web2 and replace the complex experience of Web3 with a familiar one.",
           "cta": {
             "title": "Read more",
             "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
@@ -280,7 +280,7 @@
           },
           "readTime": 3,
           "title": "Bridge DAI from Ethereum Mainnet to Gnosis",
-          "copy": "Your Bee node uses the Gnosis Chain network to buy postage stamps, to keep your files and data alive in…",
+          "content": "Your Bee node uses the Gnosis Chain network to buy postage stamps, to keep your files and data alive in…",
           "cta": {
             "title": "Read more",
             "href": "https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c",
@@ -298,7 +298,7 @@
           },
           "readTime": 2,
           "title": "50k DAI prize to make Wikipedia unstoppable",
-          "copy": "The Swarm Association is announcing a 50,000 DAI “Wikipedia on Swarm ”prize (paid in BZZ) for a solution that…",
+          "content": "The Swarm Association is announcing a 50,000 DAI “Wikipedia on Swarm ”prize (paid in BZZ) for a solution that…",
           "cta": {
             "title": "Read more",
             "href": "https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873",
@@ -311,9 +311,7 @@
       "ctas": [
         {
           "href": "https://blog.ethswarm.org/",
-          "background": "orange-onDark",
-          "color": "black",
-          "arrow": true,
+
           "title": "Visit Blog"
         }
       ]

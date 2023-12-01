@@ -66,5 +66,9 @@ export type CardType = {
   icon?: string;
   className?: string;
   title: string;
+  image?: {
+    src: string;
+    alt: string;
+  };
   ctas?: CtaType[];
 };

@@ -7,31 +7,23 @@ import Card from "../common/Card";
 import GridContainer from "../common/GridContainer";
 
 type GeneralSectionProps = {
-  background?: "bg-black" | "bg-gray-700" | "";
   textColor?: "text-black" | "text-gray-100";
   content: {
     tagline?: string;
     title: string;
     content?: string;
-    features?: Array<FeatureType>;
-    features_type?: "six" | "four";
-    news?: Array<CardType>;
+    cards?: Array<CardType>;
     ctas?: Array<CtaType>;
   };
 };
 
 const GeneralSection: React.FC<GeneralSectionProps> = ({
   content,
-  background = "",
   textColor = "text-gray-100",
 }) => {
   return (
     <section
-      className={cx(
-        "relative flex justify-center overflow-hidden ",
-        background,
-        textColor
-      )}
+      className={cx("relative flex justify-center overflow-hidden ", textColor)}
     >
       <Container className="flex flex-col py-20 md:-mt-20 md:py-40">
         <GridContainer>
@@ -46,10 +38,8 @@ const GeneralSection: React.FC<GeneralSectionProps> = ({
         </GridContainer>
 
         <GridContainer className="mt-20">
-          {content.features &&
-            content.features.map((item, index) => (
-              <Card key={index} {...item} />
-            ))}
+          {content.cards &&
+            content.cards.map((item, index) => <Card key={index} {...item} />)}
         </GridContainer>
       </Container>
     </section>

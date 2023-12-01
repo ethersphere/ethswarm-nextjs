@@ -2,12 +2,14 @@ import * as React from "react";
 import {
   ButtonGroup,
   Container,
+  Header,
   SectionContent,
   Tagline,
 } from "@/components/common";
 import { CtaType, TabType } from "types";
 import { HeadingUnderline } from "@/components/common";
 import Tabs from "./Develop/Tabs";
+import GridContainer from "../common/GridContainer";
 
 type DevelopSectionProps = {
   tagline?: string;
@@ -25,22 +27,19 @@ const DevelopSection: React.FC<DevelopSectionProps> = ({
   tabs,
 }) => {
   return (
-    <section className="relative flex justify-center overflow-hidden text-black">
-      <Container className="py-20  md:py-40 gap-x-12 gap-y-16">
-        <div className="flex flex-col">
-          <Tagline copy={tagline} />
-
-          <div className="w-3/4 mb-8 md:mb-12">
-            <HeadingUnderline title={title} />
-          </div>
-
-          <SectionContent className="mb-14" content={content} />
-
-          <ButtonGroup ctas={ctas} className="mb-4" />
-        </div>
-
-        <Tabs tabs={tabs} />
+    <section className="relative overflow-hidden text-[#F6F7F9]">
+      <Container className="mt-48 mb-20 ">
+        <GridContainer>
+          <Header
+            tagline={tagline}
+            title={title}
+            content={content}
+            ctas={ctas}
+            className="col-span-6"
+          />
+        </GridContainer>
       </Container>
+      <Tabs tabs={tabs} />
     </section>
   );
 };

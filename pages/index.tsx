@@ -74,26 +74,7 @@ const Home: NextPage = (props: any) => {
           tabs={content.develop.tabs as Array<TabType>}
         />
 
-        <GeneralSection
-          content={{
-            tagline: content.news.content.tagline,
-            title: content.news.content.title,
-            // @ts-ignore
-            ctas: content.news.content.ctas,
-            news: props.home.news,
-          }}
-          // @ts-ignore
-          background={content.news.background}
-          // @ts-ignore
-          textColor={content.news.textColor}
-        />
-
-        <Dapp
-          tagline={content.dapp.tagline}
-          title={content.dapp.title}
-          ctas={content.dapp.ctas as Array<CtaType>}
-          features={content.dapp.features as Array<FeatureType>}
-        />
+        <GeneralSection content={content.news.content} />
 
         <FairdDriveSection
           tagline={content.fairdata.tagline}
@@ -102,12 +83,15 @@ const Home: NextPage = (props: any) => {
           ctas={content.fairdata.ctas as Array<CtaType>}
         />
 
-        <Builders
-          tagline={content.builders.tagline}
-          title={content.builders.title}
-          content={content.builders.content}
-          ctas={content.builders.ctas as Array<CtaType>}
-          features={props.home.grantees as Array<FeatureType>}
+        <GeneralSection
+          content={{
+            tagline: content.builders.tagline,
+            title: content.builders.title,
+            content: content.builders.content,
+            // @ts-ignore
+            ctas: content.builders.ctas,
+            cards: props.home.grantees,
+          }}
         />
 
         {/* <Millions
