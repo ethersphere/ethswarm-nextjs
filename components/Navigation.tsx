@@ -11,6 +11,7 @@ import { cx } from "utils";
 import { ArrowIcon } from "@/icons/components/index";
 
 import navigation from "../data/nav/main.json";
+import GridContainer from "./common/GridContainer";
 
 type NavigationProps = {
   textColor?: "text-gray-100" | "text-gray-700";
@@ -50,95 +51,100 @@ const Navigation: React.FC<NavigationProps> = ({
       )}
     >
       <Container className="w-full">
-        <NavigationMenu.Root
-          onValueChange={setValue}
-          className="relative flex items-center w-full"
-        >
-          <Link href="/" className="group">
-            <Logo
-              className={cx(
-                "h-6 lg:h-8 fill-current group-hover:text-opacity-75 duration-150",
-                textColor
-              )}
-            />
-          </Link>
-          <div className="relative mr-auto">
-            <NavigationMenu.List
-              ref={listRef}
-              className="items-center justify-center hidden w-full px-8 lg:flex"
-            >
-              {navigation.items.length > 0 &&
-                navigation.items.map((link, index) => (
-                  <>
-                    <NavigationMenu.Item key={link.title} value={link.title}>
-                      {link.children ? (
-                        <NavigationMenu.Trigger
-                          ref={(node) => {
-                            if (link.title === value && activeTrigger !== node)
-                              setActiveTrigger(node);
+        <GridContainer>
+          <NavigationMenu.Root
+            onValueChange={setValue}
+            className="relative flex items-center w-full col-span-12"
+          >
+            <Link href="/" className="group">
+              <Logo
+                className={cx(
+                  "h-6 lg:h-8 fill-current group-hover:text-opacity-75 duration-150",
+                  textColor
+                )}
+              />
+            </Link>
+            <div className="relative mr-auto">
+              <NavigationMenu.List
+                ref={listRef}
+                className="items-center justify-center hidden w-full px-8 lg:flex"
+              >
+                {navigation.items.length > 0 &&
+                  navigation.items.map((link, index) => (
+                    <>
+                      <NavigationMenu.Item key={link.title} value={link.title}>
+                        {link.children ? (
+                          <NavigationMenu.Trigger
+                            ref={(node) => {
+                              if (
+                                link.title === value &&
+                                activeTrigger !== node
+                              )
+                                setActiveTrigger(node);
 
-                            return node;
-                          }}
-                        >
+                              return node;
+                            }}
+                          >
+                            <MenuLink
+                              key={index}
+                              {...link}
+                              icon
+                              selected={value === link.title}
+                            />
+                          </NavigationMenu.Trigger>
+                        ) : (
                           <MenuLink
                             key={index}
                             {...link}
-                            icon
-                            selected={value === link.title}
+                            selected={router.asPath.startsWith(link.href)}
                           />
-                        </NavigationMenu.Trigger>
-                      ) : (
-                        <MenuLink
-                          key={index}
-                          {...link}
-                          selected={router.asPath.startsWith(link.href)}
-                        />
-                      )}
-                      {link.children && (
-                        <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
-                          <div className="grid p-1.5 w-56">
-                            {link.children.map((child: any, index: any) => (
-                              <RegularLink
-                                key={index}
-                                href={child.href}
-                                className={cx(
-                                  "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
-                                )}
-                              >
-                                <div className="text-sm font-semibold text-gray-100">
-                                  {child.title}
-                                </div>
-                                {child.subtitle && (
-                                  <div className="text-xs text-gray-100 text-opacity-70">
-                                    {child.subtitle}
+                        )}
+                        {link.children && (
+                          <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
+                            <div className="grid p-1.5 w-56">
+                              {link.children.map((child: any, index: any) => (
+                                <RegularLink
+                                  key={index}
+                                  href={child.href}
+                                  className={cx(
+                                    "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
+                                  )}
+                                >
+                                  <div className="text-sm font-semibold text-gray-100">
+                                    {child.title}
                                   </div>
-                                )}
-                              </RegularLink>
-                            ))}
-                          </div>
-                        </NavigationMenu.Content>
-                      )}
-                    </NavigationMenu.Item>
-                  </>
-                ))}
-            </NavigationMenu.List>
-            <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
-              <NavigationMenu.Viewport
-                forceMount
-                className="relative mt-[10px]  data-[state=closed]:opacity-0  data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] transition-all  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
-                style={{
-                  transform: `translateX(${offset}px)`,
-                }}
-              />
+                                  {child.subtitle && (
+                                    <div className="text-xs text-gray-100 text-opacity-70">
+                                      {child.subtitle}
+                                    </div>
+                                  )}
+                                </RegularLink>
+                              ))}
+                            </div>
+                          </NavigationMenu.Content>
+                        )}
+                      </NavigationMenu.Item>
+                    </>
+                  ))}
+              </NavigationMenu.List>
+              <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
+                <NavigationMenu.Viewport
+                  forceMount
+                  className="relative mt-[10px]  data-[state=closed]:opacity-0  data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] transition-all  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
+                  style={{
+                    transform: `translateX(${offset}px)`,
+                  }}
+                />
+              </div>
             </div>
-          </div>
 
-          <Stats />
+            <Stats />
 
-          <div className="flex items-center lg:hidden">
-            <HamburgerButton onClick={() => setIsOpen(true)} />
-          </div>
-        </NavigationMenu.Root>
+            <div className="flex items-center lg:hidden">
+              <HamburgerButton onClick={() => setIsOpen(true)} />
+            </div>
+          </NavigationMenu.Root>
+        </GridContainer>
       </Container>
 
       <Transition

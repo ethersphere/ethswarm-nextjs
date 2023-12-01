@@ -10,6 +10,7 @@ import FeatureList from "./FeatureList";
 import CardList from "./CardList";
 import InputField from "./InputField";
 import Meta from "./Meta";
+import Header from "./Header";
 
 export {
   InputField,
@@ -24,4 +25,5 @@ export {
   RegularLink,
   SectionContent,
   Tagline,
+  Header,
 };

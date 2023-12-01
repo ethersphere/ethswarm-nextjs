@@ -20,7 +20,6 @@ import Roadmap from "./sections/Roadmap";
 import Odyssey from "./sections/Odyssey";
 import Disclaimer from "./sections/Disclaimer";
 import LandingHero from "./sections/LandingHero";
-import Header from "./sections/Header";
 import Stats from "./Stats";
 
 export {
@@ -39,7 +38,6 @@ export {
   FairdDriveSection,
   Hero,
   Unstoppable,
-  Header,
   Stats,
   Post,
   Odyssey,

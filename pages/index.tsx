@@ -49,7 +49,7 @@ const Home: NextPage = (props: any) => {
         /> */}
 
         {/* @ts-ignore */}
-        <GeneralSection content={content.unstoppable} textColor="text-black" />
+        <GeneralSection content={content.unstoppable} />
 
         {/* We hide this section for now */}
         {/* <Wikipedia
