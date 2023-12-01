@@ -2,10 +2,12 @@ import * as React from "react";
 import {
   ButtonGroup,
   Container,
+  Header,
   SectionContent,
   Tagline,
 } from "@/components/common";
 import { CtaType } from "types";
+import GridContainer from "../common/GridContainer";
 
 type OdysseyProps = {
   title: string;
@@ -21,34 +23,24 @@ const Odyssey: React.FC<OdysseyProps> = ({
   ctas,
 }) => {
   return (
-    <section className="relative flex flex-col items-center overflow-hidden text-gray-100 bg-gray-800">
-      <img
-        loading="lazy"
-        src="/assets/odyssey_background.png"
-        alt="Odyssey Graphic"
-        className="absolute bottom-0 right-0 hidden pointer-events-none md:block md:top-0 md:h-full h-1/2"
-      />
-
-      <Container className="relative flex flex-col h-full pt-20 pb-16 md:pb-44 md:pt-40">
-        <Tagline copy={tagline} />
-
-        <div className="mb-8 md:mb-12">
-          <h2 className="inline-flex flex-wrap font-bold text-4xl md:text-[64px] tracking-[-0.01em] gap-3 items-center">
-            {title}
-          </h2>
-        </div>
-
-        <SectionContent className="text-gray-100 mb-14" content={content} />
-
-        <ButtonGroup ctas={ctas} className="mb-4" />
+    <section className="relative text-gray-100">
+      <Container className="relative h-full border border-[#2D3843] rounded-xl bg-gradient-odyssey">
+        <GridContainer className="items-center">
+          <Header
+            tagline={tagline}
+            content={content}
+            title={title}
+            ctas={ctas}
+            className="col-span-6 "
+          />
+          <img
+            loading="lazy"
+            src="/assets/odyssey_background.png"
+            alt="Odyssey Graphic"
+            className="object-contain object-right col-span-5 col-start-8 -mt-10 pointer-events-none"
+          />
+        </GridContainer>
       </Container>
-
-      <img
-        loading="lazy"
-        src="/assets/odyssey_background.png"
-        alt="Odyssey Graphic"
-        className="object-contain object-right w-screen -mt-40 pointer-events-none max-h-96 md:hidden"
-      />
     </section>
   );
 };

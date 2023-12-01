@@ -48,8 +48,7 @@
         "href": "/why",
         "background": "orange",
         "color": "black",
-        "arrow": true,
-        "title": "Why Swarm"
+        "title": "Learn more ->"
       },
       {
         "href": "/why#how",
@@ -114,10 +113,9 @@
     "ctas": [
       {
         "href": "https://my.ethswarm.org/uploads",
-        "background": "white",
+        "background": "purple",
         "color": "black",
-        "arrow": true,
-        "title": "APPLY"
+        "title": "Apply ->"
       }
     ]
   },

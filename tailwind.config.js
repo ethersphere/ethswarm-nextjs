@@ -15,6 +15,13 @@ module.exports = {
       boxShadow: {
         dark: "0px 8px 50px 0px #00000012",
       },
+      maxWidth: {
+        "6xl": "1200px",
+      },
+      backgroundImage: {
+        "gradient-odyssey":
+          "linear-gradient(100deg, #1F2831 0%, rgba(19, 25, 31, 0.80) 80.3%)",
+      },
       typography: {
         DEFAULT: {
           css: {

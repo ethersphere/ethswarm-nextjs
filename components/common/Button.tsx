@@ -24,18 +24,17 @@ const Button: React.FC<ButtonProps> = ({
   back = false,
 }) => {
   let classNameBackground =
-    "bg-orange-500 focus:outline-none text-gray-100 hover:bg-opacity-80 px-4";
+    "bg-orange-500 focus:outline-none text-[#F6F7F9] hover:bg-opacity-80 px-4";
 
   if (background === "transparent") {
-    classNameBackground =
-      "bg-orange-transparent focus:outline-none hover:text-gray-500";
-  } else if (background === "white") {
-    classNameBackground = "bg-white focus:ring-white px-4";
+    classNameBackground = " focus:outline-none hover:text-gray-500";
+  } else if (background === "purple") {
+    classNameBackground = "bg-[#7049F6] focus:ring-white px-4";
   } else if (background === "black") {
     classNameBackground = "bg-black focus:outline-none px-4";
   }
 
-  let classNameColor = "text-black";
+  let classNameColor = "text-[#F6F7F9]";
 
   if (color === "gray") {
     classNameColor = "text-gray-100";

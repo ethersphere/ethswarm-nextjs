@@ -2,6 +2,8 @@ import * as React from "react";
 
 export type ButtonBackgroundType =
   | "orange"
+  | "purple"
+  | "green"
   | "orange-onDark"
   | "transparent"
   | "white"
