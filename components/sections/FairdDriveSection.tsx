@@ -25,7 +25,7 @@ const FairdDriveSection: React.FC<FairdDriveSectionProps> = ({
 }) => {
   return (
     <section className="relative overflow-hidden text-gray-100">
-      <Container className="relative h-full border border-[#2D3843] rounded-xl bg-gradient-odyssey">
+      <Container className="relative h-full border border-[#2D3843] rounded-xl bg-gradient-fairdata">
         <GridContainer className="items-center">
           <Header
             tagline={tagline}

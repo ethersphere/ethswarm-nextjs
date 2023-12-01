@@ -15,7 +15,7 @@ type ConnectProps = {
 
 const Connect: React.FC<ConnectProps> = ({ events }) => {
   return (
-    <section className="relative flex justify-center overflow-hidden text-black bg-gray-300">
+    <section className="relative flex justify-center overflow-hidden text-[#F6F7F9]">
       <Container className="flex flex-col py-20 md:py-40">
         <Tagline copy={content.tagline} />
 

@@ -21,6 +21,8 @@ module.exports = {
       backgroundImage: {
         "gradient-odyssey":
           "linear-gradient(100deg, #1F2831 0%, rgba(19, 25, 31, 0.80) 80.3%)",
+        "gradient-fairdata":
+          "linear-gradient(91deg, #1F2831 0.76%, rgba(19, 25, 31, 0.80) 99.24%)",
       },
       typography: {
         DEFAULT: {
