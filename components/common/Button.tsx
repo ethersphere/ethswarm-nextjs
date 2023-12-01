@@ -30,8 +30,8 @@ const Button: React.FC<ButtonProps> = ({
     classNameBackground = " focus:outline-none hover:text-gray-500";
   } else if (background === "purple") {
     classNameBackground = "bg-[#7049F6] focus:ring-white px-4";
-  } else if (background === "black") {
-    classNameBackground = "bg-black focus:outline-none px-4";
+  } else if (background === "green") {
+    classNameBackground = "bg-[#14FEC0] text-[#141516] focus:outline-none px-4";
   }
 
   let classNameColor = "text-[#F6F7F9]";

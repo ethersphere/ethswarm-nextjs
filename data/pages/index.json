@@ -199,21 +199,19 @@
   "fairdata": {
     "tagline": "Interoperability and data sovereignty",
     "title": "Fair Data Protocol",
-    "content": "Fair data protocol enables a fairer data economy that promotes human rights through privacy, digital sovereignty, and data interoperability, and allows developers to focus on building their dapps rather than reinventing data stores.",
+    "content": "Fair data protocol enables a fairer data economy that promotes human rights through privacy, digital sovereignty, and data interoperability.",
     "ctas": [
       {
         "href": "https://fairdataprotocol.bzz.link/",
-        "background": "white",
+        "background": "green",
         "color": "black",
-        "arrow": true,
-        "title": "Fair data PROTOCOL"
+        "title": "Fair Data Protocol ->"
       },
       {
         "href": "https://fairdatasociety.org/",
         "background": "transparent",
         "color": "gray",
-        "arrow": true,
-        "title": "Fair data SOCIETY"
+        "title": "Fair Data Society ->"
       }
     ]
   },

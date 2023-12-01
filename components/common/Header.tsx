@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({
         content={content}
       />
 
-      {ctas && ctas.length > 0 && <ButtonGroup ctas={ctas} className="mb-4" />}
+      {ctas && ctas.length > 0 && <ButtonGroup ctas={ctas} className="" />}
     </div>
   );
 };
