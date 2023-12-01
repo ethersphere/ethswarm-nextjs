@@ -30,7 +30,7 @@ const Navigation: React.FC<NavigationProps> = ({
 
   useEffect(() => {
     const list = listRef.current;
-
+    //set the offset of the menu to position of the active trigger
     if (activeTrigger && list) {
       const listWidth = list.offsetWidth;
       const listCenter = listWidth / 2;
@@ -39,12 +39,8 @@ const Navigation: React.FC<NavigationProps> = ({
         listWidth - activeTrigger.offsetLeft - activeTrigger.offsetWidth + 20;
 
       setOffset(Math.round(listCenter - triggerOffsetRight));
-    } else if (value === "") {
-      setOffset(null);
     }
   }, [activeTrigger, value]);
-
-  console.log(offset);
 
   return (
     <div
@@ -126,14 +122,12 @@ const Navigation: React.FC<NavigationProps> = ({
                   </>
                 ))}
             </NavigationMenu.List>
-            <div className="perspective-[2000px] absolute top-full left-0 flex w-full justify-center">
+            <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
               <NavigationMenu.Viewport
-                className="data-[state=open]:animate-scaleIn  data-[state=closed]:animate-scaleOut relative mt-[10px] h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] backdrop-blur-md rounded-xl    duration-200 sm:w-[var(--radix-navigation-menu-viewport-width)] transition-all "
+                forceMount
+                className="relative mt-[10px]  data-[state=closed]:opacity-0  data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] transition-all  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
                 style={{
-                  // Avoid transitioning from initial position when first opening
-                  // display: !offset ? "none" : undefined,
                   transform: `translateX(${offset}px)`,
-                  transition: "all 0.25s ease-out",
                 }}
               />
             </div>
