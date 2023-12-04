@@ -111,8 +111,7 @@ const Home: NextPage = (props: any) => {
           features={props.home.bounties as Array<FeatureType>}
         /> */}
 
-        <Connect events={props.events} />
-        <Footer />
+        <Footer events={props.events} />
       </main>
     </div>
   );

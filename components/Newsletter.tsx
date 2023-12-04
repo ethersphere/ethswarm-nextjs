@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowIcon } from "@/icons/components/index";
 
 type NewsletterProps = {};
 
@@ -7,9 +6,8 @@ const Newsletter: React.FC<NewsletterProps> = () => {
   return (
     <div
       id="mauticform_wrapper_websitenewslettersubscription"
-      className="mauticform_wrapper"
+      className="mt-4 mauticform_wrapper"
     >
-      {/*
       <form
         autoComplete="false"
         role="form"
@@ -42,13 +40,13 @@ const Newsletter: React.FC<NewsletterProps> = () => {
               <input
                 id="mauticform_input_websitenewslettersubscription_email_address"
                 name="mauticform[email_address]"
-                className="w-full text-gray-300 duration-100 bg-gray-800 border-none focus:ring-1 focus:ring-gray-300 placeholder-gray-275 font-display px-4 py-2.5 text-lg"
+                className="w-full text-[#F6F7F9] rounded-full duration-100 bg-white bg-opacity-10 border-none focus:ring-1 focus:ring-gray-300 placeholder-[#F6F7F9]  px-8 py-3 text-lg"
                 type="email"
                 required={true}
                 placeholder={"Enter your email address"}
               />
 
-              <div className="px-4 mt-5 text-xs tracking-wider text-gray-275 font-display text-opacity-70">
+              <div className="mt-4 text-[10px] text-[#F6F7F9] text-opacity-50">
                 By clicking on Subscribe you consent to usage of your given
                 e-mail address for receiving communication and news about the
                 Swarm project. Data will be controlled and processed by Swarm
@@ -61,13 +59,9 @@ const Newsletter: React.FC<NewsletterProps> = () => {
               name="mauticform[submit]"
               id="mauticform_input_websitenewslettersubscription_submit"
               value=""
-              className="inline-flex items-center justify-center gap-2 px-4 py-2 text-lg font-semibold tracking-wider uppercase transition duration-200 hover:bg-opacity-80 font-display group focus:outline-none focus:ring-4 focus:ring-opacity-50"
+              className="px-4 py-3 text-sm font-semibold bg-white rounded-full focus:outline-none bg-opacity-10"
             >
-              <span>Subscribe</span>
-              <div className="relative w-4 h-4">
-                <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 group-hover:translate-x-4 group-hover:opacity-0" />
-                <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100" />
-              </div>
+              {`->`}
             </button>
           </div>
         </div>
@@ -103,7 +97,6 @@ const Newsletter: React.FC<NewsletterProps> = () => {
           value="1"
         />
       </form>
-       */}
     </div>
   );
 };
