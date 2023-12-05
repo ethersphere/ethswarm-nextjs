@@ -68,16 +68,14 @@ news:
     readTime: '3'
     image: /uploads/devupdate-3-crop.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/monthly-development-update-october-2023/
+      https://blog.ethswarm.org/foundation/2023/monthly-development-update-november-2023/
     copy: >-
-      October has seen some important shifts in the wider Swarm ecosystem. The
-      Bee Track successfully released Bee 1.17.5 featuring smaller but impactful
-      improvements. The team’s next steps are focused on refining the upload and
-      download experiences, along with diligent monitoring of data longevity.
+      November was the month that set the final stage for the upcoming Price
+      Oracle, bringing with it massive security and pricing benefits.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/monthly-development-update-october-2023/
+        https://blog.ethswarm.org/foundation/2023/monthly-development-update-november-2023/
       arrow: true
       background: transparent
       type: ''
