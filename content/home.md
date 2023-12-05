@@ -62,7 +62,7 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: Monthly Development Update – October 2023
+  - title: Monthly Development Update – November 2023
     category:
       - Development update
     readTime: '3'
