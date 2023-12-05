@@ -59,7 +59,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
               name="mauticform[submit]"
               id="mauticform_input_websitenewslettersubscription_submit"
               value=""
-              className="px-4 py-3 text-sm font-semibold bg-white rounded-full focus:outline-none bg-opacity-10"
+              className="flex-shrink-0 px-4 py-3 text-sm font-semibold bg-white rounded-full focus:outline-none bg-opacity-10"
             >
               {`->`}
             </button>

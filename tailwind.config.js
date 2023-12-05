@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      sizes: {
+        50: "12.5rem",
+      },
       fontFamily: {
         sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
         mono: ["iA Mono", ...defaultTheme.fontFamily.mono],

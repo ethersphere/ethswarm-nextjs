@@ -41,9 +41,7 @@ const JobSingle: NextPage = (content: any) => {
           />
         </div>
 
-        <Connect events={content.events} />
-
-        <Footer />
+        <Footer events={content.events} />
       </main>
     </div>
   );

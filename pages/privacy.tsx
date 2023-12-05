@@ -31,9 +31,7 @@ const Privacy: NextPage = (props: any) => {
           </Container>
         </div>
 
-        <Connect events={props.events} />
-
-        <Footer />
+        <Footer events={props.events} />
       </main>
     </div>
   );

@@ -22,22 +22,19 @@ const Page: NextPage = (content: any) => {
     Post: Post,
     Roadmap: Roadmap,
   };
-
   return (
-    <div className="bg-gray-100">
+    <div className="bg-[#0D1216] ">
       <Meta title={content.meta.title ?? meta.title} />
 
       <main>
-        <Navigation textColor="text-gray-700" />
+        <Navigation />
 
         {content.sections.map((section: any, index: number) => {
           const SectionTag = sections[section.type];
           return <SectionTag key={index} index={index} {...section.data} />;
         })}
 
-        <Connect events={content.events} />
-
-        <Footer />
+        <Footer events={content.events} />
       </main>
     </div>
   );

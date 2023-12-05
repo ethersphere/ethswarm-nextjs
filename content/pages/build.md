@@ -169,16 +169,5 @@ sections:
           ctas: []
           image: ""
           code: ""
-  - template: section_cta
-    type: Cta
-    data:
-      title: "Join us! #develop-on-swarm room at our Discord Server"
-      ctas:
-        - template: cta
-          arrow: true
-          title: Participate
-          href: "https://discord.ethswarm.org/"
-          background: orange-onDark
-          type: default
 _template: page
 ---

@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({
           "z-20 text-gray-100",
           {
             small: "md:text-[17px] md:leading-[24px] mb-6 mr-8",
-            large: "text-sm md:text-[19px] md:leading-[26px] mb-10 mr-5",
+            large: "text-sm md:text-[19px] md:leading-[26px] mb-10 mr-[72px]",
           }[size]
         )}
         content={content}

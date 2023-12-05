@@ -52,9 +52,7 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
           </div>
         )}
 
-        <Connect events={events} />
-
-        <Footer />
+        <Footer events={events} />
       </main>
     </div>
   );
