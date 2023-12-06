@@ -20,7 +20,7 @@ const Section: React.FC<SectionProps> = ({
 }) => {
   console.log(items, hero);
   return (
-    <section className="pb-20 md:pb-40 md:overflow-hidden">
+    <section className="pb-20 md:pb-40">
       {hero ? <Hero index={index} {...hero} /> : ""}
 
       {items && items.length > 0 && (

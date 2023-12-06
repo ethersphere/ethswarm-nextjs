@@ -62,3 +62,22 @@
   background-size: 1px 6px;
   background-repeat: repeat-y;
 }
+
+/* scrollbar styles for code blocks */
+.code-block::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.code-block::-webkit-scrollbar-thumb {
+  width: 1px;
+  height: 10px;
+  background-color: #2d3843;
+  border-radius: 20px;
+}
+
+.code-block::-webkit-scrollbar {
+  height: 8px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: transparent;
+}

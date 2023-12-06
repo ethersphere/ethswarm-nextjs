@@ -35,9 +35,10 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <section className="relative flex flex-col items-center min-h-full text-gray-100 ">
       <div
-        className="h-[150vh] w-full absolute top-0 left-0"
+        className="h-[150vh] w-full absolute top-0 left-0 "
         style={{
-          background: 'url("/assets/bg_gradient.jpg") no-repeat center center',
+          background: 'url("/assets/bg_gradient.jpg") no-repeat right top',
+          backgroundSize: "contain",
         }}
       />
       <Container className="relative pb-20 sm:pb-32 pt-28 sm:pt-32">
