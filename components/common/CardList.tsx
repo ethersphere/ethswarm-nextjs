@@ -5,15 +5,16 @@ import GridContainer from "./GridContainer";
 
 type CardListProps = {
   items: Array<CardType>;
+  className?: string;
 };
 
-const CardList: React.FC<CardListProps> = ({ items = [] }) => {
+const CardList: React.FC<CardListProps> = ({ items = [], className }) => {
   if (items.length === 0) {
     return null;
   }
 
   return (
-    <GridContainer className="mt-4 lg:mt-8">
+    <GridContainer className={className}>
       {items.slice(0, 3).map((item, index) => (
         <Card
           key={index}

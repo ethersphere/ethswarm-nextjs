@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-import { Connect, Footer, Navigation, Post } from "@/components/index";
+import { Connect, Footer, Hero, Navigation, Post } from "@/components/index";
 import meta from "data/meta.json";
 import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
@@ -10,15 +10,14 @@ import { getAllEvents } from "lib/events";
 
 const JobSingle: NextPage = (content: any) => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-[#0D1216]">
       <Meta title={content.meta.title ?? meta.title} />
 
       <main>
-        <Navigation textColor="text-gray-700" />
+        <Navigation />
 
         {/* @ts-ignore */}
-        <SecondaryHero
-          index={0}
+        <Hero
           title={content.job.title}
           background={{ src: "/assets/hero/join_alt.png", alt: "" }}
         />

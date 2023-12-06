@@ -15,7 +15,7 @@ sections:
           coordinate between the Foundation's efforts and the efforts deployed
           to the broader Swarm community.
         background:
-          src: /assets/hero/roadmap2.png
+          src: /assets/hero/roadmap.png
           alt: ""
           position: ""
         ctas: []

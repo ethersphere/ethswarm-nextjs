@@ -40,7 +40,7 @@ sections:
             Built-in incentives seek to optimise the allocation of bandwidth (SWAP) and storage resources (Postage stamps) and render Swarm economically self-sustaining.
 
             Swarm nodes track their relative bandwidth contribution on each peer connection, and excess debt due to unequal consumption can be settled in BZZ. Publishers in Swarm must spend BZZ to purchase the right to write data to Swarm and prepay some rent for long term storage.
-          features:
+          blocks:
             columns: two
             features:
               - template: feature

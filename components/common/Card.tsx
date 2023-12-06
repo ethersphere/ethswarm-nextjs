@@ -13,6 +13,7 @@ const Card: React.FC<CardProps> = ({
   ctas,
   icon,
   image,
+  value,
   content,
 }) => {
   return (
@@ -42,6 +43,12 @@ const Card: React.FC<CardProps> = ({
             {title}
           </h4>
         </div>
+
+        {value && value.length > 0 && (
+          <div className="text-3xl font-bold leading-[1.2] text-orange-500">
+            {value}
+          </div>
+        )}
 
         {content && content.length > 0 && (
           <div

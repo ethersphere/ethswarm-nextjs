@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import { Connect, Footer, Navigation } from "@/components/index";
+import { Connect, Footer, Hero, Navigation } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/jobs.json";
 import SecondaryHero from "@/components/sections/SecondaryHero";
@@ -13,14 +13,14 @@ import { Container } from "@/components/common";
 
 const Jobs: NextPage = ({ jobs, events }: any) => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-[#0D1216] ">
       <Meta title={content.meta.title ?? meta.title} />
 
       <main className="overflow-hidden">
-        <Navigation textColor="text-gray-700" />
+        <Navigation />
 
         {/* @ts-ignore */}
-        <SecondaryHero index={0} {...content.hero} />
+        <Hero index={0} {...content.hero} />
 
         {jobs && jobs.length === 0 && (
           <div className="flex justify-center pb-8">

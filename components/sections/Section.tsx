@@ -24,7 +24,7 @@ const Section: React.FC<SectionProps> = ({
       {hero ? <Hero index={index} {...hero} /> : ""}
 
       {items && items.length > 0 && (
-        <div className="flex flex-col items-center space-y-16 md:space-y-48">
+        <div className="space-y-16 md:space-y-48">
           {items.map((item: any, index: number) => (
             <ContentContainer key={index} {...item} />
           ))}

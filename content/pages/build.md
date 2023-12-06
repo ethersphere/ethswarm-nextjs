@@ -113,7 +113,6 @@ sections:
             The Swarm Foundation is pleased to support the projects presented,
             but makes no guarantees about how they'll work.
 
-
             All projects are in an intensive development phase, but
             contributions are more than welcome. Additionally, contributions to
             the projects listed below can be supported through [Swarm

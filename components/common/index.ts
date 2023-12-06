@@ -11,6 +11,10 @@ import CardList from "./CardList";
 import InputField from "./InputField";
 import Meta from "./Meta";
 import Header from "./Header";
+import ContentBlock from "./ContentBlock";
+import FeatureBzzPot from "./FeatureBzzPot";
+import FeatureBzzPrice from "./FeatureBzzPrice";
+import FeatureExchanges from "./FeatureExchanges";
 
 export {
   InputField,
@@ -26,4 +30,8 @@ export {
   SectionContent,
   Tagline,
   Header,
+  ContentBlock,
+  FeatureBzzPot,
+  FeatureBzzPrice,
+  FeatureExchanges,
 };

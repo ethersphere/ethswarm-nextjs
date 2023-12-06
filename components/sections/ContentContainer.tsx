@@ -3,10 +3,14 @@ import {
   ButtonGroup,
   CardList,
   Container,
+  ContentBlock,
   FeatureList,
   Header,
   HeadingUnderline,
   SectionContent,
+  FeatureBzzPrice,
+  FeatureBzzPot,
+  FeatureExchanges,
 } from "@/components/common";
 import { CtaType, FeatureListType, ImageType } from "types";
 import { cx } from "utils";
@@ -20,6 +24,7 @@ type ContentContainerProps = {
   ctas?: Array<CtaType>;
   image?: string;
   code?: string;
+  blocks?: any;
   features?: FeatureListType;
 };
 
@@ -28,33 +33,32 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   content,
   ctas,
   code,
+  blocks,
   contentWidth = "full",
   features,
   image,
 }) => {
   return (
     <Container className="relative z-10 w-full text-[#F6F7F9]">
-      <GridContainer>
+      <GridContainer className={cx(code && "items-center")}>
         <Header
           title={title}
-          content={content}
+          content={code ? content : undefined}
           ctas={ctas}
           className="col-span-5"
         />
-        <div
-          className={cx(contentWidth === "half" ? "w-full" : "w-full md:w-1/2")}
-        >
-          {/* <HeadingUnderline type="small" title={title} /> */}
-        </div>
-        {/*           
-          <SectionContent
+        {!code && (
+          <div
             className={cx(
-              "mt-12",
-              contentWidth === "half" ? "" : "md:columns-2 max-w-none md:gap-16"
+              contentWidth === "half" ? "w-full" : " col-start-7 col-span-6"
             )}
-            fullWidth={contentWidth === "full"}
-            content={content}
-          /> */}
+          >
+            <SectionContent
+              fullWidth={contentWidth === "full"}
+              content={content}
+            />
+          </div>
+        )}
         {/* Full width image */}
         {image && image.length > 0 && (
           <div className="relative col-span-12 mt-16 -mx-4">
@@ -66,10 +70,39 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
             />
           </div>
         )}
+
+        {blocks && (
+          <>
+            {blocks.features.length > 0 &&
+              blocks.features.map((block, i) => (
+                <ContentBlock
+                  key={i}
+                  {...block}
+                  className={cx(
+                    "col-span-6 ",
+                    title && !content ? " mt-20" : "mt-24"
+                  )}
+                />
+              ))}
+
+            {blocks.bzzPrice && <FeatureBzzPrice className="mt-10 " />}
+            {blocks.bzzPot && <FeatureBzzPot className="col-start-7 mt-10" />}
+            {blocks.exchanges && <FeatureExchanges />}
+          </>
+        )}
+
+        {/* Code block */}
         <CodeBlock code={code} className="col-span-6 col-start-7" />
       </GridContainer>
-      {/* @ts-ignore */}
-      <CardList className="col-span-12 mt-16 mb-2" items={features?.features} />
+      {features && (
+        <CardList
+          className="col-span-12 mb-2 mt-28"
+          items={features.features.map((item) => ({
+            ...item,
+            ctas: item.cta ? [item.cta] : [],
+          }))}
+        />
+      )}
     </Container>
   );
 };

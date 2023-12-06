@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({
   cta,
 }) => {
   return (
-    <section className="relative flex flex-col items-center h-screen text-gray-100 ">
+    <section className="relative flex flex-col items-center min-h-full text-gray-100 ">
       <div
         className="h-[150vh] w-full absolute top-0 left-0"
         style={{

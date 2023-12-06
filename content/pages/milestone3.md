@@ -6,23 +6,23 @@ sections:
     data:
       hero:
         title: Milestone 3
-        id: ''
+        id: ""
         content: >-
           Node-operators are directly rewarded for contributing their storage
           space
         ctas: []
         background:
-          src: /assets/hero/roadmap2.png
-          alt: ''
-          position: ''
-        footnote: ''
+          src: /assets/hero/roadmap.png
+          alt: ""
+          position: ""
+        footnote: ""
       items: []
     template: section
   - type: Post
     data:
       border: false
       sidebar:
-        content: ''
+        content: ""
         ctas:
           - title: All milestones
             href: /roadmap
@@ -97,4 +97,3 @@ sections:
         self-owned batches
     template: post
 ---
-

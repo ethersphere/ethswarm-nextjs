@@ -5,7 +5,6 @@ sections:
   - template: section
     type: Section
     data:
-      disclaimer: true
       hero:
         title: BZZ token
         id: bzz
@@ -28,22 +27,22 @@ sections:
       items:
         - template: section_item
           contentWidth: full
-          features:
+          blocks:
             type: large
             columns: two
+            bzzPrice: true
+            bzzPot: true
             features:
               - template: feature
                 title: Write and persist data
                 content:
                   Publishers in Swarm use BZZ to write data on Swarm and have it
                   stored over time.
-                bzzPrice: true
               - template: feature
                 title: Participate as a storage provider
                 content:
                   Receive BZZ through Swarm’s redistribution mechanism for providing
                   storage services.
-                bzzPot: true
           title: Uses
           content: ""
           image: ""
@@ -51,13 +50,13 @@ sections:
           code: ""
         - template: section_item
           contentWidth: full
-          features:
+          blocks:
             type: large
             columns: two
+            exchanges: true
             features:
               - template: feature
                 title: Decentralized exchanges (DEXs)
-                exchanges: true
                 content:
                   Publishers in Swarm use BZZ to write data on Swarm and have it
                   stored over time.
@@ -117,7 +116,7 @@ sections:
           code: ""
         - template: section_item
           contentWidth: full
-          features:
+          blocks:
             type: large
             columns: two
             features:

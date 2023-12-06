@@ -66,6 +66,7 @@ export type CardType = {
   icon?: string;
   className?: string;
   title: string;
+  value?: string;
   image?: {
     src: string;
     alt: string;

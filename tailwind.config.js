@@ -11,6 +11,9 @@ module.exports = {
       sizes: {
         50: "12.5rem",
       },
+      fontSize: {
+        "3xl": "2rem",
+      },
       fontFamily: {
         sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
         mono: ["iA Mono", ...defaultTheme.fontFamily.mono],
@@ -30,12 +33,12 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            "--tw-prose-bullets": "#000",
-            color: "#000",
+            "--tw-prose-bullets": "#F6F7F9",
+            color: "#F6F7F9",
             a: {
-              color: "#000",
+              color: "#F6F7F9",
               "&:hover": {
-                color: "#000",
+                color: "#F6F7F9",
               },
             },
           },

@@ -54,7 +54,7 @@ const Connect: React.FC<ConnectProps> = ({ events }) => {
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.newsletter_title}
           </h3>
-          <Newsletter />
+          {/* <Newsletter /> */}
         </div>
         <div className="w-full col-span-12 h-px bg-[#2D3843] mt-9" />
       </GridContainer>

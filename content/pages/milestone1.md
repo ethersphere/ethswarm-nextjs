@@ -8,13 +8,13 @@ sections:
       hero:
         title: Milestone 1
         background:
-          src: /assets/hero/roadmap2.png
-          alt: ''
-          position: ''
+          src: /assets/hero/roadmap.png
+          alt: ""
+          position: ""
         content: Host unstoppable content on Swarm
-        id: ''
+        id: ""
         ctas: []
-        footnote: ''
+        footnote: ""
       items: []
   - template: post
     type: Post
@@ -28,7 +28,7 @@ sections:
             href: /roadmap
             background: transparent
             back: true
-        content: ''
+        content: ""
       content: >-
         ## Host unstoppable content on Swarm
 
@@ -85,4 +85,3 @@ sections:
       border: false
 _template: page
 ---
-
