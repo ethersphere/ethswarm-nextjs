@@ -6,6 +6,7 @@ import { TabType } from "types";
 import CodeBlock from "./CodeBlock";
 import { useState } from "react";
 import GridContainer from "@/components/common/GridContainer";
+import { cx } from "utils";
 
 type TabsProps = {
   tabs?: Array<TabType>;
@@ -21,16 +22,19 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
 
   return (
     <Container className="">
-      <GridContainer className="items-center ">
+      <GridContainer className="">
         <Tab.Group as="div" onChange={setSelected} className="col-span-6 py-20">
           <Tab.List className="flex gap-x-2 sm:gap-x-4">
             {tabs.map((tab, index) => (
               <Tab
                 key={index}
                 className={({ selected }: any) =>
-                  selected
-                    ? "font-display font-bold px-3 md:px-4 bg-[#F6F7F9] leading-8 rounded-full text-[#0D1216] text-sm  focus:outline-none"
-                    : "font-display font-bold px-3 md:px-4 bg-transparent leading-8  text-[#F6F7F9] text-sm "
+                  cx(
+                    selected
+                      ? " bg-[#F6F7F9]   text-[#0D1216]  "
+                      : " bg-transparent   text-[#F6F7F9]  ",
+                    "font-bold px-3 md:px-4 leading-8 text-sm rounded-full  focus:outline-none transition"
+                  )
                 }
               >
                 {tab.title}
@@ -49,7 +53,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
               </Tab.Panel>
             ))}
           </Tab.Panels>
-        </Tab.Group>{" "}
+        </Tab.Group>
         <CodeBlock className="col-span-6 " code={tabs[selected].code} />
       </GridContainer>
     </Container>

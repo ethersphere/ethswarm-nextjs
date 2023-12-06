@@ -67,6 +67,7 @@ export type CardType = {
   className?: string;
   title: string;
   value?: string;
+  status?: "completed" | "in-progress" | "next-up";
   image?: {
     src: string;
     alt: string;

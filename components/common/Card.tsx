@@ -4,6 +4,7 @@ import { cn } from "utils";
 import ButtonGroup from "./ButtonGroup";
 import Icon from "./Icon";
 import Image from "next/image";
+import { Status } from ".";
 
 type CardProps = CardType;
 
@@ -15,6 +16,7 @@ const Card: React.FC<CardProps> = ({
   image,
   value,
   content,
+  status,
 }) => {
   return (
     <div
@@ -32,7 +34,8 @@ const Card: React.FC<CardProps> = ({
           className="object-cover w-full aspect-video"
         />
       )}
-      <div className="flex flex-col px-5 py-8 space-y-4">
+      <div className="flex flex-col items-start px-5 py-8 space-y-4">
+        {status && <Status status={status} />}
         <div className="flex items-center">
           {icon && (
             <span className="inline-block mr-4">

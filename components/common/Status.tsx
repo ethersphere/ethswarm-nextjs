@@ -1,35 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { CtaType } from "types";
-import { ButtonGroup } from "../../common";
-import markdownToHtml from "lib/markdownToHtml";
+import { cx } from "utils";
 
-export type RoadmapItemType = {
-  title: string;
-  ctas?: Array<CtaType>;
-  content: string;
-  status: "completed" | "in-progress" | "next-up";
-};
-
-type RoadmapItemProps = RoadmapItemType;
-
-const RoadmapItem: React.FC<RoadmapItemProps> = ({
-  title,
-  ctas,
-  content,
-  status,
-}) => {
-  const [md, setMd] = useState(content);
-
-  useEffect(() => {
-    markdownToHtml(content).then((html) => {
-      setMd(html);
-    });
-  }, []);
-
+const RoadmapItem: React.FC<{ status: string }> = ({ status }) => {
   return (
-    <>
+    <span
+      className={cx(
+        " flex items-center px-2 space-x-2 text-sm leading-loose rounded-lg overflow-hidden font-medium ",
+        {
+          completed: "text-[#117800] bg-[#D9EDDB]",
+          "in-progress": "text-[#EB7000] bg-[#FFE2C0]",
+          "next-up": "text-[#B2B6B8] bg-[#E5E9EC]",
+        }[status]
+      )}
+    >
       {status === "completed" && (
-        <span className="inline-flex items-center px-2 py-1 space-x-2 text-sm font-medium text-green-400 bg-green-200">
+        <>
           <svg
             className="w-4 h-4"
             viewBox="0 0 16 16"
@@ -47,11 +31,11 @@ const RoadmapItem: React.FC<RoadmapItemProps> = ({
             </defs>
           </svg>
           <span>Completed</span>
-        </span>
+        </>
       )}
 
       {status === "in-progress" && (
-        <span className="inline-flex items-center px-2 py-1 space-x-2 text-sm font-medium text-yellow-400 bg-yellow-200">
+        <>
           <svg
             className="w-4 h-4 animate-spin"
             viewBox="0 0 16 16"
@@ -80,11 +64,11 @@ const RoadmapItem: React.FC<RoadmapItemProps> = ({
             </defs>
           </svg>
           <span>In Progress</span>
-        </span>
+        </>
       )}
 
       {status === "next-up" && (
-        <span className="inline-flex items-center px-2 py-1 space-x-2 text-sm font-medium text-gray-350 bg-gray-225">
+        <>
           <svg
             className="w-4 h-4"
             viewBox="0 0 16 16"
@@ -106,9 +90,9 @@ const RoadmapItem: React.FC<RoadmapItemProps> = ({
             </defs>
           </svg>
           <span>Next up</span>
-        </span>
+        </>
       )}
-    </>
+    </span>
   );
 };
 

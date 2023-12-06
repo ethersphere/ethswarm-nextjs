@@ -15,6 +15,7 @@ import ContentBlock from "./ContentBlock";
 import FeatureBzzPot from "./FeatureBzzPot";
 import FeatureBzzPrice from "./FeatureBzzPrice";
 import FeatureExchanges from "./FeatureExchanges";
+import Status from "./Status";
 
 export {
   InputField,
@@ -34,4 +35,5 @@ export {
   FeatureBzzPot,
   FeatureBzzPrice,
   FeatureExchanges,
+  Status,
 };
