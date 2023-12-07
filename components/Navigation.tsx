@@ -71,60 +71,55 @@ const Navigation: React.FC<NavigationProps> = ({
               >
                 {navigation.items.length > 0 &&
                   navigation.items.map((link, index) => (
-                    <>
-                      <NavigationMenu.Item key={link.title} value={link.title}>
-                        {link.children ? (
-                          <NavigationMenu.Trigger
-                            ref={(node) => {
-                              if (
-                                link.title === value &&
-                                activeTrigger !== node
-                              )
-                                setActiveTrigger(node);
+                    <NavigationMenu.Item key={link.title} value={link.title}>
+                      {link.children ? (
+                        <NavigationMenu.Trigger
+                          ref={(node) => {
+                            if (link.title === value && activeTrigger !== node)
+                              setActiveTrigger(node);
 
-                              return node;
-                            }}
-                          >
-                            <MenuLink
-                              key={index}
-                              {...link}
-                              icon
-                              selected={value === link.title}
-                            />
-                          </NavigationMenu.Trigger>
-                        ) : (
+                            return node;
+                          }}
+                        >
                           <MenuLink
                             key={index}
                             {...link}
-                            selected={router.asPath.startsWith(link.href)}
+                            icon
+                            selected={value === link.title}
                           />
-                        )}
-                        {link.children && (
-                          <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
-                            <div className="grid p-1.5 w-56">
-                              {link.children.map((child: any, index: any) => (
-                                <RegularLink
-                                  key={index}
-                                  href={child.href}
-                                  className={cx(
-                                    "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
-                                  )}
-                                >
-                                  <div className="text-sm font-semibold text-gray-100">
-                                    {child.title}
+                        </NavigationMenu.Trigger>
+                      ) : (
+                        <MenuLink
+                          key={index}
+                          {...link}
+                          selected={router.asPath.startsWith(link.href)}
+                        />
+                      )}
+                      {link.children && (
+                        <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
+                          <div className="grid p-1.5 w-56">
+                            {link.children.map((child: any, index: any) => (
+                              <RegularLink
+                                key={index}
+                                href={child.href}
+                                className={cx(
+                                  "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
+                                )}
+                              >
+                                <div className="text-sm font-semibold text-gray-100">
+                                  {child.title}
+                                </div>
+                                {child.subtitle && (
+                                  <div className="text-xs text-gray-100 text-opacity-70">
+                                    {child.subtitle}
                                   </div>
-                                  {child.subtitle && (
-                                    <div className="text-xs text-gray-100 text-opacity-70">
-                                      {child.subtitle}
-                                    </div>
-                                  )}
-                                </RegularLink>
-                              ))}
-                            </div>
-                          </NavigationMenu.Content>
-                        )}
-                      </NavigationMenu.Item>
-                    </>
+                                )}
+                              </RegularLink>
+                            ))}
+                          </div>
+                        </NavigationMenu.Content>
+                      )}
+                    </NavigationMenu.Item>
                   ))}
               </NavigationMenu.List>
               <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
