@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Semaphore } from "@/components/Stats/Semaphore";
-import { StatsIcon } from "@/icons/components/index";
-import { RegularLink } from "@/components/common";
 import content from "../data/banner.json";
 import { cx } from "utils";
+import { AnimatePresence, motion } from "framer-motion";
 
 type StatsProps = {};
 
@@ -14,6 +13,8 @@ const Stats: React.FC<StatsProps> = () => {
 
   useEffect(() => {
     setLoading(true);
+    const startTime = new Date().getTime();
+
     fetch("https://api.swarmscan.io/v1/network/stats")
       .then((res) => res.json())
       .then((data) => {
@@ -23,7 +24,14 @@ const Stats: React.FC<StatsProps> = () => {
         } else {
           setNodes(`${data.count}${content.nodes}`);
         }
-        setLoading(false);
+
+        const endTime = new Date().getTime();
+        const timeDiff = endTime - startTime;
+        const timeout = timeDiff < 1000 ? 1000 - timeDiff : 0;
+
+        setTimeout(() => {
+          setLoading(false);
+        }, timeout);
       })
       .catch((err) => {
         console.log(err);
@@ -35,14 +43,41 @@ const Stats: React.FC<StatsProps> = () => {
 
   return (
     <div className="flex items-center justify-between pl-4 space-x-4">
-      <div
+      <motion.div
         className={cx(
-          "flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all  duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md"
+          "flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md truncate"
         )}
       >
-        {color && <Semaphore color={color} />}
-        {isLoading === true ? <div>{content.loading}</div> : <div>{nodes}</div>}
-      </div>
+        <AnimatePresence initial={false} mode="wait">
+          {isLoading === true && (
+            <motion.div
+              key="loading"
+              initial={false}
+              animate={{ x: 0 }}
+              exit={{
+                x: "-150%",
+              }}
+            >
+              {content.loading}
+            </motion.div>
+          )}
+
+          {isLoading === false && (
+            <motion.div
+              key="notLoading"
+              className="flex items-center space-x-2"
+              initial={{ x: "150%" }}
+              animate={{ x: 0 }}
+              exit={{
+                x: "150%",
+              }}
+            >
+              <Semaphore color={color} />
+              <div>{nodes}</div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.div>
 
       <div className="flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md">
         99.9%

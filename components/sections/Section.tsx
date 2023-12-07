@@ -17,7 +17,7 @@ const Section: React.FC<SectionProps> = ({
   disclaimer = false,
 }) => {
   return (
-    <section className="pb-20 md:pb-40">
+    <section className="mb-20 md:mb-36">
       {hero ? <Hero index={index} {...hero} /> : ""}
 
       {items && items.length > 0 && (

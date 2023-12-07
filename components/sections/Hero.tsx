@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
           backgroundSize: "contain",
         }}
       />
-      <Container className="relative pb-20 sm:pb-32 pt-28 sm:pt-32">
+      <Container className="relative">
         <GridContainer className="items-center">
           <Header
             title={title}
