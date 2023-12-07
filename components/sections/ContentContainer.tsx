@@ -74,7 +74,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
         {blocks && (
           <>
             {blocks.features.length > 0 &&
-              blocks.features.map((block, i) => (
+              blocks.features.map((block: any, i: any) => (
                 <ContentBlock
                   key={i}
                   {...block}

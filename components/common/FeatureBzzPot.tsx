@@ -2,7 +2,9 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 
-const FeatureBzzPot: React.FC = ({ className }: { className?: string }) => {
+const FeatureBzzPot: React.FC<{ className?: string }> = ({
+  className = "",
+}) => {
   const [pot, setPot] = useState(0);
 
   useEffect(() => {

@@ -28,14 +28,10 @@ const News: React.FC<NewsProps> = ({ tagline, title, ctas, items = [] }) => {
               <Card
                 key={index}
                 className={index === 0 ? "sm:col-span-2" : ""}
-                type={index === 0 ? "large" : "regular"}
                 title={item.title}
-                category={item.category}
-                readTime={item.readTime}
-                href={item.href}
                 image={item.image}
-                copy={item.copy}
-                cta={item.cta}
+                content={item.content}
+                ctas={item.ctas}
               />
             ))}
           </div>

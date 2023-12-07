@@ -1,13 +1,8 @@
 import type { NextPage } from "next";
 import {
-  Dapp,
   DevelopSection,
   FairdDriveSection,
   Odyssey,
-  Hero,
-  Builders,
-  Millions,
-  Connect,
   Footer,
   GeneralSection,
   Navigation,
@@ -15,12 +10,10 @@ import {
 } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/index.json";
-import { CtaType, FeatureType, TabType } from "types";
-import Bounties from "@/components/sections/Bounties";
+import { CtaType, TabType } from "types";
 import { Meta } from "@/components/common";
 import { getAllEvents } from "lib/events";
 import { getHome } from "lib/home";
-import Summit from "@/components/sections/Summit";
 
 const Home: NextPage = (props: any) => {
   return (

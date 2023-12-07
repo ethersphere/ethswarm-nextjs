@@ -6,7 +6,6 @@ import FairdDriveSection from "./sections/FairdDriveSection";
 import Dapp from "./sections/Dapp";
 import News from "./sections/News";
 import Builders from "./sections/Builders";
-import Millions from "./sections/Millions";
 import Connect from "./sections/Connect";
 import Footer from "./sections/Footer";
 import GeneralSection from "./sections/GeneralSection";
@@ -27,7 +26,6 @@ export {
   Logo,
   Footer,
   Connect,
-  Millions,
   Builders,
   Cta,
   Newsletter,
