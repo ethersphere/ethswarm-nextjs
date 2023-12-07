@@ -1,14 +1,6 @@
 import * as React from "react";
-import {
-  ButtonGroup,
-  Container,
-  Header,
-  RegularLink,
-  SectionContent,
-} from "@/components/common";
+import { Container, Header } from "@/components/common";
 import { CtaType, ImageType } from "types";
-import Quote from "./Hero/Quote";
-import { ArrowIcon } from "@/icons/components/index";
 import GridContainer from "../common/GridContainer";
 
 type HeroProps = {
@@ -24,14 +16,7 @@ type HeroProps = {
   cta?: CtaType;
 };
 
-const Hero: React.FC<HeroProps> = ({
-  title,
-  background,
-  content,
-  ctas,
-  quote,
-  cta,
-}) => {
+const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
   return (
     <section className="relative flex flex-col items-center min-h-full text-gray-100 ">
       <div

@@ -18,7 +18,6 @@ const Stats: React.FC<StatsProps> = () => {
       .then((res) => res.json())
       .then((data) => {
         setColor("green");
-        console.log(data);
         if (!data || !data.count) {
           setNodes("Network active");
         } else {

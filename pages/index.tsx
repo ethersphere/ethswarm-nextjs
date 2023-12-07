@@ -31,26 +31,8 @@ const Home: NextPage = (props: any) => {
           ctas={content.LandingHero.ctas as Array<CtaType>}
         />
 
-        {/* <Hero
-          title={content.hero.title}
-          background={content.hero.background}
-          content={content.hero.content}
-          ctas={content.hero.ctas as Array<CtaType>}
-          quote={content.hero.quote}
-          //  @ts-ignore
-          cta={content.hero.cta}
-        /> */}
-
         {/* @ts-ignore */}
         <GeneralSection content={content.unstoppable} />
-
-        {/* We hide this section for now */}
-        {/* <Wikipedia
-          titleSuffix={content.wikipedia.titleSuffix}
-          content={content.wikipedia.content}
-          ctas={content.wikipedia.ctas as Array<CtaType>}
-          tagline={content.wikipedia.tagline}
-        /> */}
 
         <Odyssey
           title={props.home.upload.title}
@@ -86,23 +68,6 @@ const Home: NextPage = (props: any) => {
             cards: props.home.grantees,
           }}
         />
-
-        {/* <Millions
-          tagline={content.millions.tagline}
-          title={content.millions.title}
-          content={content.millions.content}
-          ctas={content.millions.ctas as Array<CtaType>}
-          // @ts-ignore
-          starts_in={content.millions.starts_in}
-        /> */}
-        {/*
-        <Bounties
-          tagline={content.bounties.tagline}
-          title={content.bounties.title}
-          content={content.bounties.content}
-          ctas={content.bounties.ctas as Array<CtaType>}
-          features={props.home.bounties as Array<FeatureType>}
-        /> */}
 
         <Footer events={props.events} />
       </main>

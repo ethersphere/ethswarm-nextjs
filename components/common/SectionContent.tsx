@@ -27,7 +27,7 @@ const SectionContent: React.FC<SectionContentProps> = ({
     markdownToHtml(content).then((html) => {
       setMd(html);
     });
-  }, []);
+  }, [content, markdown]);
 
   if (content.length === 0) {
     return null;

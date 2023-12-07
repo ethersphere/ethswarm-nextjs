@@ -1,8 +1,6 @@
 import React from "react";
-import SecondaryHero from "./SecondaryHero";
 import ContentContainer from "./ContentContainer";
 import Disclaimer from "./Disclaimer";
-import { cx } from "utils";
 import Hero from "./Hero";
 
 type SectionProps = {
@@ -18,7 +16,6 @@ const Section: React.FC<SectionProps> = ({
   items = [],
   disclaimer = false,
 }) => {
-  console.log(items, hero);
   return (
     <section className="pb-20 md:pb-40">
       {hero ? <Hero index={index} {...hero} /> : ""}

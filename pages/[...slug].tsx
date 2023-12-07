@@ -22,6 +22,7 @@ const Page: NextPage = (content: any) => {
     Post: Post,
     Roadmap: Roadmap,
   };
+
   return (
     <div className="bg-[#0D1216] ">
       <Meta title={content.meta.title ?? meta.title} />

@@ -1,7 +1,6 @@
 import { CtaType } from "types";
 import { ButtonGroup, SectionContent, Tagline } from ".";
 import { cx } from "utils";
-import exp from "constants";
 
 type HeaderProps = {
   tagline?: string;
