@@ -42,7 +42,11 @@ const Stats: React.FC<StatsProps> = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-between pl-4 space-x-4">
+    <div
+      className={cx(
+        "flex items-center lg:justify-between px-4 lg:pl-4 space-x-4"
+      )}
+    >
       <motion.div
         className={cx(
           "flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md truncate"
@@ -83,9 +87,13 @@ const Stats: React.FC<StatsProps> = () => {
         99.9%
       </div>
 
-      <div className="flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md">
+      <a
+        href="https://gateway.ethswarm.org/access/"
+        target="_blank"
+        className="flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md"
+      >
         #
-      </div>
+      </a>
     </div>
   );
 };

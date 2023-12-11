@@ -11,7 +11,7 @@ const GridContainer: React.FC<ContainerProps> = ({
   className = "",
 }) => {
   return (
-    <div className={cn("grid grid-cols-12 gap-5 px-14", className)}>
+    <div className={cn("grid grid-cols-12 gap-5 px-6 lg:px-14", className)}>
       {children}
     </div>
   );

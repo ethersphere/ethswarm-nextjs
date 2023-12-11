@@ -19,7 +19,7 @@ const Connect: React.FC<ConnectProps> = ({ events }) => {
   return (
     <Container>
       <GridContainer className="w-full pt-14">
-        <div className="col-span-3">
+        <div className="col-span-12 md:col-span-4">
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.events_title}
           </h3>
@@ -35,7 +35,7 @@ const Connect: React.FC<ConnectProps> = ({ events }) => {
           </div>
         </div>
 
-        <div className="col-span-2 col-start-7">
+        <div className="col-span-12 md:col-span-2 md:col-start-7">
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.community_title}
           </h3>
@@ -50,7 +50,7 @@ const Connect: React.FC<ConnectProps> = ({ events }) => {
             ))}
           </div>
         </div>
-        <div className="col-span-4 col-start-9">
+        <div className="col-span-12 md:col-span-4 md:col-start-9">
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.newsletter_title}
           </h3>

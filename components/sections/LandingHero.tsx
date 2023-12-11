@@ -19,7 +19,7 @@ const LandingHero: React.FC<LandingHero> = ({ title, content = "", ctas }) => {
             content={content}
             ctas={ctas}
             size="large"
-            className="col-span-7 text-gray-100"
+            className="col-span-12 texwt-gray-100 lg:col-span-7"
           />
         </GridContainer>
       </Container>

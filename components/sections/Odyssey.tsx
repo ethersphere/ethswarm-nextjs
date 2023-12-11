@@ -31,13 +31,13 @@ const Odyssey: React.FC<OdysseyProps> = ({
             content={content}
             title={title}
             ctas={ctas}
-            className="col-span-6 "
+            className="col-span-12 lg:col-span-6 "
           />
           <img
             loading="lazy"
             src="/assets/odyssey_background.png"
             alt="Odyssey Graphic"
-            className="object-contain object-right col-span-5 col-start-8 -mt-10 pointer-events-none"
+            className="object-contain object-right -mt-10 pointer-events-none lg:col-start-8 lg:col-span-5"
           />
         </GridContainer>
       </Container>

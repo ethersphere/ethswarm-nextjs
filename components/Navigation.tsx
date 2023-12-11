@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { Transition } from "@headlessui/react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { Stats } from "@/components/index";
+import { motion } from "framer-motion";
 
 import { Container, RegularLink } from "@/components/common";
 import Logo from "./Logo";
@@ -28,6 +29,8 @@ const Navigation: React.FC<NavigationProps> = ({
   );
   const listRef = useRef<HTMLUListElement>(null);
   const router = useRouter();
+
+  const [expanded, setExpanded] = useState(-1);
 
   useEffect(() => {
     const list = listRef.current;
@@ -132,9 +135,9 @@ const Navigation: React.FC<NavigationProps> = ({
                 />
               </div>
             </div>
-
-            <Stats />
-
+            <div className="hidden md:block">
+              <Stats />
+            </div>
             <div className="flex items-center lg:hidden">
               <HamburgerButton onClick={() => setIsOpen(true)} />
             </div>
@@ -146,55 +149,98 @@ const Navigation: React.FC<NavigationProps> = ({
         as={Fragment}
         show={isOpen}
         enter="transition ease-out duration-200"
-        enterFrom="opacity-0 scale-90"
+        enterFrom="opacity-0"
         enterTo="opacity-100"
         leave="transition ease-in duration-150"
         leaveFrom="opacity-100"
-        leaveTo="opacity-0 scale-90"
+        leaveTo="opacity-0"
       >
-        <div className="absolute inset-x-0 -top-8">
-          <div className="bg-gray-800 shadow-lg">
-            <div className="pt-6">
-              <div className="flex items-center justify-between px-6 pb-6 border-b border-gray-500">
+        <div className="absolute inset-0 -top-4">
+          <div className="bg-gray-800 shadow-lg border border-[#2D3843] mx-2 rounded-xl backdrop-blur-md">
+            <div className="pt-2">
+              <div className="flex items-center justify-between px-4 pb-5 -mx-px ">
                 <Link href="/" onClick={() => setIsOpen(false)}>
-                  <Logo className={cx("w-auto h-6 text-gray-100")} />
+                  <Logo
+                    className={cx("w-auto h-6 text-gray-100 fill-current")}
+                  />
                 </Link>
                 <div className="-mr-2">
                   <CloseButton onClick={() => setIsOpen(false)} />
                 </div>
               </div>
 
-              <nav className="grid divide-y divide-gray-500">
+              <nav className="grid px-4">
                 {navigation.items.length > 0 &&
                   navigation.items.map((link, index) => (
-                    <div key={index} className="px-6 py-3">
-                      <RegularLink
-                        onClick={() => setIsOpen(false)}
-                        href={link.href}
-                        className="flex items-center px-3 py-4 text-base font-medium tracking-wider text-gray-100 uppercase rounded-md font-display hover:bg-gray-700"
-                      >
-                        {link.title}
-                      </RegularLink>
-                      {router.asPath.startsWith(link.href) &&
-                        link.children &&
-                        link.children.length > 0 && (
-                          <div className="px-4 py-3 space-y-4">
-                            {link.children.map((child, index) => (
-                              <RegularLink
-                                key={index}
-                                onClick={() => setIsOpen(false)}
-                                href={child.href}
-                                className="flex items-center px-3 py-4 text-base font-medium tracking-wider text-gray-100 uppercase rounded-md font-display hover:bg-gray-700"
-                              >
-                                <span>{child.title}</span>
-                                <ArrowIcon className="ml-2.5 w-4 h-4 text-gray-100" />
-                              </RegularLink>
-                            ))}
-                          </div>
-                        )}
-                    </div>
+                    <Fragment key={index}>
+                      {link.children && link.children.length > 0 ? (
+                        <Fragment key={index}>
+                          <button
+                            className={cx(
+                              expanded === index ? "text-opacity-70" : "",
+                              "flex items-center py-3 text-sm font-semibold transition text-gray-100 rounded-md w-full "
+                            )}
+                            style={{ WebkitTapHighlightColor: "transparent" }}
+                            onClick={() =>
+                              expanded === index
+                                ? setExpanded(-1)
+                                : setExpanded(index)
+                            }
+                          >
+                            {link.title}
+                            <ArrowIcon
+                              className={cx(
+                                "w-2.5 h-2 ml-2 duration-200",
+                                expanded === index
+                                  ? " -rotate-90"
+                                  : " rotate-90"
+                              )}
+                            />
+                          </button>
+                          <motion.div
+                            className="overflow-hidden"
+                            initial={{ height: 0 }}
+                            animate={{
+                              height: expanded === index ? "auto" : 0,
+                            }}
+                          >
+                            <div className="bg-[#0D1216] bg-opacity-50 rounded-md overflow-hidden">
+                              {link.children.map((child, index) => (
+                                <RegularLink
+                                  key={index}
+                                  href={child.href}
+                                  className={cx(
+                                    "block  px-3.5 py-2.5 antialiased border-b border border-[#1F2831]"
+                                  )}
+                                >
+                                  <div className="text-sm font-semibold text-gray-100">
+                                    {child.title}
+                                  </div>
+                                  {child.subtitle && (
+                                    <div className="text-xs text-gray-100 text-opacity-70">
+                                      {child.subtitle}
+                                    </div>
+                                  )}
+                                </RegularLink>
+                              ))}
+                            </div>
+                          </motion.div>
+                        </Fragment>
+                      ) : (
+                        <RegularLink
+                          onClick={() => setIsOpen(false)}
+                          href={link.href}
+                          className="flex items-center py-3 text-sm font-semibold text-gray-100 rounded-md "
+                        >
+                          {link.title}
+                        </RegularLink>
+                      )}
+                    </Fragment>
                   ))}
               </nav>
+              <div className="mt-3 mb-8">
+                <Stats />
+              </div>
             </div>
           </div>
         </div>
@@ -269,7 +315,7 @@ const CloseButton: React.FC<CloseButtonProps> = ({ onClick }) => {
     <button
       onClick={onClick}
       type="button"
-      className="inline-flex items-center justify-center p-2 text-gray-100 bg-transparent rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+      className="inline-flex items-center justify-center p-1.5 mt-px rounded-md text-gray-100 bg-transparent  focus:outline-none "
     >
       <span className="sr-only">Close menu</span>
       <svg

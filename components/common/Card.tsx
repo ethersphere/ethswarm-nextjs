@@ -21,7 +21,7 @@ const Card: React.FC<CardProps> = ({
   return (
     <div
       className={cn(
-        "col-span-4 border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70  shadow-dark ",
+        "col-span-12 lg:col-span-4 border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70  shadow-dark ",
         className
       )}
     >

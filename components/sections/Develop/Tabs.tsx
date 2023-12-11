@@ -23,7 +23,11 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
   return (
     <Container className="">
       <GridContainer className="">
-        <Tab.Group as="div" onChange={setSelected} className="col-span-6 py-20">
+        <Tab.Group
+          as="div"
+          onChange={setSelected}
+          className="col-span-12 py-20 lg:col-span-6"
+        >
           <Tab.List className="flex gap-x-2 sm:gap-x-4">
             {tabs.map((tab, index) => (
               <Tab
@@ -54,7 +58,10 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
             ))}
           </Tab.Panels>
         </Tab.Group>
-        <CodeBlock className="col-span-6 " code={tabs[selected].code} />
+        <CodeBlock
+          className="col-span-12 lg:col-span-6 "
+          code={tabs[selected].code}
+        />
       </GridContainer>
     </Container>
   );

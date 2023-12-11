@@ -32,13 +32,13 @@ const FairdDriveSection: React.FC<FairdDriveSectionProps> = ({
             content={content}
             title={title}
             ctas={ctas}
-            className="col-span-6 py-24 "
+            className="col-span-12 py-24 lg:col-span-6 "
           />
           <img
             loading="lazy"
             src="/assets/fds_graphic.png"
             alt="Odyssey Graphic"
-            className="object-contain object-right h-full col-span-6 col-start-7 pointer-events-none ml-14"
+            className="object-contain object-right h-full col-span-12 pointer-events-none lg:col-span-6 lg:col-start-7 ml-14"
           />
         </GridContainer>
       </Container>

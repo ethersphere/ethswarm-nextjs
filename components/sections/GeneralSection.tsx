@@ -33,7 +33,7 @@ const GeneralSection: React.FC<GeneralSectionProps> = ({
             content={content.content}
             size="small"
             ctas={content.ctas}
-            className="col-span-6"
+            className="col-span-12 lg:col-span-6"
           />
         </GridContainer>
 

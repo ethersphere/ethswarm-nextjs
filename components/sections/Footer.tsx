@@ -21,13 +21,13 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
       <Connect events={events} />
 
       <Container className="w-full">
-        <GridContainer className=" lg:pt-14 lg:pb-6">
-          <div className="lg:col-span-4">
+        <GridContainer className="pt-20 pb-8 md:pt-14 md:pb-6">
+          <div className="col-span-12 md:col-span-4">
             <Logo className="h-[26px] fill-current text-white" />
-            <p className="sm:mt-8 text-sm leading-5 text-[#8B909A]">
+            <p className="mt-8 md:mt-0 text-sm leading-5 text-[#8B909A]">
               {content.copy}
             </p>
-            <ul className="mt-4 space-y-3 text-sm font-semibold sm:mt-8 lg:space-y-4">
+            <ul className="mt-4 space-y-3 text-sm font-semibold sm:mt-8 md:space-y-4">
               {content.primary.map((item, index) => (
                 <li key={index}>
                   <RegularLink href={item.href} className="hover:underline">
@@ -40,7 +40,10 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
           {content.secondary.map((section, index) => (
             <div
               key={index}
-              className={cx("col-span-2 text-sm", `col-start-${7 + index * 2}`)}
+              className={cx(
+                "col-span-6 md:col-span-2 text-sm",
+                `md:col-start-${7 + index * 2}`
+              )}
             >
               <h3 className="pl-2 mb-4 -ml-2 font-semibold text-[#8B909A] sm:pl-4 sm:-ml-4 sm:mb-4">
                 {section.title}
@@ -61,7 +64,7 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
 
       <Container className="w-full">
         <GridContainer className="w-full py-8">
-          <div className="flex text-[10px] antialiased   text-[#F6F7F9] text-opacity-50 col-span-5">
+          <div className="flex text-[10px] antialiased   text-[#F6F7F9] text-opacity-50 col-span-12 lg:col-span-5">
             {content.copyright}, {new Date().getFullYear()} ·{" "}
             <RegularLink
               href={content.privacy_cta.href}

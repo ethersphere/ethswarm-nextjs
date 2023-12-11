@@ -35,7 +35,7 @@ const DevelopSection: React.FC<DevelopSectionProps> = ({
             title={title}
             content={content}
             ctas={ctas}
-            className="col-span-6"
+            className="col-span-12 lg:col-span-6"
           />
         </GridContainer>
       </Container>
