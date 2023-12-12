@@ -7,6 +7,7 @@ import {
   GeneralSection,
   Navigation,
   LandingHero,
+  EventPopup,
 } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/index.json";
@@ -16,6 +17,7 @@ import { getAllEvents } from "lib/events";
 import { getHome } from "lib/home";
 
 const Home: NextPage = (props: any) => {
+  console.log(props.events);
   return (
     <div className="bg-[#0D1216]">
       <Meta title={meta.title} />
@@ -24,6 +26,8 @@ const Home: NextPage = (props: any) => {
         {/* <Banner /> */}
 
         <Navigation />
+
+        <EventPopup href={props.events[0].href} title={props.events[0].title} />
 
         <LandingHero
           title={content.LandingHero.title}

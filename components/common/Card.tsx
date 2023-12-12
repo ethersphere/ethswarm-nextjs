@@ -4,7 +4,7 @@ import { cn } from "utils";
 import ButtonGroup from "./ButtonGroup";
 import Icon from "./Icon";
 import Image from "next/image";
-import { Status } from ".";
+import { Button, Status } from ".";
 import Link from "next/link";
 
 type CardProps = CardType;
@@ -65,7 +65,12 @@ const Card: React.FC<CardProps> = ({
         )}
 
         {ctas && ctas.length > 0 && <ButtonGroup ctas={ctas} />}
-        {cta && <ButtonGroup ctas={[cta]} />}
+        {cta && (
+          <Button
+            title={cta.title}
+            background={cta.background ?? "transparent"}
+          />
+        )}
       </div>
     </CtaComponent>
   );

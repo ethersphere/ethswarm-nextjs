@@ -19,6 +19,7 @@ import Odyssey from "./sections/Odyssey";
 import Disclaimer from "./sections/Disclaimer";
 import LandingHero from "./sections/LandingHero";
 import Stats from "./Stats";
+import EventPopup from "./sections/EventPopup";
 
 export {
   GeneralSection,
@@ -41,5 +42,6 @@ export {
   Section,
   Wikipedia,
   Navigation,
+  EventPopup,
   LandingHero,
 };

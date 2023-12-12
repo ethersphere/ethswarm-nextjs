@@ -6,22 +6,16 @@ import { ButtonBackgroundType, ButtonTextColorType } from "types";
 
 type ButtonProps = {
   background: ButtonBackgroundType;
-  color: ButtonTextColorType;
   href?: string;
   title?: string;
-  arrow?: boolean;
-  back?: boolean;
   className?: string;
 };
 
 const Button: React.FC<ButtonProps> = ({
   href = "",
   title = "",
-  arrow = false,
   background = "orange",
-  color = "black",
   className = "",
-  back = false,
 }) => {
   let classNameBackground =
     "bg-orange-500 focus:outline-none text-[#F6F7F9] hover:bg-opacity-80 px-4";
@@ -42,6 +36,10 @@ const Button: React.FC<ButtonProps> = ({
     classNameBackground,
     className
   );
+
+  if (!href) {
+    return <button className={classNameButton}>{title}</button>;
+  }
 
   // If href starts with http, we use anchor html tag, otherwise we use next/link
   if (href.startsWith("http")) {

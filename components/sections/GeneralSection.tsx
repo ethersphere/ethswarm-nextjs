@@ -25,7 +25,7 @@ const GeneralSection: React.FC<GeneralSectionProps> = ({
     <section
       className={cx("relative flex justify-center overflow-hidden ", textColor)}
     >
-      <Container className="flex flex-col py-20 md:-mt-20 md:py-40">
+      <Container className="flex flex-col py-20 md:py-48">
         <GridContainer>
           <Header
             title={content.title}

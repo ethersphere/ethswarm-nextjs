@@ -5,7 +5,6 @@ import {
   Cta,
   Footer,
   Navigation,
-  Post,
   Roadmap,
   Section,
   Disclaimer,
@@ -19,7 +18,6 @@ const Page: NextPage = (content: any) => {
   const sections: any = {
     Section: Section,
     Cta: Cta,
-    Post: Post,
     Roadmap: Roadmap,
   };
 
