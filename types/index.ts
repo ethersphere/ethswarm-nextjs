@@ -73,4 +73,5 @@ export type CardType = {
     alt: string;
   };
   ctas?: CtaType[];
+  cta?: CtaType;
 };

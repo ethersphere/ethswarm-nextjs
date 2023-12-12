@@ -5,6 +5,7 @@ import ButtonGroup from "./ButtonGroup";
 import Icon from "./Icon";
 import Image from "next/image";
 import { Status } from ".";
+import Link from "next/link";
 
 type CardProps = CardType;
 
@@ -17,9 +18,12 @@ const Card: React.FC<CardProps> = ({
   value,
   content,
   status,
+  cta,
 }) => {
+  const CtaComponent = cta ? Link : "div";
   return (
-    <div
+    <CtaComponent
+      href={cta ? cta?.href : ""}
       className={cn(
         "col-span-12 lg:col-span-4 border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70  shadow-dark ",
         className
@@ -61,8 +65,9 @@ const Card: React.FC<CardProps> = ({
         )}
 
         {ctas && ctas.length > 0 && <ButtonGroup ctas={ctas} />}
+        {cta && <ButtonGroup ctas={[cta]} />}
       </div>
-    </div>
+    </CtaComponent>
   );
 };
 

@@ -39,18 +39,20 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   image,
 }) => {
   return (
-    <Container className="relative z-10 w-full text-[#F6F7F9]">
+    <Container className="relative z-10 pt-20 w-full text-[#F6F7F9]">
       <GridContainer className={cx(code && "items-center")}>
         <Header
           title={title}
           content={code ? content : undefined}
           ctas={ctas}
-          className="col-span-5"
+          className="col-span-12 md:col-span-5"
         />
-        {!code && (
+        {!code && content && content.length > 0 && (
           <div
             className={cx(
-              contentWidth === "half" ? "w-full" : " col-start-7 col-span-6"
+              contentWidth === "half"
+                ? "w-full"
+                : " md:col-start-7 col-span-12 md:col-span-6"
             )}
           >
             <SectionContent
@@ -79,20 +81,27 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
                   key={i}
                   {...block}
                   className={cx(
-                    "col-span-6 ",
-                    title && !content ? " mt-20" : "mt-24"
+                    "col-span-12 md:col-span-6 ",
+                    title && !content ? "mt-10 md:mt-20" : "md:mt-24"
                   )}
                 />
               ))}
 
-            {blocks.bzzPrice && <FeatureBzzPrice className="mt-10 " />}
-            {blocks.bzzPot && <FeatureBzzPot className="col-start-7 mt-10" />}
+            {blocks.bzzPrice && (
+              <FeatureBzzPrice className="row-start-4 mt-5 md:mt-10 " />
+            )}
+            {blocks.bzzPot && (
+              <FeatureBzzPot className="mt-5 md:mt-10 md:col-start-7" />
+            )}
             {blocks.exchanges && <FeatureExchanges />}
           </>
         )}
 
         {/* Code block */}
-        <CodeBlock code={code} className="col-span-6 col-start-7" />
+        <CodeBlock
+          code={code}
+          className="col-span-12 md:col-span-6 md:col-start-7"
+        />
       </GridContainer>
       {features && (
         <CardList

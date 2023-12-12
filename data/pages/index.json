@@ -49,13 +49,6 @@
         "background": "orange",
         "color": "black",
         "title": "Learn more ->"
-      },
-      {
-        "href": "/why#how",
-        "background": "transparent",
-        "color": "black",
-        "arrow": true,
-        "title": "How it works"
       }
     ],
     "cards": [
@@ -128,14 +121,14 @@
         "background": "orange",
         "color": "black",
         "arrow": true,
-        "title": "Swarm stack"
+        "title": "Swarm stack ->"
       },
       {
         "href": "/build/desktop",
         "background": "transparent",
         "color": "black",
         "arrow": true,
-        "title": "Desktop app"
+        "title": "Desktop app ->"
       }
     ],
     "tabs": [
@@ -144,7 +137,7 @@
         "content": "Bee is a peer-to-peer client that connects you with other peers all over the world to become part of Swarm network, a global distributed p2p storage network that aims to store and distribute all of the world's data.",
         "ctas": [
           {
-            "title": "Documentation",
+            "title": "Documentation ->",
             "href": "https://docs.ethswarm.org/docs/dapps-on-swarm/introduction",
             "arrow": true,
             "background": "transparent"
@@ -161,7 +154,7 @@
             "background": "transparent",
             "color": "black",
             "arrow": true,
-            "title": "Documentation"
+            "title": "Documentation ->"
           }
         ],
         "code": "Bee-js"
@@ -175,7 +168,7 @@
             "background": "transparent",
             "color": "black",
             "arrow": true,
-            "title": "GitHub"
+            "title": "GitHub ->"
           }
         ],
         "code": "Swarm-CLI"
@@ -189,7 +182,7 @@
             "background": "transparent",
             "color": "black",
             "arrow": true,
-            "title": "Documentation"
+            "title": "Documentation ->"
           }
         ],
         "code": "Bee API"
@@ -262,7 +255,7 @@
           "title": "Swarm Desktop App - Web3 for everyone",
           "content": "The Swarm Foundation unveiled the beta version of the Swarm Desktop App (Beta). Its goal is to take the best from Web2 and replace the complex experience of Web3 with a familiar one.",
           "cta": {
-            "title": "Read more",
+            "title": "Read more ->",
             "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
             "background": "transparent",
             "color": "white",
@@ -280,7 +273,7 @@
           "title": "Bridge DAI from Ethereum Mainnet to Gnosis",
           "content": "Your Bee node uses the Gnosis Chain network to buy postage stamps, to keep your files and data alive in…",
           "cta": {
-            "title": "Read more",
+            "title": "Read more ->",
             "href": "https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c",
             "background": "transparent",
             "color": "white",
@@ -298,7 +291,7 @@
           "title": "50k DAI prize to make Wikipedia unstoppable",
           "content": "The Swarm Association is announcing a 50,000 DAI “Wikipedia on Swarm ”prize (paid in BZZ) for a solution that…",
           "cta": {
-            "title": "Read more",
+            "title": "Read more ->",
             "href": "https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873",
             "background": "transparent",
             "color": "white",
@@ -325,7 +318,7 @@
         "content": "Etherna is a transparent video platform FOR EVERYONE where freedom of speech is incentivized, not convicted.",
         "cta": {
           "href": "https://etherna.io/",
-          "title": "More"
+          "title": "More ->"
         }
       },
       {
@@ -333,7 +326,7 @@
         "content": "Dapplets aims to leverage target websites’ search results to pull data previously uploaded to Swarm, providing an interface for data interchange between the Dapplet and the search result provider.",
         "cta": {
           "href": "https://dapplets.org/",
-          "title": "More"
+          "title": "More ->"
         }
       },
       {
@@ -341,7 +334,7 @@
         "content": "Copyright Delta is building the Digital Rights Exchange & Network (DRX) which allows users to control their data and decide who has access to it. DRX also enables tokenised management of royalties, licensing and ownership.",
         "cta": {
           "href": "https://www.copyrightdelta.com/",
-          "title": "More"
+          "title": "More ->"
         }
       },
       {
@@ -359,14 +352,14 @@
         "background": "orange",
         "color": "black",
         "arrow": true,
-        "title": "Apply for a grant"
+        "title": "Apply for a grant ->"
       },
       {
         "href": "/grants",
         "background": "transparent",
         "color": "black",
         "arrow": true,
-        "title": "See who’s building"
+        "title": "See who’s building ->"
       }
     ]
   },

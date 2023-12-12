@@ -40,8 +40,8 @@ const FeatureExchanges: React.FC<Props> = () => {
             target="_blank"
             rel="noreferrer"
             className={cx(
-              " flex flex-col items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-4 py-5 text-[17px] font-bold duration-200 group col-span-2",
-              index === items.length - 1 ? "col-start-1" : ""
+              " flex flex-col items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-4 py-5 text-[17px] font-bold duration-200 group col-span-6 md:col-span-2",
+              index === items.length - 1 ? "md:col-start-1" : ""
             )}
           >
             <IconTag className="flex-shrink-0 w-6 max-h-6" />

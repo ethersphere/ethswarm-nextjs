@@ -24,13 +24,16 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
         <GridContainer className="pt-20 pb-8 md:pt-14 md:pb-6">
           <div className="col-span-12 md:col-span-4">
             <Logo className="h-[26px] fill-current text-white" />
-            <p className="mt-8 md:mt-0 text-sm leading-5 text-[#8B909A]">
+            <p className="mt-8 text-sm leading-5 text-[#8B909A]">
               {content.copy}
             </p>
             <ul className="mt-4 space-y-3 text-sm font-semibold sm:mt-8 md:space-y-4">
               {content.primary.map((item, index) => (
                 <li key={index}>
-                  <RegularLink href={item.href} className="hover:underline">
+                  <RegularLink
+                    href={item.href}
+                    className="text-[#F6F7F9] transition hover:text-opacity-70"
+                  >
                     {item.title}
                   </RegularLink>
                 </li>
@@ -51,7 +54,10 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
               <ul className="space-y-3 font-semibold sm:mt-4 lg:space-y-4 ">
                 {section.items.map((item, index) => (
                   <li key={index}>
-                    <RegularLink href={item.href} className="hover:underline">
+                    <RegularLink
+                      href={item.href}
+                      className=" text-[#F6F7F9] transition hover:text-opacity-70"
+                    >
                       {item.title}
                     </RegularLink>
                   </li>

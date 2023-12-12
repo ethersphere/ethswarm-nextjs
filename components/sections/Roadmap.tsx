@@ -34,6 +34,11 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
         perView: 3,
         spacing: 20,
       },
+      breakpoints: {
+        "(max-width: 768px)": {
+          slides: { perView: 1.1, spacing: 10 },
+        },
+      },
       initial: items.length - 1,
       slideChanged(e) {
         // console.log(e.track.details.rel === e.track.details.maxIdx);
@@ -48,7 +53,7 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
   );
 
   return (
-    <section className="relative z-10 flex justify-center my-56" id={id}>
+    <section className="relative z-10 flex justify-center my-56 " id={id}>
       <Container className="relative flex items-center w-full">
         <button
           className={cx(

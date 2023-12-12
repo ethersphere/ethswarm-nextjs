@@ -22,22 +22,23 @@ const Odyssey: React.FC<OdysseyProps> = ({
   content = "",
   ctas,
 }) => {
+  console.log(ctas);
   return (
     <section className="relative text-gray-100">
-      <Container className="relative h-full border border-[#2D3843] rounded-xl bg-gradient-odyssey">
-        <GridContainer className="items-center">
+      <Container className="relative h-full ">
+        <GridContainer className=" md:items-end !px-5 lg:!px-14 lg:items-center border border-[#2D3843] rounded-xl bg-gradient-odyssey mx-6 md:mx-0">
           <Header
             tagline={tagline}
             content={content}
             title={title}
             ctas={ctas}
-            className="col-span-12 lg:col-span-6 "
+            className="col-span-12 py-8 md:col-span-6 "
           />
           <img
             loading="lazy"
             src="/assets/odyssey_background.png"
             alt="Odyssey Graphic"
-            className="object-contain object-right -mt-10 pointer-events-none lg:col-start-8 lg:col-span-5"
+            className="object-contain object-right col-span-12 -mx-5 pointer-events-none md:mx-0 -md:mt-10 md:col-start-8 md:col-span-5"
           />
         </GridContainer>
       </Container>

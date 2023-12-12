@@ -25,8 +25,8 @@ const FairdDriveSection: React.FC<FairdDriveSectionProps> = ({
 }) => {
   return (
     <section className="relative overflow-hidden text-gray-100">
-      <Container className="relative h-full border border-[#2D3843] rounded-xl bg-gradient-fairdata">
-        <GridContainer className="items-center">
+      <Container className="relative h-full ">
+        <GridContainer className="items-center border !px-5 lg:!px-14 mx-6 md:mx-0 border-[#2D3843] rounded-xl bg-gradient-fairdata">
           <Header
             tagline={tagline}
             content={content}
@@ -38,7 +38,7 @@ const FairdDriveSection: React.FC<FairdDriveSectionProps> = ({
             loading="lazy"
             src="/assets/fds_graphic.png"
             alt="Odyssey Graphic"
-            className="object-contain object-right h-full col-span-12 pointer-events-none lg:col-span-6 lg:col-start-7 ml-14"
+            className="object-contain object-right h-full col-span-12 -mx-5 pointer-events-none md:mx-0 lg:col-span-6 lg:col-start-7 md:ml-14"
           />
         </GridContainer>
       </Container>

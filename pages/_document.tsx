@@ -35,7 +35,7 @@ export default function Document() {
         script.onload       = function() {
             MauticSDK.onLoad();
         };
-        head.appendChild(script);
+        // head.appendChild(script);
         var MauticDomain = 'https://mautic.int.ethswarm.org/index.php';
         var MauticLang   = {
             'submittingMessage': "Please wait..."

@@ -46,6 +46,10 @@ const Navigation: React.FC<NavigationProps> = ({
     }
   }, [activeTrigger, value]);
 
+  useEffect(() => {
+    setExpanded(-1);
+  }, [isOpen]);
+
   return (
     <div
       className={cx(
@@ -212,6 +216,7 @@ const Navigation: React.FC<NavigationProps> = ({
                                   className={cx(
                                     "block  px-3.5 py-2.5 antialiased border-b border border-[#1F2831]"
                                   )}
+                                  onClick={() => setIsOpen(false)}
                                 >
                                   <div className="text-sm font-semibold text-gray-100">
                                     {child.title}

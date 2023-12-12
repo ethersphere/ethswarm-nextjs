@@ -27,6 +27,7 @@ const icons: any = {
   PushIcon: Icons.PushIcon,
   RetrieveIcon: Icons.RetrieveIcon,
   RouteIcon: Icons.RouteIcon,
+  RewardIcon: Icons.RewardIcon,
 };
 
 type IconType = {

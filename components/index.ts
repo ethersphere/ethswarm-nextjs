@@ -14,7 +14,6 @@ import Logo from "./Logo";
 import Newsletter from "./Newsletter";
 import Section from "./sections/Section";
 import Cta from "./sections/Cta";
-import Post from "./sections/Post";
 import Roadmap from "./sections/Roadmap";
 import Odyssey from "./sections/Odyssey";
 import Disclaimer from "./sections/Disclaimer";
@@ -37,7 +36,6 @@ export {
   Hero,
   Unstoppable,
   Stats,
-  Post,
   Odyssey,
   Roadmap,
   Section,

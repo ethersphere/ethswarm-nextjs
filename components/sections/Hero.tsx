@@ -27,18 +27,18 @@ const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
         }}
       />
       <Container className="relative">
-        <GridContainer className="items-center">
+        <GridContainer className="items-center pt-32">
           <Header
             title={title}
             content={content}
             ctas={ctas}
             size="large"
-            className="col-span-6"
+            className="col-span-12 md:col-span-6"
           />
           <img
             src={background.src}
             alt={background.alt}
-            className="col-span-6"
+            className="col-span-12 row-start-1 md:row-auto md:col-span-6"
           />
         </GridContainer>
       </Container>

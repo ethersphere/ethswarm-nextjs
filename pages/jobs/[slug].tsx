@@ -1,14 +1,15 @@
 import type { NextPage } from "next";
 
-import { Connect, Footer, Hero, Navigation, Post } from "@/components/index";
+import { Connect, Footer, Hero, Navigation } from "@/components/index";
 import meta from "data/meta.json";
-import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
 import { getJobBySlug, getJobsSlugs } from "lib/jobs";
 
 import { getAllEvents } from "lib/events";
+import ContentContainer from "@/components/sections/ContentContainer";
 
 const JobSingle: NextPage = (content: any) => {
+  console.log(content.content);
   return (
     <div className="bg-[#0D1216]">
       <Meta title={content.meta.title ?? meta.title} />
@@ -19,25 +20,20 @@ const JobSingle: NextPage = (content: any) => {
         {/* @ts-ignore */}
         <Hero
           title={content.job.title}
+          ctas={[
+            {
+              title: "<- Open roles",
+              href: "/jobs",
+              back: true,
+              arrow: true,
+              background: "orange",
+            },
+          ]}
           background={{ src: "/assets/hero/join_alt.png", alt: "" }}
         />
 
-        <div className="md:pt-20 lg:pt-40">
-          <Post
-            sidebar={{
-              ctas: [
-                {
-                  title: "All Jobs",
-                  href: "/jobs",
-                  back: true,
-                  arrow: true,
-                  background: "transparent",
-                },
-              ],
-            }}
-            content={content.content}
-            border={false}
-          />
+        <div className="py-20 lg:py-40">
+          <ContentContainer content={content.content} title="" />
         </div>
 
         <Footer events={content.events} />

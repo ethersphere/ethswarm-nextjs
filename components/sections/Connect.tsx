@@ -78,12 +78,12 @@ const EventLink: React.FC<EventLinkProps> = ({ href = "", title }) => {
           href={href}
           target="_blank"
           rel="noreferrer"
-          className="text-sm font-semibold"
+          className="text-sm font-semibold text-[#F6F7F9] transition hover:text-opacity-70"
         >
           {title}
         </a>
       ) : (
-        <span className="font-medium md:text-lg">{title}</span>
+        <span className="font-medium md:text-lg ">{title}</span>
       )}
     </div>
   );
@@ -97,7 +97,12 @@ type CommunityLinkProps = {
 
 const CommunityLink: React.FC<CommunityLinkProps> = ({ href = "/", title }) => {
   return (
-    <a href={href} className="block" target="_blank" rel="noreferrer">
+    <a
+      href={href}
+      className="block text-[#F6F7F9] transition hover:text-opacity-70"
+      target="_blank"
+      rel="noreferrer"
+    >
       <span className="text-sm font-semibold">{title}</span>
     </a>
   );

@@ -4,7 +4,6 @@ import Head from "next/head";
 import { Connect, Footer, Hero, Navigation } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/jobs.json";
-import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
 import ContentContainer from "@/components/sections/ContentContainer";
 import { getAllJobs } from "lib/jobs";

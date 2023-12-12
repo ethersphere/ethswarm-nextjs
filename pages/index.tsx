@@ -35,10 +35,10 @@ const Home: NextPage = (props: any) => {
         <GeneralSection content={content.unstoppable} />
 
         <Odyssey
-          title={props.home.upload.title}
-          content={props.home.upload.content}
-          ctas={props.home.upload.ctas as Array<CtaType>}
-          tagline={props.home.upload.tagline}
+          title={content.odyssey.title}
+          content={content.odyssey.content}
+          ctas={content.odyssey.ctas as Array<CtaType>}
+          tagline={content.odyssey.tagline}
         />
 
         <DevelopSection
