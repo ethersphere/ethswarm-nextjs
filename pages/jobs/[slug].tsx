@@ -9,7 +9,7 @@ import { getAllEvents } from "lib/events";
 import ContentContainer from "@/components/sections/ContentContainer";
 
 const JobSingle: NextPage = (content: any) => {
-  console.log(content.content);
+  console.log(content);
   return (
     <div className="bg-[#0D1216]">
       <Meta title={content.meta.title ?? meta.title} />
@@ -17,9 +17,9 @@ const JobSingle: NextPage = (content: any) => {
       <main>
         <Navigation />
 
-        {/* @ts-ignore */}
         <Hero
           title={content.job.title}
+          content={content.job.subtitle}
           ctas={[
             {
               title: "<- Open roles",
@@ -32,8 +32,10 @@ const JobSingle: NextPage = (content: any) => {
           background={{ src: "/assets/hero/join_alt.png", alt: "" }}
         />
 
-        <div className="py-20 lg:py-40">
-          <ContentContainer content={content.content} title="" />
+        <div className="space-y-16 md:space-y-24 md:mt-20 md:mb-48">
+          {content.job.items.map((item: any, index: number) => (
+            <ContentContainer key={index} {...item} />
+          ))}
         </div>
 
         <Footer events={content.events} />

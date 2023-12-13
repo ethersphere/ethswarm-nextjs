@@ -315,10 +315,11 @@
     "features": [
       {
         "title": "Etherna",
-        "content": "Etherna is a transparent video platform FOR EVERYONE where freedom of speech is incentivized, not convicted.",
+        "content": "Etherna is building a decentralised and transparent video sharing platform to bring a fair data economy to creators, curators and fans. Censorship resistant, open source and community based.",
         "icon": "/assets/icons/etherna.png",
         "cta": {
           "href": "https://etherna.io/",
+          "background": "transparent",
           "title": "More ->"
         }
       },
@@ -328,6 +329,7 @@
         "icon": "/assets/icons/dapplets.png",
         "cta": {
           "href": "https://dapplets.org/",
+          "background": "transparent",
           "title": "More ->"
         }
       },
@@ -337,6 +339,7 @@
         "content": "Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralized future.",
         "cta": {
           "href": "https://metaprovide.org/nextcloud-swarm-plugin",
+          "background": "transparent",
           "title": "More ->"
         }
       }

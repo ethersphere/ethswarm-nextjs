@@ -93,7 +93,7 @@ sections:
           code: ""
           tagline: ""
         - template: section_item
-          contentWidth: half
+          contentWidth: full
           features:
             columns: []
             type: default
@@ -114,7 +114,7 @@ sections:
           code: ""
           tagline: ""
         - template: section_item
-          contentWidth: half
+          contentWidth: full
           features:
             columns: []
             type: default

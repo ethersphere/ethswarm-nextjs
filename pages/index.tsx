@@ -17,7 +17,6 @@ import { getAllEvents } from "lib/events";
 import { getHome } from "lib/home";
 
 const Home: NextPage = (props: any) => {
-  console.log(props.home.grantees);
   return (
     <div className="bg-[#0D1216]">
       <Meta title={meta.title} />

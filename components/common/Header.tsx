@@ -7,7 +7,7 @@ type HeaderProps = {
   title: string;
   content?: string;
   ctas?: Array<CtaType>;
-  size?: "small" | "large";
+  size?: "small" | "medium" | "large";
   className?: string;
 };
 
@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({
   title,
   content,
   ctas,
-  size = "small",
+  size = "medium",
   className = "",
 }: HeaderProps) => {
   return (
@@ -27,10 +27,11 @@ const Header: React.FC<HeaderProps> = ({
         className={cx(
           "inline-flex flex-wrap font-bold  gap-3 items-center",
           {
-            small:
+            small: " text-3xl md:text-3xl ",
+            medium:
               " text-[44px] leading-[49px] md:text-5xl md:leading-[1.2] tracking-[-0.48px] ",
             large:
-              "text-[56px] leading-[64px] md:text-[88px] md:leading-[97px] mb-8 md:mb-6 tracking-[-0.88px]",
+              "text-[56px] leading-[64px] md:text-[88px] md:leading-[97px] tracking-[-0.88px]",
           }[size]
         )}
         dangerouslySetInnerHTML={{ __html: title }}
@@ -42,6 +43,7 @@ const Header: React.FC<HeaderProps> = ({
             "z-20 ",
             {
               small: "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
+              medium: "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
               large:
                 "text-base md:text-[19px] md:leading-[26px] mt-8 md:mt-6 md:mr-[72px]",
             }[size]
@@ -55,7 +57,8 @@ const Header: React.FC<HeaderProps> = ({
           ctas={ctas}
           className={cx(
             {
-              small: "mt-6",
+              small: "mt-4",
+              medium: "mt-6",
               large: " mt-8",
             }[size]
           )}

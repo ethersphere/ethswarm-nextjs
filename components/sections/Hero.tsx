@@ -8,11 +8,6 @@ type HeroProps = {
   background: ImageType;
   content: string;
   ctas?: Array<CtaType>;
-  quote: {
-    title: string;
-    href?: string;
-    background_gradient?: boolean;
-  };
   cta?: CtaType;
 };
 
@@ -33,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
             content={content}
             ctas={ctas}
             size="large"
-            className="col-span-12 md:col-span-6"
+            className="col-span-12 md:col-span-6 md:py-40"
           />
           <img
             src={background.src}

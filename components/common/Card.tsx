@@ -5,7 +5,6 @@ import ButtonGroup from "./ButtonGroup";
 import Icon from "./Icon";
 import Image from "next/image";
 import { Button, Status } from ".";
-import Link from "next/link";
 import markdownToHtml from "lib/markdownToHtml";
 
 type CardProps = CardType;
@@ -29,10 +28,8 @@ const Card: React.FC<CardProps> = ({
     });
   }, [content]);
 
-  const CtaComponent = cta ? Link : "div";
   return (
-    <CtaComponent
-      href={cta ? cta?.href : ""}
+    <div
       className={cn(
         "col-span-12 md:col-span-6 lg:col-span-4 border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70  shadow-dark ",
         className
@@ -74,14 +71,9 @@ const Card: React.FC<CardProps> = ({
         )}
 
         {ctas && ctas.length > 0 && <ButtonGroup ctas={ctas} />}
-        {cta && (
-          <Button
-            title={cta.title}
-            background={cta.background ?? "transparent"}
-          />
-        )}
+        {cta && <ButtonGroup ctas={[cta]} />}
       </div>
-    </CtaComponent>
+    </div>
   );
 };
 

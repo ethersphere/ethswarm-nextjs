@@ -18,8 +18,7 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
       <main className="overflow-hidden">
         <Navigation />
 
-        {/* @ts-ignore */}
-        <Hero index={0} {...content.hero} />
+        <Hero {...content.hero} />
 
         {jobs && jobs.length === 0 && (
           <div className="flex justify-center pb-8">
@@ -32,20 +31,22 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
             {jobs.map((item: any, index: number) => (
               <ContentContainer
                 key={index}
+                {...item}
                 features={{
                   columns: "three",
                   features: item.items.map((job: any) => ({
                     title: job.job.title,
                     content: job.job.description,
-                    cta: {
-                      title: "More",
-                      href: `/jobs/${job.slug}`,
-                      arrow: true,
-                      background: "transparent",
-                    },
+                    ctas: [
+                      {
+                        title: "More ->",
+                        href: `/jobs/${job.slug}`,
+                        arrow: true,
+                        background: "transparent",
+                      },
+                    ],
                   })),
                 }}
-                {...item}
               />
             ))}
           </div>
@@ -62,6 +63,8 @@ export default Jobs;
 export async function getStaticProps() {
   const events = getAllEvents();
   const jobs = getAllJobs();
+
+  console.log(jobs);
 
   // Find unique categories from list
   const categories = jobs

@@ -19,6 +19,7 @@ type ContentContainerProps = {
   title: string;
   content: string;
   contentWidth?: "full" | "half";
+  titleSize?: "small" | "medium" | "large";
   ctas?: Array<CtaType>;
   image?: string;
   code?: string;
@@ -33,6 +34,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   code,
   blocks,
   contentWidth = "full",
+  titleSize,
   features,
   image,
 }) => {
@@ -43,6 +45,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
           title={title}
           content={code ? content : undefined}
           ctas={ctas}
+          size={titleSize}
           className={cx(
             "col-span-12 ",
             !content ? "md:col-span-12" : "md:col-span-5"
@@ -107,10 +110,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
       {features && (
         <CardList
           className="col-span-12 mt-24 mb-2"
-          items={features.features.map((item) => ({
-            ...item,
-            ctas: item.cta ? [item.cta] : [],
-          }))}
+          items={features.features}
         />
       )}
     </Container>
