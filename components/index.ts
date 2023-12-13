@@ -1,11 +1,7 @@
 import Hero from "./sections/Hero";
-import Unstoppable from "./sections/Unstoppable";
 import Wikipedia from "./sections/Wikipedia";
 import DevelopSection from "./sections/DevelopSection";
 import FairdDriveSection from "./sections/FairdDriveSection";
-import Dapp from "./sections/Dapp";
-import News from "./sections/News";
-import Builders from "./sections/Builders";
 import Connect from "./sections/Connect";
 import Footer from "./sections/Footer";
 import GeneralSection from "./sections/GeneralSection";
@@ -26,16 +22,12 @@ export {
   Logo,
   Footer,
   Connect,
-  Builders,
   Cta,
   Newsletter,
-  News,
-  Dapp,
   DevelopSection,
   Disclaimer,
   FairdDriveSection,
   Hero,
-  Unstoppable,
   Stats,
   Odyssey,
   Roadmap,

@@ -16,8 +16,8 @@ sections:
         ctas: []
         footnote: ""
       items: []
-  - template: post
-    type: Post
+  - template: section
+    type: Section
     data:
       sidebar:
         ctas:

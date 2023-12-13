@@ -19,7 +19,7 @@ sections:
           - template: cta
             arrow: true
             type: default
-            title: Get bzz
+            title: Get bzz ->
             href: "#how-to-acquire-bzz"
             background: orange
             back: false
@@ -87,27 +87,27 @@ sections:
                   for your services.
                 cta:
                   arrow: true
-                  background: []
+                  background: transparent
                   type: default
-                  title: Run
+                  title: Run ->
                   href: "/build/run-a-full-node"
               - template: feature
                 title: Swarm Desktop
                 content: Direct peer-to-peer access to the network.
                 cta:
                   arrow: true
-                  background: []
+                  background: transparent
                   type: default
-                  title: Install
+                  title: Install ->
                   href: "/build/desktop"
               - template: feature
                 title: Awesome Swarm
                 content: Free and open source projects related to Swarm and its ecosystem.
                 cta:
                   arrow: true
-                  background: []
+                  background: transparent
                   type: default
-                  title: Browse
+                  title: Browse ->
                   href: https://github.com/ethersphere/awesome-swarm
           title: How to use BZZ
           content: ""

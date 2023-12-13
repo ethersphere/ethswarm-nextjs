@@ -24,7 +24,7 @@ sections:
             href: ""
           - template: cta
             arrow: true
-            title: View on GitHub
+            title: GitHub ->
             background: transparent
             href: https://github.com/ethersphere/swarm-desktop/releases
             type: default
@@ -129,7 +129,7 @@ sections:
             - template: cta
               arrow: true
               type: default
-              title: View on GitHub
+              title: View on GitHub ->
               href: https://github.com/ethersphere/swarm-desktop/releases
               background: transparent
           image: "/uploads/swarm-desktop.png"

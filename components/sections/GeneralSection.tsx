@@ -1,7 +1,6 @@
 import * as React from "react";
-import { Container, Tagline, Header } from "@/components/common";
-import { CardType, CtaType, FeatureType } from "types";
-import { HeadingUnderline, FeatureList } from "@/components/common";
+import { Container, Header } from "@/components/common";
+import { CardType, CtaType } from "types";
 import cx from "../../utils/cx";
 import Card from "../common/Card";
 import GridContainer from "../common/GridContainer";

@@ -4,9 +4,7 @@ import {
   CardList,
   Container,
   ContentBlock,
-  FeatureList,
   Header,
-  HeadingUnderline,
   SectionContent,
   FeatureBzzPrice,
   FeatureBzzPot,
@@ -45,14 +43,17 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
           title={title}
           content={code ? content : undefined}
           ctas={ctas}
-          className="col-span-12 md:col-span-5"
+          className={cx(
+            "col-span-12 ",
+            !content ? "md:col-span-12" : "md:col-span-5"
+          )}
         />
         {!code && content && content.length > 0 && (
           <div
             className={cx(
               contentWidth === "half"
                 ? "w-full"
-                : " md:col-start-7 col-span-12 md:col-span-6"
+                : " md:col-start-7 col-span-12 md:col-span-6 md:pr-5"
             )}
           >
             <SectionContent
@@ -63,7 +64,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
         )}
         {/* Full width image */}
         {image && image.length > 0 && (
-          <div className="relative col-span-12 mt-16 -mx-4">
+          <div className="relative col-span-12 mt-24 -mx-4">
             <img
               className="border shadow border-gray-275"
               src={image}
@@ -81,17 +82,17 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
                   key={i}
                   {...block}
                   className={cx(
-                    "col-span-12 md:col-span-6 ",
+                    "col-span-12 md:col-span-6",
                     title && !content ? "mt-10 md:mt-20" : "md:mt-24"
                   )}
                 />
               ))}
 
             {blocks.bzzPrice && (
-              <FeatureBzzPrice className="row-start-4 mt-5 md:mt-10 " />
+              <FeatureBzzPrice className="row-start-4 mt-5 md:row-auto md:mt-10 " />
             )}
             {blocks.bzzPot && (
-              <FeatureBzzPot className="mt-5 md:mt-10 md:col-start-7" />
+              <FeatureBzzPot className="mt-5 md:mt-10 md:col-start-7 lg:col-start-7" />
             )}
             {blocks.exchanges && <FeatureExchanges />}
           </>
@@ -105,7 +106,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
       </GridContainer>
       {features && (
         <CardList
-          className="col-span-12 mb-2 mt-28"
+          className="col-span-12 mt-24 mb-2"
           items={features.features.map((item) => ({
             ...item,
             ctas: item.cta ? [item.cta] : [],

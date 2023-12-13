@@ -18,7 +18,7 @@ sections:
         footnote: ""
       items: []
     template: section
-  - type: Post
+  - type: Section
     data:
       border: false
       sidebar:

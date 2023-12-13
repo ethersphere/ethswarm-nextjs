@@ -1,13 +1,6 @@
 import * as React from "react";
-import {
-  ButtonGroup,
-  Container,
-  Header,
-  SectionContent,
-  Tagline,
-} from "@/components/common";
+import { Container, Header } from "@/components/common";
 import { CtaType, TabType } from "types";
-import { HeadingUnderline } from "@/components/common";
 import Tabs from "./Develop/Tabs";
 import GridContainer from "../common/GridContainer";
 

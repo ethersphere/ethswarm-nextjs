@@ -17,7 +17,7 @@ import { getAllEvents } from "lib/events";
 import { getHome } from "lib/home";
 
 const Home: NextPage = (props: any) => {
-  console.log(props.events);
+  console.log(props.home.grantees);
   return (
     <div className="bg-[#0D1216]">
       <Meta title={meta.title} />
@@ -35,7 +35,6 @@ const Home: NextPage = (props: any) => {
           ctas={content.LandingHero.ctas as Array<CtaType>}
         />
 
-        {/* @ts-ignore */}
         <GeneralSection content={content.unstoppable} />
 
         <Odyssey
@@ -67,9 +66,8 @@ const Home: NextPage = (props: any) => {
             tagline: content.builders.tagline,
             title: content.builders.title,
             content: content.builders.content,
-            // @ts-ignore
             ctas: content.builders.ctas,
-            cards: props.home.grantees,
+            cards: content.builders.features,
           }}
         />
 

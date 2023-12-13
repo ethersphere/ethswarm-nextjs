@@ -15,13 +15,13 @@ sections:
         ctas:
           - template: cta
             arrow: true
-            title: Participate
+            title: Participate ->
             href: https://discord.ethswarm.org/
             background: orange-onDark
             type: default
           - template: cta
             arrow: true
-            title: Get BZZ
+            title: Get BZZ ->
             href: /get-bzz
             background: transparent
             type: default

@@ -51,7 +51,7 @@ const DownloadButton: React.FC<ButtonProps> = ({
       rel="noreferrer"
       className={className}
     >
-      {`Download for ${asset.osName}`}
+      {`Download for ${asset.osName} ->`}
     </a>
   );
 };

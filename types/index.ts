@@ -7,8 +7,9 @@ export type ButtonBackgroundType =
   | "orange-onDark"
   | "transparent"
   | "white"
-  | "black";
-export type ButtonTextColorType = "black" | "gray";
+  | "black"
+  | string;
+export type ButtonTextColorType = "black" | "gray" | string;
 
 export type CtaType = {
   title: string;

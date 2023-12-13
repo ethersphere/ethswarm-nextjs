@@ -50,6 +50,8 @@ const Navigation: React.FC<NavigationProps> = ({
     setExpanded(-1);
   }, [isOpen]);
 
+  console.log(value);
+
   return (
     <div
       className={cx(
@@ -87,12 +89,16 @@ const Navigation: React.FC<NavigationProps> = ({
 
                             return node;
                           }}
+                          className="flex items-center px-5 py-1 text-sm antialiased font-semibold text-gray-100 duration-200 hover:opacity-70"
                         >
-                          <MenuLink
-                            key={index}
-                            {...link}
-                            icon
-                            selected={value === link.title}
+                          {link.title}
+                          <ArrowIcon
+                            className={cx(
+                              "w-2.5 h-2 ml-2 duration-200",
+                              link.title === value
+                                ? " -rotate-90"
+                                : " rotate-90"
+                            )}
                           />
                         </NavigationMenu.Trigger>
                       ) : (
@@ -132,9 +138,12 @@ const Navigation: React.FC<NavigationProps> = ({
               <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
                 <NavigationMenu.Viewport
                   forceMount
-                  className="relative mt-[10px]  data-[state=closed]:opacity-0  data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831] transition-all  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
+                  className="relative mt-[10px]  data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
                   style={{
                     transform: `translateX(${offset}px)`,
+                    transition: `transform ${
+                      activeTrigger === null ? 0 : 0.2
+                    }s ease, opacity 0.2s ease , width 0.2s ease, height 0.2s ease`,
                   }}
                 />
               </div>
@@ -260,12 +269,10 @@ type MenuLinkProps = {
   href?: string;
   title: string;
   selected?: boolean;
-  icon?: boolean;
 };
 const MenuLink: React.FC<MenuLinkProps> = ({
   href = "/",
   title,
-  icon,
   selected = false,
 }) => {
   return (
@@ -276,14 +283,6 @@ const MenuLink: React.FC<MenuLinkProps> = ({
       )}
     >
       {title}
-      {icon && (
-        <ArrowIcon
-          className={cx(
-            "w-2.5 h-2 ml-2 duration-200",
-            selected ? " -rotate-90" : " rotate-90"
-          )}
-        />
-      )}
     </RegularLink>
   );
 };

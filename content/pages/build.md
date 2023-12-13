@@ -36,7 +36,7 @@ sections:
             - template: cta
               arrow: true
               type: default
-              title: Get the Documentation
+              title: Documentation ->
               href: "https://docs.ethswarm.org/docs/dapps-on-swarm/introduction"
               background: transparent
           image: ""
@@ -56,7 +56,7 @@ sections:
             - template: cta
               arrow: true
               type: default
-              title: Get the Documentation
+              title: Documentation ->
               href: "https://bee-js.ethswarm.org/docs/"
               background: transparent
           image: ""
@@ -79,7 +79,7 @@ sections:
             - template: cta
               arrow: true
               type: default
-              title: Read more on Github
+              title: Read more on Github ->
               href: "https://github.com/ethersphere/swarm-cli"
               background: transparent
           image: ""
@@ -99,7 +99,7 @@ sections:
             - template: cta
               arrow: true
               type: default
-              title: Get the Documentation
+              title: Documentation ->
               href: "https://docs.ethswarm.org/api/"
               background: transparent
           image: ""
@@ -124,7 +124,7 @@ sections:
                 cta:
                   arrow: true
                   type: default
-                  title: Read more
+                  title: Read more ->
                   href: "https://docs.fairos.fairdatasociety.org/docs/"
                   background: transparent
                 title: fairOS - run a database on top of Swarm
@@ -138,7 +138,7 @@ sections:
                 cta:
                   arrow: true
                   type: default
-                  title: Test fairdrive
+                  title: Test fairdrive ->
                   href: "https://fairdrive.fairdatasociety.org/"
                   background: transparent
                 title: fairDRIVE - data store for your users
@@ -153,7 +153,7 @@ sections:
                 cta:
                   arrow: true
                   type: default
-                  title: Read more
+                  title: Read more ->
                   href: "https://fdp.fairdatasociety.org"
                   background: transparent
                 title: Fair data protocol - interoperability

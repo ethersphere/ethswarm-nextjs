@@ -1,10 +1,6 @@
 import * as React from "react";
-import { Container, Tagline } from "@/components/common";
-import { HeadingUnderline } from "@/components/common";
+import { Container } from "@/components/common";
 import content from "../../data/connect.json";
-import Icons from "@/icons/components/index";
-import { getAllEvents } from "lib/events";
-import Newsletter from "../Newsletter";
 import GridContainer from "../common/GridContainer";
 
 type ConnectProps = {

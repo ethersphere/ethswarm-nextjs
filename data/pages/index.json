@@ -316,6 +316,7 @@
       {
         "title": "Etherna",
         "content": "Etherna is a transparent video platform FOR EVERYONE where freedom of speech is incentivized, not convicted.",
+        "icon": "/assets/icons/etherna.png",
         "cta": {
           "href": "https://etherna.io/",
           "title": "More ->"
@@ -324,25 +325,19 @@
       {
         "title": "Dapplets",
         "content": "Dapplets aims to leverage target websites’ search results to pull data previously uploaded to Swarm, providing an interface for data interchange between the Dapplet and the search result provider.",
+        "icon": "/assets/icons/dapplets.png",
         "cta": {
           "href": "https://dapplets.org/",
           "title": "More ->"
         }
       },
       {
-        "title": "Copyright Delta",
-        "content": "Copyright Delta is building the Digital Rights Exchange & Network (DRX) which allows users to control their data and decide who has access to it. DRX also enables tokenised management of royalties, licensing and ownership.",
-        "cta": {
-          "href": "https://www.copyrightdelta.com/",
-          "title": "More ->"
-        }
-      },
-      {
         "title": "Metaprovide",
+        "icon": "/assets/icons/metaprovide.png",
         "content": "Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralized future.",
         "cta": {
           "href": "https://metaprovide.org/nextcloud-swarm-plugin",
-          "title": "More"
+          "title": "More ->"
         }
       }
     ],

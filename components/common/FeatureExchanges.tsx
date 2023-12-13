@@ -7,22 +7,22 @@ type Props = {};
 
 const items = [
   {
-    label: "Bzzaar",
+    label: "Bzzaar ->",
     url: "https://bzz.exchange",
     icon: Icons.BzzarIcon,
   },
   {
-    label: "OpenBZZ",
+    label: "OpenBZZ ->",
     url: "https://openbzz.eth.limo/",
     icon: Icons.OpenbzzIcon,
   },
   {
-    label: "Uniswap",
+    label: "Uniswap ->",
     url: "https://app.uniswap.org/#/swap?chain=ethereum&inputCurrency=ETH&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
     icon: Icons.UniswapIcon,
   },
   {
-    label: "Honeyswap",
+    label: "Honeyswap ->",
     url: "https://honeyswap.1hive.eth.limo/#/swap?chain=xdai&outputCurrency=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
     icon: Icons.HoneyswapIcon,
   },

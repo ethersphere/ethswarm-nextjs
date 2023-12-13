@@ -19,9 +19,7 @@ const EventPopup = ({ image, title, content, href }: EventPopupType) => {
   const { scrollY } = useScroll();
 
   useMotionValueEvent(scrollY, "change", (latest: number) => {
-    console.log(latest);
-
-    if (latest > 100) {
+    if (latest > 300) {
       setExpanded(false);
     } else {
       setExpanded(true);
@@ -33,13 +31,13 @@ const EventPopup = ({ image, title, content, href }: EventPopupType) => {
       href={href}
       onMouseEnter={() => setExpanded(true)}
       className={cx(
-        "fixed bottom-10 justify-end bg-[#F6F7F9] backdrop-blur-xl bg-opacity-80 left-8 transition-all duration-300  md:left-auto border border-opacity-20 border-[#D6DBDF] rounded-xl overflow-hidden p-1 right-8  z-40 flex group",
+        "fixed bottom-10 justify-end bg-[#F6F7F9] backdrop-blur-xl bg-opacity-80 left-6 right-6  transition-all duration-300  md:left-auto border border-opacity-20 border-[#D6DBDF] rounded-xl overflow-hidden p-1 md:right-8  z-40 flex group",
         expanded ? "max-w-lg" : "max-w-[154px]"
       )}
     >
       <div
         className={cx(
-          " px-4 py-5 text-[#141516] transition-all max-w-xs flex-shrink-0 "
+          " px-4 py-5 text-[#141516] transition-all max-w-xs md:flex-shrink-0 "
         )}
       >
         <h4 className=" text-[17px] leading-6">

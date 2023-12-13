@@ -1,13 +1,6 @@
 import * as React from "react";
-import {
-  ButtonGroup,
-  Container,
-  Feature,
-  Header,
-  SectionContent,
-  Tagline,
-} from "@/components/common";
-import { ButtonBackgroundType, ButtonTextColorType, CtaType } from "types";
+import { Container, Header } from "@/components/common";
+import { CtaType } from "types";
 import GridContainer from "../common/GridContainer";
 
 type FairdDriveSectionProps = {

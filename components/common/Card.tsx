@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import { CardType } from "types";
 import { cn } from "utils";
 import ButtonGroup from "./ButtonGroup";
@@ -6,6 +6,7 @@ import Icon from "./Icon";
 import Image from "next/image";
 import { Button, Status } from ".";
 import Link from "next/link";
+import markdownToHtml from "lib/markdownToHtml";
 
 type CardProps = CardType;
 
@@ -20,12 +21,20 @@ const Card: React.FC<CardProps> = ({
   status,
   cta,
 }) => {
+  const [md, setMd] = useState(content);
+
+  useEffect(() => {
+    markdownToHtml(content).then((html) => {
+      setMd(html);
+    });
+  }, [content]);
+
   const CtaComponent = cta ? Link : "div";
   return (
     <CtaComponent
       href={cta ? cta?.href : ""}
       className={cn(
-        "col-span-12 lg:col-span-4 border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70  shadow-dark ",
+        "col-span-12 md:col-span-6 lg:col-span-4 border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70  shadow-dark ",
         className
       )}
     >
@@ -60,7 +69,7 @@ const Card: React.FC<CardProps> = ({
         {content && content.length > 0 && (
           <div
             className="text-[#F6F7F9] opacity-80 text-sm leading-5 grow prose"
-            dangerouslySetInnerHTML={{ __html: content }}
+            dangerouslySetInnerHTML={{ __html: md ?? "" }}
           />
         )}
 

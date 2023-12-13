@@ -1,5 +1,6 @@
 import * as React from "react";
 import Icons from "@/icons/components/index";
+import Image from "next/image";
 
 const icons: any = {
   OpenIcon: Icons.OpenIcon,
@@ -39,7 +40,7 @@ const Icon: React.FC<IconType> = ({ icon, className = "" }) => {
   const IconTag: any = icon ? icons[icon] : false;
 
   if (!IconTag) {
-    return null;
+    return <Image src={icon} width={24} height={24} alt="icon" />;
   }
 
   return <IconTag className={className} />;
