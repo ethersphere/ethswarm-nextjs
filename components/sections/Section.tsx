@@ -16,7 +16,6 @@ const Section: React.FC<SectionProps> = ({
   items = [],
   disclaimer = false,
 }) => {
-  console.log(items);
   return (
     <section className="mb-20 md:mb-48">
       {hero ? <Hero index={index} {...hero} /> : ""}

@@ -50,7 +50,7 @@ sections:
                 content:
                   Joining the Swarm network has never been easier, simply download
                   and install Swarm Desktop.
-                icon: PlusIcon
+                icon: JoinIcon
               - template: feature
                 cta:
                   arrow: true
@@ -74,7 +74,7 @@ sections:
                 content:
                   Swarm Desktop (Beta) makes it easy to buy and manage the stamps
                   that will keep your content alive on the Swarm network.
-                icon: LayersIcon
+                icon: DataIcon
               - template: feature
                 cta:
                   arrow: true
@@ -87,7 +87,7 @@ sections:
                   Upload your website to the Swarm network and make it universally
                   accessible. Easily share it with preview URLs, or link it with your ENS
                   name for easy discovery.
-                icon: ExpandIcon
+                icon: HostIcon
               - template: feature
                 cta:
                   arrow: true
@@ -100,7 +100,7 @@ sections:
                   Swarm Desktop makes it simple for you to try out and explore the
                   functionality of the Swarm network. Easily check your Swarm light-node's
                   status, settings, and wallet.
-                icon: CompassIcon
+                icon: ExploreIcon
               - template: feature
                 cta:
                   arrow: true
@@ -119,19 +119,6 @@ sections:
             Run a lightweight Swarm node on your own computer, and you'll have direct peer-to-peer access to the network. No need to rely on centralised gateways.
 
             Use your favourite web browser to manage your node, browse websites, and upload or download data directly from peers in the Swarm network.
-          ctas:
-            - template: cta
-              arrow: true
-              type: download
-              background: orange
-              title: ""
-              href: ""
-            - template: cta
-              arrow: true
-              type: default
-              title: View on GitHub ->
-              href: https://github.com/ethersphere/swarm-desktop/releases
-              background: transparent
           image: "/uploads/swarm-desktop.png"
           code: ""
 ---

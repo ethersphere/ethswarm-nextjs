@@ -26,7 +26,11 @@ const Home: NextPage = (props: any) => {
 
         <Navigation />
 
-        <EventPopup href={props.events[0].href} title={props.events[0].title} />
+        <EventPopup
+          href={props.events[3].href}
+          title={props.events[3].title}
+          content={props.events[3].content}
+        />
 
         <LandingHero
           title={content.LandingHero.title}

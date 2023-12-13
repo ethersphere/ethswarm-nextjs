@@ -316,7 +316,7 @@
       {
         "title": "Etherna",
         "content": "Etherna is building a decentralised and transparent video sharing platform to bring a fair data economy to creators, curators and fans. Censorship resistant, open source and community based.",
-        "icon": "/assets/icons/etherna.png",
+        "icon": "etherna",
         "cta": {
           "href": "https://etherna.io/",
           "background": "transparent",
@@ -326,7 +326,7 @@
       {
         "title": "Dapplets",
         "content": "Dapplets aims to leverage target websites’ search results to pull data previously uploaded to Swarm, providing an interface for data interchange between the Dapplet and the search result provider.",
-        "icon": "/assets/icons/dapplets.png",
+        "icon": "dapplets",
         "cta": {
           "href": "https://dapplets.org/",
           "background": "transparent",
@@ -335,7 +335,7 @@
       },
       {
         "title": "Metaprovide",
-        "icon": "/assets/icons/metaprovide.png",
+        "icon": "metaprovide",
         "content": "Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralized future.",
         "cta": {
           "href": "https://metaprovide.org/nextcloud-swarm-plugin",

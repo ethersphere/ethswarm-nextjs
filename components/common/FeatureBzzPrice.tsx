@@ -20,7 +20,7 @@ const FeatureBzzPrice: React.FC<{ className?: string }> = ({
       title="Current storage price"
       value={`${price}  BZZ`}
       content="for 1 GByte for 1 month"
-      icon="RewardIcon"
+      icon="PriceIcon"
       className={className}
     />
   );

@@ -5,16 +5,34 @@ function CredibleIcon({
   ...props
 }, svgRef) {
   return /*#__PURE__*/React.createElement("svg", Object.assign({
+    viewBox: "0 0 25 28",
+    fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 34.64 40",
     ref: svgRef,
     "aria-labelledby": titleId
   }, props), title ? /*#__PURE__*/React.createElement("title", {
     id: titleId
   }, title) : null, /*#__PURE__*/React.createElement("path", {
-    d: "M26.86 23.32H7.64c-.44 0-.8.36-.8.8s.36.8.8.8h19.22c.44 0 .8-.36.8-.8s-.36-.8-.8-.8ZM6.84 16.34c0 .44.36.8.8.8h19.22c.44 0 .8-.36.8-.8s-.36-.8-.8-.8H7.64c-.44 0-.8.36-.8.8Z"
+    d: "M6.30762 16.5908H18.4022",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M0 10v20l17.32 10 17.32-10V10L17.32 0 0 10Zm33.03 19.07-15.71 9.07-15.71-9.07V10.93l15.71-9.08 15.71 9.07v18.15Z"
+    d: "M6.30762 11.6973H18.4022",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M2 8.00225V19.9977L12.4003 26L22.7916 19.9977V8.00225L12.4003 2L2 8.00225Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 }
 const ForwardRef = React.forwardRef(CredibleIcon);

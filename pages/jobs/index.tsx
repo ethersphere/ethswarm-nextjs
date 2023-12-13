@@ -64,8 +64,6 @@ export async function getStaticProps() {
   const events = getAllEvents();
   const jobs = getAllJobs();
 
-  console.log(jobs);
-
   // Find unique categories from list
   const categories = jobs
     .reduce((acc: any, item: any) => {

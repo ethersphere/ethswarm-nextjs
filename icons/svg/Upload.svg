@@ -1,8 +1,8 @@
-<svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2 7.99324V19.9977L12.3913 26L22.7826 19.9977V7.99324L12.3913 2L2 7.99324Z" stroke="#F6F7F9" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.4004 14.6543V7.99414" stroke="#F6F7F9" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.075 8.66992L6.61426 10.6617" stroke="#F6F7F9" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14.7076 8.66902L12.3914 7.32617L10.0752 8.66902" stroke="#F6F7F9" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.1588 10.6617L14.707 8.66992" stroke="#F6F7F9" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.90234 16.915C7.97482 18.8527 10.0387 20.1595 12.4089 20.1595C14.7792 20.1595 16.843 18.8527 17.9155 16.915" stroke="#F6F7F9" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<svg  viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 7.99324V19.9977L12.3913 26L22.7826 19.9977V7.99324L12.3913 2L2 7.99324Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.4004 14.6543V7.99414" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.075 8.66992L6.61426 10.6617" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.7076 8.66902L12.3914 7.32617L10.0752 8.66902" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.1588 10.6617L14.707 8.66992" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.90234 16.915C7.97482 18.8527 10.0387 20.1595 12.4089 20.1595C14.7792 20.1595 16.843 18.8527 17.9155 16.915" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

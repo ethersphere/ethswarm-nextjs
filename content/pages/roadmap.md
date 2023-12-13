@@ -188,9 +188,6 @@ sections:
                 title: Commons
                 icon: ""
           title: Vision
-          content: >-
-            A recap of the ideal experience of various participants in the
-            network:
           image: ""
           ctas: []
           code: ""

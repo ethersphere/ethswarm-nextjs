@@ -30,7 +30,7 @@ const GeneralSection: React.FC<GeneralSectionProps> = ({
             title={content.title}
             tagline={content.tagline}
             content={content.content}
-            size="small"
+            size="medium"
             ctas={content.ctas}
             className="col-span-12 lg:col-span-6"
           />

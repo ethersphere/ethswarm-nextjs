@@ -12,8 +12,8 @@ sections:
           building their products on top of Swarm. Swarm bounties extend the
           ecosystem with tooling and infrastructure.
         ctas:
-          - title: Apply for a grant
-            href: 'https://grants.ethswarm.org/'
+          - title: Apply for a grant ->
+            href: "https://grants.ethswarm.org/"
             arrow: true
             background: orange
             type: default
@@ -21,12 +21,12 @@ sections:
             template: cta
         background:
           src: /assets/hero/impact.png
-          alt: ''
-          position: ''
-        footnote: ''
+          alt: ""
+          position: ""
+        footnote: ""
       items:
         - contentWidth: full
-          tagline: ''
+          tagline: ""
           title: Swarm Grant Waves
           content: >-
             The purpose of Swarm grant waves is to enable developers,
@@ -39,19 +39,18 @@ sections:
 
             If you have any questions regarding the process, reach out to the
             Swarm team on Discord.
-          image: ''
+          image: ""
           features:
-            columns: ''
+            columns: ""
             type: default
             features: []
           ctas: []
-          code: ''
+          code: ""
           template: section-item
         - contentWidth: full
-          tagline: ''
+          tagline: ""
           title: Build on Swarm
-          content: Find a list of current grantees below. Yours could be next.
-          image: ''
+          image: ""
           features:
             columns: three
             type: default
@@ -63,10 +62,10 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: "etherna"
                 cta:
-                  title: More
-                  href: 'https://etherna.io'
+                  title: More ->
+                  href: "https://etherna.io"
                   arrow: true
                   background: transparent
                   type: default
@@ -81,10 +80,10 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: "dapplets"
                 cta:
-                  title: More
-                  href: 'https://dapplets.org'
+                  title: More ->
+                  href: "https://dapplets.org"
                   arrow: true
                   background: transparent
                   type: default
@@ -98,10 +97,10 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/copyrightdelta'
+                  title: More ->
+                  href: "https://github.com/copyrightdelta"
                   arrow: true
                   background: transparent
                   type: default
@@ -115,12 +114,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/niftsy/niftsysmarts'
+                  title: More ->
+                  href: "https://github.com/niftsy/niftsysmarts"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -132,12 +131,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://iqracrypto.com'
+                  title: More ->
+                  href: "https://iqracrypto.com"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -148,12 +147,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/Mirmit/open-social-network'
+                  title: More ->
+                  href: "https://github.com/Mirmit/open-social-network"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -165,12 +164,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/codiak/socialarchive-dapp'
+                  title: More ->
+                  href: "https://github.com/codiak/socialarchive-dapp"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -183,12 +182,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: "laibach"
                 cta:
-                  title: More
-                  href: 'https://www.laibach.org'
+                  title: More ->
+                  href: "https://www.laibach.org"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -199,12 +198,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://personium.io/en/index.html'
+                  title: More ->
+                  href: "https://personium.io/en/index.html"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -217,12 +216,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/igar1991/memezzz-nft'
+                  title: More ->
+                  href: "https://github.com/igar1991/memezzz-nft"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -235,13 +234,13 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
+                  title: More ->
                   href: >-
                     https://www.exberliner.com/art/lies-half-truths-propaganda-egor-krafts-anti-disinformation-machines/
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -254,12 +253,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://www.scaleoutsystems.com'
+                  title: More ->
+                  href: "https://www.scaleoutsystems.com"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -271,12 +270,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://www.trilateralresearch.com'
+                  title: More ->
+                  href: "https://www.trilateralresearch.com"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -288,12 +287,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/IgorShadurin/zoomerok-new'
+                  title: More ->
+                  href: "https://github.com/IgorShadurin/zoomerok-new"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -305,12 +304,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://readyfighterone.co.uk'
+                  title: More ->
+                  href: "https://readyfighterone.co.uk"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -322,12 +321,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: "grassroots"
                 cta:
-                  title: More
-                  href: 'https://grassrootseconomics.org'
+                  title: More ->
+                  href: "https://grassrootseconomics.org"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -340,12 +339,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://www.youtube.com/watch?v=7E2swS8HwJE&t=17464s'
+                  title: More ->
+                  href: "https://www.youtube.com/watch?v=7E2swS8HwJE&t=17464s"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -358,12 +357,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://energonx.com'
+                  title: More ->
+                  href: "https://energonx.com"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -376,12 +375,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/WaggleMail/docs'
+                  title: More ->
+                  href: "https://github.com/WaggleMail/docs"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -393,12 +392,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://video.wiki'
+                  title: More ->
+                  href: "https://video.wiki"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -411,12 +410,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://bittopia.org'
+                  title: More ->
+                  href: "https://bittopia.org"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -429,12 +428,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://agorapp.dev'
+                  title: More ->
+                  href: "https://agorapp.dev"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -449,12 +448,12 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://github.com/rezahsnz'
+                  title: More ->
+                  href: "https://github.com/rezahsnz"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
@@ -465,21 +464,18 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ''
+                icon: ""
                 cta:
-                  title: More
-                  href: 'https://liquichain.io'
+                  title: More ->
+                  href: "https://liquichain.io"
                   arrow: true
-                  background: ''
+                  background: transparent
                   type: default
                   back: false
                 template: feature
           ctas: []
-          code: ''
+          code: ""
           template: section-item
       disclaimer: false
     template: section
 ---
-
-
-

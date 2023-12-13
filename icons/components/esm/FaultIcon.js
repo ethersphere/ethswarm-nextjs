@@ -5,16 +5,34 @@ function FaultIcon({
   ...props
 }, svgRef) {
   return /*#__PURE__*/React.createElement("svg", Object.assign({
+    viewBox: "0 0 25 28",
+    fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 34.64 40",
     ref: svgRef,
     "aria-labelledby": titleId
   }, props), title ? /*#__PURE__*/React.createElement("title", {
     id: titleId
   }, title) : null, /*#__PURE__*/React.createElement("path", {
-    d: "M34.64 30V10L17.32 0 0 10v20l17.32 10 17.32-10ZM1.61 10.93l15.71-9.08 15.72 9.07v18.15l-15.72 9.07-15.71-9.07V10.93Z"
+    d: "M2 8.00225V19.9977L12.3913 26L22.7826 19.9977V8.00225L12.3913 2L2 8.00225Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M17.34 23.15c.44 0 .8-.36.8-.8V10.46c0-.44-.36-.8-.8-.8s-.8.36-.8.8v11.88c0 .44.36.8.8.8ZM19.07 28.29c0-.97-.79-1.75-1.75-1.75s-1.75.79-1.75 1.75.79 1.75 1.75 1.75 1.75-.79 1.75-1.75Z"
+    d: "M12.4102 15.4732V8.00195",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.3907 19.8088C12.7192 19.8088 12.9855 19.5425 12.9855 19.214C12.9855 18.8854 12.7192 18.6191 12.3907 18.6191C12.0622 18.6191 11.7959 18.8854 11.7959 19.214C11.7959 19.5425 12.0622 19.8088 12.3907 19.8088Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 }
 const ForwardRef = React.forwardRef(FaultIcon);

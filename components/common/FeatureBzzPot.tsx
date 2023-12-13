@@ -20,7 +20,7 @@ const FeatureBzzPot: React.FC<{ className?: string }> = ({
       title="Current redistribution pot"
       value={`${pot} BZZ`}
       content="rewarded approximately every 15 minutes to a chosen node"
-      icon="RewardIcon"
+      icon="RedistributionIcon"
       className={className}
     />
   );

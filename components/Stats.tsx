@@ -44,7 +44,7 @@ const Stats: React.FC<StatsProps> = () => {
   return (
     <div
       className={cx(
-        "flex items-center lg:justify-between px-4 lg:pl-4 space-x-4"
+        "flex items-center lg:justify-between pl-4 lg:pl-4 space-x-4"
       )}
     >
       <motion.div

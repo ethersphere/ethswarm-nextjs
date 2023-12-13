@@ -6,7 +6,7 @@ sections:
     type: Section
     data:
       hero:
-        title: World Wide Swarm
+        title: Swarm tech
         id: world
         content: >-
           Swarm exists to provide a decentralised infrastructure to transfer and
@@ -19,13 +19,13 @@ sections:
           - template: cta
             arrow: true
             type: default
-            title: Book of Swarm
+            title: Book of Swarm ->
             background: orange
             href: "https://www.ethswarm.org/The-Book-of-Swarm.pdf"
           - template: cta
             arrow: true
             type: default
-            title: Whitepaper
+            title: Whitepaper ->
             href: "https://www.ethswarm.org/swarm-whitepaper.pdf"
             background: transparent
         footnote: ""
@@ -48,7 +48,7 @@ sections:
                   Censorship resistant and private by design, Swarm nodes will
                   provide leak proof messaging and private, unfiltered access to
                   data via a distributed network.
-                icon: LockIcon
+                icon: PrivacyIcon
               - template: feature
                 cta:
                   arrow: true
@@ -75,7 +75,7 @@ sections:
                   Postal Service over Swarm, the Swarm network provides a
                   fertile basis for you to build never before seen completely
                   decentralised applications.
-                icon: NutIcon
+                icon: BuildersIcon
               - template: feature
                 cta:
                   arrow: true
@@ -104,7 +104,7 @@ sections:
                   accessed by one person or one million due to cryptoeconomic
                   incentives of the network. No more VCs or monetisation needed
                   in order to support popular dapps or content.
-                icon: BoxArrowIcon
+                icon: ScalableIcon
               - template: feature
                 cta:
                   arrow: true
@@ -117,7 +117,7 @@ sections:
                   Since anyone can contribute, Swarm establishes a system for
                   important data commons such as Open Street Maps data to be
                   collectively funded by the public.
-                icon: HeartIcon
+                icon: PublicIcon
           title: Why Swarm
           content: ""
           image: ""
@@ -142,7 +142,7 @@ sections:
                   network that gives each node responsibility for storing and
                   forwarding chunks based on the addressing scheme. This means
                   that all nodes can access all of the data in the swarm.
-                icon: RouteIcon
+                icon: KademliaIcon
               - template: feature
                 cta:
                   arrow: true
@@ -188,24 +188,6 @@ sections:
                   their neighbourhood of responsibility.
                 icon: RetrieveIcon
           title: How it works
-          content: >-
-            Swarm provides a native data storage capability that plays nice with
-            the blockchain, enabling EVM based smart contracts to parse and
-            verify data structures that are contained within its distributed
-            DISC.
-          ctas:
-            - template: cta
-              arrow: true
-              type: default
-              title: Book of Swarm
-              href: "https://www.ethswarm.org/The-Book-of-Swarm.pdf"
-              background: orange
-            - template: cta
-              arrow: true
-              type: default
-              title: Whitepaper
-              href: "https://www.ethswarm.org/swarm-whitepaper.pdf"
-              background: transparent
           image: ""
           code: ""
 _template: page

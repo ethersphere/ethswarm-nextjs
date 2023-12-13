@@ -27,7 +27,7 @@ type RoadmapProps = {
 };
 
 const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState(1);
   const [sliderRef, instanceRef] = useKeenSlider(
     {
       slides: {

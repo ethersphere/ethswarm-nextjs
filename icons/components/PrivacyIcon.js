@@ -5,16 +5,34 @@ function PrivacyIcon({
   ...props
 }, svgRef) {
   return /*#__PURE__*/React.createElement("svg", Object.assign({
+    viewBox: "0 0 25 28",
+    fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 34.64 40",
     ref: svgRef,
     "aria-labelledby": titleId
   }, props), title ? /*#__PURE__*/React.createElement("title", {
     id: titleId
   }, title) : null, /*#__PURE__*/React.createElement("path", {
-    d: "M13.82 17.23c0 1.67 1.17 3.06 2.74 3.41-.02.06-.04.12-.04.19v7.86c0 .44.36.8.8.8s.8-.36.8-.8v-7.86c0-.07-.02-.12-.04-.19 1.56-.35 2.74-1.75 2.74-3.41 0-1.93-1.57-3.5-3.5-3.5s-3.5 1.57-3.5 3.5Zm5.4 0a1.9 1.9 0 1 1-3.8 0 1.9 1.9 0 1 1 3.8 0Z"
+    d: "M12.3899 13.9594C13.3306 13.9594 14.0932 13.1968 14.0932 12.2561C14.0932 11.3153 13.3306 10.5527 12.3899 10.5527C11.4491 10.5527 10.6865 11.3153 10.6865 12.2561C10.6865 13.1968 11.4491 13.9594 12.3899 13.9594Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M0 10v20l17.32 10 17.32-10V10L17.32 0 0 10Zm33.03 19.07-15.72 9.07-15.7-9.07V10.93l15.71-9.08 15.72 9.07v18.15Z"
+    d: "M12.3916 14.5186V19.4664",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M2 8.00225V19.9977L12.3913 26L22.7826 19.9977V8.00225L12.3913 2L2 8.00225Z",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 }
 const ForwardRef = React.forwardRef(PrivacyIcon);

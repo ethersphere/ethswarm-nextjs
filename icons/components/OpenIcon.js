@@ -5,14 +5,97 @@ function OpenIcon({
   ...props
 }, svgRef) {
   return /*#__PURE__*/React.createElement("svg", Object.assign({
+    viewBox: "0 0 25 28",
+    fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 34.65 40",
     ref: svgRef,
     "aria-labelledby": titleId
   }, props), title ? /*#__PURE__*/React.createElement("title", {
     id: titleId
   }, title) : null, /*#__PURE__*/React.createElement("path", {
-    d: "M27.33 6.7c-.22.38-.09.88.29 1.1l4.61 2.66-8.06 4.66a.8.8 0 0 0-.29 1.1c.15.26.42.4.7.4.14 0 .27-.03.4-.11l8.07-4.66v5.32c0 .44.36.8.8.8s.8-.36.8-.8V10l-6.22-3.59a.811.811 0 0 0-1.1.29ZM33.85 22.01c-.44 0-.8.36-.8.8v5.33l-8.07-4.66a.809.809 0 0 0-1.1.29c-.22.38-.09.88.29 1.1l8.07 4.66-4.61 2.66c-.38.22-.52.71-.3 1.1.15.26.42.4.7.4.14 0 .27-.03.4-.11L34.65 30v-7.19c0-.44-.36-.8-.8-.8ZM22.74 35.02l-4.61 2.67v-9.31c0-.44-.36-.8-.8-.8s-.8.36-.8.8v9.3l-4.61-2.66a.811.811 0 0 0-1.1.29c-.22.38-.09.88.29 1.1L17.33 40l6.22-3.59a.8.8 0 0 0 .29-1.1.8.8 0 0 0-1.1-.29ZM.8 17.97c.44 0 .8-.36.8-.8v-5.32l8.07 4.66a.8.8 0 1 0 .8-1.39l-8.06-4.66 4.61-2.67a.8.8 0 0 0 .29-1.1.8.8 0 0 0-1.1-.29L0 10v7.17c0 .44.36.8.8.8ZM11.51 5.08c.14 0 .27-.03.4-.11l4.61-2.66v9.32c0 .44.36.8.8.8s.8-.36.8-.8V2.32l4.79 2.77h.23c.44 0 .8-.36.8-.8 0-.31-.18-.58-.44-.71L17.32 0 11.1 3.58c-.38.22-.52.71-.3 1.1.15.26.42.4.7.4ZM10.77 23.78a.809.809 0 0 0-1.1-.29l-8.06 4.65v-5.33c0-.44-.36-.8-.8-.8s-.8.36-.8.8V30l6.21 3.58.2.11h.21c.44 0 .8-.36.8-.8 0-.31-.18-.58-.44-.71l-4.58-2.64 8.07-4.66c.38-.22.52-.71.3-1.1Z"
+    d: "M15.9733 4.06803L12.3951 2L8.30664 4.36055",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M2 15.4766V19.7827V20.0004L5.58503 22.0684",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19.9375 21.6466L22.7878 20.0004V19.7827V15.4766",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M22.7884 11.9312V7.9992L22.6659 7.92437L19.0469 5.83594",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.65234 23.8368L12.3938 26.0001L16.8564 23.4219",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M2 11.9317V7.99969L2.12924 7.92486L5.2313 6.13574",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.3945 8.08844V2",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.3945 25.7149V19.3203",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.46225 11.0064L2.12891 7.9248",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M22.6667 19.7824L17.1973 16.626",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.5983 16.626L2.12891 19.7824",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M22.6663 7.9248L17.3262 11.0064",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 }
 const ForwardRef = React.forwardRef(OpenIcon);

@@ -48,8 +48,8 @@ const Card: React.FC<CardProps> = ({
         {status && <Status status={status} />}
         <div className="flex items-center">
           {icon && (
-            <span className="inline-block mr-4">
-              <Icon icon={icon} className="w-5 text-[#F6F7F9] fill-current" />
+            <span className="flex-shrink-0 inline-block mr-4">
+              <Icon icon={icon} className="h-7 text-[#F6F7F9]" />
             </span>
           )}
           <h4 className="inline font-bold text-[#F6F7F9] text-[17px] leading-6">

@@ -2,6 +2,7 @@ import * as React from "react";
 import { Container } from "@/components/common";
 import content from "../../data/connect.json";
 import GridContainer from "../common/GridContainer";
+import Newsletter from "../Newsletter";
 
 type ConnectProps = {
   events: {
@@ -13,9 +14,9 @@ type ConnectProps = {
 
 const Connect: React.FC<ConnectProps> = ({ events }) => {
   return (
-    <Container>
+    <Container className="w-full">
       <GridContainer className="w-full pt-14">
-        <div className="col-span-12 md:col-span-4">
+        <div className="col-span-12 md:col-span-6 ">
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.events_title}
           </h3>
@@ -50,7 +51,7 @@ const Connect: React.FC<ConnectProps> = ({ events }) => {
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.newsletter_title}
           </h3>
-          {/* <Newsletter /> */}
+          <Newsletter />
         </div>
         <div className="w-full col-span-12 h-px bg-[#2D3843] mt-9" />
       </GridContainer>

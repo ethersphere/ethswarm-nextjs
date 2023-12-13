@@ -44,9 +44,9 @@ const EventPopup = ({ image, title, content, href }: EventPopupType) => {
           {"Next event: "}
           <b>{title}</b>
         </h4>
-        {<p className="mt-2">{content}</p>}
-        <button className="text-sm text-[#141516] transition font-semibold leading-8 group-hover:text-opacity-80">
-          {"Link ->"}
+        {content && <p className="mt-2">{content}</p>}
+        <button className="text-sm text-[#141516] transition font-semibold leading-8 group-hover:text-opacity-80 mt-2">
+          {"Read more ->"}
         </button>
       </div>
       <Image

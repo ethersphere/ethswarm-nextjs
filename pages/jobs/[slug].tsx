@@ -9,7 +9,6 @@ import { getAllEvents } from "lib/events";
 import ContentContainer from "@/components/sections/ContentContainer";
 
 const JobSingle: NextPage = (content: any) => {
-  console.log(content);
   return (
     <div className="bg-[#0D1216]">
       <Meta title={content.meta.title ?? meta.title} />

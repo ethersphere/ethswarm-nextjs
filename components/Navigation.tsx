@@ -89,7 +89,7 @@ const Navigation: React.FC<NavigationProps> = ({
 
                             return node;
                           }}
-                          className="flex items-center px-5 py-1 text-sm antialiased font-semibold text-gray-100 duration-200 hover:opacity-70"
+                          className="flex items-center px-2.5 py-1 text-sm antialiased font-semibold text-gray-100 duration-200 hover:opacity-70"
                         >
                           {link.title}
                           <ArrowIcon
@@ -148,7 +148,7 @@ const Navigation: React.FC<NavigationProps> = ({
                 />
               </div>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <Stats />
             </div>
             <div className="flex items-center lg:hidden">
@@ -279,7 +279,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({
     <RegularLink
       href={href}
       className={cx(
-        "px-5 py-1 text-sm antialiased font-semibold  flex items-center duration-200 hover:opacity-70   text-gray-100"
+        "px-2.5 py-1 text-sm antialiased font-semibold  flex items-center duration-200 hover:opacity-70   text-gray-100"
       )}
     >
       {title}

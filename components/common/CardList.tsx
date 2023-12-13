@@ -15,7 +15,7 @@ const CardList: React.FC<CardListProps> = ({ items = [], className }) => {
 
   return (
     <GridContainer className={className}>
-      {items.slice(0, 3).map((item, index) => (
+      {items.map((item, index) => (
         <Card
           key={index}
           className=""
@@ -24,6 +24,7 @@ const CardList: React.FC<CardListProps> = ({ items = [], className }) => {
           image={item.image}
           content={item.content}
           ctas={item.ctas}
+          cta={item.cta}
         />
       ))}
     </GridContainer>

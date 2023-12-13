@@ -38,6 +38,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   features,
   image,
 }) => {
+  console.log(features);
   return (
     <Container className="relative z-10  w-full text-[#F6F7F9]">
       <GridContainer className={cx(code && "items-center")}>
@@ -69,7 +70,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
         {image && image.length > 0 && (
           <div className="relative col-span-12 mt-24 -mx-4">
             <img
-              className="border shadow border-gray-275"
+              className="overflow-hidden rounded-xl"
               src={image}
               alt=""
               loading="lazy"
