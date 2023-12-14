@@ -40,7 +40,7 @@
 
 /* Prose overrides for body */
 .prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
-  @apply px-2 mt-16 text-xl border-l border-current sm:px-4 md:text-2xl md:-mx-4;
+  @apply px-2 mt-16 text-xl text-[#F6F7F9] sm:px-4 md:text-2xl md:-mx-4;
 }
 
 .prose :where(strong):not(:where([class~="not-prose"] *)) {

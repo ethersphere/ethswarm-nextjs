@@ -25,6 +25,7 @@ type ContentContainerProps = {
   code?: string;
   blocks?: any;
   features?: FeatureListType;
+  markdown?: boolean;
 };
 
 const ContentContainer: React.FC<ContentContainerProps> = ({
@@ -33,7 +34,8 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   ctas,
   code,
   blocks,
-  contentWidth = "full",
+  contentWidth = "half",
+  markdown,
   titleSize,
   features,
   image,
@@ -55,12 +57,13 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
           <div
             className={cx(
               contentWidth === "half"
-                ? "w-full"
-                : " md:col-start-7 col-span-12 md:col-span-6 md:pr-5"
+                ? " md:col-start-7 col-span-12 md:col-span-6 md:pr-5"
+                : "  col-span-12 "
             )}
           >
             <SectionContent
               fullWidth={contentWidth === "full"}
+              markdown={markdown}
               content={content}
             />
           </div>

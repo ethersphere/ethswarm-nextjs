@@ -5,8 +5,8 @@ import GridContainer from "../common/GridContainer";
 
 type HeroProps = {
   title: string;
-  background: ImageType;
-  content: string;
+  background?: ImageType;
+  content?: string;
   ctas?: Array<CtaType>;
   cta?: CtaType;
 };
@@ -30,11 +30,13 @@ const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
             size="large"
             className="col-span-12 md:col-span-6 md:py-40"
           />
-          <img
-            src={background.src}
-            alt={background.alt}
-            className="col-span-12 row-start-1 md:row-auto md:col-span-6"
-          />
+          {background && (
+            <img
+              src={background.src}
+              alt={background.alt}
+              className="col-span-12 row-start-1 md:row-auto md:col-span-6"
+            />
+          )}
         </GridContainer>
       </Container>
     </section>

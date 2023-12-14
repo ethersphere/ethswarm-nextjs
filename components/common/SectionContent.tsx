@@ -40,7 +40,6 @@ const SectionContent: React.FC<SectionContentProps> = ({
         className,
         fullWidth ? "w-full max-w-none" : "max-w-xl"
       )}
-      style={{ orphans: 3, widows: 3 }}
       dangerouslySetInnerHTML={{
         __html: md,
       }}
