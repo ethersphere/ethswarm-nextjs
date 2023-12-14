@@ -1,14 +1,6 @@
 import type { NextPage } from "next";
 
-import {
-  Connect,
-  Cta,
-  Footer,
-  Navigation,
-  Roadmap,
-  Section,
-  Disclaimer,
-} from "@/components/index";
+import { Cta, Footer, Roadmap, Section } from "@/components/index";
 import { getPageSlugs, getPageBySlug } from "lib/pages";
 import meta from "data/meta.json";
 import { Meta } from "@/components/common";

@@ -5,7 +5,6 @@ import {
   Odyssey,
   Footer,
   GeneralSection,
-  Navigation,
   LandingHero,
   EventPopup,
 } from "@/components/index";

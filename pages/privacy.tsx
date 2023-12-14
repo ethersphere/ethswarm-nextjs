@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import { Connect, Footer, Navigation } from "@/components/index";
-import meta from "data/meta.json";
+import { Footer } from "@/components/index";
 import content from "data/pages/privacy.json";
 import { Container, Meta, SectionContent } from "@/components/common";
 import { getAllEvents } from "lib/events";

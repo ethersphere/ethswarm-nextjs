@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-import { Connect, Footer, Hero, Navigation } from "@/components/index";
+import { Footer, Hero } from "@/components/index";
 import meta from "data/meta.json";
 import { Meta } from "@/components/common";
 import { getJobBySlug, getJobsSlugs } from "lib/jobs";
