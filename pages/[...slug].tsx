@@ -20,7 +20,6 @@ const Page: NextPage = (content: any) => {
     Cta: Cta,
     Roadmap: Roadmap,
   };
-  console.log(content);
   return (
     <div className="bg-[#0D1216] ">
       <Meta title={content.meta.title ?? meta.title} />

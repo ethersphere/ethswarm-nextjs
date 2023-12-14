@@ -54,7 +54,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
           ></div>
           <div className="mauticform-innerform">
             <div
-              className="flex flex-wrap items-start justify-center w-full gap-4 mauticform-page-wrapper mauticform-page-1 lg:flex-nowrap"
+              className="flex items-start justify-center w-full gap-4 mauticform-page-wrapper mauticform-page-1 "
               data-mautic-form-page="1"
             >
               <div
@@ -67,7 +67,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
                 <input
                   id="mauticform_input_websitenewslettersubscription_email_address"
                   name="mauticform[email_address]"
-                  className="w-full text-[#F6F7F9] rounded-full duration-100 bg-white bg-opacity-10 border-none focus:ring-1 focus:ring-gray-300 placeholder-[#F6F7F9]  px-8 py-3 text-lg"
+                  className="w-full text-[#F6F7F9] text-sm rounded-full duration-100 bg-white bg-opacity-10 border-none focus:ring-1 focus:ring-gray-300 placeholder-[#F6F7F9]  px-8 py-3 text-lg"
                   type="email"
                   required={true}
                   placeholder={"Enter your email address"}

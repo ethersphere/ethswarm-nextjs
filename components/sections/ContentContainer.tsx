@@ -110,7 +110,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
       </GridContainer>
       {features && (
         <CardList
-          className="col-span-12 mt-24 mb-2"
+          className="col-span-12 mt-12 mb-2 md:mt-24"
           items={features.features}
         />
       )}

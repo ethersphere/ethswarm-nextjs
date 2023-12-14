@@ -17,11 +17,11 @@ const Section: React.FC<SectionProps> = ({
   disclaimer = false,
 }) => {
   return (
-    <section className="mb-20 md:mb-48">
+    <section className="mb-32 md:mb-48">
       {hero ? <Hero index={index} {...hero} /> : ""}
 
       {items && items.length > 0 && (
-        <div className="space-y-16 md:space-y-48 md:mt-40">
+        <div className="mt-32 space-y-24 md:space-y-48 md:mt-40">
           {items.map((item: any, index: number) => (
             <ContentContainer key={index} {...item} />
           ))}

@@ -22,12 +22,12 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
 
       <Container className="w-full">
         <GridContainer className="pt-20 pb-8 md:pt-14 md:pb-6">
-          <div className="col-span-12 md:col-span-4">
+          <div className="col-span-12 mb-12 md:col-span-4 md:mb-0">
             <Logo className="h-[26px] fill-current text-white" />
             <p className="mt-8 text-sm leading-5 text-[#8B909A]">
               {content.copy}
             </p>
-            <ul className="mt-4 space-y-3 text-sm font-semibold sm:mt-8 md:space-y-4">
+            <ul className="mt-8 space-y-3 text-sm font-semibold md:space-y-4">
               {content.primary.map((item, index) => (
                 <li key={index}>
                   <RegularLink

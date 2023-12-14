@@ -38,6 +38,9 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
         "(max-width: 768px)": {
           slides: { perView: 1.1, spacing: 10 },
         },
+        "(min-width: 768px) and (max-width: 1024px)": {
+          slides: { perView: 2.1, spacing: 10 },
+        },
       },
       initial: items.length - 1,
       slideChanged(e) {
@@ -54,10 +57,10 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
 
   return (
     <section className="relative z-10 flex justify-center my-56 " id={id}>
-      <Container className="relative flex items-center w-full">
+      <Container className="relative flex items-center w-full overflow-hidden">
         <button
           className={cx(
-            "absolute z-10 transition text-[#F6F7F94D] text-[20px]",
+            "absolute z-10 transition text-[#F6F7F94D] text-[20px] hidden lg:block",
             progress === 0 ? "opacity-0 pointer-events-none" : ""
           )}
           onClick={() => instanceRef.current?.prev()}
@@ -73,7 +76,10 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
                 " linear-gradient(90deg, rgba(95, 109, 124, 0.00) 0%, #778797 51.56%, rgba(95, 109, 124, 0.00) 100%)",
             }}
           />
-          <div ref={sliderRef} className="col-span-12 keen-slider">
+          <div
+            ref={sliderRef}
+            className="col-span-12 keen-slider !overflow-visible lg:!overflow-hidden"
+          >
             {items.map((item, index) => (
               <Card
                 key={index}
@@ -88,7 +94,7 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
         </GridContainer>
         <button
           className={cx(
-            "absolute z-10 transition right-0 text-[#F6F7F94D] text-[20px]",
+            "absolute z-10 transition right-0 text-[#F6F7F94D] text-[20px] hidden lg:block",
             progress === 1 ? "opacity-0 pointer-events-none" : ""
           )}
           onClick={() => instanceRef.current?.next()}
