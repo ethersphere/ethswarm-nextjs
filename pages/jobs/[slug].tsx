@@ -28,7 +28,7 @@ const JobSingle: NextPage = (content: any) => {
         background={{ src: "/assets/hero/join_alt.png", alt: "" }}
       />
 
-      <div className="space-y-16 md:space-y-24 md:mt-20 md:mb-48">
+      <div className="mt-32 mb-32 space-y-16 md:space-y-24 md:mt-20 md:mb-48">
         {content.job.items.map((item: any, index: number) => (
           <ContentContainer key={index} {...item} />
         ))}

@@ -16,13 +16,13 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
       <Hero {...content.hero} />
 
       {jobs && jobs.length === 0 && (
-        <div className="flex justify-center pb-8">
+        <div className="flex justify-center pb-8 mt-32 md:mt-40">
           <Container>No positions available at this time.</Container>
         </div>
       )}
 
       {jobs && jobs.length > 0 && (
-        <div className="relative z-10 flex flex-col items-center pb-24 space-y-16 lg:pb-40 md:space-y-32">
+        <div className="relative z-10 flex flex-col items-center mt-32 mb-32 space-y-16 lg:mt-20 lg:pb-48 md:space-y-32">
           {jobs.map((item: any, index: number) => (
             <ContentContainer
               key={index}

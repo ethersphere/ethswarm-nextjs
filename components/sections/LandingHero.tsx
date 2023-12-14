@@ -12,7 +12,7 @@ type LandingHero = {
 const LandingHero: React.FC<LandingHero> = ({ title, content = "", ctas }) => {
   return (
     <section className="relative flex flex-col items-center justify-end h-full ">
-      <Container className="relative z-10 flex flex-col justify-end w-full pb-8 pt-80 lg:h-screen md:justify-center md:pb-36 md:pt-56 ">
+      <Container className="relative z-10 flex flex-col justify-end w-full pb-8 pt-96 lg:h-screen md:justify-center md:pb-36 md:pt-56 ">
         <GridContainer>
           <Header
             title={title}

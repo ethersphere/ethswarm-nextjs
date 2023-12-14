@@ -20,24 +20,6 @@
   font-display: swap;
 }
 
-.heading-underline {
-  background-image: linear-gradient(#ff8a00, #ff8a00);
-  background-size: 100% 16px;
-  background-repeat: no-repeat;
-  background-position: left 90%;
-
-  text-decoration: none;
-}
-
-.heading-underline-onDark {
-  background-image: linear-gradient(#ff7a00, #ff7a00);
-  background-size: 100% 16px;
-  background-repeat: no-repeat;
-  background-position: left 90%;
-
-  text-decoration: none;
-}
-
 /* Prose overrides for body */
 .prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
   @apply px-2 mt-16 text-xl text-[#F6F7F9] sm:px-4 md:text-2xl md:-mx-4;
@@ -50,6 +32,10 @@
 .prose.md\:prose-lg
   :where(.prose > :first-child):not(:where([class~="not-prose"] *)) {
   @apply mt-0;
+}
+
+ol li::marker {
+  @apply !text-[#F6F7F9];
 }
 
 .dotted-spaced {

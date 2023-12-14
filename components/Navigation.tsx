@@ -66,7 +66,7 @@ const Navigation: React.FC<NavigationProps> = ({
             <Link href="/" className="group">
               <Logo
                 className={cx(
-                  "h-6 lg:h-8 fill-current group-hover:text-opacity-75 duration-150",
+                  "h-6 lg:h-8 fill-current group-hover:md:text-opacity-75 duration-150",
                   textColor
                 )}
               />
