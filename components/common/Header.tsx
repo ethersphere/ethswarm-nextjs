@@ -25,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({
 
       <h2
         className={cx(
-          "inline-flex flex-wrap font-bold  gap-3 items-center",
+          "inline-flex flex-wrap font-bold gap-3 items-center",
           {
             small: " text-3xl md:text-3xl ",
             medium:
