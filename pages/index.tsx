@@ -18,65 +18,59 @@ import { getHome } from "lib/home";
 
 const Home: NextPage = (props: any) => {
   return (
-    <div className="bg-[#0D1216]">
+    <main>
       <Meta title={meta.title} />
 
-      <main className="">
-        {/* <Banner /> */}
+      <EventPopup
+        href={props.events[3].href}
+        title={props.events[3].title}
+        content={props.events[3].content}
+      />
 
-        <Navigation />
+      <LandingHero
+        title={content.LandingHero.title}
+        content={content.LandingHero.content}
+        ctas={content.LandingHero.ctas as Array<CtaType>}
+      />
 
-        <EventPopup
-          href={props.events[3].href}
-          title={props.events[3].title}
-          content={props.events[3].content}
-        />
+      <GeneralSection content={content.unstoppable} />
 
-        <LandingHero
-          title={content.LandingHero.title}
-          content={content.LandingHero.content}
-          ctas={content.LandingHero.ctas as Array<CtaType>}
-        />
+      <Odyssey
+        title={content.odyssey.title}
+        content={content.odyssey.content}
+        ctas={content.odyssey.ctas as Array<CtaType>}
+        tagline={content.odyssey.tagline}
+      />
 
-        <GeneralSection content={content.unstoppable} />
+      <DevelopSection
+        tagline={content.develop.tagline}
+        title={content.develop.title}
+        ctas={content.develop.ctas as Array<CtaType>}
+        content={content.develop.content}
+        tabs={content.develop.tabs as Array<TabType>}
+      />
 
-        <Odyssey
-          title={content.odyssey.title}
-          content={content.odyssey.content}
-          ctas={content.odyssey.ctas as Array<CtaType>}
-          tagline={content.odyssey.tagline}
-        />
+      <GeneralSection content={content.news.content} />
 
-        <DevelopSection
-          tagline={content.develop.tagline}
-          title={content.develop.title}
-          ctas={content.develop.ctas as Array<CtaType>}
-          content={content.develop.content}
-          tabs={content.develop.tabs as Array<TabType>}
-        />
+      <FairdDriveSection
+        tagline={content.fairdata.tagline}
+        title={content.fairdata.title}
+        content={content.fairdata.content}
+        ctas={content.fairdata.ctas as Array<CtaType>}
+      />
 
-        <GeneralSection content={content.news.content} />
+      <GeneralSection
+        content={{
+          tagline: content.builders.tagline,
+          title: content.builders.title,
+          content: content.builders.content,
+          ctas: content.builders.ctas,
+          cards: content.builders.features,
+        }}
+      />
 
-        <FairdDriveSection
-          tagline={content.fairdata.tagline}
-          title={content.fairdata.title}
-          content={content.fairdata.content}
-          ctas={content.fairdata.ctas as Array<CtaType>}
-        />
-
-        <GeneralSection
-          content={{
-            tagline: content.builders.tagline,
-            title: content.builders.title,
-            content: content.builders.content,
-            ctas: content.builders.ctas,
-            cards: content.builders.features,
-          }}
-        />
-
-        <Footer events={props.events} />
-      </main>
-    </div>
+      <Footer events={props.events} />
+    </main>
   );
 };
 

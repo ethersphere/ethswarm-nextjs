@@ -38,7 +38,6 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   features,
   image,
 }) => {
-  console.log(features);
   return (
     <Container className="relative z-10  w-full text-[#F6F7F9]">
       <GridContainer className={cx(code && "items-center")}>

@@ -12,49 +12,45 @@ import { Container } from "@/components/common";
 
 const Jobs: NextPage = ({ jobs, events }: any) => {
   return (
-    <div className="bg-[#0D1216] ">
+    <main className="overflow-hidden">
       <Meta title={content.meta.title ?? meta.title} />
 
-      <main className="overflow-hidden">
-        <Navigation />
+      <Hero {...content.hero} />
 
-        <Hero {...content.hero} />
+      {jobs && jobs.length === 0 && (
+        <div className="flex justify-center pb-8">
+          <Container>No positions available at this time.</Container>
+        </div>
+      )}
 
-        {jobs && jobs.length === 0 && (
-          <div className="flex justify-center pb-8">
-            <Container>No positions available at this time.</Container>
-          </div>
-        )}
+      {jobs && jobs.length > 0 && (
+        <div className="relative z-10 flex flex-col items-center pb-24 space-y-16 lg:pb-40 md:space-y-32">
+          {jobs.map((item: any, index: number) => (
+            <ContentContainer
+              key={index}
+              {...item}
+              features={{
+                columns: "three",
+                features: item.items.map((job: any) => ({
+                  title: job.job.title,
+                  content: job.job.description,
+                  ctas: [
+                    {
+                      title: "More ->",
+                      href: `/jobs/${job.slug}`,
+                      arrow: true,
+                      background: "transparent",
+                    },
+                  ],
+                })),
+              }}
+            />
+          ))}
+        </div>
+      )}
 
-        {jobs && jobs.length > 0 && (
-          <div className="relative z-10 flex flex-col items-center pb-24 space-y-16 lg:pb-40 md:space-y-32">
-            {jobs.map((item: any, index: number) => (
-              <ContentContainer
-                key={index}
-                {...item}
-                features={{
-                  columns: "three",
-                  features: item.items.map((job: any) => ({
-                    title: job.job.title,
-                    content: job.job.description,
-                    ctas: [
-                      {
-                        title: "More ->",
-                        href: `/jobs/${job.slug}`,
-                        arrow: true,
-                        background: "transparent",
-                      },
-                    ],
-                  })),
-                }}
-              />
-            ))}
-          </div>
-        )}
-
-        <Footer events={events} />
-      </main>
-    </div>
+      <Footer events={events} />
+    </main>
   );
 };
 

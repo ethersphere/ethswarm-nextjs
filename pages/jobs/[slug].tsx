@@ -10,36 +10,32 @@ import ContentContainer from "@/components/sections/ContentContainer";
 
 const JobSingle: NextPage = (content: any) => {
   return (
-    <div className="bg-[#0D1216]">
+    <main>
       <Meta title={content.meta.title ?? meta.title} />
 
-      <main>
-        <Navigation />
+      <Hero
+        title={content.job.title}
+        content={content.job.subtitle}
+        ctas={[
+          {
+            title: "<- Open roles",
+            href: "/jobs",
+            back: true,
+            arrow: true,
+            background: "orange",
+          },
+        ]}
+        background={{ src: "/assets/hero/join_alt.png", alt: "" }}
+      />
 
-        <Hero
-          title={content.job.title}
-          content={content.job.subtitle}
-          ctas={[
-            {
-              title: "<- Open roles",
-              href: "/jobs",
-              back: true,
-              arrow: true,
-              background: "orange",
-            },
-          ]}
-          background={{ src: "/assets/hero/join_alt.png", alt: "" }}
-        />
+      <div className="space-y-16 md:space-y-24 md:mt-20 md:mb-48">
+        {content.job.items.map((item: any, index: number) => (
+          <ContentContainer key={index} {...item} />
+        ))}
+      </div>
 
-        <div className="space-y-16 md:space-y-24 md:mt-20 md:mb-48">
-          {content.job.items.map((item: any, index: number) => (
-            <ContentContainer key={index} {...item} />
-          ))}
-        </div>
-
-        <Footer events={content.events} />
-      </main>
-    </div>
+      <Footer events={content.events} />
+    </main>
   );
 };
 

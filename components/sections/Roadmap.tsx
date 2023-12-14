@@ -44,7 +44,6 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
       },
       initial: items.length - 1,
       slideChanged(e) {
-        // console.log(e.track.details.rel === e.track.details.maxIdx);
         if (e.track.details.rel === e.track.details.maxIdx) setProgress(1);
         else if (e.track.details.rel === 0) setProgress(0);
         else setProgress(0.5);

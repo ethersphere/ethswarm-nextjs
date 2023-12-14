@@ -50,8 +50,6 @@ const Navigation: React.FC<NavigationProps> = ({
     setExpanded(-1);
   }, [isOpen]);
 
-  console.log(value);
-
   return (
     <div
       className={cx(

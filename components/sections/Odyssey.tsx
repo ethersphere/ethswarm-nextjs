@@ -22,7 +22,6 @@ const Odyssey: React.FC<OdysseyProps> = ({
   content = "",
   ctas,
 }) => {
-  console.log(ctas);
   return (
     <section className="relative text-gray-100 lg:mt-10">
       <Container className="relative h-full ">

@@ -21,20 +21,16 @@ const Page: NextPage = (content: any) => {
     Roadmap: Roadmap,
   };
   return (
-    <div className="bg-[#0D1216] ">
+    <main>
       <Meta title={content.meta.title ?? meta.title} />
 
-      <main>
-        <Navigation />
+      {content.sections.map((section: any, index: number) => {
+        const SectionTag = sections[section.type];
+        return <SectionTag key={index} index={index} {...section.data} />;
+      })}
 
-        {content.sections.map((section: any, index: number) => {
-          const SectionTag = sections[section.type];
-          return <SectionTag key={index} index={index} {...section.data} />;
-        })}
-
-        <Footer events={content.events} />
-      </main>
-    </div>
+      <Footer events={content.events} />
+    </main>
   );
 };
 
