@@ -45,16 +45,16 @@ const Newsletter: React.FC<NewsletterProps> = () => {
           encType="multipart/form-data"
         >
           <div
-            className="mauticform-error"
+            className="mb-4 text-xs mauticform-error"
             id="mauticform_websitenewslettersubscription_error"
           ></div>
           <div
-            className="mauticform-message"
+            className="mb-4 text-xs mauticform-message"
             id="mauticform_websitenewslettersubscription_message"
           ></div>
           <div className="mauticform-innerform">
             <div
-              className="flex items-start justify-center w-full gap-4 mauticform-page-wrapper mauticform-page-1 "
+              className="!flex items-start justify-center w-full gap-4 mauticform-page-wrapper mauticform-page-1 "
               data-mautic-form-page="1"
             >
               <div

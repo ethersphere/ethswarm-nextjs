@@ -15,7 +15,7 @@ type ConnectProps = {
 const Connect: React.FC<ConnectProps> = ({ events }) => {
   return (
     <Container className="w-full">
-      <GridContainer className="w-full space-y-12 py-14 lg:space-y-0">
+      <GridContainer className="w-full space-y-12 py-14 md:space-y-0">
         <div className="col-span-12 md:col-span-6 ">
           <h3 className="text-sm font-semibold  text-[#8B909A]">
             {content.events_title}
