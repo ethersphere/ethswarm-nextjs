@@ -67,7 +67,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
                 <input
                   id="mauticform_input_websitenewslettersubscription_email_address"
                   name="mauticform[email_address]"
-                  className="w-full text-[#F6F7F9] text-sm rounded-full duration-100 bg-white bg-opacity-10 border-none focus:ring-1 focus:ring-gray-300 placeholder-[#F6F7F9]  px-8 py-3 text-lg"
+                  className="w-full text-[#F6F7F9] text-sm rounded-full duration-100 bg-white bg-opacity-10 border-none focus:ring-1 focus:ring-gray-300 placeholder-[#F6F7F9]  px-8 py-3"
                   type="email"
                   required={true}
                   placeholder={"Enter your email address"}

@@ -20,34 +20,19 @@ const Home: NextPage = (props: any) => {
     <main>
       <Meta title={meta.title} />
 
-      <EventPopup
-        href={props.events[3].href}
-        title={props.events[3].title}
-        content={props.events[3].content}
-      />
-
       <LandingHero
         title={content.LandingHero.title}
         content={content.LandingHero.content}
         ctas={content.LandingHero.ctas as Array<CtaType>}
       />
 
+      <EventPopup
+        href={props.events[3].href}
+        title={props.events[3].title}
+        content={props.events[3].content}
+      />
+
       <GeneralSection content={content.unstoppable} />
-
-      <Odyssey
-        title={content.odyssey.title}
-        content={content.odyssey.content}
-        ctas={content.odyssey.ctas as Array<CtaType>}
-        tagline={content.odyssey.tagline}
-      />
-
-      <DevelopSection
-        tagline={content.develop.tagline}
-        title={content.develop.title}
-        ctas={content.develop.ctas as Array<CtaType>}
-        content={content.develop.content}
-        tabs={content.develop.tabs as Array<TabType>}
-      />
 
       <GeneralSection content={content.news.content} />
 
