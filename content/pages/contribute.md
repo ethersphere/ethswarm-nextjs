@@ -29,7 +29,7 @@ sections:
         footnote: ""
       items:
         - template: section_item
-          contentWidth: full
+
           features:
             columns: ""
             type: default

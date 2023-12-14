@@ -91,7 +91,7 @@ sections:
     data:
       items:
         - template: section_item
-          contentWidth: full
+
           features:
             type: default
             columns: three

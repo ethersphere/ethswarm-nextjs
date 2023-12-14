@@ -31,7 +31,7 @@ sections:
         footnote: ""
       items:
         - template: section_item
-          contentWidth: full
+
           features:
             type: default
             columns: three
@@ -124,7 +124,7 @@ sections:
           ctas: []
           code: ""
         - template: section_item
-          contentWidth: full
+
           features:
             type: large
             columns: two

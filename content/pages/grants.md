@@ -25,8 +25,7 @@ sections:
           position: ""
         footnote: ""
       items:
-        - contentWidth: full
-          tagline: ""
+        - tagline: ""
           title: Swarm Grant Waves
           content: >-
             The purpose of Swarm grant waves is to enable developers,
@@ -47,8 +46,7 @@ sections:
           ctas: []
           code: ""
           template: section-item
-        - contentWidth: full
-          tagline: ""
+        - tagline: ""
           title: Build on Swarm
           image: ""
           features:

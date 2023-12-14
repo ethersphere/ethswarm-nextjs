@@ -20,17 +20,17 @@ const Home: NextPage = (props: any) => {
     <main>
       <Meta title={meta.title} />
 
+      <LandingHero
+        title={content.hero.title}
+        content={content.hero.content}
+        ctas={content.hero.ctas as Array<CtaType>}
+      />
+
       <EventPopup
         cta={content.event.cta}
         title={content.event.title}
         content={content.event.content}
         image={content.event.image}
-      />
-
-      <LandingHero
-        title={content.hero.title}
-        content={content.hero.content}
-        ctas={content.hero.ctas as Array<CtaType>}
       />
 
       <GeneralSection content={content.unstoppable} />

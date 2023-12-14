@@ -105,7 +105,7 @@ sections:
           image: ""
           code: Bee API
         - template: section_item
-          contentWidth: full
+
           title: Layer2 tooling through ecosystem initiatives
           content: |-
             Below are several ecosystem-based projects that enable faster

@@ -34,7 +34,7 @@ sections:
           order to help improve the software.
       items:
         - template: section_item
-          contentWidth: full
+
           features:
             type: default
             columns: three
