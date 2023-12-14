@@ -25,14 +25,14 @@ const Button: React.FC<ButtonProps> = ({
       " focus:outline-none text-[#F6F7F9] hover:text-opacity-70";
   } else if (background === "purple") {
     classNameBackground =
-      "bg-[#7049F6] hover:bg-opacity-80  focus:ring-white px-4";
+      "bg-[#7049F6] hover:bg-opacity-80 focus:ring-white px-4";
   } else if (background === "green") {
     classNameBackground =
-      "bg-[#14FEC0] text-[#141516] hover:bg-opacity-80  focus:outline-none px-4";
+      "bg-[#14FEC0] text-[#141516] hover:bg-opacity-80 focus:outline-none px-4";
   }
 
   const classNameButton = cx(
-    "transition duration-200 inline-flex justify-center rounded-full items-center text-sm font-semibold  leading-[2.3]  font-display gap-3 group focus:outline-none",
+    "transition duration-200 inline-flex justify-center rounded-full items-center text-sm font-semibold  leading-[2.3] font-display gap-3 group focus:outline-none whitespace-nowrap",
     classNameBackground,
     className
   );

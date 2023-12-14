@@ -1,5 +1,17 @@
 {
-  "LandingHero": {
+  "event": {
+    "title": "Swarm 2.0 - Dec. 21",
+    "content": "Join the virtual event to commemorate the beginning of Swarm 2.0.",
+    "cta": {
+      "href": "https://www.addevent.com/event/lf19253018",
+      "title": "Read more ->"
+    },
+    "image": {
+      "src": "/assets/event.png",
+      "alt": ""
+    }
+  },
+  "hero": {
     "title": "Future storage Now",
     "content": "Swarm is a decentralised data storage and distribution technology. Ready to power the next generation of censorship-resistant, unstoppable, serverless dapps.",
     "ctas": [
@@ -11,33 +23,6 @@
         "title": "Get started ->"
       }
     ]
-  },
-  "hero": {
-    "title": "Digital Freedom Now.",
-    "background": {
-      "src": "/assets/hero_background.png",
-      "alt": "Background graphic"
-    },
-    "content": "Swarm is a decentralised data storage and distribution technology. Ready to power the next generation of censorship-resistant, unstoppable, serverless dapps.",
-    "ctas": [
-      {
-        "href": "/build",
-        "background": "orange-onDark",
-        "color": "black",
-        "arrow": true,
-        "title": "Start building"
-      },
-      {
-        "href": "/build/desktop",
-        "background": "transparent",
-        "color": "gray",
-        "arrow": true,
-        "title": "Run your node"
-      }
-    ],
-    "quote": {
-      "title": "“If Ethereum is the world’s CPU, Swarm is the world’s Hard Drive” - Viktor Tron"
-    }
   },
   "unstoppable": {
     "tagline": "Privacy for individuals ↔ Trust for the data economy",
@@ -81,20 +66,6 @@
         "title": "Credible neutrality",
         "content": "Swarm is built to not discriminate - it’s in the very nature of our design, and permeates throughout our mission.",
         "icon": "CredibleIcon"
-      }
-    ]
-  },
-  "wikipedia": {
-    "titleSuffix": "on Swarm",
-    "tagline": "In the spotlight",
-    "content": "Wikipedia Prize has successfully concluded. More bounties to follow soon!",
-    "ctas": [
-      {
-        "href": "https://bzzwiki.bzz.link/",
-        "background": "black",
-        "color": "gray",
-        "arrow": true,
-        "title": "Try out Wikipedia on Swarm"
       }
     ]
   },
@@ -207,34 +178,6 @@
         "title": "Fair Data Society ->"
       }
     ]
-  },
-  "dapp": {
-    "tagline": "Decentralise web",
-    "title": "Your decentralised web3 dapp in 4 steps",
-    "content": "",
-    "cards": [
-      {
-        "title": "1. Fork on GitHub",
-        "content": "Find a forkable project that should be decentralised or extended.",
-        "icon": "ForkIcon"
-      },
-      {
-        "title": "2. Connect to FDP",
-        "content": "Extend it with the Fair data protocol so that users have their data saved in their private data store.",
-        "icon": "ConnectIcon"
-      },
-      {
-        "title": "3. Upload to Swarm",
-        "content": "Once hosted on Swarm it becomes accessible to all, with essentially zero hosting costs for developers.",
-        "icon": "UploadIcon"
-      },
-      {
-        "title": "4. Grow through FDP",
-        "content": "Submit requests to be added in Fairdrive’s dapp store and make it available to existing Fairdrive users.",
-        "icon": "GrowIcon"
-      }
-    ],
-    "ctas": []
   },
   "news": {
     "background": "bg-gray-800",
@@ -358,68 +301,6 @@
         "color": "black",
         "arrow": true,
         "title": "See who’s building ->"
-      }
-    ]
-  },
-  "millions": {
-    "tagline": "BUILDING A BRIGHTER, UNSTOPPABLE WEBZ",
-    "title": "Build on Swarm",
-    "content": "Imagine a society where human rights are respected and your data is not used against you to influence what you think.Explore the power of art, blockchain, and games and help create a fair, ethical, private, censorship-free, permissionless and unstoppable Web3. Join other like-minded artists, gamers, developers, activists, and crypto-enthusiasts, as well as curious and knowledgeable souls.",
-    "starts_in": {
-      "label": "Back in:",
-      "date": "2023/09/21 00:00:00"
-    },
-    "ctas": [
-      {
-        "href": "https://www.wearemillions.online/",
-        "background": "white",
-        "color": "black",
-        "arrow": true,
-        "title": "More"
-      }
-    ]
-  },
-  "bounties": {
-    "tagline": "Moving from knowledge to engagement",
-    "title": "Bounties for impact",
-    "content": "Swarm Bounties are a call to action for experts from various fields to contribute their knowledge and expertise, so we can move closer to a fairer data society.",
-    "features": [
-      {
-        "title": "Bounty #1",
-        "content": "Develop a censorship resistant blog architecture.",
-        "cta": {
-          "href": "https://gitcoin.co/issue/28924",
-          "title": "More"
-        }
-      },
-      {
-        "title": "Bounty #2",
-        "content": "Implement a subgraph to obtain BZZ price data.",
-        "cta": {
-          "href": "https://gitcoin.co/issue/29254",
-          "title": "More"
-        }
-      },
-      {
-        "title": "Bounty #3",
-        "content": "Integrate Social Archive and Dapplets to allow data to be found.",
-        "cta": {
-          "href": "https://gitcoin.co/issue/29165",
-          "title": "More"
-        }
-      },
-      {
-        "title": "Bounty #4",
-        "content": "Integrate WinAMP with Fairdrive."
-      }
-    ],
-    "ctas": [
-      {
-        "href": "https://gitcoin.co/explorer?network=mainnet&idx_status=open&applicants=ALL&order_by=-_val_usd_db&org=fairdatasociety",
-        "background": "orange",
-        "color": "black",
-        "arrow": true,
-        "title": "More at Gitcoin"
       }
     ]
   }

@@ -1,20 +1,23 @@
 import Image from "next/image";
-import { Button, ButtonGroup, RegularLink } from "../common";
-import { useMotionValue, useMotionValueEvent, useScroll } from "framer-motion";
+import { RegularLink } from "../common";
+import { useMotionValueEvent, useScroll } from "framer-motion";
 import { useState } from "react";
 import { cx } from "utils";
 
 type EventPopupType = {
-  image?: {
+  image: {
     src: string;
     alt: string;
   };
+  cta: {
+    href: string;
+    title: string;
+  };
   title: string;
   content?: string;
-  href: string;
 };
 
-const EventPopup = ({ image, title, content, href }: EventPopupType) => {
+const EventPopup = ({ image, title, content, cta }: EventPopupType) => {
   const [expanded, setExpanded] = useState(true);
   const { scrollY } = useScroll();
 
@@ -26,9 +29,13 @@ const EventPopup = ({ image, title, content, href }: EventPopupType) => {
     }
   });
 
+  if (!title) {
+    return null;
+  }
+
   return (
     <RegularLink
-      href={href}
+      href={cta.href}
       onMouseEnter={() => setExpanded(true)}
       className={cx(
         "relative mt-20 md:my-0 mx-6 md:fixed bottom-10 justify-end bg-[#F6F7F9] backdrop-blur-xl bg-opacity-80 left-0 right-0  transition-all duration-300  md:left-auto border border-opacity-20 border-[#D6DBDF] rounded-xl overflow-hidden p-1 md:right-8  z-40 flex group",
@@ -48,16 +55,19 @@ const EventPopup = ({ image, title, content, href }: EventPopupType) => {
           <p className="hidden mt-2 text-sm md:block line-clamp-2">{content}</p>
         )}
         <button className="text-sm text-[#141516] transition font-semibold leading-8 group-hover:text-opacity-80 mt-2">
-          {"Read more ->"}
+          {cta.title}
         </button>
       </div>
-      <Image
-        src={image ? image.src : "/assets/event.png"}
-        width={288}
-        height={288}
-        alt={image ? image.alt : "Default event picture"}
-        className="flex-shrink-0 h-36 w-36"
-      />
+
+      {image && image.src && (
+        <Image
+          src={image.src}
+          width={288}
+          height={288}
+          alt={image.alt ?? ""}
+          className="flex-shrink-0 h-36 w-36"
+        />
+      )}
     </RegularLink>
   );
 };

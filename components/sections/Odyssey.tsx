@@ -24,8 +24,8 @@ const Odyssey: React.FC<OdysseyProps> = ({
 }) => {
   return (
     <section className="relative text-gray-100 lg:mt-10">
-      <Container className="relative h-full ">
-        <GridContainer className=" md:items-end !px-5 lg:!px-14 lg:items-center border border-[#2D3843] rounded-xl bg-gradient-odyssey mx-6 md:mx-0">
+      <Container className="relative h-full md:px-3 xl:px-0">
+        <GridContainer className="md:items-end !px-5 lg:!px-14 lg:items-center border border-[#2D3843] rounded-xl bg-gradient-odyssey mx-6 md:mx-0">
           <Header
             tagline={tagline}
             content={content}
@@ -37,7 +37,7 @@ const Odyssey: React.FC<OdysseyProps> = ({
             loading="lazy"
             src="/assets/odyssey_background.png"
             alt="Odyssey Graphic"
-            className="object-contain object-right col-span-12 -mx-5 pointer-events-none md:mx-0 md:-mt-10 md:col-start-8 md:col-span-5"
+            className="object-contain object-right col-span-12 pointer-events-none md:-mt-10 md:col-start-8 md:col-span-5"
           />
         </GridContainer>
       </Container>
