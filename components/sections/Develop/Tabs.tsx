@@ -35,9 +35,9 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
                 className={({ selected }: any) =>
                   cx(
                     selected
-                      ? " bg-[#F6F7F9]   text-[#0D1216]  "
-                      : " bg-transparent   text-[#F6F7F9]  ",
-                    "font-bold px-3 md:px-4 leading-8 text-sm rounded-full  focus:outline-none transition"
+                      ? "bg-[#F6F7F9] text-[#0D1216]"
+                      : "bg-transparent text-[#F6F7F9] hover:text-opacity-70",
+                    "font-bold px-3 md:px-4 leading-8 text-sm rounded-full focus:outline-none transition"
                   )
                 }
               >

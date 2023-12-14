@@ -70,21 +70,26 @@ const Footer: React.FC<FooterProps> = ({ events }) => {
 
       <Container className="w-full">
         <GridContainer className="w-full py-8">
-          <div className="flex text-[10px] antialiased   text-[#F6F7F9] text-opacity-50 col-span-12 lg:col-span-5">
-            {content.copyright}, {new Date().getFullYear()} ·{" "}
-            <RegularLink
-              href={content.privacy_cta.href}
-              className="hover:underline"
-            >
-              {content.privacy_cta.title}
-            </RegularLink>
-            <Link
-              href="https://swarm.bzz.link/"
-              target="_blank"
-              className="ml-2"
-            >
-              Hosted on Swarm
-            </Link>
+          <div className="flex text-[10px] antialiased text-[#F6F7F9] text-opacity-50 col-span-12 lg:col-span-5">
+            <span>
+              {content.copyright}, {new Date().getFullYear()}
+            </span>
+            <span className="px-1">·</span>
+            <span>
+              <RegularLink
+                href={content.privacy_cta.href}
+                className="hover:underline"
+              >
+                {content.privacy_cta.title}
+              </RegularLink>
+              <Link
+                href="https://swarm.bzz.link/"
+                target="_blank"
+                className="ml-2 hover:underline"
+              >
+                Hosted on Swarm
+              </Link>
+            </span>
           </div>
         </GridContainer>
       </Container>

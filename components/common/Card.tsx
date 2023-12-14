@@ -65,7 +65,7 @@ const Card: React.FC<CardProps> = ({
 
         {content && content.length > 0 && (
           <div
-            className="text-[#F6F7F9] opacity-80 text-sm leading-5 grow prose"
+            className="text-[#F6F7F9] opacity-80 text-sm leading-5 prose"
             dangerouslySetInnerHTML={{ __html: md ?? "" }}
           />
         )}
