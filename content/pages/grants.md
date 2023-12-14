@@ -174,7 +174,7 @@ sections:
                 template: feature
               - title: Etherna
                 content: >-
-                  BeeNet is a .Net client that simplifies accessing Bee Swarm node APIs. Beehive Manager complements it by managing Bee Swarm node clusters, offering a REST API and automated task scheduling, all integrated with MongoDB for configuration.
+                  Etherna is developing a video platform that incentivises freedom of expression for both creators and users. Additionally, Etherna is creating various infrastructure tools tailored for developers, such as BeeNet and Beehive Manager, to enable seamless integration with the Swarm ecosystem.
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
