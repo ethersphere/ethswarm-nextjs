@@ -110,11 +110,16 @@ const Navigation: React.FC<NavigationProps> = ({
                         <NavigationMenu.Content className="data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute top-0 left-0 w-full sm:w-auto">
                           <div className="grid p-1.5 w-56">
                             {link.children.map((child: any, index: any) => (
-                              <RegularLink
+                              <NavigationMenu.Link
                                 key={index}
                                 href={child.href}
+                                target={
+                                  child.href.startsWith("http")
+                                    ? "_blank"
+                                    : undefined
+                                }
                                 className={cx(
-                                  "  px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
+                                  "px-3.5 py-2.5 antialiased duration-150 group hover:bg-[#0D1216] hover:bg-opacity-50 rounded-lg"
                                 )}
                               >
                                 <div className="text-sm font-semibold text-gray-100">
@@ -125,7 +130,7 @@ const Navigation: React.FC<NavigationProps> = ({
                                     {child.subtitle}
                                   </div>
                                 )}
-                              </RegularLink>
+                              </NavigationMenu.Link>
                             ))}
                           </div>
                         </NavigationMenu.Content>
@@ -136,7 +141,7 @@ const Navigation: React.FC<NavigationProps> = ({
               <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
                 <NavigationMenu.Viewport
                   forceMount
-                  className="relative mt-[10px]  data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
+                  className="relative mt-[10px] data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
                   style={{
                     transform: `translateX(${offset}px)`,
                     transition: `transform ${
@@ -202,9 +207,7 @@ const Navigation: React.FC<NavigationProps> = ({
                             <ArrowIcon
                               className={cx(
                                 "w-2.5 h-2 ml-2 duration-200",
-                                expanded === index
-                                  ? " -rotate-90"
-                                  : " rotate-90"
+                                expanded === index ? "-rotate-90" : "rotate-90"
                               )}
                             />
                           </button>
@@ -221,7 +224,7 @@ const Navigation: React.FC<NavigationProps> = ({
                                   key={index}
                                   href={child.href}
                                   className={cx(
-                                    "block  px-3.5 py-2.5 antialiased border-b border border-[#1F2831]"
+                                    "block px-3.5 py-2.5 antialiased border-b border border-[#1F2831]"
                                   )}
                                   onClick={() => setIsOpen(false)}
                                 >

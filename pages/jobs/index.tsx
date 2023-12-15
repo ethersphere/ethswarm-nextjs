@@ -30,7 +30,9 @@ const Jobs: NextPage = ({ jobs, events }: any) => {
               features={{
                 columns: "three",
                 features: item.items.map((job: any) => ({
-                  title: job.job.title + " (" + job.job.subtitle + ")",
+                  title:
+                    job.job.title +
+                    (job.job.subtitle ? " (" + job.job.subtitle + ")" : ""),
                   content: job.job.description,
                   ctas: [
                     {
