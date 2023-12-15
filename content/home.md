@@ -43,20 +43,22 @@ news:
       type: ''
       back: false
     template: news_item
-  - title: 'The Hivemaker''s code: Introduction'
+  - title: Erasure Coding Supercharges Swarm
     category:
-      - Ecosystem
-    readTime: '5'
-    image: /Screenshot 2023-09-05 at 16.32.55.png
+      - Development
+    readTime: '7'
+    image: /erc.png
     href: >-
-      https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
+      https://blog.ethswarm.org/foundation/2023/erasure-coding-supercharges-swarm/
     copy: >-
-      The document you’re about to read will help you create a living digital
-      ecosystem.
+      The Swarm research and development teams are thrilled to reveal that they
+      are currently working on adding erasure coding (also referred to as
+      erasure code or erasure encoding) to Swarm to increase the resilience of
+      data stored on the Swarm network.
     cta:
       title: Read more
       href: >-
-        https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/
+        https://blog.ethswarm.org/foundation/2023/erasure-coding-supercharges-swarm/
       arrow: true
       background: transparent
       type: ''
