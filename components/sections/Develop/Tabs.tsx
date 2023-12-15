@@ -37,7 +37,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
                     selected
                       ? "bg-[#F6F7F9] text-[#0D1216]"
                       : "bg-transparent text-[#F6F7F9] hover:text-opacity-70",
-                    "font-bold block px-3 md:px-4 leading-8 text-sm rounded-full focus:outline-none transition"
+                    "font-bold block px-3 md:px-4 text-sm leading-8 rounded-full focus:outline-none transition"
                   )
                 }
               >
