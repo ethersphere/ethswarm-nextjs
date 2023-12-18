@@ -23,7 +23,7 @@ const SectionContent: React.FC<SectionContentProps> = ({
   const [md, setMd] = useState(content);
   const container = useRef<HTMLDivElement>(null);
   const [tooltipRect, setTooltipRect] = useState<DOMRect | null>(null);
-  const [tooltipVisible, setTooltipVisible] = useState(true);
+  const [tooltipVisible, setTooltipVisible] = useState(false);
 
   useEffect(() => {
     if (!markdown) {
