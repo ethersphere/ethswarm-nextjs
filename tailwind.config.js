@@ -8,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      color: {
+        green: {
+          500: "#1effbb",
+        },
+      },
       sizes: {
         50: "12.5rem",
       },
