@@ -47,9 +47,9 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
           </Tab.List>
           <Tab.Panels className="pt-4">
             {tabs.map((tab, index) => (
-              <Tab.Panel key={index} className="mr-8">
+              <Tab.Panel key={index} className=" md:mr-8">
                 <SectionContent
-                  className="pb-8 text-[#F6F7F9] md:text-sm md:leading-5 text-sm leading-5"
+                  className="pb-6 md:pb-8 text-[#F6F7F9] md:text-sm md:leading-5 text-sm leading-5"
                   content={tab.content}
                 />
 

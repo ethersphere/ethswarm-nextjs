@@ -1,6 +1,7 @@
 import { CtaType } from "types";
 import { ButtonGroup, SectionContent, Tagline } from ".";
 import { cx } from "utils";
+import { InfoIcon } from "@/icons/components";
 
 type HeaderProps = {
   tagline?: string;
@@ -9,6 +10,7 @@ type HeaderProps = {
   ctas?: Array<CtaType>;
   size?: "small" | "medium" | "large";
   className?: string;
+  tooltip?: string;
 };
 
 const Header: React.FC<HeaderProps> = ({
@@ -18,6 +20,7 @@ const Header: React.FC<HeaderProps> = ({
   ctas,
   size = "medium",
   className = "",
+  tooltip = "",
 }: HeaderProps) => {
   return (
     <div className={cx("text-gray-100", className)}>
@@ -48,6 +51,7 @@ const Header: React.FC<HeaderProps> = ({
                 "text-base md:text-[19px] md:leading-[26px] mt-8 md:mt-6 md:mr-[72px]",
             }[size]
           )}
+          tooltip={tooltip}
           content={content}
         />
       )}

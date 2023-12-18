@@ -38,6 +38,10 @@ ol li::marker {
   @apply !text-[#F6F7F9];
 }
 
+.prose em {
+  @apply not-italic;
+}
+
 .dotted-spaced {
   background-image: linear-gradient(
     to bottom,

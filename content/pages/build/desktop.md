@@ -8,9 +8,10 @@ sections:
       hero:
         title: Swarm Desktop
         id: desktop
-        content:
-          Swarm Desktop (Beta) offers decentralised access to the Swarm network
+        content: |
+          *Swarm Desktop beta* offers decentralised access to the Swarm network
           and an easy-to-use experience.
+        tooltip: Swarm Desktop is in Beta and currently includes the Sentry application monitoring and bug reporting software which automatically collects data in order to help improve the software.
         background:
           src: "/assets/hero/desktop.png"
           position: container
