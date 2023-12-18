@@ -37,7 +37,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
                     selected
                       ? "bg-[#F6F7F9] text-[#0D1216]"
                       : "bg-transparent text-[#F6F7F9] hover:text-opacity-70",
-                    "font-bold block px-3 md:px-4 text-sm leading-8 rounded-full focus:outline-none transition"
+                    "font-semibold block px-3 md:px-4 text-sm leading-8 rounded-full focus:outline-none transition"
                   )
                 }
               >
@@ -49,7 +49,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs = [], className = "" }) => {
             {tabs.map((tab, index) => (
               <Tab.Panel key={index} className="mr-8">
                 <SectionContent
-                  className="pb-8 text-[#F6F7F9]"
+                  className="pb-8 text-[#F6F7F9] md:text-sm md:leading-5 text-sm leading-5"
                   content={tab.content}
                 />
 

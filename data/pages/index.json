@@ -257,9 +257,9 @@
     "content": "Swarm grants and online events support many interesting projects that are already building their products on top of Swarm.",
     "features": [
       {
-        "title": "Etherna",
-        "content": "Etherna is building a decentralised and transparent video sharing platform to bring a fair data economy to creators, curators and fans. Censorship resistant, open source and community based.",
-        "icon": "etherna",
+        "title": "Deboot",
+        "content": "DeBoot is researching and developing approaches to bootload OS images via decentralised networks such as Swarm",
+        "icon": "deboot",
         "cta": {
           "href": "https://etherna.io/",
           "background": "transparent",
@@ -267,21 +267,21 @@
         }
       },
       {
-        "title": "Dapplets",
-        "content": "Dapplets aims to leverage target websites’ search results to pull data previously uploaded to Swarm, providing an interface for data interchange between the Dapplet and the search result provider.",
-        "icon": "dapplets",
+        "title": "Kredeum",
+        "content": "AutoSwarm Project by Kredeum: Ensuring Continuous NFT Availability on Swarm - Focused on maintaining the perpetual presence of NFTs, including their metadata and content, through reliable and sustainable storage solutions.",
+        "icon": "kredeum",
         "cta": {
-          "href": "https://dapplets.org/",
+          "href": "https://www.kredeum.com/",
           "background": "transparent",
           "title": "More ->"
         }
       },
       {
-        "title": "Metaprovide",
-        "icon": "metaprovide",
-        "content": "Metaprovide has implemented a Nextcloud plugin that enables users to interact with Swarm storage directly in Nextcloud Files bringing Nextcloud users closer to the vision of a decentralized future.",
+        "title": "Protonode",
+        "icon": "protonode",
+        "content": "Protobox Gateway: Simplifying the Shift to Decentralised Storage - Effortlessly transition from AWS S3 to Swarm's secure, serverless data storage with Protonode's user-friendly gateway and Swarm Python SDK.",
         "cta": {
-          "href": "https://metaprovide.org/nextcloud-swarm-plugin",
+          "href": "https://www.protobox.xyz/",
           "background": "transparent",
           "title": "More ->"
         }
