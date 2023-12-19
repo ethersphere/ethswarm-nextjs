@@ -23,12 +23,22 @@ const LandingHero: React.FC<LandingHero> = ({ title, content = "", ctas }) => {
           />
         </GridContainer>
       </Container>
-
       <img
+        src="/assets/hero/door.png"
+        alt="Hero cover image"
+        className="absolute z-0 top-0 right-0 object-contain object-top  pointer-events-none h-[90vh] md:h-[150vh] "
+      />
+      <img
+        src="/assets/hero/blending.png"
+        alt="Hero cover image"
+        className="absolute z-0 top-0 right-0 object-contain object-top  pointer-events-none h-[90vh] md:h-[150vh] mix-blend-color"
+      />
+
+      {/* <img
         src="/assets/hero/landing_hero.png"
         alt="Hero cover image"
         className="absolute z-0 top-0 right-0 object-contain object-top  pointer-events-none h-[90vh] md:h-[150vh]"
-      />
+      /> */}
     </section>
   );
 };
