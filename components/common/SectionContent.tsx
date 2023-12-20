@@ -4,7 +4,6 @@ import markdownToHtml from "lib/markdownToHtml";
 import { useEffect, useRef, useState } from "react";
 import { cx } from "utils";
 import { AnimatePresence, motion } from "framer-motion";
-import { useFloating } from "@floating-ui/react-dom";
 
 type SectionContentProps = {
   content?: string;
