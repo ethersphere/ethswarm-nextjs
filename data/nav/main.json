@@ -51,6 +51,11 @@
           "subtitle": "Documentation"
         },
         {
+          "href": "https://papers.ethswarm.org/",
+          "title": "Papers",
+          "subtitle": "Swarm research docs"
+        },
+        {
           "href": "https://swarmscan.io/",
           "title": "Network Stats",
           "subtitle": "Swarm network scanner"
@@ -75,6 +80,11 @@
           "href": "/grants",
           "title": "Grants",
           "subtitle": "Make an impact"
+        },
+        {
+          "href": "https://app.dework.xyz/swarm-41421",
+          "title": "Bounties",
+          "subtitle": "Community engagement"
         },
         {
           "href": "https://fairdatasociety.org/",
