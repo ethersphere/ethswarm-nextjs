@@ -18,7 +18,6 @@ const SectionContent: React.FC<SectionContentProps> = ({
   fullWidth = false,
   markdown = true,
 }) => {
-  const { refs, floatingStyles } = useFloating();
   const container = useRef<HTMLDivElement>(null);
   const [md, setMd] = useState(content);
   const [tooltipX, setTooltipX] = useState<number | null>(null);
@@ -82,7 +81,7 @@ const SectionContent: React.FC<SectionContentProps> = ({
       tooltip.removeEventListener("mouseenter", tooltipEnter);
       tooltip.removeEventListener("mouseleave", tooltipLeave);
     };
-  }, []);
+  }, [md]);
 
   if (content.length === 0) {
     return null;
