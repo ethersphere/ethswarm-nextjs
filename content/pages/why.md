@@ -9,8 +9,8 @@ sections:
         title: Swarm tech
         id: world
         content: >-
-          Swarm exists to provide a decentralised infrastructure to transfer and
-          store the world’s data.
+          Swarm exists to provide decentralised infrastructure for the transfer and
+          storage of the world’s data.
         background:
           src: /assets/hero/wws.png
           alt: ""
@@ -45,9 +45,7 @@ sections:
                   href: ""
                 title: Permissionless and private
                 content: >-
-                  Censorship resistant and private by design, Swarm nodes will
-                  provide leak proof messaging and private, unfiltered access to
-                  data via a distributed network.
+                  Censorship resistant and private by design, Swarm nodes provide leak proof messaging and private, unfiltered access to data via a distributed network.
                 icon: PrivacyIcon
               - template: feature
                 cta:
@@ -56,11 +54,11 @@ sections:
                   type: default
                   title: ""
                   href: ""
-                title: Leak-proof messaging made real
+                title: Secure & unstoppable P2P messaging
                 content: >-
-                  The third element of the Ethereum trinity, Whisper, has also
-                  been incorporated into Swarm as PSS, bringing the possibility
-                  of truly leak proof messaging for full nodes.
+                  PSS (Postal Service over Swarm) is a secure-by-design messaging
+                  protocol with end-to-end encryption powered by Swarm's decentralised
+                  P2P network of nodes. PSS allows for truly unstoppable messaging.
                 icon: LeakIcon
               - template: feature
                 cta:
@@ -69,7 +67,7 @@ sections:
                   type: default
                   title: ""
                   href: ""
-                title: Built for builders
+                title: Designed for builders
                 content: >-
                   With powerful primitives such as Single Owner Chunks and
                   Postal Service over Swarm, the Swarm network provides a
@@ -88,8 +86,7 @@ sections:
                   Swarm exists so the internet can again be decentralised.
                   Swarm’s vision is to become the operating system of the
                   re-decentralised internet. It provides a scalable and
-                  self-sustaining infrastructure for a supply-chain economy of
-                  data.
+                  self-sustaining infrastructure for the data economy of tomorrow.
                 icon: OpenIcon
               - template: feature
                 cta:
@@ -118,7 +115,7 @@ sections:
                   important data commons such as Open Street Maps data to be
                   collectively funded by the public.
                 icon: PublicIcon
-          title: Why Swarm
+          title: Why use Swarm?
           content: ""
           image: ""
           ctas: []

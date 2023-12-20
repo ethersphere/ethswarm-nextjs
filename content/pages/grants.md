@@ -28,16 +28,16 @@ sections:
         - tagline: ""
           title: Swarm Grant Waves
           content: >-
-            The purpose of Swarm grant waves is to enable developers,
-            researchers, the community and artists to get to know Swarm and
-            start exploring by creating proof(s)-of-concept, and MVPs that
-            showcase their vision. This is just the start of collaboration.
-            Those who successfully reach their milestones can apply for
-            follow-up grants.
+            Swarm grant waves enable developers, researchers, the community,
+            and artists to familiarise themselves with Swarm by creating
+            proofs-of-concept and minimum viable products (MVPs) that reflect
+            their vision. The initial grants mark the beginning of collaboration,
+            and those who achieve their milestones successfully are eligible
+            to apply for subsequent grants.
 
 
-            If you have any questions regarding the process, reach out to the
-            Swarm team on Discord.
+            If you have any questions regarding the process, reach out to a
+            Swarm team member on the official [Swarm Discord server](https://discord.gg/wV5sm2bkhF).
           image: ""
           features:
             columns: ""
@@ -114,7 +114,9 @@ sections:
                 template: feature
               - title: Videowiki
                 content: >-
-                  With Videowiki Uploader Videowiki aims to provide a decentralised solution for storing and uploading videos using the Swarm decentralised storage network.
+                  VideoWiki is a democratised, tokenised, AI-based immersive
+                  content creation platform capable of rewarding millions of
+                  digital content creators.
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
@@ -159,7 +161,7 @@ sections:
                 template: feature
               - title: GetLogin
                 content: >-
-                  GetLogin Mobile is a single sign-on solution for decentralized applications. With it, you can authorize third-party mobile applications to work on your behalf with the safe allocation of cryptocurrency for these actions.
+                  GetLogin Mobile is a single sign-on solution for decentralised applications. With it, you can authorize third-party mobile applications to work on your behalf with the safe allocation of cryptocurrency for these actions.
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false

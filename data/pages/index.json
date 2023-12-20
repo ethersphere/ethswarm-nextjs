@@ -72,7 +72,7 @@
   "odyssey": {
     "title": "Odyssey Data Upload",
     "tagline": "Sustainable Development Goals",
-    "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidize data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
+    "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidise data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
     "ctas": [
       {
         "href": "https://my.ethswarm.org/uploads",
@@ -85,7 +85,7 @@
   "develop": {
     "tagline": "Real-world ready",
     "title": "Develop fast and free",
-    "content": "Swarm provides a complete stack of essential base layer components for developers. Create and host dApps, NFT meta-data, and media files decentralised!",
+    "content": "Swarm provides a complete stack of essential base layer components for developers. Build and host dApps, NFT meta-data, and media files, all within a decentralised framework!",
     "ctas": [
       {
         "href": "/build",
@@ -105,7 +105,7 @@
     "tabs": [
       {
         "title": "Bee",
-        "content": "Bee is a peer-to-peer client that connects you with other peers all over the world to become part of Swarm network, a global distributed p2p storage network that aims to store and distribute all of the world's data.",
+        "content": "Bee is a peer-to-peer client that connects you with other peers all over the world to become part of the Swarm network, a global distributed P2P storage network that aims to store and distribute all of the world's data. Running a full Bee node gives you access to all the functionalities of Swarm.",
         "ctas": [
           {
             "title": "Documentation ->",
@@ -132,7 +132,7 @@
       },
       {
         "title": "Swarm-CLI",
-        "content": "Manage your Bee node and interact with the Swarm network in the command line. Upload and download files, folders and websites, as well as easily manage different feeds, identities, and nodes. Convenient access to even Swarm's more advanced features - including easier devops, postage stamps management from the command line, and other automation.",
+        "content": "Swarm-CLI simplifies the process of node management and decentralised application development on the Swarm network by offering an intuitive and user-friendly command line interface which can be used for engaging with the Swarm ecosystem. This powerful tool enables effortless uploading and downloading of files, folders, and entire websites. Additionally, it streamlines the process of managing feeds and identities, and it makes node management a breeze.",
         "ctas": [
           {
             "href": "https://github.com/ethersphere/swarm-cli",
@@ -261,7 +261,7 @@
         "content": "DeBoot is researching and developing approaches to bootload OS images via decentralised networks such as Swarm",
         "icon": "deboot",
         "cta": {
-          "href": "https://etherna.io/",
+          "href": "https://github.com/debootdevs/deboot",
           "background": "transparent",
           "title": "More ->"
         }

@@ -18,7 +18,7 @@ job:
       title: Introduction
       titleSize: small
       content: |
-        Swarm is a system of peer-to-peer networked nodes for a decentralized storage and communication service.
+        Swarm is a system of peer-to-peer networked nodes for a decentralised storage and communication service.
 
         Swarm could shape the future towards a self-sovereign global society and permissionless open markets. On Swarm, applications run autonomously yet securely in a planetary-scale deployment and execution environment.
 
