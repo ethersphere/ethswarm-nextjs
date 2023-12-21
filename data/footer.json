@@ -1,12 +1,8 @@
 {
   "primary": [
     {
-      "title": "Whitepaper",
-      "href": "/swarm-whitepaper.pdf"
-    },
-    {
-      "title": "Book of Swarm",
-      "href": "/The-Book-of-Swarm.pdf"
+      "title": "Papers",
+      "href": "https://papers.ethswarm.org/"
     },
     {
       "title": "Foundation",

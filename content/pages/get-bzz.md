@@ -60,6 +60,7 @@ sections:
                   or [Coinmarketcap](https://coinmarketcap.com/currencies/ethereum-swarm/markets/)
                   under their ‘markets’ tab.
           title: How to get BZZ
+          id: "how-to-get-bzz"
           content: |-
             There are various ways to acquire BZZ tokens, including through centralised custodial exchanges where BZZ can be traded for either fiat currency or cryptocurrency, and also through decentralised non-custodial exchanges and protocols where BZZ can be traded directly for other cryptocurrencies.
 

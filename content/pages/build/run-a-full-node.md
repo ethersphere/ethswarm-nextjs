@@ -16,8 +16,8 @@ sections:
         ctas:
           - template: cta
             arrow: true
-            title: Participate ->
-            href: https://discord.ethswarm.org/
+            title: Run a Node ->
+            href: https://docs.ethswarm.org/docs/bee/installation/quick-start/
             background: orange-onDark
             type: default
           - template: cta

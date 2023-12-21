@@ -6,6 +6,7 @@ import { InfoIcon } from "@/icons/components";
 type HeaderProps = {
   tagline?: string;
   title: string;
+  id?: string;
   content?: string;
   ctas?: Array<CtaType>;
   size?: "small" | "medium" | "large";
@@ -15,13 +16,14 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = ({
   tagline,
   title,
+  id = "",
   content,
   ctas,
   size = "medium",
   className = "",
 }: HeaderProps) => {
   return (
-    <div className={cx("text-gray-100", className)}>
+    <div className={cx("text-gray-100 scroll-m-6", className)} id={id}>
       {tagline && <Tagline copy={tagline} />}
 
       <h2

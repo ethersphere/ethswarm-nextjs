@@ -21,6 +21,7 @@ type ContentContainerProps = {
   contentWidth?: "full" | "half";
   titleSize?: "small" | "medium" | "large";
   ctas?: Array<CtaType>;
+  id?: string;
   image?: string;
   code?: string;
   blocks?: any;
@@ -30,6 +31,7 @@ type ContentContainerProps = {
 
 const ContentContainer: React.FC<ContentContainerProps> = ({
   title,
+  id = "",
   content,
   ctas,
   code,
@@ -45,6 +47,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
       <GridContainer className={cx(code && "items-center")}>
         <Header
           title={title}
+          id={id}
           content={code ? content : undefined}
           ctas={ctas}
           size={titleSize}

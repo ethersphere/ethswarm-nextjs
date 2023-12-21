@@ -91,7 +91,7 @@ const Stats: React.FC<StatsProps> = () => {
       </Link>
 
       <Link
-        href="#"
+        href="https://network.ethswarm.org/"
         target="_blank"
         className="flex items-center h-8 px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md"
       >
