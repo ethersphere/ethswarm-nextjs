@@ -188,54 +188,48 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
+          "href": "https://blog.ethswarm.org/foundation/2023/decentralize-earth-observation/",
           "image": {
-            "src": "/assets/news/desktop.png",
-            "alt": "Swarm Desktop App"
+            "src": "https://blog.ethswarm.org/uploads/DEO.png",
+            "alt": "Decentralize Earth Observation!"
           },
-          "category": "development",
-          "readTime": 3,
-          "title": "Swarm Desktop App - Web3 for everyone",
-          "content": "The Swarm Foundation unveiled the beta version of the Swarm Desktop App (Beta). Its goal is to take the best from Web2 and replace the complex experience of Web3 with a familiar one.",
+          "title": "Decentralize Earth Observation!",
+          "content": "The Swarm Foundation, in collaboration with ESA Φ-lab, is excited to announce an upcoming workshop designed to foster groundbreaking collaborations between the Web3 and Earth Observation (EO) communities.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://medium.com/ethereum-swarm/swarm-desktop-app-beta-web3-for-everyone-3ca41088c7bf",
+            "href": "https://blog.ethswarm.org/foundation/2023/decentralize-earth-observation/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c",
-          "category": "tutorials",
+          "href": "https://blog.ethswarm.org/foundation/2023/erasure-coding-supercharges-swarm/",
           "image": {
-            "src": "/assets/news/wallet.png",
-            "alt": "Wallet"
+            "src": "https://blog.ethswarm.org/uploads/erasure-code.jpg",
+            "alt": "Erasure Coding Supercharges Swarm"
           },
-          "readTime": 3,
-          "title": "Bridge DAI from Ethereum Mainnet to Gnosis",
-          "content": "Your Bee node uses the Gnosis Chain network to buy postage stamps, to keep your files and data alive in…",
+          "title": "Erasure Coding Supercharges Swarm",
+          "content": "The Swarm research and development teams are thrilled to reveal that they are currently working on adding erasure coding (also referred to as erasure code or erasure encoding) to Swarm to increase the resilience of data stored on the Swarm network.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://medium.com/ethereum-swarm/how-to-bridge-dai-from-ethereum-mainnet-to-gnosis-chain-8008b2d6bb2c",
+            "href": "https://blog.ethswarm.org/foundation/2023/erasure-coding-supercharges-swarm/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873",
-          "category": "bounties",
+          "href": "https://blog.ethswarm.org/foundation/2023/swarm-community-call-30-november-recap/",
           "image": {
-            "src": "/assets/news/wikipedia.jpg",
-            "alt": "Wikipedia news image"
+            "src": "https://blog.ethswarm.org/uploads/scc-recap-november.png",
+            "alt": "Swarm Community Call, 30 November – Recap"
           },
-          "readTime": 2,
-          "title": "50k DAI prize to make Wikipedia unstoppable",
-          "content": "The Swarm Association is announcing a 50,000 DAI “Wikipedia on Swarm ”prize (paid in BZZ) for a solution that…",
+          "title": "Swarm Community Call, 30 November – Recap",
+          "content": "The November Swarm Community Call came packed with great news. The network has grown to almost 20,000 nodes, showing an incredible influx over the last couple of months.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://medium.com/ethereum-swarm/announcing-50k-dai-prize-to-make-wikipedia-unstoppable-91f60513a873",
+            "href": "https://blog.ethswarm.org/foundation/2023/swarm-community-call-30-november-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
