@@ -1,62 +1,45 @@
 import * as React from "react";
-import {
-  ButtonGroup,
-  CardList,
-  Container,
-  SectionContent,
-  Tagline,
-} from "@/components/common";
-import { CardType, CtaType, FeatureType } from "types";
-import { HeadingUnderline, FeatureList } from "@/components/common";
+import { Container, Header } from "@/components/common";
+import { CardType, CtaType } from "types";
 import cx from "../../utils/cx";
+import Card from "../common/Card";
+import GridContainer from "../common/GridContainer";
 
 type GeneralSectionProps = {
-  background?: "bg-black" | "bg-gray-700" | "";
   textColor?: "text-black" | "text-gray-100";
   content: {
     tagline?: string;
     title: string;
     content?: string;
-    features?: Array<FeatureType>;
-    features_type?: "six" | "four";
-    news?: Array<CardType>;
+    cards?: Array<CardType>;
     ctas?: Array<CtaType>;
   };
 };
 
 const GeneralSection: React.FC<GeneralSectionProps> = ({
   content,
-  background = "",
   textColor = "text-gray-100",
 }) => {
   return (
     <section
-      className={cx(
-        "relative flex justify-center overflow-hidden",
-        background,
-        textColor
-      )}
+      className={cx("relative flex justify-center overflow-hidden ", textColor)}
     >
-      <Container className="flex flex-col py-20 md:py-40">
-        <Tagline copy={content.tagline} />
-
-        <div className="mb-8 md:mb-12">
-          <HeadingUnderline
+      <Container className="flex flex-col py-40 md:py-48">
+        <GridContainer>
+          <Header
             title={content.title}
-            background={background === "bg-black" ? "orange-onDark" : "orange"}
+            tagline={content.tagline}
+            content={content.content}
+            size="medium"
+            ctas={content.ctas}
+            className="col-span-12 lg:col-span-6"
           />
-        </div>
+        </GridContainer>
 
-        <SectionContent className="mb-[72px]" content={content.content} />
-
-        <FeatureList
-          features={content.features ?? []}
-          columns={content.features_type ?? "four"}
-        />
-
-        <CardList items={content.news ?? []} />
-
-        <ButtonGroup ctas={content.ctas} className="mt-20 mb-4" />
+        <GridContainer className="mt-20">
+          {content.cards &&
+            content.cards.map((item, index) => <Card key={index} {...item} />)}
+        </GridContainer>
       </Container>
     </section>
   );

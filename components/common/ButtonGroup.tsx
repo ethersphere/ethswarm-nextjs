@@ -26,7 +26,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   return (
     <div
       className={cx(
-        "flex flex-col gap-4 sm:flex-row sm:items-center",
+        "flex gap-4 items-start sm:items-center flex-wrap",
         className
       )}
     >

@@ -1,43 +1,37 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import { Banner, Connect, Footer, Navigation } from "@/components/index";
-import meta from "data/meta.json";
+import { Footer, Hero } from "@/components/index";
 import content from "data/pages/privacy.json";
 import { Container, Meta, SectionContent } from "@/components/common";
 import { getAllEvents } from "lib/events";
+import ContentContainer from "@/components/sections/ContentContainer";
 
 const Privacy: NextPage = (props: any) => {
   return (
-    <div className="bg-gray-100">
+    <main className="">
       <Meta title={`Privacy policy`} />
 
-      <main className="">
-        <Banner />
+      <Hero title="Privacy policy" />
 
-        <Navigation textColor="text-gray-700" />
+      <ContentContainer
+        content={content.content}
+        contentWidth="full"
+        title=""
+        markdown={false}
+      />
 
-        <div className="absolute z-0 w-screen min-h-screen pointer-events-none bg-gray-gradient"></div>
+      <div className="relative z-10 flex flex-wrap justify-center">
+        <Container className="w-full pt-48 lg:pt-96">
+          {/* <SectionContent
+            className="pt-8 pb-24 md:py-40"
+            content={content.content}
+            fullWidth={true}
+            markdown={false}
+          /> */}
+        </Container>
+      </div>
 
-        <div className="relative z-10 flex flex-wrap justify-center">
-          <Container className="w-full pt-48 lg:pt-96">
-            <h1 className="font-bold text-6xl lg:text-[88px] tracking-[-0.01em] leading-[1.1] py-10">
-              Privacy policy
-            </h1>
-
-            <SectionContent
-              className="pt-8 pb-24 md:py-40"
-              content={content.content}
-              fullWidth={true}
-              markdown={false}
-            />
-          </Container>
-        </div>
-
-        <Connect events={props.events} />
-
-        <Footer />
-      </main>
-    </div>
+      <Footer events={props.events} />
+    </main>
   );
 };
 

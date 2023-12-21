@@ -1,71 +1,44 @@
 import * as React from "react";
-import {
-  ButtonGroup,
-  Container,
-  RegularLink,
-  SectionContent,
-} from "@/components/common";
+import { Container, Header } from "@/components/common";
 import { CtaType, ImageType } from "types";
-import Quote from "./Hero/Quote";
-import { ArrowIcon } from "@/icons/components/index";
+import GridContainer from "../common/GridContainer";
 
 type HeroProps = {
   title: string;
-  background: ImageType;
-  content: string;
+  background?: ImageType;
+  content?: string;
   ctas?: Array<CtaType>;
-  quote: {
-    title: string;
-    href?: string;
-    background_gradient?: boolean;
-  };
   cta?: CtaType;
 };
 
-const Hero: React.FC<HeroProps> = ({
-  title,
-  background,
-  content,
-  ctas,
-  quote,
-  cta,
-}) => {
+const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
   return (
-    <section className="relative flex flex-col items-center h-screen overflow-hidden text-gray-100 bg-gray-800">
-      <div className="absolute inset-0 flex items-start justify-end w-full h-full overflow-hidden pointer-events-none">
-        <img
-          src={background.src}
-          alt={background.alt}
-          className="w-[80vw] sm:w-[66vw] md:-mr-32 lg:w-[70vw] lg:-mr-64 xl:-mr-40 2xl:-mr-52 top-0 z-0 object-contain"
-        />
-      </div>
-
-      <Container className="flex flex-col justify-end flex-grow pb-20 sm:pb-32 pt-28 sm:pt-60">
-        <h1 className="text-5xl sm:text-6xl md:text-[88px] font-bold leading-[1.1] tracking-[-0.01em] mb-6 sm:mb-10 max-w-xl md:max-w-2xl">
-          {title}
-        </h1>
-
-        <SectionContent
-          className="mb-4 text-gray-100 sm:mb-8"
-          content={content}
-        />
-
-        <ButtonGroup ctas={ctas} className="my-4" />
+    <section className="relative flex flex-col items-center min-h-full text-gray-100 ">
+      <div
+        className="h-[150vh] w-full absolute top-0 left-0 "
+        style={{
+          background: 'url("/assets/bg_gradient.jpg") no-repeat right top',
+          backgroundSize: "contain",
+        }}
+      />
+      <Container className="relative">
+        <GridContainer className="items-center pt-32">
+          <Header
+            title={title}
+            content={content}
+            ctas={ctas}
+            size="large"
+            className="col-span-12 md:col-span-6 md:py-40"
+          />
+          {background && (
+            <img
+              src={background.src}
+              alt={background.alt}
+              className="col-span-12 row-start-1 md:row-auto md:col-span-6"
+            />
+          )}
+        </GridContainer>
       </Container>
-
-      {cta && cta.title && cta.href ? (
-        <div className="flex items-center justify-center w-full px-6 py-1 font-semibold tracking-wider text-center text-gray-100 bg-gray-500 sm:text-lg sm:px-8 sm:py-1 font-display">
-          <RegularLink href={cta.href} className="flex items-center py-3 group">
-            <span>{cta.title}</span>
-            <div className="relative w-4 h-4 ml-2">
-              <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 group-hover:translate-x-4 group-hover:opacity-0" />
-              <ArrowIcon className="absolute inset-0 w-4 h-4 duration-200 -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100" />
-            </div>
-          </RegularLink>
-        </div>
-      ) : (
-        <Quote quote={quote} />
-      )}
     </section>
   );
 };

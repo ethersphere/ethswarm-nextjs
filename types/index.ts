@@ -2,11 +2,14 @@ import * as React from "react";
 
 export type ButtonBackgroundType =
   | "orange"
+  | "purple"
+  | "green"
   | "orange-onDark"
   | "transparent"
   | "white"
-  | "black";
-export type ButtonTextColorType = "black" | "gray";
+  | "black"
+  | string;
+export type ButtonTextColorType = "black" | "gray" | string;
 
 export type CtaType = {
   title: string;
@@ -60,13 +63,16 @@ export type TabType = {
 };
 
 export type CardType = {
+  content?: string;
+  icon?: string;
   className?: string;
   title: string;
-  href: string;
-  image?: string;
-  copy?: string;
+  value?: string;
+  status?: "completed" | "in-progress" | "next-up";
+  image?: {
+    src: string;
+    alt: string;
+  };
+  ctas?: CtaType[];
   cta?: CtaType;
-  type?: "large" | "regular";
-  category?: string;
-  readTime?: Number;
 };

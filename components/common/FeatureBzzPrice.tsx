@@ -1,9 +1,10 @@
 import * as React from "react";
-import Icons from "@/icons/components/index";
 import { useEffect, useState } from "react";
-import FeatureBzzBase from "./FeatureBzzBase";
+import Card from "./Card";
 
-const FeatureBzzPrice: React.FC = () => {
+const FeatureBzzPrice: React.FC<{ className?: string }> = ({
+  className = "",
+}) => {
   const [price, setPrice] = useState(0);
 
   useEffect(() => {
@@ -15,11 +16,12 @@ const FeatureBzzPrice: React.FC = () => {
   }, []);
 
   return (
-    <FeatureBzzBase
+    <Card
       title="Current storage price"
-      value={`${price}`}
-      description="for 1 GByte for 1 month"
-      icon={<Icons.WriteIcon className="h-12 mt-8" />}
+      value={`${price}  BZZ`}
+      content="for 1 GByte for 1 month"
+      icon="PriceIcon"
+      className={className}
     />
   );
 };

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cx } from "utils";
+import { cn } from "utils";
 
 type ContainerProps = {
   className?: string;
@@ -10,16 +10,7 @@ const Container: React.FC<ContainerProps> = ({
   children = null,
   className = "",
 }) => {
-  return (
-    <div
-      className={cx(
-        "w-full h-full px-6 xl:px-4 max-w-6xl 2xl:max-w-7xl",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
+  return <div className={cn("max-w-6xl mx-auto", className)}>{children}</div>;
 };
 
 export default Container;

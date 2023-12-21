@@ -1,10 +1,7 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-
-import { Banner, Connect, Footer, Navigation } from "@/components/index";
+import { Footer, Hero } from "@/components/index";
 import meta from "data/meta.json";
 import content from "data/pages/jobs.json";
-import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
 import ContentContainer from "@/components/sections/ContentContainer";
 import { getAllJobs } from "lib/jobs";
@@ -13,52 +10,47 @@ import { Container } from "@/components/common";
 
 const Jobs: NextPage = ({ jobs, events }: any) => {
   return (
-    <div className="bg-gray-100">
+    <main className="overflow-hidden">
       <Meta title={content.meta.title ?? meta.title} />
 
-      <main className="overflow-hidden">
-        <Banner />
+      <Hero {...content.hero} />
 
-        <Navigation textColor="text-gray-700" />
+      {jobs && jobs.length === 0 && (
+        <div className="flex justify-center pb-8 mt-32 md:mt-40">
+          <Container>No positions available at this time.</Container>
+        </div>
+      )}
 
-        {/* @ts-ignore */}
-        <SecondaryHero index={0} {...content.hero} />
-
-        {jobs && jobs.length === 0 && (
-          <div className="flex justify-center pb-8">
-            <Container>No positions available at this time.</Container>
-          </div>
-        )}
-
-        {jobs && jobs.length > 0 && (
-          <div className="relative z-10 flex flex-col items-center pb-24 space-y-16 lg:pb-40 md:space-y-32">
-            {jobs.map((item: any, index: number) => (
-              <ContentContainer
-                key={index}
-                features={{
-                  columns: "three",
-                  features: item.items.map((job: any) => ({
-                    title: job.job.title,
-                    content: job.job.description,
-                    cta: {
-                      title: "More",
+      {jobs && jobs.length > 0 && (
+        <div className="relative z-10 flex flex-col items-center mt-32 mb-32 space-y-16 lg:mt-20 lg:pb-48 md:space-y-32">
+          {jobs.map((item: any, index: number) => (
+            <ContentContainer
+              key={index}
+              {...item}
+              features={{
+                columns: "three",
+                features: item.items.map((job: any) => ({
+                  title:
+                    job.job.title +
+                    (job.job.subtitle ? " (" + job.job.subtitle + ")" : ""),
+                  content: job.job.description,
+                  ctas: [
+                    {
+                      title: "More ->",
                       href: `/jobs/${job.slug}`,
                       arrow: true,
                       background: "transparent",
                     },
-                  })),
-                }}
-                {...item}
-              />
-            ))}
-          </div>
-        )}
+                  ],
+                })),
+              }}
+            />
+          ))}
+        </div>
+      )}
 
-        <Connect events={events} />
-
-        <Footer />
-      </main>
-    </div>
+      <Footer events={events} />
+    </main>
   );
 };
 

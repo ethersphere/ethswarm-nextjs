@@ -1,6 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-# Development 
+# Development
 
 First, run the development server:
 
@@ -12,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Icons (development)
 
-Icons are in the `./icons/svg` folder, optimized and stripped of the width and height values.
+Icons are in the `./icons/svg` folder, optimised and stripped of the width and height values.
 
 Create components from the icons by running:
 

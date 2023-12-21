@@ -1,53 +1,41 @@
 import type { NextPage } from "next";
 
-import { Banner, Connect, Footer, Navigation, Post } from "@/components/index";
+import { Footer, Hero } from "@/components/index";
 import meta from "data/meta.json";
-import SecondaryHero from "@/components/sections/SecondaryHero";
 import { Meta } from "@/components/common";
 import { getJobBySlug, getJobsSlugs } from "lib/jobs";
 
 import { getAllEvents } from "lib/events";
+import ContentContainer from "@/components/sections/ContentContainer";
 
 const JobSingle: NextPage = (content: any) => {
   return (
-    <div className="bg-gray-100">
+    <main>
       <Meta title={content.meta.title ?? meta.title} />
 
-      <main>
-        <Banner />
+      <Hero
+        title={content.job.title}
+        content={content.job.subtitle}
+        ctas={[
+          {
+            title: "<- Open roles",
+            href: "/jobs",
+            back: true,
+            arrow: true,
+            background: "orange",
+          },
+        ]}
+        background={{ src: "/assets/hero/join_alt.png", alt: "" }}
+      />
 
-        <Navigation textColor="text-gray-700" />
+      <div className="mt-32 mb-32 space-y-16 md:space-y-24 md:mt-20 md:mb-48">
+        {content.job.items.map((item: any, index: number) => (
+          <ContentContainer key={index} {...item} />
+        ))}
+      </div>
 
-        {/* @ts-ignore */}
-        <SecondaryHero
-          index={0}
-          title={content.job.title}
-          background={{ src: "/assets/hero/join_alt.png", alt: "" }}
-        />
-
-        <div className="md:pt-20 lg:pt-40">
-          <Post
-            sidebar={{
-              ctas: [
-                {
-                  title: "All Jobs",
-                  href: "/jobs",
-                  back: true,
-                  arrow: true,
-                  background: "transparent",
-                },
-              ],
-            }}
-            content={content.content}
-            border={false}
-          />
-        </div>
-
-        <Connect events={content.events} />
-
-        <Footer />
-      </main>
-    </div>
+      <Footer events={content.events} />
+    </main>
   );
 };
 

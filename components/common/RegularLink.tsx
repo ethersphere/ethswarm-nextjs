@@ -5,13 +5,14 @@ import Link from "next/link";
 type RegularLinkProps<LinkType> = LinkType & {
   className?: string;
   onClick?: () => void;
-};
+} & JSX.IntrinsicElements["a"];
 
 export const RegularLink: React.FC<RegularLinkProps<LinkType>> = ({
   children,
   href,
   className,
   onClick,
+  ...buttonProps
 }) => {
   if (href.startsWith("http")) {
     return (
@@ -21,6 +22,7 @@ export const RegularLink: React.FC<RegularLinkProps<LinkType>> = ({
         target="_blank"
         rel="noreferrer"
         className={className}
+        {...buttonProps}
       >
         {children}
       </a>

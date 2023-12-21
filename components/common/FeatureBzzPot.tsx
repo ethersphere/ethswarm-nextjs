@@ -1,9 +1,10 @@
 import * as React from "react";
-import Icons from "@/icons/components/index";
 import { useEffect, useState } from "react";
-import FeatureBzzBase from "./FeatureBzzBase";
+import Card from "./Card";
 
-const FeatureBzzPot: React.FC = () => {
+const FeatureBzzPot: React.FC<{ className?: string }> = ({
+  className = "",
+}) => {
   const [pot, setPot] = useState(0);
 
   useEffect(() => {
@@ -15,11 +16,12 @@ const FeatureBzzPot: React.FC = () => {
   }, []);
 
   return (
-    <FeatureBzzBase
+    <Card
       title="Current redistribution pot"
-      value={`${pot}`}
-      description="rewarded approximately every 15 minutes to a chosen node"
-      icon={<Icons.RewardIcon className="h-12 mt-8" />}
+      value={`${pot} BZZ`}
+      content="rewarded approximately every 15 minutes to a chosen node"
+      icon="RedistributionIcon"
+      className={className}
     />
   );
 };

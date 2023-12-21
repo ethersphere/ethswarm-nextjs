@@ -9,13 +9,13 @@ sections:
         title: Roadmap
         id: roadmap
         content: >-
-          The Swarm Foundation is proud to share its core tech team's internal
-          agenda for the next 12 months. The aim is to create predictability in
-          development tracks and the wider organisation, as well as help
-          coordinate between the Foundation's efforts and the efforts deployed
-          to the broader Swarm community.
+          The Swarm Foundation is proud to share its core tech team's
+          internal agenda for the next 12 months. The aim is to create
+          predictability in development tracks and the wider organisation,
+          as well as help coordinate between the Foundation's efforts
+          and the efforts deployed to the broader Swarm community.
         background:
-          src: /assets/hero/roadmap2.png
+          src: /assets/hero/roadmap.png
           alt: ""
           position: ""
         ctas: []
@@ -91,7 +91,7 @@ sections:
     data:
       items:
         - template: section_item
-          contentWidth: full
+
           features:
             type: default
             columns: three
@@ -188,9 +188,6 @@ sections:
                 title: Commons
                 icon: ""
           title: Vision
-          content: >-
-            A recap of the ideal experience of various participants in the
-            network:
           image: ""
           ctas: []
           code: ""

@@ -12,16 +12,18 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ code = "", className = "" }) => {
 
   return (
     <div className={className}>
-      <div className="px-4 py-8 overflow-x-scroll text-xs leading-[20px] text-gray-100 bg-gray-900">
-        <pre
-          dangerouslySetInnerHTML={{
-            __html: blocks[code],
-          }}
-        />
+      <div className="px-2 flex pb-2 text-xs w-full leading-[20px] text-gray-100 bg-[#1F2831] bg-opacity-70 border border-[#2D3843] rounded-xl">
+        <div className="flex-shrink-0 w-full px-2 py-8 overflow-x-auto overflow-y-hidden code-block">
+          <pre
+            dangerouslySetInnerHTML={{
+              __html: blocks[code],
+            }}
+          />
+        </div>
+        <span className="hidden w-3 h-0 italic text-right text-gray-400 select-none"></span>
+        <span className="inline-block w-0 h-0 mr-4 text-gray-500"></span>
+        <span className="hidden w-0 h-0 text-blue-600"></span>
       </div>
-      <span className="hidden w-3 h-0 italic text-right text-gray-400 select-none"></span>
-      <span className="inline-block w-0 h-0 mr-4 text-gray-500"></span>
-      <span className="hidden w-0 h-0 text-blue-600"></span>
     </div>
   );
 };

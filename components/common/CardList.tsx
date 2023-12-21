@@ -1,33 +1,33 @@
 import * as React from "react";
 import { CardType } from "types";
 import Card from "./Card";
+import GridContainer from "./GridContainer";
 
 type CardListProps = {
   items: Array<CardType>;
+  className?: string;
 };
 
-const CardList: React.FC<CardListProps> = ({ items = [] }) => {
+const CardList: React.FC<CardListProps> = ({ items = [], className }) => {
   if (items.length === 0) {
     return null;
   }
 
   return (
-    <div className="grid grid-cols-1 gap-12 mt-4 sm:gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:mt-8">
-      {items.slice(0, 3).map((item, index) => (
+    <GridContainer className={className}>
+      {items.map((item, index) => (
         <Card
           key={index}
-          className={index === 0 ? "sm:col-span-2" : ""}
-          type={index === 0 ? "large" : "regular"}
+          className=""
           title={item.title}
-          category={item.category}
-          readTime={item.readTime}
-          href={item.href}
+          icon={item.icon}
           image={item.image}
-          copy={item.copy}
+          content={item.content}
+          ctas={item.ctas}
           cta={item.cta}
         />
       ))}
-    </div>
+    </GridContainer>
   );
 };
 

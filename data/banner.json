@@ -4,7 +4,7 @@
     "children": "Stats"
   },
   "searchPlaceholder": "Search Swarm Hash",
-  "loading": "Loading Swarm data…",
+  "loading": "Loading…",
   "error": "Unable to fetch nodes.",
-  "nodes": " nodes active"
+  "nodes": " nodes"
 }

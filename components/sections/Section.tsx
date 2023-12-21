@@ -1,8 +1,7 @@
 import React from "react";
-import SecondaryHero from "./SecondaryHero";
 import ContentContainer from "./ContentContainer";
 import Disclaimer from "./Disclaimer";
-import { cx } from "utils";
+import Hero from "./Hero";
 
 type SectionProps = {
   disclaimer?: boolean;
@@ -18,11 +17,11 @@ const Section: React.FC<SectionProps> = ({
   disclaimer = false,
 }) => {
   return (
-    <section className="pb-20 md:pb-40 md:overflow-hidden">
-      {hero ? <SecondaryHero index={index} {...hero} /> : ""}
+    <section className="mb-32 md:mb-48">
+      {hero ? <Hero index={index} {...hero} /> : ""}
 
       {items && items.length > 0 && (
-        <div className="flex flex-col items-center space-y-16 md:space-y-32">
+        <div className="mt-32 space-y-24 md:space-y-48 md:mt-40">
           {items.map((item: any, index: number) => (
             <ContentContainer key={index} {...item} />
           ))}

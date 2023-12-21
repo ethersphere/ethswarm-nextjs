@@ -1,16 +1,6 @@
 import type { NextPage } from "next";
 
-import {
-  Banner,
-  Connect,
-  Cta,
-  Footer,
-  Navigation,
-  Post,
-  Roadmap,
-  Section,
-  Disclaimer,
-} from "@/components/index";
+import { Cta, Footer, Roadmap, Section } from "@/components/index";
 import { getPageSlugs, getPageBySlug } from "lib/pages";
 import meta from "data/meta.json";
 import { Meta } from "@/components/common";
@@ -20,29 +10,19 @@ const Page: NextPage = (content: any) => {
   const sections: any = {
     Section: Section,
     Cta: Cta,
-    Post: Post,
     Roadmap: Roadmap,
   };
-
   return (
-    <div className="bg-gray-100">
+    <main>
       <Meta title={content.meta.title ?? meta.title} />
 
-      <main>
-        <Banner />
+      {content.sections.map((section: any, index: number) => {
+        const SectionTag = sections[section.type];
+        return <SectionTag key={index} index={index} {...section.data} />;
+      })}
 
-        <Navigation textColor="text-gray-700" />
-
-        {content.sections.map((section: any, index: number) => {
-          const SectionTag = sections[section.type];
-          return <SectionTag key={index} index={index} {...section.data} />;
-        })}
-
-        <Connect events={content.events} />
-
-        <Footer />
-      </main>
-    </div>
+      <Footer events={content.events} />
+    </main>
   );
 };
 

@@ -1,3 +1,4 @@
 import cx from "./cx";
+import { cn } from "./cn";
 
-export { cx };
+export { cx, cn };

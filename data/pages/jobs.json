@@ -12,7 +12,7 @@
     "content": "<p>The Swarm Foundation is made by an international team of visionaries, developers, scientists, sysadmins, operation managers, graphic designers and even international artists. Join the team to shape the future of Web3.</p>",
     "ctas": [
       {
-        "title": "About Swarm Foundation",
+        "title": "Swarm Foundation ->",
         "background": "orange",
         "href": "/foundation",
         "arrow": true

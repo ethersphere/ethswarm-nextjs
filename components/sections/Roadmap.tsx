@@ -1,8 +1,19 @@
-import React from "react";
+import { useState } from "react";
 import { CtaType } from "types";
 import { cx } from "utils";
-import { ButtonGroup, Container, SectionContent } from "../common";
-import RoadmapItem, { RoadmapItemType } from "./Roadmap/RoadmapItem";
+import { Container } from "../common";
+import GridContainer from "../common/GridContainer";
+import Card from "../common/Card";
+
+import "keen-slider/keen-slider.min.css";
+import { useKeenSlider } from "keen-slider/react";
+
+export type RoadmapItemType = {
+  title: string;
+  ctas?: Array<CtaType>;
+  content: string;
+  status: "completed" | "in-progress" | "next-up";
+};
 
 type RoadmapProps = {
   border?: boolean;
@@ -16,22 +27,79 @@ type RoadmapProps = {
 };
 
 const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
-  return (
-    <section
-      className="relative z-10 flex justify-center -mt-20 md:-mt-40"
-      id={id}
-    >
-      <Container className="grid w-full grid-cols-1 gap-16 pb-16 sm:-ml-4 md:grid-cols-3 md:pb-32 md:gap-0">
-        <div className="max-w-xs space-y-4 sm:px-2 md:px-4 md:space-y-12">
-          <SectionContent fullWidth={true} content={sidebar?.content} />
-          <ButtonGroup ctas={sidebar?.ctas} />
-        </div>
+  const [progress, setProgress] = useState(1);
+  const [sliderRef, instanceRef] = useKeenSlider(
+    {
+      slides: {
+        perView: 3,
+        spacing: 20,
+      },
+      breakpoints: {
+        "(max-width: 768px)": {
+          slides: { perView: 1.1, spacing: 10 },
+        },
+        "(min-width: 768px) and (max-width: 1024px)": {
+          slides: { perView: 2.1, spacing: 10 },
+        },
+      },
+      initial: items.length - 1,
+      slideChanged(e) {
+        if (e.track.details.rel === e.track.details.maxIdx) setProgress(1);
+        else if (e.track.details.rel === 0) setProgress(0);
+        else setProgress(0.5);
+      },
+    },
+    [
+      // add plugins here
+    ]
+  );
 
-        <div className="-ml-2 md:col-span-2 sm:ml-0 dotted-spaced pl-4 space-y-12 md:space-y-[72px]">
-          {items.map((item, index) => (
-            <RoadmapItem key={index} {...item} />
-          ))}
-        </div>
+  return (
+    <section className="relative z-10 flex justify-center my-56 " id={id}>
+      <Container className="relative flex items-center w-full overflow-hidden">
+        <button
+          className={cx(
+            "absolute z-10 transition text-[#F6F7F94D] text-[20px] hidden lg:block",
+            progress === 0 ? "opacity-0 pointer-events-none" : ""
+          )}
+          onClick={() => instanceRef.current?.prev()}
+        >
+          {"<-"}
+        </button>
+        <GridContainer className="relative z-0 w-full">
+          <div className=" bg-[#2D3843] col-span-12 h-px mb-5" />
+          <div
+            className="absolute top-0 w-full h-px col-span-4 col-start-5"
+            style={{
+              background:
+                " linear-gradient(90deg, rgba(95, 109, 124, 0.00) 0%, #778797 51.56%, rgba(95, 109, 124, 0.00) 100%)",
+            }}
+          />
+          <div
+            ref={sliderRef}
+            className="col-span-12 keen-slider !overflow-visible lg:!overflow-hidden"
+          >
+            {items.map((item, index) => (
+              <Card
+                key={index}
+                {...item}
+                className={cx(
+                  "keen-slider__slide",
+                  item.status === "in-progress" ? "" : "opacity-60"
+                )}
+              />
+            ))}
+          </div>
+        </GridContainer>
+        <button
+          className={cx(
+            "absolute z-10 transition right-0 text-[#F6F7F94D] text-[20px] hidden lg:block",
+            progress === 1 ? "opacity-0 pointer-events-none" : ""
+          )}
+          onClick={() => instanceRef.current?.next()}
+        >
+          {"->"}
+        </button>
       </Container>
     </section>
   );
