@@ -1,13 +1,13 @@
 {
   "event": {
-    "title": "Swarm 2.0 - Dec. 21",
-    "content": "Join the virtual event to commemorate the beginning of Swarm 2.0.",
+    "title": "Community Call",
+    "content": "Swarm Foundations monthly community call.",
     "cta": {
-      "href": "https://www.addevent.com/event/lf19253018",
-      "title": "Read more ->"
+      "href": "https://www.addevent.com/event/iH19625610",
+      "title": "Add to Calendar ->"
     },
     "image": {
-      "src": "/assets/event.png",
+      "src": "/assets/event-community_call-jan.png",
       "alt": ""
     }
   },
