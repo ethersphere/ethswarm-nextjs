@@ -21,7 +21,7 @@ sections:
             type: default
             title: Book of Swarm ->
             background: orange
-            href: "https://www.ethswarm.org/The-Book-of-Swarm.pdf"
+            href: "https://papers.ethswarm.org/p/book-of-swarm/"
           - template: cta
             arrow: true
             type: default

@@ -11,6 +11,16 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      // Basic redirect
+      {
+        source: "/The-Book-of-Swarm.pdf",
+        destination: "https://papers.ethswarm.org/p/book-of-swarm/",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
