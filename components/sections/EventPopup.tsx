@@ -5,7 +5,7 @@ import { useState } from "react";
 import { cx } from "utils";
 
 type EventPopupType = {
-  image: {
+  image?: {
     src: string;
     alt: string;
   };
@@ -13,7 +13,7 @@ type EventPopupType = {
     href: string;
     title: string;
   };
-  title: string;
+  title?: string;
   content?: string;
 };
 
@@ -30,6 +30,11 @@ const EventPopup = ({ image, title, content, cta }: EventPopupType) => {
   });
 
   if (!title) {
+    return null;
+  }
+
+  // if image, title are null, return null
+  if (!image || !title) {
     return null;
   }
 
