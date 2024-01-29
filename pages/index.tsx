@@ -28,8 +28,10 @@ const Home: NextPage = (props: any) => {
 
       <EventPopup
         cta={content.event.cta}
+        // @ts-ignore
         title={content.event.title}
         content={content.event.content}
+        // @ts-ignore
         image={content.event.image}
       />
 
