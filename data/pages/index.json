@@ -1,6 +1,11 @@
 {
   "event": {
-    "content": "Swarm Foundations monthly community call on January 25.",
+    "title": "Community Call",
+    "content": "Swarm Foundations monthly community call on February 29.",
+    "image": {
+      "src": "/uploads/0224.png",
+      "alt": ""
+    },
     "cta": {
       "href": "https://www.addevent.com/event/iH19625610",
       "title": "Add to Calendar ->"
