@@ -204,16 +204,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-december-2023/",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-january-2024",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/dev-update-dec.png",
-            "alt": "Monthly Development Update – December 2023"
+            "src": "https://blog.ethswarm.org/uploads/dev-update-feb.png",
+            "alt": "Monthly Development Update – January 2024"
           },
-          "title": "Monthly Development Update – December 2023",
-          "content": "The December release of Bee 1.18.2 upgrades the previous version by improving sync intervals for nodes to collect missing chunks and stabilises CPU usage.",
+          "title": "Monthly Development Update – January 2024",
+          "content": "In January, the Bee Track team focused on resolving network issues that appear to have a common denominator – the local store.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-december-2023/",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-january-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
@@ -244,6 +244,32 @@
         }
       ]
     }
+  },
+  "decentralise": {
+    "tagline": "Decentralise web",
+    "title": "Your decentralised web3 dapp in 4 steps",
+    "features": [
+      {
+        "title": "1. Fork on GitHub",
+        "content": "Find a forkable project that should be decentralised or extended.",
+        "className": "lg:col-span-3"
+      },
+      {
+        "title": "2. Connect to FDP",
+        "content": "Extend it with the Fair data protocol so that users have their data saved in their private data store.",
+        "className": "lg:col-span-3"
+      },
+      {
+        "title": "3. Upload to Swarm",
+        "content": "Once hosted on Swarm it becomes accessible to all, with essentially zero hosting costs for developers.",
+        "className": "lg:col-span-3"
+      },
+      {
+        "title": "4. Grow through FDP",
+        "content": "Submit requests to be added in Fairdrive’s dapp store and make it available to existing Fairdrive users.",
+        "className": "lg:col-span-3"
+      }
+    ]
   },
   "builders": {
     "tagline": "One Swarm, united in PLUR, guided by virtue",

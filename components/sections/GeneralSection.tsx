@@ -7,6 +7,7 @@ import GridContainer from "../common/GridContainer";
 
 type GeneralSectionProps = {
   textColor?: "text-black" | "text-gray-100";
+  className?: string;
   content: {
     tagline?: string;
     title: string;
@@ -17,12 +18,17 @@ type GeneralSectionProps = {
 };
 
 const GeneralSection: React.FC<GeneralSectionProps> = ({
+  className = "",
   content,
   textColor = "text-gray-100",
 }) => {
   return (
     <section
-      className={cx("relative flex justify-center overflow-hidden ", textColor)}
+      className={cx(
+        "relative flex justify-center overflow-hidden ",
+        textColor,
+        className
+      )}
     >
       <Container className="flex flex-col py-40 md:py-48">
         <GridContainer>
