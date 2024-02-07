@@ -54,6 +54,15 @@ const Home: NextPage = (props: any) => {
 
       <GeneralSection content={content.news.content} />
 
+      <GeneralSection
+        className="-mt-40 md:-mt-48"
+        content={{
+          tagline: content.decentralise.tagline,
+          title: content.decentralise.title,
+          cards: content.decentralise.features,
+        }}
+      />
+
       <FairdDriveSection
         tagline={content.fairdata.tagline}
         title={content.fairdata.title}
