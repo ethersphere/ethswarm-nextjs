@@ -7,12 +7,7 @@ job:
   title: "Software Engineer"
   subtitle: Go, blockchain
   description: >
-    Bee is a Swarm client implemented in Go. It’s the basic building block for
-    the Swarm Network. 
-
-    Bee provides low level constructs for file storage, feeds, key-value stores
-    and untraceable communication, through solid, well-tested code delivered in
-    an agile manner.
+    In this role you will focus on developing the Bee client for the Swarm network. Ideal candidates have 3+ years in Go, knowledge of distributed systems, and experience with blockchain technologies. We value familiarity with go-ethereum, cryptographic tools, and a proactive approach to remote work. 
   items:
     - template: section_item
       title: Introduction

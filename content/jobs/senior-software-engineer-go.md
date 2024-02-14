@@ -7,12 +7,7 @@ job:
   title: "Senior Software Engineer"
   subtitle: Go, blockchain
   description: >-
-    Bee is a Swarm client implemented in Go. It’s the basic building block for
-    the Swarm Network. 
-
-    Bee provides low level constructs for file storage, feeds, key-value stores
-    and untraceable communication, through solid, well-tested code delivered in
-    an agile manner.
+    This role is for an experienced developer who will play a leading role in the development of the Bee client. You'll need a solid blockchain foundation, the ability to make high level architectural decisions, have experience with libp2p, go-ethereum, and be well versed in cryptography and distributed systems.
   items:
     - template: section_item
       title: Introduction
@@ -33,7 +28,6 @@ job:
       titleSize: small
       content: |
         - Take architectural decisions for our p2p distributed network
-        - Suggest improvement solutions for our codebase and the testing process
         - Development of the reference Swarm implementation in Go aka Bee
         - Developing domain-specific knowledge and expertise in the Swarm incentive layer implementation
         - Bringing code up to spec
@@ -44,28 +38,25 @@ job:
         Your profile:
       titleSize: small
       content: |
-        - You have 5+ years of experience in a similar position & at least 3 years with GoLang
-        - You have experience in working on large-scale distributed systems
-        - Familiarity with infrastructure tools (we use k8s, helm)
-        - You follow SOLID principles 
-        - You like to work in a fast paced environment
-        - Strong sense of ownership and responsibility
-        - You manage your own time effectively and respect time constraints
+        - You have a solid grasp of blockchain principles and application design considerations
+        - You are familiar with go-ethereum 
         - You like to work remotely
         - You are available around the CET timezone
+        - You manage your own time effectively and respect time constraints
+        - You like to take the initiative
+        - You don’t need to google SOLID principles 
         - You can express yourself fluently in English, both verbally and in writing
+        - Good grasp of distributed systems
+        - Experience with libp2p
     - template: section_item
       title: >-
         We appreciate:
       titleSize: small
       content: |
-        - You have a solid grasp of blockchain principles and application design considerations
-        - Experience with libp2p
-        - You are familiar with go-ethereum 
-        - Acquaintance with cryptographic concepts
-        - Knowledge of monitoring tools (we use Grafana, Prometheus, Jaeger and OpenTracing)
         - Knowledge of Solidity
         - A passionate open-source contributor
+        - Acquaintance with cryptographic concepts
+        - Knowledge of Kubernetes, Grafana, Jaeger and OpenTracing
     - template: section_item
       title: >-
         We offer/Team perks:
