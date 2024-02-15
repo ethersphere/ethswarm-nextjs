@@ -7,12 +7,8 @@ job:
   title: "QA Engineer"
   subtitle: Go, blockchain
   description: >-
-    This role expects the candidate to perform actually like a large node
-    operator in order to perform testing and get in the shoes of the node
-    operators. This requires the candidate to have experience in a similar QA
-    position, have some coding skills and also have interest in devops related
-    stuff.
-    data:
+    This role requires the candidate to put themselves in the shoes of a large node operator for the purpose of conducting tests and understanding the perspective of node operators. The candidate should have experience in a similar QA role, possess coding skills, and have an interest in DevOps-related tasks.
+
   items:
     - template: section_item
       title: Introduction
