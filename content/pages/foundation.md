@@ -104,6 +104,8 @@ sections:
 
             Gregor Žavcer, Director of the Swarm Foundation
 
+            Vero Estrada-Galiñanes, Member of the Board
+
             Edina Lovas, Member of the Board
 
             Alexis Roussel, Member of the Board
