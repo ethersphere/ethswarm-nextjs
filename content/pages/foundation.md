@@ -104,8 +104,6 @@ sections:
 
             Gregor Žavcer, Director of the Swarm Foundation
 
-            Fatemeh Fannizadeh, Member of the Board
-
             Edina Lovas, Member of the Board
 
             Alexis Roussel, Member of the Board
