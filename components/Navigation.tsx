@@ -60,6 +60,7 @@ const Navigation: React.FC<NavigationProps> = ({
       <Container className="w-full">
         <GridContainer>
           <NavigationMenu.Root
+            delayDuration={50}
             onValueChange={setValue}
             className="relative flex items-center w-full col-span-12"
           >
@@ -87,12 +88,12 @@ const Navigation: React.FC<NavigationProps> = ({
 
                             return node;
                           }}
-                          className="flex items-center px-2.5 py-1 text-sm antialiased font-semibold text-gray-100 duration-200 hover:opacity-70"
+                          className="flex items-center px-2.5 py-1 text-sm antialiased font-semibold text-gray-100 duration-100 hover:opacity-70"
                         >
                           {link.title}
                           <ArrowIcon
                             className={cx(
-                              "w-2.5 h-2 ml-2 duration-200",
+                              "w-2.5 h-2 ml-2 duration-100",
                               link.title === value
                                 ? " -rotate-90"
                                 : " rotate-90"
@@ -141,12 +142,12 @@ const Navigation: React.FC<NavigationProps> = ({
               <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
                 <NavigationMenu.Viewport
                   forceMount
-                  className="relative mt-[10px] data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
+                  className="relative mt-[10px] data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-100 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
                   style={{
                     transform: `translateX(${offset}px)`,
                     transition: `transform ${
-                      activeTrigger === null ? 0 : 0.2
-                    }s ease, opacity 0.2s ease , width 0.2s ease, height 0.2s ease`,
+                      activeTrigger === null ? 0 : 0.1
+                    }s ease, opacity 0.1s ease , width 0.1s ease, height 0.1s ease`,
                   }}
                 />
               </div>
