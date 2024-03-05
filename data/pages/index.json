@@ -204,16 +204,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-january-2024",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-february-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/dev-update-feb.png",
-            "alt": "Monthly Development Update – January 2024"
+            "src": "https://blog.ethswarm.org/uploads/dev-update-february.png",
+            "alt": "Monthly Development Update – February 2024"
           },
-          "title": "Monthly Development Update – January 2024",
-          "content": "In January, the Bee Track team focused on resolving network issues that appear to have a common denominator – the local store.",
+          "title": "Monthly Development Update – February 2024",
+          "content": "In February, the Bee Track team focused on preparing for the imminent Swarm 2.0 release, which promises substantial enhancements, including best-in-class redundancy via erasure codes.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-january-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-february-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
