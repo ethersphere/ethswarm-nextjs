@@ -60,7 +60,7 @@ const Navigation: React.FC<NavigationProps> = ({
       <Container className="w-full">
         <GridContainer>
           <NavigationMenu.Root
-            delayDuration={50}
+            delayDuration={0}
             onValueChange={setValue}
             className="relative flex items-center w-full col-span-12"
           >
