@@ -69,5 +69,7 @@ job:
         - Flexible working hours
         - We care about our swarm: Incentives through BZZ, our token
 
-        Should you be interested in the position, please send your CV to talent@ethswarm.org
+        Should you be interested in the position, please send your CV to [talent@ethswarm.org](talent@ethswarm.org "talent@ethswarm.org")
+
+        IMPORTANT REQUEST: As a short cover letter, please enclose a brief summary of your relevant experience with us. We're particularly interested in hearing about your background with distributed architectures, p2p systems, and ideally blockchain.
 ---
