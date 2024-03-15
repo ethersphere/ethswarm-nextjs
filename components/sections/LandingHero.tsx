@@ -29,7 +29,7 @@ const LandingHero: React.FC<LandingHero> = ({ title, content = "", ctas }) => {
         muted
         className="absolute z-0 top-0 right-0 object-contain object-top pointer-events-none h-[90vh] md:h-[150vh]"
       >
-        <source src="/assets/doors.mp4" type="video/mp4" />
+        <source src="/assets/doors_v2.mp4" type="video/mp4" />
       </video>
       {/* <img
         src="/assets/hero/door.png"
