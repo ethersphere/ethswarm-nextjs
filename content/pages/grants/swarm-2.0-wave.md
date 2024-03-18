@@ -5,7 +5,7 @@ sections:
   - type: Section
     data:
       hero:
-        title: "Swarm 2.0 Wave: Empowering Digital Freedom"
+        title: "Swarm 2.0 Wave: Empowering Digital Freedom"
         titleSize: medium-large
         id: swarm-20-wave
         content: >-
