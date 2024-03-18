@@ -9,9 +9,16 @@ type HeroProps = {
   content?: string;
   ctas?: Array<CtaType>;
   cta?: CtaType;
+  titleSize?: "small" | "medium" | "large";
 };
 
-const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
+const Hero: React.FC<HeroProps> = ({
+  title,
+  background,
+  content,
+  ctas,
+  titleSize = "large",
+}) => {
   return (
     <section className="relative flex flex-col items-center min-h-full text-gray-100 ">
       <div
@@ -27,7 +34,7 @@ const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
             title={title}
             content={content}
             ctas={ctas}
-            size="large"
+            size={titleSize}
             className="col-span-12 md:col-span-6 md:py-40"
           />
           {background && (

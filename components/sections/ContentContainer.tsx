@@ -18,6 +18,7 @@ import GridContainer from "../common/GridContainer";
 type ContentContainerProps = {
   title: string;
   content: string;
+  contentCtas?: Array<CtaType>;
   contentWidth?: "full" | "half";
   titleSize?: "small" | "medium" | "large";
   ctas?: Array<CtaType>;
@@ -27,6 +28,10 @@ type ContentContainerProps = {
   blocks?: any;
   features?: FeatureListType;
   markdown?: boolean;
+  box?: {
+    title: string;
+    content: string;
+  };
 };
 
 const ContentContainer: React.FC<ContentContainerProps> = ({
@@ -34,6 +39,7 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   id = "",
   content,
   ctas,
+  contentCtas = [],
   code,
   blocks,
   contentWidth = "half",
@@ -41,9 +47,10 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
   titleSize,
   features,
   image,
+  box = undefined,
 }) => {
   return (
-    <Container className="relative z-10  w-full text-[#F6F7F9]">
+    <Container className="relative z-10 w-full text-[#F6F7F9]">
       <GridContainer className={cx(code && "items-center")}>
         <Header
           title={title}
@@ -60,14 +67,16 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
           <div
             className={cx(
               contentWidth === "half"
-                ? " md:col-start-7 col-span-12 md:col-span-6 md:pr-5"
-                : "  col-span-12 md:col-span-8 "
+                ? "md:col-start-7 col-span-12 md:col-span-6 md:pr-5"
+                : "col-span-12 md:col-span-8 "
             )}
           >
             <SectionContent
               fullWidth={contentWidth === "full"}
               markdown={markdown}
               content={content}
+              box={box}
+              ctas={contentCtas}
             />
           </div>
         )}

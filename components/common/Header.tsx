@@ -9,7 +9,7 @@ type HeaderProps = {
   id?: string;
   content?: string;
   ctas?: Array<CtaType>;
-  size?: "small" | "medium" | "large";
+  size?: "small" | "medium" | "medium-large" | "large";
   className?: string;
 };
 
@@ -33,6 +33,8 @@ const Header: React.FC<HeaderProps> = ({
             small: " text-3xl md:text-3xl ",
             medium:
               " text-[44px] leading-[49px] md:text-5xl md:leading-[1.2] tracking-[-0.48px] ",
+            "medium-large":
+              " text-[48px] leading-[49px] md:text-[64px] md:leading-[1.2] tracking-[-1%]",
             large:
               "text-[56px] leading-[64px] md:text-[88px] md:leading-[97px] tracking-[-0.88px]",
           }[size]
@@ -47,6 +49,7 @@ const Header: React.FC<HeaderProps> = ({
             {
               small: "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
               medium: "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
+              "medium-large": "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
               large:
                 "text-base md:text-[19px] md:leading-[26px] mt-8 md:mt-6 md:mr-[72px]",
             }[size]
@@ -62,6 +65,7 @@ const Header: React.FC<HeaderProps> = ({
             {
               small: "mt-4",
               medium: "mt-6",
+              "medium-large": "mt-8",
               large: " mt-8",
             }[size]
           )}
