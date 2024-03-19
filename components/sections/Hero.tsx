@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = ({
             content={content}
             ctas={ctas}
             size={titleSize}
-            className="col-span-12 md:col-span-6 md:py-40"
+            className="col-span-12 md:col-span-6 md:py-24"
           />
           {background && (
             <img

@@ -30,11 +30,11 @@ const Header: React.FC<HeaderProps> = ({
         className={cx(
           "inline-flex flex-wrap font-bold gap-3 items-center",
           {
-            small: " text-3xl md:text-3xl ",
+            small: "text-3xl md:text-3xl",
             medium:
-              " text-[44px] leading-[49px] md:text-5xl md:leading-[1.2] tracking-[-0.48px] ",
+              "text-[44px] leading-[49px] md:text-5xl md:leading-[1.2] tracking-[-0.48px]",
             "medium-large":
-              " text-[48px] leading-[49px] md:text-[64px] md:leading-[1.2] tracking-[-1%]",
+              "text-[48px] leading-[49px] md:text-[64px] md:leading-[1.2] tracking-[-1%]",
             large:
               "text-[56px] leading-[64px] md:text-[88px] md:leading-[97px] tracking-[-0.88px]",
           }[size]
