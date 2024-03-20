@@ -28,14 +28,18 @@ const Hero: React.FC<HeroProps> = ({
           backgroundSize: "contain",
         }}
       />
-      <Container className="relative">
+      <Container className="relative w-full">
         <GridContainer className="items-center pt-32">
           <Header
             title={title}
             content={content}
             ctas={ctas}
             size={titleSize}
-            className="col-span-12 md:col-span-6 md:py-24"
+            className={
+              background
+                ? "col-span-12 md:col-span-6 md:py-24"
+                : "col-span-12 md:col-span-11 md:py-24"
+            }
           />
           {background && (
             <img
