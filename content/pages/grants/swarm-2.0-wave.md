@@ -16,7 +16,7 @@ sections:
 
         ctas:
           - title: Apply for a grant ->
-            href: "https://swarm.odoo.com/swarm-grants-program"
+            href: "https://swarm.odoo.com/swarm-grants-application-form"
             arrow: true
             background: orange
             type: default
@@ -140,7 +140,7 @@ sections:
           image: ""
           contentCtas:
             - title: Apply for a grant ->
-              href: "https://swarm.odoo.com/swarm-grants-program"
+              href: "https://swarm.odoo.com/swarm-grants-application-form"
               arrow: true
               background: orange
               type: default
