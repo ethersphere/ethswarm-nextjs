@@ -1,18 +1,22 @@
 ---
 meta:
-  title: "Swarm 2.0 Wave: Empowering Digital Freedom"
+  title: "Swarm Grants Programme"
 sections:
   - type: Section
     data:
       hero:
-        title: "Swarm 2.0 Wave: Empowering Digital Freedom"
+        title: "Swarm Grants Programme"
         titleSize: medium-large
         id: swarm-20-wave
         content: >-
-          Join the Swarm 2.0, marking the beginning of Winter Solstice, as the Swarm Association continues to empower developers, researchers, artists, and the wider community to co-create and build the first Web3 PC by bridging the gaps between Web3 ecosystems and Web2. Together, we strive to foster digital freedom and unleash the true potential of decentralised technologies.
+          The Swarm Grants Programme, an initiative by the Swarm Association, stands at the forefront of technological evolution, committed to narrowing the gap between Web3 ecosystems and the traditional Web2 space. By empowering a diverse array of talents including developers, researchers, artists, and community activists, we aim to unlock a new realm of digital innovation and collaboration.
+
+
+          Our mission is to catalyse the development of decentralised technologies that promote digital freedom, aiming for a future where the internet is more inclusive and accessible to all.
+
         ctas:
-          - title: Apply ->
-            href: "https://grants.ethswarm.org/"
+          - title: Apply for a grant ->
+            href: "https://swarm.odoo.com/swarm-grants-program"
             arrow: true
             background: orange
             type: default
@@ -23,13 +27,29 @@ sections:
         - tagline: ""
           title: Total grant pool
           content: >-
-            Grants are limited to 10.000 DAI in BZZ. After reaching the grant milestones, one can apply for a follow-up grant.
+            The Swarm Grants Programme offers financial support up to 10,000 DAI in BZZ, with the grants divided into three distinct categories, each tailored to support projects at various stages of development and complexity.
+
+
+            - __Starter Microgrants (500 - 2,000 USD in BZZ)__<br/>
+            Aimed at projects focused on simple Swarm storage integrations or proof-of-concept (PoC) developments, with no prior grants received.
+
+
+            - __Builder Grants (2,000 - 5,000 USD in BZZ)__<br/>
+            Ideal for projects with a functional prototype and clearly defined future development steps.
+
+
+            - __Booster Grants (Open / Up to 10,000 USD in BZZ)__<br/>
+            Reserved for exceptional cases or projects specifically endorsed by the Swarm Association, demonstrating significant potential to advance the Swarm ecosystem.
+
+
+            Each grant category is designed to facilitate the growth and progress of projects at different maturity levels, from initial ideation to full-scale development, fostering innovation and excellence within the Swarm community.
+
           image: ""
           box:
             title: 300,000 BZZ
             content: >-
-              __Starts:__ December 21st<br/>
-              __Ends:__ March 20th 
+              __Starts:__ March 21<br/>
+              __Ends:__ June 20th 
           features:
             columns: ""
             type: default
@@ -38,49 +58,71 @@ sections:
           code: ""
           template: section-item
         - tagline: ""
-          title: Key areas
+          title: Key Focus Areas
           content: >-
-            The Swarm Association's Grant Program focuses on Swarm's decentralised storage. 
+            The current wave of grants places a particular emphasis on:
 
 
-            __Bridging the gap:__<br/>
-            Create a Dapp utilizing Swarm and other Web3 players. Your imagination is the limit: L1, L2, and other players in the Web3 space.
+            - __Blobs on Swarm:__<br/>
+            Enhancing the blob view, facilitating blobs on other chains, adding blob viewers to the Swarm Desktop App, and enabling search functionality over blobs.
 
 
-            __Polygon Integration:__<br/>
-            Build a Dapp that combines Polygon with Swarm. 
+            - __Data Availability on Swarm:__<br/>
+            Tooling to create open insurance groups for data on Swarm, offering real-time fee comparisons for data availability solutions, and selection tools for upload and data availability solutions for sequencers and developers, ensuring secure and insured off-chain data storage.
 
 
-            __Onboard Web2 project to Swarm.__
-
-            __Unlocking Web3 Potential:__<br/>
-            Create a Dapp using Swarm and power it with AI.
+            - __Polygon / Cross-Chain Innovation:__<br/>
+            Facilitating integrations between Polygon and Swarm to enable scalable, interoperable DApp solutions.
 
 
-            __Develop NFT applications:__<br/>
-            for industry-scale use cases, focusing on key sectors like digital rights, real estate, etc. Leverage the power of the Swarm Network to redefine the digital landscape.
+            - __Web3 Social Networking DApps:__<br/>
+            Expanding social and communication DApps for Swarm users, including features like the Swarm mailbox, real-time messaging, and a dedicated social media space. We place a strong emphasis on supporting private identities, ensuring encryption, and providing modularity. This approach allows us to integrate high-quality DApps as both Desktop App plugins and Fairdrive components.
+
+          image: ""
+          ctas: []
+          code: ""
+          template: section-item
+        - tagline: ""
+          title: General Impact Areas
+          content: >-
+            The Swarm Grants Programme seeks to create a lasting impact in several key areas: 
 
 
-            __Innovative Applications:__<br/>
-            Develop apps for decentralized storage, empowering user data control.
+            - __Web3 Collaboration:__<br/>
+            Encouraging DApp development across Web3 layers by integrating Swarm with other decentralised technologies.
 
 
-            __Enhancing Tools:__<br/>
-            Improve foundational tools and libraries for FDP`s efficiency and usability. Contribute to libraries for easier Swarm integration in apps.
+            - __Web2 Migration:__<br/>
+            Helping Web2 projects transition to Web3 with decentralised storage and enhanced data control on the Swarm network. 
 
 
-            __FairOS Integration:__<br/>
-            Build apps integrating with FairOS storage and leveraging Fairdrive capabilities.
+            - __AI-Powered Decentralisation__<br/>
+            Driving innovation at the intersection of AI and decentralised storage, developing DApps that leverage Swarm for AI-driven functionalities.
 
 
-            __Language-Specific Implementations:__<br/>
-            Expand accessibility with FDP implementations in multiple languages.
+            - __Industry-Specific NFT Solutions:__<br/>
+            Focusing on key sectors like digital rights, real estate, etc. Leverage the power of the Swarm Network to redefine the digital landscape.
 
 
-            Join us in shaping Web3`s future. 
+            - __Decentralised Data Control:__<br/>
+            Promoting data sovereignty and privacy by developing applications for decentralised storage, giving users greater control over their data.
 
 
-            *The program supports Fair Data Principles of interoperability, self-sovereignty, and privacy.*
+            - __Developer Tooling & Infrastructure:__<br/>
+            Enhancing Swarm's foundational tools and libraries for wider adoption of decentralised storage solutions.
+
+
+            - __FairOS Integration:__<br/>
+            Building apps that integrate FairOS storage solutions, emphasising fairness and decentralisation.
+
+
+            - __Additional Languages & Frameworks:__<br/>
+            Making Swarm more accessible by expanding language-specific implementations of tools and libraries, welcoming new developers to the ecosystem.
+
+
+
+
+            Through these focus and impact areas, the Swarm Grants Programme aims to catalyse significant advancements in the decentralised web, fostering innovation, collaboration, and a more equitable digital future.
           image: ""
           ctas: []
           code: ""
@@ -88,14 +130,17 @@ sections:
         - tagline: ""
           title: Apply now
           content: >-
-            Don't miss this opportunity to be part of the self-sovergeing society we are collectively building. Join our community on the journey towards a decentralized future. 
+            Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together! 
 
 
-            Let's shape the future of the internet together!
+            The programme supports [Fair Data Principles](https://fairdatasociety.org/) of interoperability, self-sovereignty, and privacy.
+
+
+            Apply now and become part of the swarm.
           image: ""
           contentCtas:
-            - title: Apply ->
-              href: "https://grants.ethswarm.org/"
+            - title: Apply for a grant ->
+              href: "https://swarm.odoo.com/swarm-grants-program"
               arrow: true
               background: orange
               type: default
