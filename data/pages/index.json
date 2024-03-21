@@ -188,16 +188,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2023/swarm-2.0-swarm-is-production-ready-time-to-build/",
+          "href": "https://blog.ethswarm.org/foundation/2024/announcing-bee-2.0-pioneering-next-gen-decentralised-storage/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/swarm2-recap.png",
+            "src": "https://blog.ethswarm.org/uploads/2.0-release.png",
             "alt": "Swarm 2.0: Swarm is production ready, time to build"
           },
           "title": "Swarm 2.0: Swarm is production ready, time to build",
-          "content": "For Swarm, the winter solstice is always the time for big announcements. And this year’s unveiling of Swarm 2.0 in an online event, simply titled “Swarm 2.0”, exceeded expectations. Swarm 2.0 introduces the decentralised Price Oracle and erasure codes to the Swarm network, creating something utterly unique in the decentralised storage space.",
+          "content": "Bee 2.0 reinforces Swarm’s position as a trailblazer in decentralised storage by introducing world-class data retrievability through the incorporation of erasure coding—a powerful and cost effective data protection technology.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2023/swarm-2.0-swarm-is-production-ready-time-to-build/",
+            "href": "https://blog.ethswarm.org/foundation/2024/announcing-bee-2.0-pioneering-next-gen-decentralised-storage/",
             "background": "transparent",
             "color": "white",
             "arrow": true
