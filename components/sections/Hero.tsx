@@ -9,9 +9,16 @@ type HeroProps = {
   content?: string;
   ctas?: Array<CtaType>;
   cta?: CtaType;
+  titleSize?: "small" | "medium" | "large";
 };
 
-const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
+const Hero: React.FC<HeroProps> = ({
+  title,
+  background,
+  content,
+  ctas,
+  titleSize = "large",
+}) => {
   return (
     <section className="relative flex flex-col items-center min-h-full text-gray-100 ">
       <div
@@ -21,14 +28,18 @@ const Hero: React.FC<HeroProps> = ({ title, background, content, ctas }) => {
           backgroundSize: "contain",
         }}
       />
-      <Container className="relative">
+      <Container className="relative w-full">
         <GridContainer className="items-center pt-32">
           <Header
             title={title}
             content={content}
             ctas={ctas}
-            size="large"
-            className="col-span-12 md:col-span-6 md:py-40"
+            size={titleSize}
+            className={
+              background
+                ? "col-span-12 md:col-span-6 md:py-24"
+                : "col-span-12 md:col-span-11 md:py-24"
+            }
           />
           {background && (
             <img

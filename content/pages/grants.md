@@ -13,7 +13,7 @@ sections:
           ecosystem with tooling and infrastructure.
         ctas:
           - title: Apply for a grant ->
-            href: "https://grants.ethswarm.org/"
+            href: "/grants/swarm-grants-programme"
             arrow: true
             background: orange
             type: default

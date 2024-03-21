@@ -21,7 +21,7 @@ const Section: React.FC<SectionProps> = ({
       {hero ? <Hero index={index} {...hero} /> : ""}
 
       {items && items.length > 0 && (
-        <div className="mt-32 space-y-24 md:space-y-48 md:mt-40">
+        <div className="mt-32 space-y-24 md:space-y-48 md:mt-24">
           {items.map((item: any, index: number) => (
             <ContentContainer key={index} {...item} />
           ))}
