@@ -1,13 +1,13 @@
 {
   "event": {
     "title": "Community Call",
-    "content": "Swarm Foundations monthly community call on March 28.",
+    "content": "Swarm Foundations monthly community call on April 25.",
     "image": {
-      "src": "/uploads/0324.png",
+      "src": "/uploads/0424.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://www.addevent.com/event/Ey20419663",
+      "href": "https://www.addevent.com/event/fx21028312",
       "title": "Add to Calendar ->"
     }
   },
@@ -220,16 +220,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2023/decentralize-earth-observation/",
+          "href": "https://blog.ethswarm.org/foundation/2024/how-to-participate-in-the-bonding-curve-vote/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DEO.png",
-            "alt": "Decentralize Earth Observation!"
+            "src": "https://blog.ethswarm.org/uploads/bc111.png",
+            "alt": "How to Participate in the Bonding Curve Vote"
           },
-          "title": "Decentralize Earth Observation!",
-          "content": "The Swarm Foundation, in collaboration with ESA Φ-lab, is excited to announce an upcoming workshop designed to foster groundbreaking collaborations between the Web3 and Earth Observation (EO) communities.",
+          "title": "How to Participate in the Bonding Curve Vote",
+          "content": "The Swarm protocol is at a pivotal moment with an upcoming vote on the future of the bonding curve mechanism.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2023/decentralize-earth-observation/",
+            "href": "https://blog.ethswarm.org/foundation/2024/how-to-participate-in-the-bonding-curve-vote/",
             "background": "transparent",
             "color": "white",
             "arrow": true
