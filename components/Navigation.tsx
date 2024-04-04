@@ -82,6 +82,7 @@ const Navigation: React.FC<NavigationProps> = ({
                     <NavigationMenu.Item key={link.title} value={link.title}>
                       {link.children ? (
                         <NavigationMenu.Trigger
+                          // @ts-ignore
                           ref={(node) => {
                             if (link.title === value && activeTrigger !== node)
                               setActiveTrigger(node);
