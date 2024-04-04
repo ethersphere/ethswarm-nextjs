@@ -55,7 +55,7 @@ const Stats: React.FC<StatsProps> = () => {
       >
         <motion.div
           className={cx(
-            "h-8 flex items-center px-4 space-x-2 text-sm font-semibold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md truncate"
+            "h-8 flex items-center px-4 space-x-2 text-sm font-bold leading-8 text-gray-800 transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md truncate tracking-wider"
           )}
         >
           <AnimatePresence initial={false} mode="wait">

@@ -153,6 +153,14 @@ const Navigation: React.FC<NavigationProps> = ({
               </div>
             </div>
             <div className="hidden lg:block">
+              <Link
+                className="flex items-center h-8 px-4 space-x-2 text-sm font-bold leading-8 tracking-wider text-gray-800 truncate transition-all duration-1000 bg-gray-100 rounded-full bg-opacity-70 backdrop-blur-md"
+                href="/get-bzz"
+              >
+                $BZZ
+              </Link>
+            </div>
+            <div className="hidden lg:block">
               <Stats />
             </div>
             <div className="flex items-center lg:hidden">
