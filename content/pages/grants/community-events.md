@@ -1,6 +1,6 @@
 ---
 meta:
-  title: "Swarm Community Events"
+  title: "Swarm Community Events - Grant Program"
 sections:
   - type: Section
     data:
@@ -9,7 +9,7 @@ sections:
         titleSize: medium-large
         id: swarm-20-wave
         content: >-
-          We're thrilled to launch the "Swarm Community Events - Grant Program," an initiative aimed at amplifying the global conversation around Swarm technology. This program seeks to ignite the onboarding process by providing support for both organizing dedicated Swarm events and integrating Swarm presentations into existing tech gatherings.
+          The Swarm Community Events - Grant Programme, an initiative by the Swarm Association, is aimed at amplifying the global dialogue about Swarm technology. Our goal is to facilitate the onboarding process by supporting the organisation of dedicated Swarm events and the inclusion of Swarm presentations at existing tech gatherings.
         ctas:
           - title: Apply ->
             href: "https://grants.ethswarm.org/"
@@ -23,15 +23,15 @@ sections:
         - tagline: ""
           title: Who Can Participate
           content: >-
-            We're looking for proactive individuals and groups ready to educate and spread the word about Swarm through:
+            We're looking for proactive individuals and groups eager to educate and spread the word about Swarm through:
 
 
             __Local Meetups and Educational Initiatives:__
-            Gather local enthusiasts to explore Swarm's potential and provide basic support to enable easier onboarding to individuals and groups that are interested in building on top of Swarm.
+            Gather local enthusiasts to explore Swarm's potential and provide basic support to facilitate the onboarding of interested individuals and groups wishing to develop with Swarm.
 
 
             __University Meetups:__
-            Engage the academic community with workshops or discussions.
+            Engage the academic community through workshops or discussions.
 
 
             __Workshops & Hackathons:__
@@ -39,7 +39,7 @@ sections:
 
 
             __Presentations at Other Events:__
-            Share Swarm's vision and/or provide technical support at broader tech meetups or conferences.
+            Communicate Swarm's vision and/or provide technical support at larger tech meetups or conferences.
           image: ""
           features:
             columns: ""
@@ -49,29 +49,29 @@ sections:
           code: ""
           template: section-item
         - tagline: ""
-          title: What is Expected
+          title: What is Expected 
           content: >-
-            To qualify for a grant, your contribution should adhere to the following criteria:
+            To be eligible for a grant, your contribution must meet the following criteria:
 
 
             __Focused on Swarm:__
-            Highlighting Swarm technology's impact, use cases, or development.
+            Emphasise the impact, use cases, or development of Swarm technology.
 
 
             __Inclusive of Ethereum Ecosystem:__
-            Aligning with broader Ethereum community values.
+            Align with the broader Ethereum community values.
 
 
             __Accessibility:__
-            Free and open to all interested participants.
+            Ensure events are free and open to all interested parties.
 
 
             __Educational, Not Promotional:__
-            Focused on knowledge sharing rather than investment or sales.
+            Focus on knowledge sharing rather than investment or sales.
 
 
             __Upcoming Events Only:__
-            We're looking to fund future endeavors, not past events.
+            We aim to fund future endeavours, not past events.
           image: ""
           ctas: []
           code: ""
@@ -79,19 +79,20 @@ sections:
         - tagline: ""
           title: How to Apply
           content: >-
-            Fill Out the Application: Share your vision, event details, and budget needs.
+            __Fill Out the Application:__ 
+            Describe your vision, event specifics, and budgetary needs.
 
 
             __Evaluation:__
-            Swarm Foundation (SF) team will review your proposal and get in touch.
+            Swarm Association (SA) team will review your proposal and get in touch.
 
 
             __Approval & Funding:__
-            Upon approval, SF team will coordinate with you for funding details.
+            Once approved, the SA team will coordinate with you on funding arrangements.
 
 
             __Event Execution:__
-            Promote and host your event, capture moments, and gather educational materials.
+            Promote and host your event, capture moments, and compile educational materials.
 
 
             __Share Your Success:__
@@ -104,15 +105,15 @@ sections:
           title: "Making the Cut: What We Look For"
           content: >-
             __Reach & Impact:__
-            expected audience size and the event's potential to extend Swarm's visibility.
+            Anticipated audience size and the event's potential to broaden Swarm's exposure.
 
 
             __Promotion Strategy:__
-            How you plan to attract attendees and what would be your value proposition.
+            Your approach to attracting attendees and your unique value proposition.
 
 
             __Track Record:__
-            Previous experience in organizing impactful events.
+            Previous experience in organising impactful events.
 
 
             __Purposeful Funding:__
@@ -124,7 +125,9 @@ sections:
         - tagline: ""
           title: Apply now
           content: >-
-            Laboris magna ipsum qui et et cupidatat cillum eiusmod do laborum aliquip ipsum labore veniam occaecat. Magna occaecat cillum est anim velit fugiat enim laboris.
+            Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together! 
+
+            Apply now and become part of the swarm.
           image: ""
           contentCtas:
             - title: Apply ->
