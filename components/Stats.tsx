@@ -45,7 +45,7 @@ const Stats: React.FC<StatsProps> = () => {
   return (
     <div
       className={cx(
-        "flex items-center lg:justify-between pl-4 lg:pl-4 space-x-4"
+        "flex items-center lg:justify-between pl-4 lg:pl-4 gap-2 flex-wrap"
       )}
     >
       <Link

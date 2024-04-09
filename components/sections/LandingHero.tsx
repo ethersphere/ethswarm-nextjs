@@ -27,9 +27,10 @@ const LandingHero: React.FC<LandingHero> = ({ title, content = "", ctas }) => {
       <video
         autoPlay
         muted
-        className="absolute z-0 top-0 right-0 object-contain object-top pointer-events-none h-[90vh] md:h-[150vh]"
+        playsInline={true}
+        className="absolute z-0 top-0 right-0 object-contain pointer-events-none object-top h-[300vh] mt-16 md:mt-0 md:h-[150vh]"
       >
-        <source src="/assets/doors_v2.mp4" type="video/mp4" />
+        <source src="/assets/doors_v3.mp4" type="video/mp4" />
       </video>
       {/* <img
         src="/assets/hero/door.png"
