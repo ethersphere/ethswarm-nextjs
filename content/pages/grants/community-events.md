@@ -126,6 +126,7 @@ sections:
           title: Apply now
           content: >-
             Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together! 
+            
 
             Apply now and become part of the swarm.
           image: ""
