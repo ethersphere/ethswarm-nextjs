@@ -53,7 +53,7 @@ const EventPopup = ({ image, title, content, cta }: EventPopupType) => {
         )}
       >
         <h4 className="text-[17px] leading-6">
-          {"Next event: "}
+          {"Event: "}
           <b>{title}</b>
         </h4>
         {content && (
