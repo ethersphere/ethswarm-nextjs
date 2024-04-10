@@ -1,14 +1,14 @@
 {
   "event": {
-    "title": "Community Call",
-    "content": "Swarm Foundations monthly community call on April 25.",
+    "title": "Swarm Summit 2024",
+    "content": "Join the Swarm team and community at the annual summit on June 21-22 in Ljubljana, Slovenia.",
     "image": {
-      "src": "/uploads/0424.png",
+      "src": "/uploads/summit-popup.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://www.addevent.com/event/fx21028312",
-      "title": "Add to Calendar ->"
+      "href": "https://summit.ethswarm.org/swarm-summit-2024/cfp",
+      "title": "Call for Papers ->"
     }
   },
   "hero": {
