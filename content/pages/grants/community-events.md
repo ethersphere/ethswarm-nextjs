@@ -15,7 +15,7 @@ sections:
           This initiative provides grants of up to $1,000 in BZZ, helping cover the costs of organising small-scale events such as local meetups, workshops, and other educational activities at the community level.
         ctas:
           - title: Apply ->
-            href: "https://grants.ethswarm.org/"
+            href: "https://swarm.odoo.com/community-events-form"
             arrow: true
             background: orange
             type: default
@@ -26,7 +26,7 @@ sections:
         - tagline: ""
           title: Who Can Participate
           content: >-
-            We're looking for proactive individuals and groups eager to educate and spread the word about Swarm through:
+            We're looking for proactive community organisers eager to educate and spread the word about Swarm through:
 
 
             __Local Meetups and Educational Initiatives:__
@@ -131,7 +131,7 @@ sections:
           image: ""
           contentCtas:
             - title: Apply ->
-              href: "https://grants.ethswarm.org/"
+              href: "https://swarm.odoo.com/community-events-form"
               arrow: true
               background: orange
               type: default
