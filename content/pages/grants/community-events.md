@@ -10,6 +10,7 @@ sections:
         id: swarm-20-wave
         content: >-
           The Swarm Community Events Grant Programme, an initiative by the Swarm Association, aims to enhance the global dialogue about Swarm technology. Our objective is to simplify the onboarding process by supporting the organisation of dedicated Swarm events.
+          
 
           This initiative provides grants of up to $1,000 in BZZ, helping cover the costs of organising small-scale events such as local meetups, workshops, and other educational activities at the community level.
         ctas:
