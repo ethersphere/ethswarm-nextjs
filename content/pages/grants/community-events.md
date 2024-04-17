@@ -9,7 +9,9 @@ sections:
         titleSize: medium-large
         id: swarm-20-wave
         content: >-
-          The Swarm Community Events - Grant Programme, an initiative by the Swarm Association, is aimed at amplifying the global dialogue about Swarm technology. Our goal is to facilitate the onboarding process by supporting the organisation of dedicated Swarm events and the inclusion of Swarm presentations at existing tech gatherings.
+          The Swarm Community Events Grant Programme, an initiative by the Swarm Association, aims to enhance the global dialogue about Swarm technology. Our objective is to simplify the onboarding process by supporting the organisation of dedicated Swarm events.
+
+          This initiative provides grants of up to $1,000 in BZZ, helping cover the costs of organising small-scale events such as local meetups, workshops, and other educational activities at the community level.
         ctas:
           - title: Apply ->
             href: "https://grants.ethswarm.org/"
@@ -36,10 +38,6 @@ sections:
 
             __Workshops & Hackathons:__
             Dive deep into Swarm's technical capabilities.
-
-
-            __Presentations at Other Events:__
-            Communicate Swarm's vision and/or provide technical support at larger tech meetups or conferences.
           image: ""
           features:
             columns: ""
@@ -49,7 +47,7 @@ sections:
           code: ""
           template: section-item
         - tagline: ""
-          title: What is Expected 
+          title: What is Expected
           content: >-
             To be eligible for a grant, your contribution must meet the following criteria:
 
@@ -79,7 +77,7 @@ sections:
         - tagline: ""
           title: How to Apply
           content: >-
-            __Fill Out the Application:__ 
+            __Fill Out the Application:__
             Describe your vision, event specifics, and budgetary needs.
 
 
@@ -125,8 +123,8 @@ sections:
         - tagline: ""
           title: Apply now
           content: >-
-            Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together! 
-            
+            Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together!
+
 
             Apply now and become part of the swarm.
           image: ""
