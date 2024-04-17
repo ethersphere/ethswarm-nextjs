@@ -26,7 +26,7 @@ sections:
         - tagline: ""
           title: Who Can Participate
           content: >-
-            We're looking for proactive individuals and groups eager to educate and spread the word about Swarm through:
+            We're looking for proactive community organisers eager to educate and spread the word about Swarm through:
 
 
             __Local Meetups and Educational Initiatives:__
