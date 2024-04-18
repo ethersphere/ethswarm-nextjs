@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: 'export',
   images: {
     remotePatterns: [
       {
@@ -10,16 +11,6 @@ const nextConfig = {
         port: "",
       },
     ],
-  },
-  async redirects() {
-    return [
-      // Basic redirect
-      {
-        source: "/The-Book-of-Swarm.pdf",
-        destination: "https://papers.ethswarm.org/p/book-of-swarm/",
-        permanent: false,
-      },
-    ];
   },
 };
 
