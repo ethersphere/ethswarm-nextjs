@@ -1,6 +1,6 @@
 ---
-title: "Swarm Community Call, online, April 25"
-href: "https://www.addevent.com/event/fx21028312"
-add_to_calendar: "https://www.addevent.com/event/fx21028312"
-start_date: 2024-04-25T23:00:00.000Z
+title: "Swarm Community Call, online, May 30"
+href: "https://www.addevent.com/event/vq21267049"
+add_to_calendar: "https://www.addevent.com/event/vq21267049"
+start_date: 2024-05-30T23:00:00.000Z
 ---
