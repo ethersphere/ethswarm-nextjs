@@ -204,32 +204,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-february-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-april-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/dev-update-february.png",
-            "alt": "Monthly Development Update – February 2024"
+            "src": "https://blog.ethswarm.org/uploads/dev-update-april.png",
+            "alt": "Monthly Development Update – April 2024"
           },
-          "title": "Monthly Development Update – February 2024",
-          "content": "In February, the Bee Track team focused on preparing for the imminent Swarm 2.0 release, which promises substantial enhancements, including best-in-class redundancy via erasure codes.",
+          "title": "Monthly Development Update – April 2024",
+          "content": "April was packed with activity on all fronts in the Swarm ecosystem. The Bee Track released the latest version of libp2p that included the localstore changes package and the merge of the /bee and /debug APIs.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-february-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-april-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/how-to-participate-in-the-bonding-curve-vote/",
+          "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/bc111.png",
-            "alt": "How to Participate in the Bonding Curve Vote"
+            "src": "https://blog.ethswarm.org/uploads/Summit2024_general.png",
+            "alt": "Swarm Summit 2024: Upload the future"
           },
-          "title": "How to Participate in the Bonding Curve Vote",
-          "content": "The Swarm protocol is at a pivotal moment with an upcoming vote on the future of the bonding curve mechanism.",
+          "title": "Swarm Summit 2024: Upload the future",
+          "content": "This time, we’re setting up in Central Europe’s hidden gem, Ljubljana, Slovenia. From 20 to 21 June.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/how-to-participate-in-the-bonding-curve-vote/",
+            "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future/",
             "background": "transparent",
             "color": "white",
             "arrow": true
