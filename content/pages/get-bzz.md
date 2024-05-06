@@ -116,11 +116,7 @@ sections:
               - template: feature
                 title: Is the token supply deflationary like Bitcoin?
                 content:
-                  The token supply is not fixed and can increase or decrease via
-                  the bonding curve. Put simply, if the supply goes up by one token, so
-                  does its price in the bonding curve contract, and vice versa. This makes
-                  BZZ neither inflationary nor deflationary. You can read about Swarm’s
-                  supply and bonding curve in detail [here](https://medium.com/ethereum-swarm/swarm-and-its-bzzaar-bonding-curve-ac2fa9889914).
+                  The token supply is fixed at 63,149,437. It is an standard ERC-20 token, the contract for which can be found [here](https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb).
               - template: feature
                 title: What can I store with BZZ?
                 content: Almost anything you can imagine! You can store and retrieve many types of data—from webpages, NFT metadata, archives, to database backups, streaming audio and video, and much more. You can get started with uploading data by [purchasing your first batch of stamps](https://docs.ethswarm.org/docs/develop/access-the-swarm/buy-a-stamp-batch).
