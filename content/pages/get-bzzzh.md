@@ -109,10 +109,10 @@ sections:
             features:
               - template: feature
                 title: 数字货币BZZ的供应量是否像比特币一样通缩？
-                content: 数字货币BZZ的供应量并不是固定的，而是可以通过债券曲线（bonding curve）增加或减少。简而言之，如果供应量增加了一个代币，那么其在债券曲线合约中的价格也会相应增加，反之亦然。因此，BZZ既不是通胀型货币，也不是通缩型货币。您可以在这里详细了解Swarm的供应量和债券曲线机制。[(link)](https://medium.com/ethereum-swarm/swarm-and-its-bzzaar-bonding-curve-ac2fa9889914)
+                content: 代币供应量固定为63,149,437。这是一个标准的ERC-20代币，其合约可以在这里找到。
               - template: feature
                 title: 您可以使用BZZ在Swarm网络上存储哪些内容？
-                content: 您可以使用BZZ在Swarm网络上存储各种类型的数据，包括网页、NFTs、存档、数据存储、音乐流媒体服务等等。
+                content: 您可以使用BZZ在Swarm网络上存储各种类型的数据，包括网页、NFTs、存档、数据存储、音乐流媒体服务等等。 https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb
               - template: feature
                 title: 如果我运行一个完整节点，我会收到BZZ吗？
                 content: 存储激励系统通过重新分配机制对存储提供者进行补偿，具体取决于他们抵押的BZZ代币数量以及是否被选中进行重新分配。[(link)](https://medium.com/ethereum-swarm/the-mechanics-of-swarm-networks-storage-incentives-3bf68bf64ceb)
