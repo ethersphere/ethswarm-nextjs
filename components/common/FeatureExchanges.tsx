@@ -7,16 +7,6 @@ type Props = {};
 
 const items = [
   {
-    label: "Bzzaar ->",
-    url: "https://bzz.exchange",
-    icon: Icons.BzzarIcon,
-  },
-  {
-    label: "OpenBZZ ->",
-    url: "https://openbzz.eth.limo/",
-    icon: Icons.OpenbzzIcon,
-  },
-  {
     label: "Uniswap ->",
     url: "https://app.uniswap.org/#/swap?chain=ethereum&inputCurrency=ETH&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
     icon: Icons.UniswapIcon,
