@@ -309,7 +309,7 @@
     ],
     "ctas": [
       {
-        "href": "https://my.ethswarm.org/grants",
+        "href": "https://grants.ethswarm.org",
         "background": "orange",
         "color": "black",
         "arrow": true,
