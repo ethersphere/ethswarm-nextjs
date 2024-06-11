@@ -62,9 +62,9 @@ sections:
           title: How to get BZZ
           id: "how-to-get-bzz"
           content: |-
-            There are various ways to acquire BZZ tokens, including through centralised custodial exchanges where BZZ can be traded for either fiat currency or cryptocurrency, and also through decentralised non-custodial exchanges and protocols where BZZ can be traded directly for other cryptocurrencies.
-
-            Note that BZZ is available as a token on both the [Ethereum and Gnosis Chain blockchains](https://docs.ethswarm.org/docs/learn/tokens#swarm-ecosystem-tokens), however it is only the Gnosis version which can be used to [purchase postage stamp batches](https://docs.ethswarm.org/docs/develop/access-the-swarm/buy-a-stamp-batch) which are used for writing data to Swarm, and also used as [stake](https://docs.ethswarm.org/docs/bee/working-with-bee/staking) to operate a full node and earn BZZ for providing storage.
+            BZZ tokens are available on both the [Ethereum (BZZ) and Gnosis Chain (xBZZ) blockchains](https://docs.ethswarm.org/docs/learn/tokens#swarm-ecosystem-tokens). However, only the Gnosis Chain version (xBZZ) can be used for specific functions, such as:
+            - [Purchasing postage stamp batches](https://docs.ethswarm.org/docs/develop/access-the-swarm/buy-a-stamp-batch) for writing data to Swarm network.
+            - [Staking](https://docs.ethswarm.org/docs/bee/working-with-bee/staking) to operate a full node and earn BZZ for providing storage.
 
             *Warning: The use of any cryptocurrency exchange platform entails risks—it is vital to stay informed on the best practices in order avoid potential losses.*
           image: ""
