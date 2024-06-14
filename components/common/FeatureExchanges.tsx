@@ -7,17 +7,17 @@ type Props = {};
 
 const items = [
   {
-    label: "Uniswap ->",
+    label: "Uniswap (ETH)",
     url: "https://app.uniswap.org/#/swap?chain=ethereum&inputCurrency=ETH&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
     icon: Icons.UniswapIcon,
   },
   {
-    label: "SushiSwap ->",
+    label: "SushiSwap (xDAI)",
     url: "https://www.sushi.com/swap?chainId=100&token0=NATIVE&token1=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
     icon: Icons.SushiSwapIcon,
   },
   {
-    label: "Honeyswap ->",
+    label: "Honeyswap (xDAI)",
     url: "https://honeyswap.1hive.eth.limo/#/swap?chain=xdai&outputCurrency=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
     icon: Icons.HoneyswapIcon,
   },
