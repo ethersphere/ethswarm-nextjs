@@ -61,9 +61,6 @@ sections:
             - Data availability
              - Data provenance
             - Video & Metaverse
-
-
-            Once we have ongoing fellowships, we will show them at the bottom of the page, the same as grantees.
           image: ""
           features:
             columns: ""
