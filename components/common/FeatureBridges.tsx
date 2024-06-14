@@ -1,5 +1,4 @@
 import * as React from "react";
-import { ArrowIcon } from "@/icons/components/index";
 import Icons from "@/icons/components/index";
 import { cx } from "utils";
 
@@ -7,23 +6,18 @@ type Props = {};
 
 const items = [
   {
-    label: "Uniswap (ETH)",
-    url: "https://app.uniswap.org/#/swap?chain=ethereum&inputCurrency=ETH&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
-    icon: Icons.UniswapIcon,
+    label: "Gnosis",
+    url: "https://bridge.gnosischain.com/",
+    icon: Icons.GnosisIcon,
   },
   {
-    label: "SushiSwap (xDAI)",
-    url: "https://www.sushi.com/swap?chainId=100&token0=NATIVE&token1=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
-    icon: Icons.SushiSwapIcon,
-  },
-  {
-    label: "Honeyswap (xDAI)",
-    url: "https://honeyswap.1hive.eth.limo/#/swap?chain=xdai&outputCurrency=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
-    icon: Icons.HoneyswapIcon,
+    label: "Juniper",
+    url: "https://jumper.exchange/exchange?fromChain=1&fromToken=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48&toChain=100&toToken=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
+    icon: Icons.JuniperIcon,
   },
 ];
 
-const FeatureExchanges: React.FC<Props> = () => {
+const FeatureBridges: React.FC<Props> = () => {
   return (
     <div className="grid grid-cols-2 gap-5 mt-10 xl:grid-cols-3">
       {items.map(({ label, url, icon }, index) => {
@@ -48,4 +42,4 @@ const FeatureExchanges: React.FC<Props> = () => {
   );
 };
 
-export default FeatureExchanges;
+export default FeatureBridges;
