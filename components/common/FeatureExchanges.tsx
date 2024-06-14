@@ -35,7 +35,7 @@ const FeatureExchanges: React.FC<Props> = () => {
             target="_blank"
             rel="noreferrer"
             className={cx(
-              "flex flex-col items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-4 py-5 text-sm sm:text-[17px] font-bold duration-200 group"
+              "flex flex-col text-center items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-4 py-5 text-sm sm:text-[17px] font-bold duration-200 group"
             )}
           >
             <IconTag className="flex-shrink-0 w-6 max-h-6" />
