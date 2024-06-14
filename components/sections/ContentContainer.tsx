@@ -14,6 +14,7 @@ import { CtaType, FeatureListType, ImageType } from "types";
 import { cx } from "utils";
 import CodeBlock from "./Develop/CodeBlock";
 import GridContainer from "../common/GridContainer";
+import FeatureBridges from "../common/FeatureBridges";
 
 type ContentContainerProps = {
   title: string;
@@ -103,7 +104,10 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
                     "col-span-12 md:col-span-6",
                     title && !content ? "mt-10 md:mt-20" : "md:mt-24"
                   )}
-                />
+                >
+                  {block.exchanges && <FeatureExchanges />}
+                  {block.bridges && <FeatureBridges />}
+                </ContentBlock>
               ))}
 
             {blocks.bzzPrice && (
@@ -112,7 +116,6 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
             {blocks.bzzPot && (
               <FeatureBzzPot className="mt-5 md:mt-10 md:col-start-7 lg:col-start-7" />
             )}
-            {blocks.exchanges && <FeatureExchanges />}
           </>
         )}
 

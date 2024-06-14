@@ -47,10 +47,10 @@ sections:
           blocks:
             type: large
             columns: two
-            exchanges: true
             features:
               - template: feature
                 title: Decentralised exchanges (DEXs)
+                exchanges: true
                 content: Make certain to check you are connected to the correct blockchain in your browser extension wallet (such as Metamask) when using any of these DEXes.
               - template: feature
                 title: Centralised exchanges (CEXs)
@@ -59,6 +59,10 @@ sections:
                   price-tracking websites such as [Coingecko](https://www.coingecko.com/en/coins/swarm#markets)
                   or [Coinmarketcap](https://coinmarketcap.com/currencies/ethereum-swarm/markets/)
                   under their ‘markets’ tab.
+              - template: feature
+                title: Bridges
+                bridges: true
+                content: For purchasing BZZ from one chain to another, you can use the following bridges
           title: How to get BZZ
           id: "how-to-get-bzz"
           content: |-
@@ -115,8 +119,7 @@ sections:
             features:
               - template: feature
                 title: Is the token supply deflationary like Bitcoin?
-                content:
-                  The token supply is fixed at 63,149,437. It is an standard ERC-20 token, the contract for which can be found [here](https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb).
+                content: The token supply is fixed at 63,149,437. It is an standard ERC-20 token, the contract for which can be found [here](https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb).
               - template: feature
                 title: What can I store with BZZ?
                 content: Almost anything you can imagine! You can store and retrieve many types of data—from webpages, NFT metadata, archives, to database backups, streaming audio and video, and much more. You can get started with uploading data by [purchasing your first batch of stamps](https://docs.ethswarm.org/docs/develop/access-the-swarm/buy-a-stamp-batch).
