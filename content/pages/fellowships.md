@@ -45,7 +45,7 @@ sections:
             columns: ""
             type: default
             features: []
-          ctas:
+          contentCtas:
             - title: Apply ->
               href: "http://my.ethswarm.org/fellowships"
               arrow: true
