@@ -204,16 +204,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-april-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-may-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/dev-update-april.png",
-            "alt": "Monthly Development Update – April 2024"
+            "src": "https://blog.ethswarm.org/uploads/dev-update-may.png",
+            "alt": "Monthly Development Update – May 2024"
           },
-          "title": "Monthly Development Update – April 2024",
-          "content": "April was packed with activity on all fronts in the Swarm ecosystem. The Bee Track released the latest version of libp2p that included the localstore changes package and the merge of the /bee and /debug APIs.",
+          "title": "Monthly Development Update – May 2024",
+          "content": "Bee 2.1 is out and live. Key changes include improved stability, performance and limits to the number of freezes per round..",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-april-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-may-2024",
             "background": "transparent",
             "color": "white",
             "arrow": true
