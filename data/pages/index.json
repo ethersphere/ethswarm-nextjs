@@ -1,14 +1,14 @@
 {
   "event": {
-    "title": "Swarm Summit 2024",
-    "content": "Join the Swarm team and community on June 20-21 in Ljubljana, Slovenia, or online.",
+    "title": "Community Call",
+    "content": "Swarm Foundations monthly community call on July 25",
     "image": {
-      "src": "/uploads/Summit2024_icon.png",
+      "src": "/uploads/0724.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://lu.ma/swarmsummit2024",
-      "title": "More info ->"
+      "href": "https://www.addevent.com/event/rV22206002",
+      "title": "Add to Calendar ->"
     }
   },
   "hero": {
