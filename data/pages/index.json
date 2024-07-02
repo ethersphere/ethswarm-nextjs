@@ -220,16 +220,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future/",
+          "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future-recap//",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/Summit2024_general.png",
+            "src": "https://blog.ethswarm.org/uploads/summit-recap.png",
             "alt": "Swarm Summit 2024: Upload the future"
           },
           "title": "Swarm Summit 2024: Upload the future",
-          "content": "This time, we’re setting up in Central Europe’s hidden gem, Ljubljana, Slovenia. From 20 to 21 June.",
+          "content": "On 20-21 June 2024, the developer of decentralised data storage and distribution technology Swarm held its sixth annual summit which was also Swarm’s first IRL summit in five years.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future/",
+            "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
