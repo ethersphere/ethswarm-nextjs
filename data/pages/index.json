@@ -188,16 +188,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/announcing-bee-2.0-pioneering-next-gen-decentralised-storage",
+          "href": "https://blog.ethswarm.org/foundation/2024/state-of-the-network-june-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/2.0-release.png",
-            "alt": "Announcing Bee 2.0: Pioneering Decentralised Storage"
+            "src": "https://blog.ethswarm.org/uploads/ens_blog.jpeg",
+            "alt": "State of the Network: June"
           },
-          "title": "Announcing Bee 2.0: Pioneering Decentralised Storage",
-          "content": "Bee 2.0 reinforces Swarm’s position as a trailblazer in decentralised storage by introducing world-class data retrievability through the incorporation of erasure coding—a powerful and cost effective data protection technology.",
+          "title": "State of the Network: June",
+          "content": "This report provides a detailed analysis of various Swarm network metrics for June 2024",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/announcing-bee-2.0-pioneering-next-gen-decentralised-storage/",
+            "href": "https://blog.ethswarm.org/foundation/2024/state-of-the-network-june-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
