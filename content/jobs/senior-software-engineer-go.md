@@ -49,6 +49,7 @@ job:
         - You are available around the CET timezone
         - You like to work remotely
         - You can express yourself fluently in English, both verbally and in writing
+        - Some previous Web3 experience is a must (either through passion side-projects or paid work)
 
     - template: section_item
       title: >-
@@ -72,5 +73,5 @@ job:
         - Flexible working hours
         - We care about our swarm: Incentives through BZZ, our token
 
-        Should you be interested in the position, please send your CV to [talent@ethswarm.org](talent@ethswarm.org "talent@ethswarm.org")
+        Should you be interested in the position, please send your CV to [talent@ethswarm.org](talent@ethswarm.org "talent@ethswarm.org"). IMPORTANT: Your email’s subject must include the title of the position you're applying to and your full name.
 ---
