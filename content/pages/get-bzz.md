@@ -31,7 +31,7 @@ sections:
             bzzPrice: true
             bzzPot: true
             features: []
-          title: Uses
+          title: ""
           content: ""
           image: ""
           ctas: []
@@ -40,6 +40,7 @@ sections:
           blocks:
             type: large
             columns: two
+            swap: true
             features:
               - template: feature
                 title: Decentralised exchanges (DEXs)
