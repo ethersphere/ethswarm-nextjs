@@ -11,9 +11,9 @@ const items = [
     icon: Icons.GnosisIcon,
   },
   {
-    label: "Juniper",
+    label: "Jumper",
     url: "https://jumper.exchange/exchange?fromChain=1&fromToken=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48&toChain=100&toToken=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
-    icon: Icons.JuniperIcon,
+    icon: Icons.JumperIcon,
   },
 ];
 
