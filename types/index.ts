@@ -44,6 +44,7 @@ export type FeatureListType = {
 
 export type FeatureType = {
   exchanges?: boolean;
+  centralisedExchanges?: boolean;
   bzzPrice?: boolean;
   bzzPot?: boolean;
   title: string;

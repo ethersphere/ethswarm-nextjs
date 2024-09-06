@@ -15,6 +15,7 @@ import { cx } from "utils";
 import CodeBlock from "./Develop/CodeBlock";
 import GridContainer from "../common/GridContainer";
 import FeatureBridges from "../common/FeatureBridges";
+import FeatureCentralisedExchanges from "../common/FeatureCentralisedExchanges";
 
 type ContentContainerProps = {
   title: string;
@@ -106,6 +107,9 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
                   )}
                 >
                   {block.exchanges && <FeatureExchanges />}
+                  {block.centralisedExchanges && (
+                    <FeatureCentralisedExchanges />
+                  )}
                   {block.bridges && <FeatureBridges />}
                 </ContentBlock>
               ))}
