@@ -57,18 +57,28 @@ sections:
           template: section-item
         - tagline: ""
           title: Active Fellowships
-          content: >-
-            - Data availability
-             - Data provenance
-            - Video & Metaverse
           image: ""
-          features:
-            columns: ""
-            type: default
-            features: []
           ctas: []
           code: ""
           template: section-item
+          features:
+            columns: three
+            type: default
+            features:
+              - title: Datafund
+                content: >-
+                  DeBoot is researching and developing approaches to bootload OS images via decentralised networks such as Swarm
+                exchanges: false
+                bzzPrice: false
+                bzzPot: false
+                icon: ""
+                cta:
+                  title: More ->
+                  href: "https://github.com/debootdevs/deboot"
+                  arrow: true
+                  background: transparent
+                  type: default
+                  back: false
       disclaimer: false
     template: section
 ---
