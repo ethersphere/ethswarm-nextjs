@@ -75,8 +75,8 @@ const FeatureSwap: React.FC<{ className?: string }> = ({ className = "" }) => {
         <CowSwapWidget params={params} />
         <div className="text-[13px] text-[#F6F7F9]/40 px-4 max-w-lg mx-auto">
           Please note that the quoting system in CowSwap is in beta and may not
-          provide accurate predictions. To determine the exact expected
-          slippage, you can calculate it from the different pools (
+          provide accurate predictions. To determine the exact final price, you
+          can calculate it from the different pools (
           <a
             href="https://app.uniswap.org/explore/pools/ethereum/0x5696C2c2FcB7e304A5B9fAaEc9cd37d369C9D067"
             target="_blank"
