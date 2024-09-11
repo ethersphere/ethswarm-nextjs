@@ -188,48 +188,48 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/state-of-the-network-june-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2024/bee-2-2-pre-release/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/ens_blog.jpeg",
-            "alt": "State of the Network: June"
+            "src": "https://blog.ethswarm.org/uploads/2-2-0-one-week-notice.png",
+            "alt": "Bee Version 2.2.0 - One Week Notice"
           },
-          "title": "State of the Network: June",
-          "content": "This report provides a detailed analysis of various Swarm network metrics for June 2024",
+          "title": "Bee Version 2.2.0 - One Week Notice",
+          "content": "This article provides an overview of the major changes in Bee version 2.2.0",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/state-of-the-network-june-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2024/bee-2-2-pre-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-may-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-august-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/dev-update-may.png",
-            "alt": "Monthly Development Update – May 2024"
+            "src": "https://blog.ethswarm.org/uploads/DevUpdate-aug.jpeg",
+            "alt": "Monthly Development Update – August 2024"
           },
-          "title": "Monthly Development Update – May 2024",
-          "content": "Bee 2.1 is out and live. Key changes include improved stability, performance and limits to the number of freezes per round..",
+          "title": "Monthly Development Update – August 2024",
+          "content": "In August, the Bee Track deployed the Bee 2.2 release on the public testnet. Expect a final release soon.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-may-2024",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-august-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future-recap//",
+          "href": "https://blog.ethswarm.org/foundation/2024/swarm-community-call-29-august-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/summit-recap.png",
-            "alt": "Swarm Summit 2024: Upload the future - RECAP"
+            "src": "https://blog.ethswarm.org/uploads/scc-recap-august-2024.jpg",
+            "alt": "Swarm Community Call, 29 August – Recap"
           },
-          "title": "Swarm Summit 2024: Upload the future - RECAP",
-          "content": "On 20-21 June 2024, the developer of decentralised data storage and distribution technology Swarm held its sixth annual summit which was also Swarm’s first IRL summit in five years.",
+          "title": "Swarm Community Call, 29 August – Recap",
+          "content": "During the August call, Niki Papadatou took the audience through the new features that are packed in the upcoming Bee 2.2",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/swarm-summit-2024-upload-the-future-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2024/swarm-community-call-29-august-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
