@@ -6,13 +6,23 @@ type Props = {};
 
 const items = [
   {
-    label: "Gnosis",
-    url: "https://bridge.gnosischain.com/",
-    icon: Icons.GnosisIcon,
+    label: "CoinMarketCap",
+    url: "https://coinmarketcap.com/currencies/ethereum-swarm/markets/",
+    icon: Icons.CoinMarketCapIcon,
+  },
+  {
+    label: "CoinGecko",
+    url: "https://www.coingecko.com/en/coins/swarm#markets",
+    icon: Icons.CoinGeckoIcon,
+  },
+  {
+    label: "Messari",
+    url: "https://messari.io/project/swarm",
+    icon: Icons.MessariIcon,
   },
 ];
 
-const FeatureBridges: React.FC<Props> = () => {
+const FeatureCentralisedExchanges: React.FC<Props> = () => {
   return (
     <div className="grid grid-cols-2 gap-5 mt-10 xl:grid-cols-3">
       {items.map(({ label, url, icon }, index) => {
@@ -24,7 +34,7 @@ const FeatureBridges: React.FC<Props> = () => {
             target="_blank"
             rel="noreferrer"
             className={cx(
-              "flex flex-col text-center items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-4 py-5 text-sm sm:text-[17px] font-bold duration-200 group"
+              "flex flex-col text-center items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-2 py-5 text-sm sm:text-base hover:bg-[#1F2831]/40 font-bold duration-200 group"
             )}
           >
             <IconTag className="flex-shrink-0 w-6 max-h-6" />
@@ -37,4 +47,4 @@ const FeatureBridges: React.FC<Props> = () => {
   );
 };
 
-export default FeatureBridges;
+export default FeatureCentralisedExchanges;

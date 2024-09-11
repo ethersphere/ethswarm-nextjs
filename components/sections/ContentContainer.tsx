@@ -15,6 +15,8 @@ import { cx } from "utils";
 import CodeBlock from "./Develop/CodeBlock";
 import GridContainer from "../common/GridContainer";
 import FeatureBridges from "../common/FeatureBridges";
+import FeatureCentralisedExchanges from "../common/FeatureCentralisedExchanges";
+import FeatureSwap from "../common/FeatureSwap";
 
 type ContentContainerProps = {
   title: string;
@@ -106,12 +108,19 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
                   )}
                 >
                   {block.exchanges && <FeatureExchanges />}
+                  {block.centralisedExchanges && (
+                    <FeatureCentralisedExchanges />
+                  )}
                   {block.bridges && <FeatureBridges />}
                 </ContentBlock>
               ))}
 
+            {blocks.swap && (
+              <FeatureSwap className="col-span-12 md:col-span-6 md:col-start-4 lg:col-start-4" />
+            )}
+
             {blocks.bzzPrice && (
-              <FeatureBzzPrice className="row-start-4 mt-5 md:row-auto md:mt-10 " />
+              <FeatureBzzPrice className="row-start-4 mt-5 md:row-auto md:mt-10" />
             )}
             {blocks.bzzPot && (
               <FeatureBzzPot className="mt-5 md:mt-10 md:col-start-7 lg:col-start-7" />

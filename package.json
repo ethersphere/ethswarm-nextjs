@@ -10,6 +10,7 @@
     "build-icons": "node ./scripts/build-icons.js"
   },
   "dependencies": {
+    "@cowprotocol/widget-react": "^0.10.0",
     "@headlessui/react": "^1.7.17",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "clsx": "^2.0.0",
