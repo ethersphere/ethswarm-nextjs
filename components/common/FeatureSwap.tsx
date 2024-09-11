@@ -27,7 +27,7 @@ const items = [
 ];
 
 const params = {
-  appCode: "My Cool App", // Name of your app (max 50 characters)
+  appCode: "Ethswarm", // Name of your app (max 50 characters)
   width: "100%", // Width in pixels (or 100% to use all available space)
   height: "640px",
   chainId: 1, // 1 (Mainnet), 100 (Gnosis), 11155111 (Sepolia)
@@ -66,6 +66,10 @@ const params = {
   images: {},
   sounds: {},
   customTokens: [],
+  partnerFee: {
+    bps: 100, // 1%
+    recipient: "0x6cb2075bd6e93691FF69Ad2187Fc3E9038503064", // Fee destination address
+  },
 };
 
 const FeatureSwap: React.FC<{ className?: string }> = ({ className = "" }) => {
