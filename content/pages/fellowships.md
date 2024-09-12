@@ -71,7 +71,7 @@ sections:
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
-                icon: ""
+                icon: "datafund"
                 cta:
                   title: More ->
                   href: "https://github.com/datafund"
