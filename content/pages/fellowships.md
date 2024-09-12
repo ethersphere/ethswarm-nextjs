@@ -67,14 +67,14 @@ sections:
             features:
               - title: Datafund
                 content: >-
-                  DeBoot is researching and developing approaches to bootload OS images via decentralised networks such as Swarm
+                  The Data and Model Provenance for Decentralised AI Fellowship Project aims to create a toolset for tracking data and model provenance in AI, using Swarm decentralised storage and blockchain, addressing ethical AI development, compliance, and showcasing Web3 technologies.
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
                 icon: ""
                 cta:
                   title: More ->
-                  href: "https://github.com/debootdevs/deboot"
+                  href: "https://github.com/datafund"
                   arrow: true
                   background: transparent
                   type: default
