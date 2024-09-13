@@ -74,7 +74,7 @@ sections:
                 icon: "datafund"
                 cta:
                   title: More ->
-                  href: "https://github.com/datafund"
+                  href: "/Swarm_Fellowship_Canvas_Data_and_model_provenance_short.pdf"
                   arrow: true
                   background: transparent
                   type: default
