@@ -30,23 +30,17 @@ sections:
             columns: two
             bzzPrice: true
             bzzPot: true
-            features:
-              - template: feature
-                title: Write and persist data
-                content: BZZ is used by publishers to write data to the Swarm network and have it stored securely for extended periods of time.
-              - template: feature
-                title: Participate as a storage provider
-                content: The BZZ tokens which publishers pay to upload and store data on the Swarm network are redistributed to full node operators in exchange for the data storage services which they provide.
-          title: Uses
+            features: []
+          title: ""
           content: ""
           image: ""
           ctas: []
           code: ""
         - template: section_item
-
           blocks:
             type: large
             columns: two
+            swap: true
             features:
               - template: feature
                 title: Decentralised exchanges (DEXs)
@@ -54,15 +48,12 @@ sections:
                 content: Make certain to check you are connected to the correct blockchain in your browser extension wallet (such as Metamask) when using any of these DEXes.
               - template: feature
                 title: Centralised exchanges (CEXs)
+                centralisedExchanges: true
                 content:
                   An updated list of centralised exchanges can be found listed on
                   price-tracking websites such as [Coingecko](https://www.coingecko.com/en/coins/swarm#markets)
                   or [Coinmarketcap](https://coinmarketcap.com/currencies/ethereum-swarm/markets/)
                   under their ‘markets’ tab.
-              - template: feature
-                title: Bridges
-                bridges: true
-                content: For purchasing BZZ from one chain to another, you can use the following bridges
           title: How to get BZZ
           id: "how-to-get-bzz"
           content: |-
@@ -107,7 +98,12 @@ sections:
                   title: Start Building ->
                   href: /build
           title: How to use BZZ
-          content: ""
+          content: |-
+            ## Write and persist data
+            BZZ is used by publishers to write data to the Swarm network and have it stored securely for extended periods of time.
+
+            ## Participate as a storage provider
+            The BZZ tokens which publishers pay to upload and store data on the Swarm network are redistributed to full node operators in exchange for the data storage services which they provide.
           image: ""
           ctas: []
           code: ""
