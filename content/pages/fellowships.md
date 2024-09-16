@@ -26,20 +26,21 @@ sections:
         - tagline: ""
           title: Purpose of Fellowships
           content: >-
-            Swarm fellows work on items identified as needs for the Swarm network to evolve and grow, but not part of core Swarm development. Fellows are expected to pursue the goals supported by the fellowship in the long term as part of their path. A fellowship helps them achieve results to a certain degree, but afterwards, the project should be possible to sustain and continue on its own.
+            Swarm fellows work on items identified as needs for the Swarm network to evolve and grow but are not part of core Swarm development. Fellows are expected to pursue the goals supported by the fellowship in the long term as part of their career path. A fellowship helps them achieve results to a certain degree, but afterwards, the project should be sustainable and able to continue on its own.
 
 
-            For example, fellows might develop an important product that is based on using the Swarm network and extends its usage. They support the network as well as promote its usage both directly and through the use of their product. They are ambassadors of Swarm.
+            For example, fellows might develop an important product based on using the Swarm network and extending its usage. They support the network and promote its usage both directly and through the use of their product. They serve as ambassadors for Swarm.
 
 
             Fellowships could fall under categories such as:
-             - a decentralised protocol tackling a concrete issue or challenge (e.g communication, personal data management, supply chain, etc.),
-             - tooling for developers,
-             - tools or applications for end users,
-             - developing tech infrastructure supporting the Swarm network,
-             - and others.
+              - A decentralised protocol tackling a concrete issue or challenge (e.g., communication, personal data management, supply chain, etc.),
+              - Tooling for developers,
+              - Tools or applications for end users,
+              - Developing tech infrastructure to support the Swarm network,
+              - And others.
 
-            The work must be available as open source, for others to leverage and reuse.
+The work must be available as open source for others to leverage and reuse.
+
           image: ""
           features:
             columns: ""
@@ -67,7 +68,7 @@ sections:
             features:
               - title: Datafund
                 content: >-
-                  The Data and Model Provenance for Decentralised AI Fellowship Project aims to create a toolset for tracking data and model provenance in AI, using Swarm decentralised storage and blockchain, addressing ethical AI development, compliance, and showcasing Web3 technologies.
+                  [Datafund](https://datafund.io/)’s **Data and model provenance for decentralised** AI Fellowship Project aims to develop a toolset for tracking and recording data and model provenance in AI applications, leveraging Swarm decentralized storage and blockchain technology. The project focuses on ensuring ethical practices, regulatory compliance, and secure data tracking. 
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
