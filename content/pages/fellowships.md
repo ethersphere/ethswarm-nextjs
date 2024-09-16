@@ -39,8 +39,7 @@ sections:
               - Developing tech infrastructure to support the Swarm network,
               - And others.
 
-The work must be available as open source for others to leverage and reuse.
-
+            The work must be available as open source for others to leverage and reuse.
           image: ""
           features:
             columns: ""
@@ -68,7 +67,7 @@ The work must be available as open source for others to leverage and reuse.
             features:
               - title: Datafund
                 content: >-
-                  [Datafund](https://datafund.io/)’s **Data and model provenance for decentralised** AI Fellowship Project aims to develop a toolset for tracking and recording data and model provenance in AI applications, leveraging Swarm decentralized storage and blockchain technology. The project focuses on ensuring ethical practices, regulatory compliance, and secure data tracking. 
+                  [Datafund](https://datafund.io/)’s **Data and model provenance for decentralised** AI Fellowship Project aims to develop a toolset for tracking and recording data and model provenance in AI applications, leveraging Swarm decentralized storage and blockchain technology. The project focuses on ensuring ethical practices, regulatory compliance, and secure data tracking.
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
