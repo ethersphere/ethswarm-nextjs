@@ -67,6 +67,9 @@ sections:
             features:
               - title: Datafund
                 content: >-
+                  __Data and model provenance for decentralized AI__
+
+
                   [Datafund](https://datafund.io/)’s **Data and model provenance for decentralised** AI Fellowship Project aims to develop a toolset for tracking and recording data and model provenance in AI applications, leveraging Swarm decentralized storage and blockchain technology. The project focuses on ensuring ethical practices, regulatory compliance, and secure data tracking.
                 exchanges: false
                 bzzPrice: false
@@ -74,7 +77,7 @@ sections:
                 icon: "datafund"
                 cta:
                   title: More ->
-                  href: "/Swarm_Fellowship_Canvas_Data_and_model_provenance_short.pdf"
+                  href: "/fellowships/datafund"
                   arrow: true
                   background: transparent
                   type: default
