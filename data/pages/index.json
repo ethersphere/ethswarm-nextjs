@@ -188,7 +188,7 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "Announcing Fellowship: Data and Model Provenance for Decentralised AI",
+          "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-data-and-model-provenance-for-decentralised-ai/",
           "image": {
             "src": "https://blog.ethswarm.org/uploads/df-fellowship.png",
             "alt": "Announcing Fellowship: Data and Model Provenance for Decentralised AI"
@@ -197,7 +197,7 @@
           "content": "Swarm fellowships are designed to support individuals and teams working on critical projects that help the Swarm network evolve and grow.",
           "cta": {
             "title": "Read more ->",
-            "href": "Announcing Fellowship: Data and Model Provenance for Decentralised AI",
+            "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-data-and-model-provenance-for-decentralised-ai/",
             "background": "transparent",
             "color": "white",
             "arrow": true
