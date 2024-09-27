@@ -23,7 +23,6 @@ jobs:
         run: |
           npm ci
           npm run build
-          npm run export
       - name: Upload to Swarm
         uses: ethersphere/swarm-actions/upload-dir@v0
         id: upload
