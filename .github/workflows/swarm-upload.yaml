@@ -24,7 +24,7 @@ jobs:
           npm ci
           npm run build
       - name: Upload to Swarm
-        uses: ethersphere/swarm-actions/upload-dir@v0
+        uses: ethersphere/swarm-actions/upload-dir@latest
         id: upload
         with:
           dir: ./out
@@ -32,9 +32,10 @@ jobs:
           postage-batch-id: ${{ secrets.PRIVATE_POSTAGE_BATCH_ID }}
           bee-url: ${{ secrets.PRIVATE_BEE_URL }}
           timeout: 300000
+          deferred: false
 
       - name: Setup feed
-        uses: ethersphere/swarm-actions/write-feed@v0
+        uses: ethersphere/swarm-actions/write-feed@latest
         id: feed
         with:
           reference: ${{ steps.upload.outputs.reference }}
