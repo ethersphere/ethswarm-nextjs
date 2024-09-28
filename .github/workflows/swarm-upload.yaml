@@ -32,8 +32,7 @@ jobs:
           postage-batch-id: ${{ secrets.PRIVATE_POSTAGE_BATCH_ID }}
           bee-url: ${{ secrets.PRIVATE_BEE_URL }}
           timeout: 300000
-          headers: |
-            authorization: ${{ secrets.PRIVATE_API_TOKEN }}
+
       - name: Setup feed
         uses: ethersphere/swarm-actions/write-feed@v0
         id: feed
@@ -43,8 +42,7 @@ jobs:
           postage-batch-id: ${{ secrets.PRIVATE_POSTAGE_BATCH_ID }}
           bee-url: ${{ secrets.PRIVATE_BEE_URL }}
           signer: ${{ secrets.PRIVATE_SIGNER }}
-          headers: |
-            authorization: ${{ secrets.PRIVATE_API_TOKEN }}
+
       - uses: ethersphere/swarm-actions/reference-to-cid@v0
         id: cid
         with:
