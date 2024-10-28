@@ -87,7 +87,7 @@ sections:
                   __Libraries for Efficient Multimedia Delivery & Social Networking__
 
 
-                Solar Punk’s **Decentralised Audio, Video, and Chat Libraries Project** aims to create middleware for unstoppable, censorship-resistant multimedia solutions on Swarm. This includes group chat and audio/video streaming, enabling developers to build versatile, privacy-focused applications powered by Swarm’s infrastructure.
+                  [Solar Punk](http://www.solarpunk.buzz/)’s **Decentralised Audio, Video, and Chat Libraries Project** aims to create middleware for unstoppable, censorship-resistant multimedia solutions on Swarm. This includes group chat and audio/video streaming, enabling developers to build versatile, privacy-focused applications powered by Swarm’s infrastructure.
                 exchanges: false
                 bzzPrice: false
                 bzzPot: false
