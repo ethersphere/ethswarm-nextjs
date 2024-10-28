@@ -10,7 +10,7 @@ sections:
         id: swarm-21-wave
         content: >-
           [Solar Punk’s](http://www.solarpunk.buzz) proposal outlines a project to develop audio, video streaming, and chat libraries for the Swarm network. These libraries aim to deliver unstoppable, censorship-resistant multimedia solutions, including group chat, audio and video streaming, all powered by Ethereum Swarm's decentralised infrastructure. The project will create a suite of middleware libraries using Vanilla JS, ensuring wide compatibility across various JS frameworks.
-          
+
           The libraries will enable developers to build applications with versatile streaming capabilities, supporting both on-demand and live audio/video streams. Future enhancements are planned to include pre-processing and security features. A white-label sample UI codebase in React will accompany the libraries, demonstrating their usability and offering a reusable foundation for partners.
 
         footnote: ""
@@ -18,9 +18,9 @@ sections:
         - tagline: ""
           title: Context
           content: >-
-           The project addresses the increasing demand for decentralised social media platforms and censorship-resistant communication tools within the Web3 ecosystem. It taps into the growing interest from Web3 community, content creators, and developers who are eager to leverage decentralised technologies for multimedia content delivery and social networking. By doing so, the project aims to accelerate the broader adoption of the Swarm network, providing essential building blocks for developing multimedia applications.
+            The project addresses the increasing demand for decentralised social media platforms and censorship-resistant communication tools within the Web3 ecosystem. It taps into the growing interest from Web3 community, content creators, and developers who are eager to leverage decentralised technologies for multimedia content delivery and social networking. By doing so, the project aims to accelerate the broader adoption of the Swarm network, providing essential building blocks for developing multimedia applications.
 
-          By offering end-to-end, white-label solutions, the project will significantly reduce development costs and time-to-market for customised social media platforms and even advanced metaverse-like experiences. The libraries will facilitate the creation of a wide range of applications, ranging from simple social media platforms to complex, immersive metaverse environments. This ease of accessibility is expected to drive innovation, user adoption, and contribute to the overall growth of the Swarm ecosystem.
+            By offering end-to-end, white-label solutions, the project will significantly reduce development costs and time-to-market for customised social media platforms and even advanced metaverse-like experiences. The libraries will facilitate the creation of a wide range of applications, ranging from simple social media platforms to complex, immersive metaverse environments. This ease of accessibility is expected to drive innovation, user adoption, and contribute to the overall growth of the Swarm ecosystem.
 
           image: ""
           features:
