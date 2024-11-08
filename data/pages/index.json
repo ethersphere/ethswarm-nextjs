@@ -204,32 +204,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-august-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-october-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-aug.jpeg",
-            "alt": "Monthly Development Update – August 2024"
+            "src": "https://blog.ethswarm.org/uploads/devupdate-oct.png",
+            "alt": "Monthly Development Update – October 2024"
           },
-          "title": "Monthly Development Update – August 2024",
-          "content": "In August, the Bee Track deployed the Bee 2.2 release on the public testnet. Expect a final release soon.",
+          "title": "Monthly Development Update – October 2024",
+          "content": "The Swarm network is preparing for an important upgrade. SWIP-21 is already on the public testnet and once implemented, it will increase nodes’ reserve size.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-august-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-october-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/swarm-community-call-29-august-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-libraries-for-efficient-multimedia-delivery-social-networking/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/scc-recap-august-2024.jpg",
+            "src": "https://blog.staging.ethswarm.org/uploads/sp-fellowship.png",
             "alt": "Swarm Community Call, 29 August – Recap"
           },
           "title": "Swarm Community Call, 29 August – Recap",
-          "content": "During the August call, Niki Papadatou took the audience through the new features that are packed in the upcoming Bee 2.2",
+          "content": "Swarm fellowships are designed to support individuals and teams working on critical projects that help the Swarm network evolve and grow.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/swarm-community-call-29-august-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-libraries-for-efficient-multimedia-delivery-social-networking/",
             "background": "transparent",
             "color": "white",
             "arrow": true
