@@ -1,7 +1,6 @@
 import { CtaType } from "types";
 import { ButtonGroup, SectionContent, Tagline } from ".";
 import { cx } from "utils";
-import { InfoIcon } from "@/icons/components";
 
 type HeaderProps = {
   tagline?: string;
@@ -9,7 +8,7 @@ type HeaderProps = {
   id?: string;
   content?: string;
   ctas?: Array<CtaType>;
-  size?: "small" | "medium" | "medium-large" | "large";
+  size?: "small" | "medium" | "medium-large" | "large" | "dynamic";
   className?: string;
 };
 
@@ -37,6 +36,8 @@ const Header: React.FC<HeaderProps> = ({
               "text-[48px] leading-[49px] md:text-[64px] md:leading-[1.2] tracking-[-1%]",
             large:
               "text-[56px] leading-[64px] md:text-[88px] md:leading-[97px] tracking-[-0.88px]",
+            dynamic:
+              "text-[13vw] leading-[1.14] md:text-[88px] md:leading-[97px] tracking-[-0.88px]",
           }[size]
         )}
         dangerouslySetInnerHTML={{ __html: title }}
@@ -51,6 +52,8 @@ const Header: React.FC<HeaderProps> = ({
               medium: "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
               "medium-large": "md:text-[17px] md:leading-[24px] mt-4 md:mr-8",
               large:
+                "text-base md:text-[19px] md:leading-[26px] mt-8 md:mt-6 md:mr-[72px]",
+              dynamic:
                 "text-base md:text-[19px] md:leading-[26px] mt-8 md:mt-6 md:mr-[72px]",
             }[size]
           )}
@@ -67,6 +70,7 @@ const Header: React.FC<HeaderProps> = ({
               medium: "mt-6",
               "medium-large": "mt-8",
               large: " mt-8",
+              dynamic: " mt-8",
             }[size]
           )}
         />
