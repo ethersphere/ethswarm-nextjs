@@ -69,19 +69,6 @@
       }
     ]
   },
-  "odyssey": {
-    "title": "Odyssey Data Upload",
-    "tagline": "Sustainable Development Goals",
-    "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidise data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
-    "ctas": [
-      {
-        "href": "https://my.ethswarm.org/uploads",
-        "background": "purple",
-        "color": "black",
-        "title": "Apply ->"
-      }
-    ]
-  },
   "develop": {
     "tagline": "Real-world ready",
     "title": "Develop fast and free",
@@ -157,6 +144,19 @@
           }
         ],
         "code": "Bee API"
+      }
+    ]  
+  },
+  "odyssey": {
+    "title": "Odyssey Data Upload",
+    "tagline": "Sustainable Development Goals",
+    "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidise data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
+    "ctas": [
+      {
+        "href": "https://my.ethswarm.org/uploads",
+        "background": "purple",
+        "color": "black",
+        "title": "Apply ->"
       }
     ]
   },
