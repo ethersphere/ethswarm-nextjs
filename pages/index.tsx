@@ -37,19 +37,19 @@ const Home: NextPage = (props: any) => {
 
       <GeneralSection content={content.unstoppable} />
 
-      <Odyssey
-        title={content.odyssey.title}
-        content={content.odyssey.content}
-        ctas={content.odyssey.ctas as Array<CtaType>}
-        tagline={content.odyssey.tagline}
-      />
-
       <DevelopSection
         tagline={content.develop.tagline}
         title={content.develop.title}
         ctas={content.develop.ctas as Array<CtaType>}
         content={content.develop.content}
         tabs={content.develop.tabs as Array<TabType>}
+      />
+
+      <Odyssey
+        title={content.odyssey.title}
+        content={content.odyssey.content}
+        ctas={content.odyssey.ctas as Array<CtaType>}
+        tagline={content.odyssey.tagline}
       />
 
       <GeneralSection content={content.news.content} />

@@ -20,8 +20,8 @@ const DevelopSection: React.FC<DevelopSectionProps> = ({
   tabs,
 }) => {
   return (
-    <section className="relative overflow-hidden text-[#F6F7F9]">
-      <Container className="mt-48 mb-20 ">
+    <section className="relative overflow-hidden text-[#F6F7F9] mb-48">
+      <Container className="mb-20 ">
         <GridContainer>
           <Header
             tagline={tagline}
