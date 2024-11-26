@@ -70,9 +70,9 @@
     ]
   },
   "develop": {
-    "tagline": "Real-world ready",
-    "title": "Develop fast and free",
-    "content": "Swarm provides a complete stack of essential base layer components for developers. Build and host dApps, NFT meta-data, and media files, all within a decentralised framework!",
+    "tagline": "Embrace decentralisation",
+    "title": "Build with freedom, scale without limits",
+    "content": "Swarm delivers a powerful base-layer stack tailored for forward-thinking users. Privacy-focused and cypherpunk-inspired, it's the decentralised framework for the next generation of creators and advocates.",
     "ctas": [
       {
         "href": "/build",
@@ -87,6 +87,13 @@
         "color": "black",
         "arrow": true,
         "title": "Desktop app ->"
+      },
+      {
+        "href": "/get-bzz",
+        "background": "transparent",
+        "color": "black",
+        "arrow": true,
+        "title": "Get BZZ ->"
       }
     ],
     "tabs": [
