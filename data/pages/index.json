@@ -195,48 +195,48 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-data-and-model-provenance-for-decentralised-ai/",
+          "href": "https://blog.ethswarm.org/foundation/2024/swarm-fair-data-protocol-from-data-silos-to-decentralised-control/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/df-fellowship.png",
-            "alt": "Announcing Fellowship: Data and Model Provenance for Decentralised AI"
+            "src": "https://blog.ethswarm.org/uploads/swarmFDP2.png",
+            "alt": "Swarm & Fair Data Protocol: From Data Silos to Decentralised Control"
           },
-          "title": "Announcing Fellowship: Data and Model Provenance for Decentralised AI",
-          "content": "Swarm fellowships are designed to support individuals and teams working on critical projects that help the Swarm network evolve and grow.",
+          "title": "Swarm & Fair Data Protocol: From Data Silos to Decentralised Control",
+          "content": "Imagine a decentralised Dropbox, where all your files, documents and application data are stored securely and privately—only accessible to you or those you choose to share them with.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-data-and-model-provenance-for-decentralised-ai/",
+            "href": "https://blog.ethswarm.org/foundation/2024/swarm-fair-data-protocol-from-data-silos-to-decentralised-control/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-october-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-november-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate-oct.png",
-            "alt": "Monthly Development Update – October 2024"
+            "src": "https://blog.ethswarm.org/uploads/devupdate-nov.png",
+            "alt": "Monthly Development Update – November 2024"
           },
-          "title": "Monthly Development Update – October 2024",
-          "content": "The Swarm network is preparing for an important upgrade. SWIP-21 is already on the public testnet and once implemented, it will increase nodes’ reserve size.",
+          "title": "Monthly Development Update – November 2024",
+          "content": "In November, the Bee Track concentrated on finalising the 2.3.0 release, which was released on 4 December.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-october-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-november-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-libraries-for-efficient-multimedia-delivery-social-networking/",
+          "href": "https://blog.ethswarm.org/foundation/2024/bee-2-3-pre-release/",
           "image": {
-            "src": "https://blog.staging.ethswarm.org/uploads/sp-fellowship.png",
-            "alt": "Announcing Fellowship: Libraries for Efficient Multimedia Delivery & Social Networking"
+            "src": "https://blog.ethswarm.org/uploads/bee-2-3-0-pre-release.png",
+            "alt": "Bee Version 2.3.0 - Pre-release Notice"
           },
-          "title": "Announcing Fellowship: Libraries for Efficient Multimedia Delivery & Social Networking",
-          "content": "Swarm fellowships are designed to support individuals and teams working on critical projects that help the Swarm network evolve and grow.",
+          "title": "Bee Version 2.3.0 - Pre-release Notice",
+          "content": "The newest version of the Bee client includes exciting new features and improvements to existing features.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/announcing-fellowship-libraries-for-efficient-multimedia-delivery-social-networking/",
+            "href": "https://blog.ethswarm.org/foundation/2024/bee-2-3-pre-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
