@@ -227,16 +227,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/bee-2-3-pre-release/",
+          "href": "https://blog.ethswarm.org/foundation/2024/swarm-winter-solstice-event-2024-time-for-real-world-impact/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/bee-2-3-0-pre-release.png",
-            "alt": "Bee Version 2.3.0 - Pre-release Notice"
+            "src": "https://blog.ethswarm.org/uploads/WSE-recap.png",
+            "alt": "Swarm Winter Solstice Event 2024: Time for real-world impact"
           },
-          "title": "Bee Version 2.3.0 - Pre-release Notice",
-          "content": "The newest version of the Bee client includes exciting new features and improvements to existing features.",
+          "title": "Swarm Winter Solstice Event 2024: Time for real-world impact",
+          "content": "This year’s Winter Solstice Event marked a decisive turning point. Now feature-complete, Swarm stands ready for its next chapter: to deliver on the promise of being the backbone of Web3.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/bee-2-3-pre-release/",
+            "href": "https://blog.ethswarm.org/foundation/2024/swarm-winter-solstice-event-2024-time-for-real-world-impact/",
             "background": "transparent",
             "color": "white",
             "arrow": true
