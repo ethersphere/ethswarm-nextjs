@@ -211,16 +211,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-november-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-december-2024/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate-nov.png",
-            "alt": "Monthly Development Update – November 2024"
+            "src": "https://blog.ethswarm.org/uploads/devupdate-dec.png",
+            "alt": "Monthly Development Update – December 2024"
           },
-          "title": "Monthly Development Update – November 2024",
-          "content": "In November, the Bee Track concentrated on finalising the 2.3.0 release, which was released on 4 December.",
+          "title": "Monthly Development Update – December 2024",
+          "content": "December was an exciting month for the Swarm Network. The Bee 2.3 update doubled the reserve size and the odds of winning the redistribution game.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/monthly-development-update-november-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-december-2024/",
             "background": "transparent",
             "color": "white",
             "arrow": true
