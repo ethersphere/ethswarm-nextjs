@@ -9,14 +9,6 @@ sections:
         id: impact
         content: >-
           “To be a Swarm fellow is to be a bird in the high canopy of the rainforest.” Anonymous, 2022
-        ctas:
-          - title: Apply ->
-            href: "http://my.ethswarm.org/fellowships"
-            arrow: true
-            background: orange
-            type: default
-            back: false
-            template: cta
         background:
           src: /assets/hero/transparent.png
           alt: ""
@@ -45,14 +37,6 @@ sections:
             columns: ""
             type: default
             features: []
-          contentCtas:
-            - title: Apply ->
-              href: "http://my.ethswarm.org/fellowships"
-              arrow: true
-              background: orange
-              type: default
-              back: false
-              template: cta
           code: ""
           template: section-item
         - tagline: ""
