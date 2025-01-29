@@ -61,6 +61,11 @@
           "subtitle": "Swarm network scanner"
         },
         {
+          "href": "https://roadmap.ethswarm.org/",
+          "title": "Roadmap",
+          "subtitle": "Swarm network roadmap"
+        },
+        {
           "href": "/contribute",
           "title": "SWIPs",
           "subtitle": "Swarm standards"
