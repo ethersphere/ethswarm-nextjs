@@ -195,32 +195,32 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2024/swarm-fair-data-protocol-from-data-silos-to-decentralised-control/",
+          "href": "https://blog.ethswarm.org/foundation/2025/bee-2-5-0-pre-release/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/swarmFDP2.png",
-            "alt": "Swarm & Fair Data Protocol: From Data Silos to Decentralised Control"
+            "src": "https://blog.staging.ethswarm.org/uploads/bee-2-5-0-pre-release.jpg",
+            "alt": "Bee Version 2.5.0 - Pre-release Notice"
           },
-          "title": "Swarm & Fair Data Protocol: From Data Silos to Decentralised Control",
-          "content": "Imagine a decentralised Dropbox, where all your files, documents and application data are stored securely and privately—only accessible to you or those you choose to share them with.",
+          "title": "Bee Version 2.5.0 - Pre-release Notice",
+          "content": "We’re excited to announce that Bee v2.5.0 will be released in less than two weeks on March 11th! This update focuses on improving Bee node performance, reducing operational costs, and enhancing network stability.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2024/swarm-fair-data-protocol-from-data-silos-to-decentralised-control/",
+            "href": "https://blog.ethswarm.org/foundation/2025/bee-2-5-0-pre-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-december-2024/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-january-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate-dec.png",
-            "alt": "Monthly Development Update – December 2024"
+            "src": "https://blog.ethswarm.org/uploads/devupdate0125.jpg",
+            "alt": "Monthly Development Update – January 2025"
           },
-          "title": "Monthly Development Update – December 2024",
-          "content": "December was an exciting month for the Swarm Network. The Bee 2.3 update doubled the reserve size and the odds of winning the redistribution game.",
+          "title": "Monthly Development Update – January 2025",
+          "content": "This month, the focus was on improving upload and download speeds in Swarm, with teams working closely together to test bug fixes and benchmark results.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-december-2024/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-january-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
