@@ -21,6 +21,14 @@ job:
         Bee provides low level constructs for file storage, feeds, key-value stores and untraceable communication, through solid, well-tested code delivered in an agile manner.
 
         Key technologies are Go, libp2p, protobuf, leveldb, and go-ethereum, as well as various cryptographic libraries.
+     
+    - template: section_item
+      title: >-
+      About the Role:
+      titleSize: small
+      content: |
+        We are seeking a highly skilled Senior Go-Lang Developer with experience in Web3 technologies to join our dynamic team. As a key member of our engineering development, you will provide technical leadership, create software design, actively code, and optimize blockchain-based applications and decentralised systems. 
+  
     - template: section_item
       title: >-
         Key Responsibilities:
