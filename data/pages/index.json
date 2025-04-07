@@ -211,32 +211,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-february-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-march-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate0225.jpg",
-            "alt": "Monthly Development Update – February 2025"
+            "src": "https://blog.staging.ethswarm.org/uploads/DevUpdate0325.jpg",
+            "alt": "Monthly Development Update – March 2025"
           },
-          "title": "Monthly Development Update – February 2025",
-          "content": "In February, the Bee Track invested significant effort into improving the performance and efficiency of Bee, with teams working on version 2.5.",
+          "title": "Monthly Development Update – March 2025",
+          "content": "The March Swarm Community Call covered significant progress on network stability, multi-chain support, enhancements to node usability, and ease of node spin up.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-february-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-march-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-february-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-march-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCCrecap0225.jpg",
-            "alt": "Swarm Community Call, 27 February – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCCrecap0325.jpg",
+            "alt": "Swarm Community Call, 27 March – Recap"
           },
-          "title": "Swarm Community Call, 27 February – Recap",
-          "content": "The February Swarm Community Call highlighted exactly how the Swarm team and community are tackling this challenge—through performance upgrades.",
+          "title": "Swarm Community Call, 27 March – Recap",
+          "content": "The March Swarm Community Call covered significant progress on network stability, multi-chain support, enhancements to node usability, and ease of node spin up.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-february-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-march-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
