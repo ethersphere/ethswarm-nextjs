@@ -24,7 +24,7 @@ job:
      
     - template: section_item
       title: >-
-      About the Role:
+        About the Role:
       titleSize: small
       content: |
         We are seeking a highly skilled Senior Go-Lang Developer with experience in Web3 technologies to join our dynamic team. As a key member of our engineering development, you will provide technical leadership, create software design, actively code, and optimize blockchain-based applications and decentralised systems. 
