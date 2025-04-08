@@ -3,7 +3,7 @@ meta:
   title: "Senior Go-Lang Developer (Web3) - Jobs"
 job:
   category:
-    - Bee team
+    - Software development team
   title: "Senior Go-Lang Developer (Web3)"
   subtitle: Go, blockchain
   description: >-
