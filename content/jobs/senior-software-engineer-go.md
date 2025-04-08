@@ -1,13 +1,13 @@
 ---
 meta:
-  title: "Senior Software Engineer (Go, blockchain) - Jobs"
+  title: "Senior Go-Lang Developer (Web3) - Jobs"
 job:
   category:
-    - Bee team
-  title: "Senior Software Engineer"
+    - Software development team
+  title: "Senior Go-Lang Developer (Web3)"
   subtitle: Go, blockchain
   description: >-
-    This role is for an experienced developer who will play a leading role in the development of the Bee client. You'll need a solid blockchain foundation, the ability to make high level architectural decisions, have experience with libp2p, go-ethereum, and be well versed in cryptography and distributed systems.
+    Swarm Foundation is seeking a highly skilled Senior Go-Lang Developer with experience in Web3 technologies to join our dynamic team. As a key member of our engineering development. You will provide technical leadership, create software design, actively code, and optimize blockchain-based applications and decentralized systems.
   items:
     - template: section_item
       title: Introduction
@@ -21,57 +21,66 @@ job:
         Bee provides low level constructs for file storage, feeds, key-value stores and untraceable communication, through solid, well-tested code delivered in an agile manner.
 
         Key technologies are Go, libp2p, protobuf, leveldb, and go-ethereum, as well as various cryptographic libraries.
+     
     - template: section_item
       title: >-
-        Your role:
+        About the Role:
       titleSize: small
       content: |
-        - Take architectural decisions for our p2p distributed network
-        - Suggest improvements for our codebase and the testing process
-        - Development of the reference Swarm implementation in Go aka Bee
-        - Developing domain-specific knowledge and expertise in the Swarm incentive layer implementation
-        - Implement as per specifications delivered by the research team
-        - Delivering well-tested code
-        - Conducting thorough code reviews to your peers
+        We are seeking a highly skilled Senior Go-Lang Developer with experience in Web3 technologies to join our dynamic team. As a key member of our engineering development, you will provide technical leadership, create software design, actively code, and optimize blockchain-based applications and decentralised systems. 
+  
+    - template: section_item
+      title: >-
+        Key Responsibilities:
+      titleSize: small
+      content: |
+        - Design, develop, and maintain high-performance Swarm client services, APIs and Dapps using Go (Golang).
+        - Work with blockchain technologies, smart contracts, and decentralized applications (dApps).
+        - Provide guidance and leadership to a team
+        - Optimize, test, and deploy secure and scalable features, fixes, optimisations and migrations etc.
+        -  Develop and maintain distributed systems.
+        - Implement cryptographic principles and security best practices to ensure data integrity and availability.
+        - Collaborate with engineering team members, testers and product teams to deliver seamless Web3 solutions.
+        - Troubleshoot, debug, and enhance system performance.
+        - Stay up to date with the latest trends in blockchain, smart contracts, and decentralized technologies.
 
     - template: section_item
       title: >-
-        Your profile:
+        Qualifications & Skills:
       titleSize: small
       content: |
-        - You have 5+ years of experience in a similar position & at least 3 years with GoLang
-        - You have a solid grasp of blockchain principles and application design considerations
-        - You have experience in working on large-scale distributed systems
-        - Familiarity with infrastructure tools (we use k8s, helm)
-        - You like to work in a fast-paced environment
-        - Strong sense of ownership and responsibility
-        - You manage your own time effectively and respect time constraints
-        - You are available around the CET timezone
-        - You like to work remotely
-        - You can express yourself fluently in English, both verbally and in writing
-        - Some previous Web3 experience is a must (either through passion side-projects or paid work)
+        - 5+ years of experience as a Golang developer, with a strong background in backend development. Experience with peer-to-peer networks, kademlia, web3 incentive systems, and decentralised networks/storage is an advantage.
+        - 3+ years of experience in Web3/blockchain development.
+        - Proficiency in developing scalable APIs and client services.
+        - Experience with smart contracts, Solidity, or WebAssembly (Wasm) is a plus.
+        - Strong understanding of blockchain protocols, consensus mechanisms, and decentralized networks.
+        - Knowledge of cryptographic techniques, digital signatures, and security best practices.
+        - Familiarity with Docker, Kubernetes, and CI/CD pipelines.
+        - Strong problem-solving and analytical skills.
+        - Excellent communication and teamwork abilities with a no-ego approach to finding the solutions that move the metrics we need.
+        - Advanced proficiency in English, written and spoken.
 
     - template: section_item
       title: >-
-        We appreciate:
+        Nice to Have:
       titleSize: small
       content: |
-        - Experience with libp2p
-        - You are familiar with go-ethereum
-        - Acquaintance with cryptographic concepts
-        - Experience with observability tools (we use Grafana, Prometheus, Jaeger and OpenTracing)
-        - Knowledge of Solidity
-        - A passionate open-source contributor
+        - Experience working with Web3.js, ethers.js, or other blockchain interaction libraries.
+        - Knowledge of DeFi, NFTs, DAOs, and tokenomics.
+        - Open-source contributions or experience in the blockchain community.
+        - Live in CET Time Zone or if not living in CET Time Zone willing to work according to it. 
 
     - template: section_item
       title: >-
-        We offer/Team perks:
+        What We Offer:
       titleSize: small
       content: |
-        - An open, flat and transparent work environment
-        - 100% remote friendly
-        - Flexible working hours
-        - We care about our swarm: Incentives through BZZ, our token
+        - Competitive salary and token options.
+        - Opportunity to work on cutting-edge blockchain projects.
+        - Flexible work arrangements (remote/hybrid/on-site options).
+        - A collaborative and innovative team environment.
+        - Continuous learning and professional development opportunities.
+
 
         Should you be interested in the position, please send your CV to [talent@ethswarm.org](talent@ethswarm.org "talent@ethswarm.org"). IMPORTANT: Your email’s subject must include the title of the position you're applying to and your full name.
 ---
