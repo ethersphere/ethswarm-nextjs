@@ -1,13 +1,13 @@
 {
   "event": {
     "title": "Community Call",
-    "content": "Swarm Community Call, online, April 24",
+    "content": "Swarm Community Call, online, May 29",
     "image": {
-      "src": "/uploads/0425.png",
+      "src": "/uploads/0525.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://www.addevent.com/event/FQ25299609",
+      "href": "https://www.addevent.com/event/rb25578762",
       "title": "Add to Calendar ->"
     }
   },
@@ -195,16 +195,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/bee-2-5-0-pre-release/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-dream/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/bee-2-5-0-pre-release.jpg",
-            "alt": "Bee Version 2.5.0 - Pre-release Notice"
+            "src": "https://blog.ethswarm.org/uploads/DREAM.jpg",
+            "alt": "Feeling Cute. Might Delete It Later? The Challenge of Deletion and Swarm’s DREAM Solution"
           },
-          "title": "Bee Version 2.5.0 - Pre-release Notice",
+          "title": "Feeling Cute. Might Delete It Later? The Challenge of Deletion and Swarm’s DREAM Solution",
           "content": "We’re excited to announce that Bee v2.5.0 will be released in less than two weeks on March 11th! This update focuses on improving Bee node performance, reducing operational costs, and enhancing network stability.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/bee-2-5-0-pre-release/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-dream/",
             "background": "transparent",
             "color": "white",
             "arrow": true
