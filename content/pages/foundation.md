@@ -98,17 +98,17 @@ sections:
             columns: []
             type: default
             features: []
-          title: Foundation Board
+          title: Council of Foundation
           content: |
-            Viktor Tron, President of the Swarm Foundation
+            Viktor Tron, President of Swarm Foundation
 
-            Gregor Žavcer, Director of the Swarm Foundation
+            Edina Lovas,  Vice-President of Swarm Foundation
 
-            Vero Estrada-Galiñanes, Member of the Board
+            Gregor Žavcer, Member of the Council
 
-            Edina Lovas, Member of the Board
+            Alexis Roussel, Member of the Council
 
-            Alexis Roussel, Member of the Board
+            Vero Estrada-Galiñanes, Member of the Council
           image: ""
           ctas: []
           code: ""
