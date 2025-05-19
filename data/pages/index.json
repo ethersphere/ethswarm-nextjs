@@ -211,32 +211,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-march-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-april-2025/",
           "image": {
-            "src": "https://blog.staging.ethswarm.org/uploads/DevUpdate0325.jpg",
-            "alt": "Monthly Development Update – March 2025"
+            "src": "https://blog.ethswarm.org/uploads/DevUpdate0425.png",
+            "alt": "Monthly Development Update – April 2025"
           },
-          "title": "Monthly Development Update – March 2025",
-          "content": "The March Swarm Community Call covered significant progress on network stability, multi-chain support, enhancements to node usability, and ease of node spin up.",
+          "title": "Monthly Development Update – April 2025",
+          "content": "In April 2025, the Bee Track focused on deeper network insight and faster node onboarding ahead of the 2.6 release.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-march-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-april-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-march-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-24-april-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCCrecap0325.jpg",
-            "alt": "Swarm Community Call, 27 March – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC-0425.png",
+            "alt": "Swarm Community Call, 24 April – Recap"
           },
-          "title": "Swarm Community Call, 27 March – Recap",
-          "content": "The March Swarm Community Call covered significant progress on network stability, multi-chain support, enhancements to node usability, and ease of node spin up.",
+          "title": "Swarm Community Call, 24 April – Recap",
+          "content": "Niki Papadatou shared a preview of the upcoming Bee 2.6.0 release, which focuses on improving the user experience for node operators and enhancing network transparency.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-march-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-24-april-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
