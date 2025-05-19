@@ -48,8 +48,8 @@ sections:
           box:
             title: 300,000 BZZ
             content: >-
-              __Starts:__ December 21<br/>
-              __Ends:__ March 20 
+              __Starts:__ March 21<br/>
+              __Ends:__ December 21 
           features:
             columns: ""
             type: default
