@@ -75,7 +75,7 @@ const Navigation: React.FC<NavigationProps> = ({
             <div className="relative mr-auto">
               <NavigationMenu.List
                 ref={listRef}
-                className="items-center justify-center hidden w-full px-8 lg:flex"
+                className="items-center justify-center hidden w-full px-8 xl:flex"
               >
                 {navigation.items.length > 0 &&
                   navigation.items.map((link, index) => (
@@ -153,10 +153,10 @@ const Navigation: React.FC<NavigationProps> = ({
                 />
               </div>
             </div>
-            <div className="hidden lg:block">
+            <div className="hidden xl:block">
               <Stats />
             </div>
-            <div className="flex items-center lg:hidden">
+            <div className="flex items-center xl:hidden">
               <HamburgerButton onClick={() => setIsOpen(true)} />
             </div>
           </NavigationMenu.Root>
