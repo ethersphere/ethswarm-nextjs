@@ -139,12 +139,12 @@ const Stats: React.FC<StatsProps> = () => {
           />
         </svg>
       </Link>
-      <Button
+      {/* <Button
         className={`px-4`}
         background={`orange`}
         title={`Launch App`}
         href={`https://app.ethswarm.org/`}
-      />
+      /> */}
     </div>
   );
 };
