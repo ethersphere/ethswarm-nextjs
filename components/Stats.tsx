@@ -1,9 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Semaphore } from "@/components/Stats/Semaphore";
 import content from "../data/banner.json";
 import { cx } from "utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { Button } from "./common";
 
 type StatsProps = {};
 
@@ -45,7 +46,7 @@ const Stats: React.FC<StatsProps> = () => {
   return (
     <div
       className={cx(
-        "flex items-center lg:justify-between pl-4 lg:pl-4 gap-2 flex-wrap"
+        "flex items-center xl:justify-between gap-2 xl:flex-nowrap flex-wrap"
       )}
     >
       <Link
@@ -138,6 +139,12 @@ const Stats: React.FC<StatsProps> = () => {
           />
         </svg>
       </Link>
+      <Button
+        className={`px-4`}
+        background={`orange`}
+        title={`Launch App`}
+        href={`https://app.ethswarm.org/`}
+      />
     </div>
   );
 };

@@ -15,6 +15,11 @@
           "subtitle": "Incentivised P2P storage"
         },
         {
+          "href": "https://app.ethswarm.org",
+          "title": "Swarm Multichain App",
+          "subtitle": "Use Swarm without running a node"
+        },
+        {
           "href": "/build/desktop",
           "title": "Swarm desktop",
           "subtitle": "P2P desktop client"
