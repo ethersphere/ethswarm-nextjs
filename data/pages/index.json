@@ -211,16 +211,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-april-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-may-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate0425.png",
-            "alt": "Monthly Development Update – April 2025"
+            "src": "https://blog.ethswarm.org/uploads/DevUpdate0525.png",
+            "alt": "Monthly Development Update – May 2025"
           },
-          "title": "Monthly Development Update – April 2025",
-          "content": "In April 2025, the Bee Track focused on deeper network insight and faster node onboarding ahead of the 2.6 release.",
+          "title": "Monthly Development Update – May 2025",
+          "content": "Node onboarding became even faster—nodes now spin up in under 5 minutes thanks to improved warm-up logic and postage snapshot support.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-april-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-may-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
