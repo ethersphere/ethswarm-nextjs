@@ -227,16 +227,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-24-april-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-19-may-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-0425.png",
-            "alt": "Swarm Community Call, 24 April – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC-recap-0525.png",
+            "alt": "Swarm Community Call, 19 May – Recap"
           },
-          "title": "Swarm Community Call, 24 April – Recap",
+          "title": "Swarm Community Call, 19 May – Recap",
           "content": "Niki Papadatou shared a preview of the upcoming Bee 2.6.0 release, which focuses on improving the user experience for node operators and enhancing network transparency.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-24-april-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-19-may-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
