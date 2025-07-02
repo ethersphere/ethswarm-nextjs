@@ -195,16 +195,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-dream/",
+          "href": "https://blog.ethswarm.org/foundation/2025/shtuka-partnership/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DREAM.jpg",
-            "alt": "Feeling Cute. Might Delete It Later? The Challenge of Deletion and Swarm’s DREAM Solution"
+            "src": "https://blog.ethswarm.org/uploads/swarm-shtuka.png",
+            "alt": "Programme announcement: Swarmonomics"
           },
-          "title": "Feeling Cute. Might Delete It Later? The Challenge of Deletion and Swarm’s DREAM Solution",
-          "content": "We’re excited to announce that Bee v2.5.0 will be released in less than two weeks on March 11th! This update focuses on improving Bee node performance, reducing operational costs, and enhancing network stability.",
+          "title": "Programme announcement: Swarmonomics",
+          "content": "Swarm Foundation is excited to announce that Shtuka Research is partnering with the organisation as an external research contributor to map out the economic landscape of the Swarm Network",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-dream/",
+            "href": "https://blog.ethswarm.org/foundation/2025/shtuka-partnership/",
             "background": "transparent",
             "color": "white",
             "arrow": true
@@ -227,16 +227,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-19-may-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-26-june-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-recap-0525.png",
-            "alt": "Swarm Community Call, 19 May – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC-recap0625.png",
+            "alt": "Swarm Community Call, 26 June – Recap"
           },
-          "title": "Swarm Community Call, 19 May – Recap",
-          "content": "Niki Papadatou shared a preview of the upcoming Bee 2.6.0 release, which focuses on improving the user experience for node operators and enhancing network transparency.",
+          "title": "Swarm Community Call, 26 June – Recap",
+          "content": "The June 2025 Swarm Community Call provided important updates from core development, community discussions on tokenomics, and showcased performance and UX innovations.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-19-may-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-26-june-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true

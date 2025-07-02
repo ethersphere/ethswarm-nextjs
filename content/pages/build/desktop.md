@@ -53,7 +53,7 @@ sections:
                   title: ""
                   href: ""
                 title: Unlimited access
-                content: Connecting to the Swarm network has never been simpler—just download and install Swarm Desktop.
+                content: Upload and share content without limitations on the Swarm network by funding your node with BZZ.
                 icon: UnlimitedIcon
               - template: feature
                 cta:
