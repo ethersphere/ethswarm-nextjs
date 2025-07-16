@@ -9,7 +9,8 @@
       "src": "/assets/hero/join_alt.png",
       "alt": ""
     },
-    "content": "<p>The Swarm Foundation is made by an international team of visionaries, developers, scientists, sysadmins, operation managers, graphic designers and even international artists. Join the team to shape the future of Web3.</p>",
+    "content": "<p>The Swarm Foundation is made by an international team of visionaries, developers, scientists, sysadmins, operation managers, graphic designers and even international artists. Join the team to shape the future of Web3.</p><p>Thank you for your interest in joining Swarm Foundation.</p>
+                <p>There are currently no job openings available, but passionate and talented individuals are always welcome to get in touch.</p><p>CVs can be sent to talents@ethswarm.org and will be kept on file for future opportunities.</p>",
     "ctas": [
       {
         "title": "Swarm Foundation ->",
