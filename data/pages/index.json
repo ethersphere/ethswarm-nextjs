@@ -211,16 +211,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-june-2025//",
+          "href": "https://blog.ethswarm.org/foundation/2025/bee-2-6-0-release/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-062025.png",
-            "alt": "Monthly Development Update – June 2025"
+            "src": "https://blog.ethswarm.org/uploads/bee-2-6-0.jpg",
+            "alt": "Bee Version 2.6.0 Goes Live!"
           },
-          "title": "Monthly Development Update – June 2025",
-          "content": "Research Tracks continued their collaborative work on the SWIP for pullsync protocol improvements and made notable progress on the in-browser node project.",
+          "title": "Bee Version 2.6.0 Goes Live!",
+          "content": "This update brings faster node startup, protocol readiness improvements, and a collection of important bug fixes, monitoring enhancements, and compatibility updates.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-june-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/bee-2-6-0-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
