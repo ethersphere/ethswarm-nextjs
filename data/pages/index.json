@@ -227,16 +227,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-26-june-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-31-july-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-recap0625.png",
-            "alt": "Swarm Community Call, 26 June – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC-recap0725.png",
+            "alt": "Swarm Community Call, 31 July – Recap"
           },
-          "title": "Swarm Community Call, 26 June – Recap",
-          "content": "The June 2025 Swarm Community Call provided important updates from core development, community discussions on tokenomics, and showcased performance and UX innovations.",
+          "title": "Swarm Community Call, 31 July – Recap",
+          "content": "The July 2025 Swarm Community Call covered key updates in core development, introduced a new initiative connecting Swarm to decentralised AI ...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-26-june-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-31-july-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
