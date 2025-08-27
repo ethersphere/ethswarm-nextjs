@@ -1,73 +1,57 @@
-// From https://github.com/ethersphere/swarm-app-page
+import { useState, useEffect } from 'react';
 
-import { useEffect, useState } from "react";
-
-// Hooks
-import { Asset, useGithubAssets } from "./useGitHubAssets";
-
-type OsAsset = {
+interface AssetInfo {
   osName: string;
-  asset?: Asset;
-};
-
-function getOsfromUA() {
-  if (typeof window === "undefined") {
-    return false;
-  }
-
-  const ua = window.navigator.userAgent;
-
-  if (ua.includes("Mac")) {
-    return "MacOS";
-  } else if (ua.includes("Windows")) {
-    return "Windows";
-  } else if (ua.includes("Ubuntu")) {
-    return "Debian";
-  } else if (ua.includes("Debian")) {
-    return "Debian";
-  }
-
-  return false;
+  downloadUrl?: string;
+  // Add other properties as needed
 }
 
-const findAsset = (assets: Asset[] | undefined) => {
-  if (!assets) {
-    return;
-  }
+const useOsAsset = (repository: string): AssetInfo => {
+  const [asset, setAsset] = useState<AssetInfo>({ osName: '' });
 
-  const osName = getOsfromUA();
+  useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return;
 
-  for (const asset of assets) {
-    switch (osName) {
-      case "Windows":
-        if (asset.content_type === "application/x-msdos-program") {
-          return { osName, asset };
-        }
-        break;
-
-      case "MacOS":
-        if (asset.name.includes("x64.dmg")) {
-          return { osName, asset };
-        }
-        break;
-
-      case "Debian":
-        if (asset.name.includes("amd64.deb")) {
-          return { osName, asset };
-        }
-        break;
-
-      default:
-        return { osName: "Unknown" };
+    const ua = window.navigator.userAgent;
+    
+    // Detect OS
+    let osName = 'Unknown';
+    
+    if (ua.includes('Win')) {
+      osName = 'Windows';
+    } else if (ua.includes('Mac')) {
+      osName = 'macOS';
+    } else if (ua.includes('Linux') && !ua.includes('Android')) {
+      osName = 'Linux';
+    } else if (ua.includes('Android')) {
+      osName = 'Android';
+    } else if (ua.includes('iPhone') || ua.includes('iPad')) {
+      osName = 'iOS';
     }
-  }
-};
-
-export const useOsAsset = (repo: string) => {
-  const assets = useGithubAssets(repo);
-  const [asset, setAsset] = useState<OsAsset | undefined>();
-
-  useEffect(() => setAsset(findAsset(assets)), [assets]);
+    
+    // You can use the repository parameter to fetch or determine download URLs
+    const downloadUrl = `https://github.com/${repository}/releases/latest/download/${getAssetName(osName)}`;
+    
+    setAsset({ osName, downloadUrl });
+  }, [repository]);
 
   return asset;
 };
+
+// Helper function to map OS to asset filename
+const getAssetName = (osName: string): string => {
+  switch (osName) {
+    case 'Windows':
+      return 'swarm-desktop-windows.exe';
+    case 'macOS':
+      return 'swarm-desktop-macos.dmg';
+    case 'Linux':
+      return 'swarm-desktop-linux.AppImage';
+    default:
+      return '';
+  }
+};
+
+export { useOsAsset };
+export default useOsAsset;

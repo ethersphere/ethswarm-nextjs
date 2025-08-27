@@ -1,83 +1,74 @@
-// From https://github.com/ethersphere/swarm-app-page
+import { useState, useEffect } from 'react';
 
-import { useEffect, useState } from "react";
-
-type Cache = {
+interface Cache {
+  // Define your cache structure here
+  data: any;
   timestamp: number;
-  assets: Asset[];
-};
+}
 
-export type Asset = {
-  browser_download_url: string;
-  name: string;
-  content_type: string;
-};
-
-const API = "https://api.github.com/repos/";
-const CACHE_VALIDITY = 60 * 60 * 1000;
-
-const getLastRelease = async (repo: string) => {
-  const request = await fetch(API + repo + "/releases/latest");
-  const json = await request.json();
-  if (request.status !== 200) {
-    throw new Error(json.message);
-  }
-  return json;
-};
-
-const getAssets = async (repo: string, id: number) => {
-  const request = await fetch(API + repo + "/releases/" + id + "/assets");
-  const json = await request.json();
-  if (request.status !== 200) {
-    throw new Error(json.message);
-  }
-  return json;
-};
-
-const getCacheKey = (repo: string) => `github.assets.${repo}`;
-
-const getCache = (repo: string) => {
-  const cacheKey = getCacheKey(repo);
-  let cache: Cache | null = null;
-
-  try {
-    cache = JSON.parse(localStorage.getItem(cacheKey) as string) as Cache;
-  } catch (_) {
-    // NOTE: No need to do anything, we just assume there's no cache
-  }
-
-  if (cache && cache.timestamp > Date.now() - CACHE_VALIDITY) {
-    return cache.assets;
-  }
-};
-
-const setCache = (repo: string, assets: Asset[]) => {
-  localStorage.setItem(
-    getCacheKey(repo),
-    JSON.stringify({
-      timestamp: Date.now(),
-      assets,
-    })
-  );
-};
-
-export const useGithubAssets = (repo: string) => {
-  const [assets, setAssets] = useState<Asset[]>();
+const useGitHubAssets = (repository: string) => {
+  const [assets, setAssets] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const cache = getCache(repo);
-    if (cache) {
-      setAssets(cache);
-      return;
+    // Only run on client side
+    if (typeof window === 'undefined') return;
+
+    const cacheKey = `github-assets-${repository}`;
+    
+    try {
+      // Safe localStorage access
+      const cachedData = localStorage.getItem(cacheKey);
+      let cache: Cache | null = null;
+      
+      if (cachedData) {
+        cache = JSON.parse(cachedData) as Cache;
+      }
+      
+      // Check if cache is still valid (e.g., less than 1 hour old)
+      const now = Date.now();
+      const CACHE_DURATION = 60 * 60 * 1000; // 1 hour
+      
+      if (cache && (now - cache.timestamp) < CACHE_DURATION) {
+        setAssets(cache.data);
+        setLoading(false);
+        return;
+      }
+      
+      // Fetch fresh data if no valid cache
+      fetchGitHubAssets();
+      
+    } catch (err) {
+      console.error('Error accessing localStorage:', err);
+      fetchGitHubAssets();
     }
 
-    (async () => {
-      const release = await getLastRelease(repo);
-      const assets = await getAssets(repo, release.id);
-      setCache(repo, assets);
-      setAssets(assets);
-    })();
-  }, [repo]);
+    async function fetchGitHubAssets() {
+      try {
+        setLoading(true);
+        const response = await fetch(`https://api.github.com/repos/${repository}/releases/latest`);
+        const data = await response.json();
+        
+        // Save to localStorage
+        const cacheData: Cache = {
+          data,
+          timestamp: Date.now()
+        };
+        
+        localStorage.setItem(cacheKey, JSON.stringify(cacheData));
+        setAssets(data);
+        
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'An error occurred');
+      } finally {
+        setLoading(false);
+      }
+    }
+    
+  }, [repository]);
 
-  return assets;
+  return { assets, loading, error };
 };
+
+export default useGitHubAssets;

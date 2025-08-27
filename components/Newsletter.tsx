@@ -8,25 +8,28 @@ const Newsletter: React.FC<NewsletterProps> = () => {
     <>
       <Script
         id="mauticform-script-websitenewslettersubscription"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
         /** This section is only needed once per page if manually copying **/
-        if (typeof MauticSDKLoaded == 'undefined') {
-            var MauticSDKLoaded = true;
-            var head            = document.getElementsByTagName('head')[0];
-            var script          = document.createElement('script');
-            script.type         = 'text/javascript';
-            script.src          = 'https://mautic.int.ethswarm.org/index.php/media/js/mautic-form.js';
-            script.onload       = function() {
-                MauticSDK.onLoad();
-            };
-            head.appendChild(script);
-            var MauticDomain = 'https://mautic.int.ethswarm.org/index.php';
-            var MauticLang   = {
-                'submittingMessage': "Please wait..."
-            }
-        }else if (typeof MauticSDK != 'undefined') {
-            MauticSDK.onLoad();
+        if (typeof window !== 'undefined') {
+          if (typeof MauticSDKLoaded == 'undefined') {
+              var MauticSDKLoaded = true;
+              var head            = document.getElementsByTagName('head')[0];
+              var script          = document.createElement('script');
+              script.type         = 'text/javascript';
+              script.src          = 'https://mautic.int.ethswarm.org/index.php/media/js/mautic-form.js';
+              script.onload       = function() {
+                  MauticSDK.onLoad();
+              };
+              head.appendChild(script);
+              var MauticDomain = 'https://mautic.int.ethswarm.org/index.php';
+              var MauticLang   = {
+                  'submittingMessage': "Please wait..."
+              }
+          } else if (typeof MauticSDK != 'undefined') {
+              MauticSDK.onLoad();
+          }
         }
     `,
         }}
@@ -61,7 +64,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
                 id="mauticform_websitenewslettersubscription_email_address"
                 className="flex-grow mauticform-row mauticform-email mauticform-field-1"
               >
-                <label className="sr-only" htmlFor="email">
+                <label className="sr-only" htmlFor="mauticform_input_websitenewslettersubscription_email_address">
                   Enter your email address
                 </label>
                 <input

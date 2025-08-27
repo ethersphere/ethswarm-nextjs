@@ -90,7 +90,7 @@ const EventLink: React.FC<EventLinkProps> = ({
           </a>
 
           {add_to_calendar.length > 0 && (
-            <Link href={add_to_calendar} target="_blank">
+            <a href={add_to_calendar} target="_blank" rel="noreferrer">
               <span className="sr-only">Add to calendar</span>
               <svg
                 className="w-4 h-4 hover:opacity-70"
@@ -108,7 +108,7 @@ const EventLink: React.FC<EventLinkProps> = ({
                   </clipPath>
                 </defs>
               </svg>
-            </Link>
+            </a>
           )}
         </div>
       ) : (

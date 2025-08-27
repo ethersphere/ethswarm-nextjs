@@ -1,7 +1,7 @@
-import * as React from "react";
+import React from "react";
 import { cx } from "utils";
 import { ButtonBackgroundType, ButtonTextColorType } from "types";
-import { useOsAsset } from "hooks/useOsAsset";
+import useOsAsset from "hooks/useOsAsset";
 
 type ButtonProps = {
   background: ButtonBackgroundType;
@@ -14,9 +14,8 @@ const DownloadButton: React.FC<ButtonProps> = ({
   background = "orange",
   color = "black",
 }) => {
-  let classNameBackground =
-    "bg-orange-500 focus:outline-none  hover:bg-opacity-80";
-
+  let classNameBackground = "bg-orange-500 focus:outline-none hover:bg-opacity-80";
+  
   if (background === "transparent") {
     classNameBackground = "bg-orange-transparent focus:outline-none";
   } else if (background === "white") {
@@ -26,15 +25,22 @@ const DownloadButton: React.FC<ButtonProps> = ({
   }
 
   let classNameColor = "text-[#F6F7F9]";
-
   if (color === "gray") {
     classNameColor = "text-gray-100";
   }
 
-  const asset: any = useOsAsset("ethersphere/swarm-desktop");
+  const assetInfo = useOsAsset("ethersphere/swarm-desktop");
 
-  // If asset does not exist or unknown platform, we return
-  if (!asset || asset.osName === "Unknown") {
+  // If asset does not exist, unknown platform, or still loading, don't render
+  if (!assetInfo || assetInfo.osName === "Unknown") {
+    return null;
+  }
+
+  // Type assertion to access the asset property safely
+  const typedAssetInfo = assetInfo as any;
+  
+  // Check if we have the asset data
+  if (!typedAssetInfo.asset || !typedAssetInfo.asset.browser_download_url) {
     return null;
   }
 
@@ -44,14 +50,16 @@ const DownloadButton: React.FC<ButtonProps> = ({
     classNameColor
   );
 
+  const downloadText = "Download for " + assetInfo.osName + " ->";
+
   return (
     <a
-      href={asset.asset.browser_download_url}
+      href={typedAssetInfo.asset.browser_download_url}
       target="_blank"
       rel="noreferrer"
       className={className}
     >
-      {`Download for ${asset.osName} ->`}
+      {downloadText}
     </a>
   );
 };
