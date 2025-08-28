@@ -38,7 +38,7 @@ const Newsletter: FC<NewsletterProps> = () => {
           autoComplete="false"
           role="form"
           method="post"
-          action="https://mautic.int.ethswarm.org/index.php/form/submit?formId=5"
+          action="https://mautic.int.ethswarm.org/index.php/form/submit?formId=4"
           id="mauticform_websitenewslettersubscription"
           data-mautic-form="websitenewslettersubscription"
           encType="multipart/form-data"
@@ -100,7 +100,7 @@ const Newsletter: FC<NewsletterProps> = () => {
           </div>
 
           {/* These hidden fields are required by Mautic for the form to submit correctly */}
-          <input type="hidden" name="mauticform[formId]" id="mauticform_websitenewslettersubscription_id" value="5" />
+          <input type="hidden" name="mauticform[formId]" id="mauticform_websitenewslettersubscription_id" value="4" />
           <input type="hidden" name="mauticform[return]" id="mauticform_websitenewslettersubscription_return" value="" />
           <input type="hidden" name="mauticform[formName]" id="mauticform_websitenewslettersubscription_name" value="websitenewslettersubscription" />
           <input name="mauticform[gdpr_accepted]" id="mauticform_radiogrp_radio_gdpr_accepted_Yes0" type="hidden" value="1" />
