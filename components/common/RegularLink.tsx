@@ -1,39 +1,27 @@
-import * as React from "react";
-import { LinkType } from "types";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
+import { UrlObject } from 'url'
 
-type RegularLinkProps<LinkType> = LinkType & {
-  className?: string;
-  onClick?: () => void;
-} & JSX.IntrinsicElements["a"];
+type LinkType = string | UrlObject
+
+export type RegularLinkProps<T extends LinkType> = {
+  href: T
+  children: React.ReactNode
+  className?: string
+  onClick?: () => void
+} & React.ComponentPropsWithoutRef<'a'>
 
 export const RegularLink: React.FC<RegularLinkProps<LinkType>> = ({
   children,
   href,
   className,
-  onClick,
-  ...buttonProps
+  ...props
 }) => {
-  if (href.startsWith("http")) {
-    return (
-      <a
-        onClick={onClick}
-        href={href}
-        target="_blank"
-        rel="noreferrer"
-        className={className}
-        {...buttonProps}
-      >
-        {children}
-      </a>
-    );
-  }
-
   return (
-    <Link href={href} onClick={onClick} className={className}>
+    <Link href={href} className={className} {...props}>
       {children}
     </Link>
-  );
-};
+  )
+}
 
 export default RegularLink;

@@ -110,7 +110,7 @@ const SectionContent: React.FC<SectionContentProps> = ({
   return (
     <div className="relative">
       {box && (
-        <div className="px-5 py-8 mb-8 max-w-[22rem] rounded-xl border border-[#2D3843] bg-[#1F2831B2]">
+        <div className="px-5 py-8 mb-8 max-w-88 rounded-xl border border-[#2D3843] bg-[#1F2831B2]">
           {box.title && (
             <h3 className="font-bold text-[#FF6B26] text-3xl">{box.title}</h3>
           )}

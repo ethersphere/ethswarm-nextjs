@@ -1,20 +1,38 @@
 const fs = require("fs").promises;
-const camelcase = require("camelcase");
-const { promisify } = require("util");
-const rimraf = promisify(require("rimraf"));
-const svgr = require("@svgr/core").default;
+const { camelCase } = require("camelcase");
+const { rimraf } = require("rimraf");
+const { transform: svgr } = require("@svgr/core");
 const babel = require("@babel/core");
 const { dirname } = require("path");
 
 let transform = async (svg, componentName, format) => {
-  let component = await svgr(
+  const { transform: svgrTransform } = require("@svgr/core");
+  
+  let component = await svgrTransform(
     svg,
-    { ref: true, titleProp: true },
+    { 
+      ref: true, 
+      titleProp: true,
+      plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier']
+    },
     { componentName }
   );
+  
+  // Ensure the component is properly wrapped as a React component
+  if (!component.includes('export default') && !component.includes('module.exports')) {
+    if (format === "esm") {
+      component = `import * as React from "react";\nconst ${componentName} = ${component};\nexport default ${componentName};`;
+    } else {
+      component = `const React = require("react");\nconst ${componentName} = ${component};\nmodule.exports = ${componentName};`;
+    }
+  }
+  
   let { code } = await babel.transformAsync(component, {
     plugins: [
-      [require("@babel/plugin-transform-react-jsx"), { useBuiltIns: true }],
+      [require("@babel/plugin-transform-react-jsx"), { 
+        useBuiltIns: true,
+        throwIfNamespace: false
+      }],
     ],
   });
 
@@ -27,6 +45,18 @@ let transform = async (svg, componentName, format) => {
     .replace("export default", "module.exports =");
 };
 
+function toCamelCase(str) {
+  return str
+    .replace(/[-_\s]+(.)?/g, (_, char) => char ? char.toUpperCase() : '')
+    .replace(/^(.)/, (_, char) => char.toLowerCase());
+}
+
+function toPascalCase(str) {
+  return str
+    .replace(/[-_\s]+(.)?/g, (_, char) => char ? char.toUpperCase() : '')
+    .replace(/^(.)/, (_, char) => char.toUpperCase());
+}
+
 async function getIcons() {
   let files = await fs.readdir(`./icons/svg`);
 
@@ -35,9 +65,7 @@ async function getIcons() {
   return Promise.all(
     files.map(async (file) => ({
       svg: await fs.readFile(`./icons/svg/${file}`, "utf8"),
-      componentName: `${camelcase(file.replace(/\.svg$/, ""), {
-        pascalCase: true,
-      })}Icon`,
+      componentName: `${toPascalCase(file.replace(/\.svg$/, ""))}Icon`,
     }))
   );
 }

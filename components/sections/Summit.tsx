@@ -37,7 +37,7 @@ const Summit: React.FC<SummitProps> = ({
       className="relative flex flex-col items-center h-full min-h-screen overflow-hidden text-gray-100 bg-gray-800"
       id="summit"
     >
-      <Container className="flex flex-col justify-end flex-grow pb-20 sm:pb-32 pt-28 sm:pt-60">
+      <Container className="flex flex-col justify-end grow pb-20 sm:pb-32 pt-28 sm:pt-60">
         <div className="sm:w-2/3">
           <Tagline copy={tagline} />
 
