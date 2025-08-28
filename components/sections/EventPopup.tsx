@@ -43,7 +43,7 @@ const EventPopup = ({ image, title, content, cta }: EventPopupType) => {
       href={cta.href}
       onMouseEnter={() => setExpanded(true)}
       className={cx(
-        "relative mt-20 md:my-0 mx-6 md:fixed bottom-10 justify-between md:justify-end bg-[#F6F7F9] backdrop-blur-xl bg-opacity-80 left-0 right-0 transition-all duration-300 md:left-auto border border-opacity-20 border-[#D6DBDF] rounded-xl overflow-hidden p-1 md:right-8 z-40 flex group",
+        "relative mt-20 md:my-0 mx-6 md:fixed bottom-10 justify-between md:justify-end bg-[#F6F7F9]/80 backdrop-blur-md left-0 right-0 transition-all duration-300 md:left-auto border border-opacity-20 border-[#D6DBDF] rounded-xl overflow-hidden p-1 md:right-8 z-40 flex group",
         expanded ? "max-w-lg" : "md:max-w-[154px]"
       )}
     >
