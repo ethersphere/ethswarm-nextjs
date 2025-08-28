@@ -62,7 +62,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
             >
               <div
                 id="mauticform_websitenewslettersubscription_email_address"
-                className="flex-grow mauticform-row mauticform-email mauticform-field-1"
+                className="grow mauticform-row mauticform-email mauticform-field-1"
               >
                 <label className="sr-only" htmlFor="mauticform_input_websitenewslettersubscription_email_address">
                   Enter your email address
@@ -89,7 +89,7 @@ const Newsletter: React.FC<NewsletterProps> = () => {
                 name="mauticform[submit]"
                 id="mauticform_input_websitenewslettersubscription_submit"
                 value=""
-                className="flex-shrink-0 px-4 py-3 text-sm font-semibold bg-white rounded-full focus:outline-none bg-opacity-10"
+                className="shrink-0 px-4 py-3 text-sm font-semibold bg-white rounded-full focus:outline-none bg-opacity-10"
               >
                 {`->`}
               </button>

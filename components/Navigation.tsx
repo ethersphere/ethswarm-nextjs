@@ -143,7 +143,7 @@ const Navigation: React.FC<NavigationProps> = ({
               <div className="perspective-[2000px] absolute top-full left-0 w-full flex justify-center ">
                 <NavigationMenu.Viewport
                   forceMount
-                  className="relative mt-[10px] data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-100 sm:w-[var(--radix-navigation-menu-viewport-width)] shadow-dark "
+                  className="relative mt-[10px] data-[state=closed]:opacity-0 data-[state=closed]:scale-50 h-(--radix-navigation-menu-viewport-height) w-full origin-[top_center] overflow-hidden bg-opacity-90 border border-[#2D3843] bg-[#1F2831]  backdrop-blur-md rounded-xl  duration-100 sm:w-(--radix-navigation-menu-viewport-width) shadow-dark "
                   style={{
                     transform: `translateX(${offset}px)`,
                     transition: `transform ${

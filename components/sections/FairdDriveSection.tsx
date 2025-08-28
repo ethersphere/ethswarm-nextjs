@@ -19,7 +19,7 @@ const FairdDriveSection: React.FC<FairdDriveSectionProps> = ({
   return (
     <section className="relative overflow-hidden text-gray-100">
       <Container className="relative h-full md:px-3 xl:px-0">
-        <GridContainer className="items-center border !px-5 lg:!px-14 mx-6 md:mx-0 border-[#2D3843] rounded-xl bg-gradient-fairdata">
+        <GridContainer className="items-center border px-5! lg:px-14! mx-6 md:mx-0 border-[#2D3843] rounded-xl bg-gradient-fairdata">
           <Header
             tagline={tagline}
             content={content}

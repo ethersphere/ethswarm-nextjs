@@ -77,7 +77,7 @@ const Roadmap: React.FC<RoadmapProps> = ({ items, sidebar, id }) => {
           />
           <div
             ref={sliderRef}
-            className="col-span-12 keen-slider !overflow-visible lg:!overflow-hidden"
+            className="col-span-12 keen-slider overflow-visible! lg:overflow-hidden!"
           >
             {items.map((item, index) => (
               <Card

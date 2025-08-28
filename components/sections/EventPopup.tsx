@@ -49,7 +49,7 @@ const EventPopup = ({ image, title, content, cta }: EventPopupType) => {
     >
       <div
         className={cx(
-          "px-4 pt-5 pb-3 mr-3 md:pr-8 text-[#141516] transition-all max-w-[22rem] md:flex-shrink-0"
+          "px-4 pt-5 pb-3 mr-3 md:pr-8 text-[#141516] transition-all max-w-88 md:shrink-0"
         )}
       >
         <h4 className="text-[17px] leading-6">
@@ -70,7 +70,7 @@ const EventPopup = ({ image, title, content, cta }: EventPopupType) => {
           width={288}
           height={288}
           alt={image.alt ?? ""}
-          className="flex-shrink-0 h-36 w-36 rounded-[9px]"
+          className="shrink-0 h-36 w-36 rounded-[9px]"
         />
       )}
     </RegularLink>

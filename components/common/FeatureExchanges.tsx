@@ -38,7 +38,7 @@ const FeatureExchanges: React.FC<Props> = () => {
                 "flex flex-col text-center items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-2 py-5 text-sm sm:text-base font-bold group hover:bg-[#1F2831]/40 duration-200"
               )}
             >
-              <IconTag className="flex-shrink-0 w-6 max-h-6" />
+              <IconTag className="shrink-0 w-6 max-h-6" />
 
               <span className="mt-4">{label}</span>
             </a>
