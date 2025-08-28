@@ -30,10 +30,6 @@ const SectionContent: React.FC<SectionContentProps> = ({
   const container = useRef<HTMLDivElement>(null);
   const [md, setMd] = useState(content);
   const [boxContent, setBoxContent] = useState<string>(box?.content || "");
-  const [tooltipX, setTooltipX] = useState<number | null>(null);
-  const [tooltipY, setTooltipY] = useState<number | null>(null);
-  const [tooltipVisible, setTooltipVisible] = useState(false);
-  const [tooltipContent, setTooltipContent] = useState("");
 
   useEffect(() => {
     if (!markdown) {
@@ -55,53 +51,6 @@ const SectionContent: React.FC<SectionContentProps> = ({
       setBoxContent(html);
     });
   }, [box]);
-
-  useEffect(() => {
-    if (!container.current) {
-      return;
-    }
-
-    const tooltip = container.current.querySelector("[data-help]");
-    const tooltipContent = tooltip?.querySelector(
-      "[data-help-content]"
-    )?.innerHTML;
-
-    if (!tooltip || !tooltipContent) {
-      return;
-    }
-    setTooltipContent(tooltipContent);
-
-    function tooltipEnter(e: Event) {
-      const mouseEvent = e as MouseEvent;
-
-      if (!container.current) {
-        return;
-      }
-
-      const tooltip = container.current.querySelector("[data-help]");
-
-      if (!tooltip) {
-        return;
-      }
-
-      setTooltipX(mouseEvent.offsetX);
-      setTooltipY(mouseEvent.offsetY);
-
-      setTooltipVisible(true);
-    }
-
-    function tooltipLeave() {
-      setTooltipVisible(false);
-    }
-
-    tooltip.addEventListener("mouseenter", tooltipEnter);
-    tooltip.addEventListener("mouseleave", tooltipLeave);
-
-    return () => {
-      tooltip.removeEventListener("mouseenter", tooltipEnter);
-      tooltip.removeEventListener("mouseleave", tooltipLeave);
-    };
-  }, [md]);
 
   if (content.length === 0) {
     return null;
@@ -141,25 +90,6 @@ const SectionContent: React.FC<SectionContentProps> = ({
         <ButtonGroup ctas={ctas} className="mt-6 md:mt-10" />
       )}
 
-      {tooltipX !== null && tooltipY !== null && (
-        <AnimatePresence>
-          {tooltipVisible && (
-            <motion.div
-              initial={{ opacity: 0, y: "-98%" }}
-              animate={{ opacity: 1, y: "-100%" }}
-              exit={{ opacity: 0, y: "-98%" }}
-              dangerouslySetInnerHTML={{
-                __html: tooltipContent,
-              }}
-              className="absolute z-20 rounded-[10px] bg-[#1F2831] border border-[#2D3843] px-5 py-6 text-xs w-[205px] box-content"
-              style={{
-                top: tooltipY - 32,
-                left: tooltipX,
-              }}
-            ></motion.div>
-          )}
-        </AnimatePresence>
-      )}
     </div>
   );
 };
