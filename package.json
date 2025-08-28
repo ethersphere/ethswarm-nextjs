@@ -13,6 +13,8 @@
     "@cowprotocol/widget-react": "^0.14.0",
     "@headlessui/react": "^2.2.7",
     "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.12",
     "gray-matter": "^4.0.3",
