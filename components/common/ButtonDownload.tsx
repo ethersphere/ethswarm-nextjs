@@ -15,7 +15,7 @@ const DownloadButton: React.FC<ButtonProps> = ({
   color = "black",
 }) => {
   let classNameBackground = "bg-orange-500 focus:outline-none hover:bg-opacity-80";
-  
+
   if (background === "transparent") {
     classNameBackground = "bg-orange-transparent focus:outline-none";
   } else if (background === "white") {
@@ -24,28 +24,23 @@ const DownloadButton: React.FC<ButtonProps> = ({
     classNameBackground = "bg-black focus:outline-none";
   }
 
-  let classNameColor = "text-[#F6F7F9]";
+  let classNameColor = "text-[#0D1216]";
   if (color === "gray") {
     classNameColor = "text-gray-100";
+  } else if (color === "white") {
+    classNameColor = "text-white";
   }
 
   const assetInfo = useOsAsset("ethersphere/swarm-desktop");
 
-  // If asset does not exist, unknown platform, or still loading, don't render
-  if (!assetInfo || assetInfo.osName === "Unknown") {
-    return null;
-  }
-
-  // Type assertion to access the asset property safely
-  const typedAssetInfo = assetInfo as any;
-  
-  // Check if we have the asset data
-  if (!typedAssetInfo.asset || !typedAssetInfo.asset.browser_download_url) {
+  // Check if the OS was detected and a download URL was generated.
+  // The component will not render if the OS is unknown or the URL is missing.
+  if (!assetInfo || assetInfo.osName === "Unknown" || !assetInfo.downloadUrl) {
     return null;
   }
 
   const className = cx(
-    "transition duration-200 items-center text-sm font-semibold px-4 text-[#F6F7F9] rounded-full leading-[2.3] group focus:outline-none",
+    "transition duration-200 inline-flex items-center text-sm font-semibold px-4 text-center rounded-full leading-[2.3] group focus:outline-none",
     classNameBackground,
     classNameColor
   );
@@ -54,7 +49,7 @@ const DownloadButton: React.FC<ButtonProps> = ({
 
   return (
     <a
-      href={typedAssetInfo.asset.browser_download_url}
+      href={assetInfo.downloadUrl}
       target="_blank"
       rel="noreferrer"
       className={className}
@@ -65,3 +60,4 @@ const DownloadButton: React.FC<ButtonProps> = ({
 };
 
 export default DownloadButton;
+
