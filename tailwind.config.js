@@ -5,6 +5,14 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./lib/**/*.{js,ts,jsx,tsx}",
+    "./styles/*.{js,ts,jsx,tsx}",
+  ],
+  safelist: [
+    {
+      pattern: /.*/,
+      variants: ['hover', 'focus', 'active', 'sm', 'md', 'lg', 'xl'],
+    }
   ],
   theme: {
     extend: {

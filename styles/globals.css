@@ -1,86 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-  font-family: "iA Mono";
-  src: url("../public/fonts/iAWriterMonoS-Regular.woff2") format("woff2"),
-    url("../public/fonts/iAWriterMonoS-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "iA Mono";
-  src: url("../public/fonts/iAWriterMonoS-Bold.woff2") format("woff2"),
-    url("../public/fonts/iAWriterMonoS-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-[data-help] {
-  @apply pr-5 cursor-[help] inline-block;
-}
-
 [data-help-content] {
-  @apply hidden;
+  display: none;
 }
 
 [data-help]:after {
   content: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z' stroke='%23F6F7F9' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8 5.6C8.44182 5.6 8.8 5.24183 8.8 4.8C8.8 4.35817 8.44182 4 8 4C7.55817 4 7.2 4.35817 7.2 4.8C7.2 5.24183 7.55817 5.6 8 5.6Z' fill='%23F6F7F9'/%3E%3Cpath d='M8 11.5992V7.19922' stroke='%23F6F7F9' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-  @apply absolute z-10 w-4 h-4 text-gray-400;
+  position: absolute;
+  z-index: 10;
+  width: 1rem;
+  height: 1rem;
+  color: #9ca3af;
 }
 
-/* Prose overrides for body */
 .prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
-  @apply px-2 mt-16 text-xl text-[#F6F7F9] sm:px-4 md:text-2xl md:-mx-4;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #F6F7F9;
 }
 
-.prose :where(strong):not(:where([class~="not-prose"] *)) {
-  @apply font-bold text-[#F6F7F9];
+@media (min-width: 640px) {
+  .prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-.prose.md\:prose-lg
-  :where(.prose > :first-child):not(:where([class~="not-prose"] *)) {
-  @apply mt-0;
-}
-
-ol li::marker {
-  @apply !text-[#F6F7F9];
-}
-
-.prose em {
-  @apply not-italic;
-}
-
-.dotted-spaced {
-  background-image: linear-gradient(
-    to bottom,
-    #3c3f42 10%,
-    rgba(255, 255, 255, 0) 0%
-  );
-  background-position: left;
-  background-size: 1px 6px;
-  background-repeat: repeat-y;
-}
-
-/* scrollbar styles for code blocks */
-.code-block::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-.code-block::-webkit-scrollbar-thumb {
-  width: 1px;
-  height: 10px;
-  background-color: #2d3843;
-  border-radius: 20px;
-}
-
-.code-block::-webkit-scrollbar {
-  height: 8px;
-  border-radius: 20px;
-  overflow: hidden;
-  background-color: transparent;
+@media (min-width: 768px) {
+  .prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 }
