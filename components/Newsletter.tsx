@@ -44,6 +44,10 @@ const Newsletter: FC<NewsletterProps> = () => {
           encType="multipart/form-data"
         >
           <div className="mauticform-innerform">
+            {/* These divs are required for Mautic to show success/error messages */}
+            <div className="mauticform-error" id="mauticform_websitenewslettersubscription_error"></div>
+            <div className="mauticform-message" id="mauticform_websitenewslettersubscription_message"></div>
+
             <div className="mauticform-page-wrapper mautic-page-1" data-mautic-form-page="1">
               <div
                 id="mauticform_websitenewslettersubscription_email_address"
@@ -52,7 +56,7 @@ const Newsletter: FC<NewsletterProps> = () => {
                 <label className="sr-only" htmlFor="mauticform_input_websitenewslettersubscription_email_address">
                   Enter your email address
                 </label>
-                {/* This is the input field that needed fixing. */}
+                
                 <div className="flex items-center bg-[#2D3843] rounded-full p-1">
                   <input
                     id="mauticform_input_websitenewslettersubscription_email_address"
@@ -60,11 +64,13 @@ const Newsletter: FC<NewsletterProps> = () => {
                     placeholder="Enter your email address"
                     className="flex-grow bg-transparent text-white placeholder-gray-400 px-4 py-2 focus:outline-none"
                     type="email"
+                    required
                   />
                   <button
                     type="submit"
                     name="mauticform[submit]"
                     id="mauticform_input_websitenewslettersubscription_submit"
+                    value="Submit"
                     className="bg-[#F6F7F9] text-black rounded-full p-2 hover:bg-gray-200"
                   >
                     <svg
@@ -83,9 +89,22 @@ const Newsletter: FC<NewsletterProps> = () => {
                     </svg>
                   </button>
                 </div>
+                 <div className="mt-4 text-[10px] text-[#F6F7F9] text-opacity-50">
+                   By clicking on Subscribe you consent to usage of your given
+                   e-mail address for receiving communication and news about the
+                   Swarm project. Data will be controlled and processed by Swarm
+                   Foundation.
+                 </div>
               </div>
             </div>
           </div>
+
+          {/* These hidden fields are required by Mautic for the form to submit correctly */}
+          <input type="hidden" name="mauticform[formId]" id="mauticform_websitenewslettersubscription_id" value="5" />
+          <input type="hidden" name="mauticform[return]" id="mauticform_websitenewslettersubscription_return" value="" />
+          <input type="hidden" name="mauticform[formName]" id="mauticform_websitenewslettersubscription_name" value="websitenewslettersubscription" />
+          <input name="mauticform[gdpr_accepted]" id="mauticform_radiogrp_radio_gdpr_accepted_Yes0" type="hidden" value="1" />
+          <input name="mauticform[i_consent_to_gathering_an]" id="mauticform_radiogrp_radio_i_consent_to_gathering_an_Yes0" type="hidden" value="1" />
         </form>
       </div>
     </>
