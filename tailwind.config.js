@@ -2,17 +2,22 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
+  corePlugins: {
+    preflight: true,
+  },
+  // This is the final attempt to fix the content scanning with a more
+  // comprehensive set of paths, including the markdown content directory.
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,md,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,md,mdx}",
+    "./content/**/*.md",
     "./lib/**/*.{js,ts,jsx,tsx}",
-    "./styles/*.{js,ts,jsx,tsx}",
+    "./styles/**/*.{js,ts,jsx,tsx}",
+    "./utils/**/*.{js,ts,jsx,tsx}",
+    "./hooks/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [
-    {
-      pattern: /.*/,
-      variants: ['hover', 'focus', 'active', 'sm', 'md', 'lg', 'xl'],
-    }
+    'pr-5',
   ],
   theme: {
     extend: {
