@@ -1,73 +1,101 @@
-// From https://github.com/ethersphere/swarm-app-page
+import { useState, useEffect } from 'react';
 
-import { useEffect, useState } from "react";
-
-// Hooks
-import { Asset, useGithubAssets } from "./useGitHubAssets";
-
-type OsAsset = {
+// Defines the shape of the returned asset information.
+interface AssetInfo {
   osName: string;
-  asset?: Asset;
-};
-
-function getOsfromUA() {
-  if (typeof window === "undefined") {
-    return false;
-  }
-
-  const ua = window.navigator.userAgent;
-
-  if (ua.includes("Mac")) {
-    return "MacOS";
-  } else if (ua.includes("Windows")) {
-    return "Windows";
-  } else if (ua.includes("Ubuntu")) {
-    return "Debian";
-  } else if (ua.includes("Debian")) {
-    return "Debian";
-  }
-
-  return false;
+  architecture?: string;
+  downloadUrl?: string;
+  version?: string; // We'll add a version property
+  isLoading: boolean;
 }
 
-const findAsset = (assets: Asset[] | undefined) => {
-  if (!assets) {
-    return;
-  }
+// A custom hook to detect the user's OS and provide a corresponding download asset.
+const useOsAsset = (repository: string): AssetInfo => {
+  const [asset, setAsset] = useState<AssetInfo>({
+    osName: '',
+    isLoading: true, // Initial state is loading
+  });
 
-  const osName = getOsfromUA();
+  useEffect(() => {
+    // Only run on the client side, where the window object is available.
+    if (typeof window === 'undefined') return;
 
-  for (const asset of assets) {
-    switch (osName) {
-      case "Windows":
-        if (asset.content_type === "application/x-msdos-program") {
-          return { osName, asset };
+    const fetchLatestVersion = async () => {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${repository}/releases/latest`);
+        if (!response.ok) {
+          throw new Error('Failed to fetch latest release from GitHub.');
         }
-        break;
+        const data = await response.json();
+        const latestVersion = data.tag_name;
 
-      case "MacOS":
-        if (asset.name.includes("x64.dmg")) {
-          return { osName, asset };
+        const ua = window.navigator.userAgent;
+        const platform = window.navigator.platform;
+        let osName = 'Unknown';
+        let architecture = 'x64'; // Default to x64
+
+        // 1. Detect OS and architecture
+        if (ua.includes('Win')) {
+          osName = 'Windows';
+          architecture = 'x64'; 
+        } else if (ua.includes('Mac')) {
+          osName = 'macOS';
+          if (platform.includes('arm64') || ua.includes('arm64')) {
+            architecture = 'arm64';
+          }
+        } else if (ua.includes('Linux')) {
+          osName = 'Linux';
+          if (ua.includes('arm64') || ua.includes('aarch64')) {
+            architecture = 'arm64';
+          }
         }
-        break;
 
-      case "Debian":
-        if (asset.name.includes("amd64.deb")) {
-          return { osName, asset };
-        }
-        break;
+        // 2. Map detected OS and architecture to the correct asset filename.
+        const assetFileName = getAssetName(osName, architecture, latestVersion);
 
-      default:
-        return { osName: "Unknown" };
-    }
-  }
-};
+        // 3. Construct the dynamic download URL.
+        const downloadUrl = assetFileName
+          ? `https://github.com/${repository}/releases/download/${latestVersion}/${assetFileName}`
+          : undefined;
 
-export const useOsAsset = (repo: string) => {
-  const assets = useGithubAssets(repo);
-  const [asset, setAsset] = useState<OsAsset | undefined>();
+        // 4. Update the state with the final asset information.
+        setAsset({ osName, architecture, downloadUrl, version: latestVersion, isLoading: false });
 
-  useEffect(() => setAsset(findAsset(assets)), [assets]);
+      } catch (error) {
+        console.error('Error fetching release assets:', error);
+        setAsset({ osName: 'Unknown', isLoading: false });
+      }
+    };
+
+    fetchLatestVersion();
+
+  }, [repository]);
 
   return asset;
 };
+
+// Helper function to map OS and architecture to the correct asset filename.
+const getAssetName = (osName: string, architecture: string, version: string): string => {
+  const arch = architecture.toLowerCase();
+  const baseName = `Swarm.Desktop-${version.replace(/^v/, '')}`; // Removes leading 'v' if present
+
+  switch (osName) {
+    case 'Windows':
+      return `${baseName}.Setup.exe`;
+    case 'macOS':
+      if (arch === 'arm64') {
+        return `${baseName}-arm64.dmg`;
+      }
+      return `${baseName}-x64.dmg`;
+    case 'Linux':
+      if (arch === 'arm64') {
+        return `swarm-desktop_${version.replace(/^v/, '')}_arm64.deb`;
+      }
+      return `swarm-desktop_${version.replace(/^v/, '')}_amd64.deb`;
+    default:
+      return '';
+  }
+};
+
+export { useOsAsset, getAssetName };
+export default useOsAsset;

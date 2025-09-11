@@ -1,37 +1,38 @@
-// From https://usehooks.com/useWindowSize/
+import { useState, useEffect } from 'react';
 
-import { useState, useEffect } from "react";
-
-// Define general type for useWindowSize hook, which includes width and height
-export interface Size {
-  width: number | undefined;
-  height: number | undefined;
+interface WindowSize {
+  width: number;
+  height: number;
 }
 
-export default function useWindowSize(): Size {
-  // Initialize state with undefined width/height so server and client renders match
-  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-  const [windowSize, setWindowSize] = useState<Size>({
-    width: undefined,
-    height: undefined,
+const useWindowSize = (): WindowSize => {
+  const [windowSize, setWindowSize] = useState<WindowSize>({
+    width: 0,
+    height: 0,
   });
 
   useEffect(() => {
-    // Handler to call on window resize
-    function handleResize() {
-      // Set window width/height to state
+    // Only run on client side
+    if (typeof window === 'undefined') return;
+
+    const handleResize = () => {
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
       });
-    }
+    };
+
+    // Set initial size
+    handleResize();
+
     // Add event listener
     window.addEventListener("resize", handleResize, { passive: true });
-    // Call handler right away so state gets updated with initial window size
-    handleResize();
-    // Remove event listener on cleanup
+
+    // Cleanup
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return windowSize;
-}
+};
+
+export default useWindowSize;

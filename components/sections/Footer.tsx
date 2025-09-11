@@ -17,7 +17,7 @@ type FooterProps = {
 
 const Footer: React.FC<FooterProps> = ({ events }) => {
   return (
-    <footer className="relative flex flex-col items-center overflow-hidden text-gray-100 bg-gray-800 bg-gradient-to-b from-[#1F2831] to-[#000]">
+    <footer className="relative flex flex-col items-center overflow-hidden text-gray-100 bg-gray-800 bg-linear-to-b from-[#1F2831] to-black">
       <Connect events={events} />
 
       <Container className="w-full">

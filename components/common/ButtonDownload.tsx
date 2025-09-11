@@ -1,7 +1,7 @@
-import * as React from "react";
+import React from "react";
 import { cx } from "utils";
 import { ButtonBackgroundType, ButtonTextColorType } from "types";
-import { useOsAsset } from "hooks/useOsAsset";
+import useOsAsset from "hooks/useOsAsset";
 
 type ButtonProps = {
   background: ButtonBackgroundType;
@@ -14,8 +14,7 @@ const DownloadButton: React.FC<ButtonProps> = ({
   background = "orange",
   color = "black",
 }) => {
-  let classNameBackground =
-    "bg-orange-500 focus:outline-none  hover:bg-opacity-80";
+  let classNameBackground = "bg-orange-500 focus:outline-none hover:bg-opacity-80";
 
   if (background === "transparent") {
     classNameBackground = "bg-orange-transparent focus:outline-none";
@@ -25,35 +24,40 @@ const DownloadButton: React.FC<ButtonProps> = ({
     classNameBackground = "bg-black focus:outline-none";
   }
 
-  let classNameColor = "text-[#F6F7F9]";
-
+  let classNameColor = "text-[#0D1216]";
   if (color === "gray") {
     classNameColor = "text-gray-100";
+  } else if (color === "white") {
+    classNameColor = "text-white";
   }
 
-  const asset: any = useOsAsset("ethersphere/swarm-desktop");
+  const assetInfo = useOsAsset("ethersphere/swarm-desktop");
 
-  // If asset does not exist or unknown platform, we return
-  if (!asset || asset.osName === "Unknown") {
+  // Check if the OS was detected and a download URL was generated.
+  // The component will not render if the OS is unknown or the URL is missing.
+  if (!assetInfo || assetInfo.osName === "Unknown" || !assetInfo.downloadUrl) {
     return null;
   }
 
   const className = cx(
-    "transition duration-200 items-center text-sm font-semibold px-4 text-[#F6F7F9] rounded-full leading-[2.3] group focus:outline-none",
+    "transition duration-200 inline-flex items-center text-sm font-semibold px-4 text-center rounded-full leading-[2.3] group focus:outline-none",
     classNameBackground,
     classNameColor
   );
 
+  const downloadText = "Download for " + assetInfo.osName + " ->";
+
   return (
     <a
-      href={asset.asset.browser_download_url}
+      href={assetInfo.downloadUrl}
       target="_blank"
       rel="noreferrer"
       className={className}
     >
-      {`Download for ${asset.osName} ->`}
+      {downloadText}
     </a>
   );
 };
 
 export default DownloadButton;
+

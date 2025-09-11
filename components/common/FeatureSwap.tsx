@@ -1,78 +1,91 @@
-import * as React from "react";
-import Icons from "@/icons/components/index";
-import {
-  CowSwapWidget,
-  // CowSwapWidgetParams,
-  // TradeType,
-} from "@cowprotocol/widget-react";
+import dynamic from 'next/dynamic'
+import { useState, useEffect, FC } from 'react'
+import { CowSwapWidgetParams, CowSwapWidgetPalette } from '@cowprotocol/widget-react'
 
-type Props = {};
+// Dynamically import the CowProtocol widget with SSR disabled
+const CowSwapWidget = dynamic(
+  () => import('@cowprotocol/widget-react').then(mod => ({ default: mod.CowSwapWidget })),
+  { 
+    ssr: false,
+    loading: () => (
+      <div className="flex items-center justify-center p-8 bg-[#1F2831]/70 rounded-lg h-[550px]">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#F28B0A] mx-auto mb-4"></div>
+          <p className="text-[#F6F7F9]">Loading Swap Widget...</p>
+        </div>
+      </div>
+    )
+  }
+)
 
-const items = [
-  {
-    label: "Uniswap (ETH)",
-    url: "https://app.uniswap.org/#/swap?chain=ethereum&inputCurrency=ETH&outputCurrency=0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
-    icon: Icons.UniswapIcon,
-  },
-  {
-    label: "CoW Swap (xDAI)",
-    url: "https://swap.cow.fi/#/1/swap/WETH/BZZ",
-    icon: Icons.CowSwapIcon,
-  },
-  {
-    label: "Jumper (any)",
-    url: "https://jumper.exchange/exchange?fromChain=1&fromToken=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48&toChain=100&toToken=0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
-    icon: Icons.JumperIcon,
-  },
-];
+const BZZ_ON_ETH = '0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da'
 
-const params = {
-  appCode: "Ethswarm", // Name of your app (max 50 characters)
-  width: "100%", // Width in pixels (or 100% to use all available space)
-  height: "640px",
-  chainId: 1, // 1 (Mainnet), 100 (Gnosis), 11155111 (Sepolia)
-  tokenLists: [
-    // All default enabled token lists. Also see https://tokenlists.org
-    "https://files.cow.fi/tokens/CoinGecko.json",
-    "https://files.cow.fi/tokens/CowSwap.json",
-  ],
-  // Types not working, comment out to disable
-  // tradeType: TradeType.SWAP, // TradeType.SWAP, TradeType.LIMIT or TradeType.ADVANCED
-  sell: {
-    // Sell token. Optionally add amount for sell orders
-    asset: "usdt",
-    amount: "500",
-  },
-  buy: {
-    asset: "bzz",
-    amount: "0",
-  },
-  enabledTradeTypes: [
-    // Types not working, comment out to disable
-    // TradeType.SWAP, TradeType.LIMIT and/or TradeType.ADVANCED
-    // TradeType.SWAP,
-    // TradeType.LIMIT,
-    // TradeType.ADVANCED,
-  ],
-  theme: {
-    baseTheme: "dark",
-    primary: "#e97e2f",
-    paper: "#1b2129",
-    text: "#f6f7f9",
-  },
-  standaloneMode: true,
-  disableToastMessages: false,
-  disableProgressBar: false,
-  images: {},
-  sounds: {},
-  customTokens: [],
-  partnerFee: {
-    bps: 100, // 1%
-    recipient: "0x6cb2075bd6e93691FF69Ad2187Fc3E9038503064", // Fee destination address
-  },
-};
+interface Props {
+  className?: string
+}
 
-const FeatureSwap: React.FC<{ className?: string }> = ({ className = "" }) => {
+const FeatureSwap: FC<Props> = ({ className }) => {
+  const [mounted, setMounted] = useState(false)
+
+  const theme: CowSwapWidgetPalette = {
+    baseTheme: 'dark',
+    primary: '#F28B0A',
+    paper: '#25313C',
+    text: '#F6F7F9',
+    background: '#1F2831',
+    success: '#4CAF50',
+    warning: '#FF9800',
+    danger: '#F44336',
+    alert: '#FFC107',
+    info: '#2196F3',
+  }
+
+  const params: CowSwapWidgetParams = {
+    appCode: 'Swarm',
+    width: '100%',
+    height: '550px',
+    chainId: 1,
+    tokenLists: [
+      'https://unpkg.com/@traderjoe-xyz/token-lists/build/traderjoe.tokenlist.json',
+      'https://raw.githubusercontent.com/paraswap/community-token-list/master/src/sources/paraswap.extralist.json',
+    ],
+    sell: {
+      asset: 'ETH',
+      amount: '1',
+    },
+    buy: {
+      asset: BZZ_ON_ETH,
+      amount: '',
+    },
+    enabledTradeTypes: [],
+    theme,
+  }
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  // Show loading state until client-side hydration is complete
+  if (!mounted) {
+    return (
+      <div className={className}>
+        <div className="border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 pb-5">
+          <div className="flex items-center justify-center p-8 h-[550px]">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#F28B0A] mx-auto mb-4"></div>
+              <p className="text-[#F6F7F9]">Loading Swap Widget...</p>
+            </div>
+          </div>
+          <div className="text-[13px] text-[#F6F7F9]/40 px-4 max-w-lg mx-auto">
+            Please note that the quoting system in CowSwap is in beta and may not
+            provide accurate predictions. To determine the exact final price, you
+            must proceed to the trade execution screen.
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className={className}>
       <div className="border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 pb-5">
@@ -80,27 +93,11 @@ const FeatureSwap: React.FC<{ className?: string }> = ({ className = "" }) => {
         <div className="text-[13px] text-[#F6F7F9]/40 px-4 max-w-lg mx-auto">
           Please note that the quoting system in CowSwap is in beta and may not
           provide accurate predictions. To determine the exact final price, you
-          can calculate it from the different pools (
-          <a
-            href="https://app.uniswap.org/explore/pools/ethereum/0x5696C2c2FcB7e304A5B9fAaEc9cd37d369C9D067"
-            target="_blank"
-            className="underline hover:text-[#F6F7F9]"
-          >
-            Ethereum
-          </a>
-          ,{" "}
-          <a
-            href="https://balancer.fi/pools/gnosis/cow/0x8Db38b15ccAbd9D7f62c77E22a57D979501404d9"
-            target="_blank"
-            className="underline hover:text-[#F6F7F9]"
-          >
-            GnosisChain
-          </a>
-          )
+          must proceed to the trade execution screen.
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default FeatureSwap;
+export default FeatureSwap

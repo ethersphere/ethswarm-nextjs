@@ -27,7 +27,7 @@ const FeatureBridges: React.FC<Props> = () => {
               "flex flex-col text-center items-center border border-[#2D3843] rounded-xl overflow-hidden bg-[#1F2831]/70 px-4 py-5 text-sm sm:text-[17px] font-bold duration-200 group"
             )}
           >
-            <IconTag className="flex-shrink-0 w-6 max-h-6" />
+            <IconTag className="shrink-0 w-6 max-h-6" />
 
             <span className="mt-4">{label}</span>
           </a>

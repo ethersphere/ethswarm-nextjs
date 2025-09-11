@@ -23,7 +23,7 @@ const Quote: React.FC<QuoteProps> = ({ quote, className }) => {
         "flex items-center justify-center w-full px-6 py-3 font-semibold tracking-wider text-center sm:text-lg sm:px-8 sm:py-4 font-display z-10",
         className,
         quote.background_gradient
-          ? "bg-gradient-to-r from-[#FF7A00E5] to-[#B43BCDE5] text-gray-100"
+          ? "bg-linear-to-r from-[#FF7A00E5] to-[#B43BCDE5] text-gray-100"
           : "text-gray-100 bg-gray-500 bg-opacity-70"
       )}
     >

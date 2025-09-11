@@ -25,7 +25,7 @@ const Odyssey: React.FC<OdysseyProps> = ({
   return (
     <section className="relative text-gray-100 lg:mt-10">
       <Container className="relative h-full md:px-3 xl:px-0">
-        <GridContainer className="md:items-end !px-5 lg:!px-14 lg:items-center border border-[#2D3843] rounded-xl bg-gradient-odyssey mx-6 md:mx-0 overflow-hidden md:overflow-visible">
+        <GridContainer className="md:items-end px-5! lg:px-14! lg:items-center border border-[#2D3843] rounded-xl bg-gradient-odyssey mx-6 md:mx-0 overflow-hidden md:overflow-visible">
           <Header
             tagline={tagline}
             content={content}
