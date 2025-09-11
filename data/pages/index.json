@@ -211,32 +211,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/bee-2-6-0-release/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-august-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/bee-2-6-0.jpg",
-            "alt": "Bee Version 2.6.0 Goes Live!"
+            "src": "https://blog.ethswarm.org/uploads/082025-devupdate.jpg",
+            "alt": "Monthly Development Update – August 2025"
           },
-          "title": "Bee Version 2.6.0 Goes Live!",
-          "content": "This update brings faster node startup, protocol readiness improvements, and a collection of important bug fixes, monitoring enhancements, and compatibility updates.",
+          "title": "Monthly Development Update – August 2025",
+          "content": "The Bee team made steady progress on the WASM implementation contributions, a key part of assisting in the otherwise community driven development of Bee in the browser.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/bee-2-6-0-release/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-august-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-31-july-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-28-august-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-recap0725.png",
-            "alt": "Swarm Community Call, 31 July – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC-recap0825.png",
+            "alt": "Swarm Community Call, 28 August – Recap"
           },
-          "title": "Swarm Community Call, 31 July – Recap",
-          "content": "The July 2025 Swarm Community Call covered key updates in core development, introduced a new initiative connecting Swarm to decentralised AI ...",
+          "title": "Swarm Community Call, 28 August – Recap",
+          "content": "The August 2025 Swarm Community Call covered progress in core development, looked ahead to the development roadmap ...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-31-july-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-28-august-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
