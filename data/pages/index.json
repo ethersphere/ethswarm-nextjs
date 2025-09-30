@@ -36,6 +36,12 @@
         "title": "Learn more ->"
       }
     ],
+    "video": {
+      "url": "https://bzz.link/bzz/75621d4f61fd6585c533f1ae7bdbec20eab55dadca7c476c24f098e2a9cfeef3/TOGETHER%20WE%20ARE%20SWARM.mp4",
+      "thumbnail": "",
+      "autoplay": true,
+      "inline": false
+    },
     "cards": [
       {
         "title": "Open & Borderless",
@@ -152,7 +158,7 @@
         ],
         "code": "Bee API"
       }
-    ]  
+    ]
   },
   "odyssey": {
     "title": "Odyssey Data Upload",

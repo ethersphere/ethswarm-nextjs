@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, Header } from "@/components/common";
+import { Container, Header, Video } from "@/components/common";
 import { CardType, CtaType } from "types";
 import cx from "../../utils/cx";
 import Card from "../common/Card";
@@ -14,6 +14,12 @@ type GeneralSectionProps = {
     content?: string;
     cards?: Array<CardType>;
     ctas?: Array<CtaType>;
+    video?: {
+      url: string;
+      thumbnail?: string;
+      autoplay?: boolean;
+      inline?: boolean;
+    };
   };
 };
 
@@ -41,6 +47,19 @@ const GeneralSection: React.FC<GeneralSectionProps> = ({
             className="col-span-12 lg:col-span-6"
           />
         </GridContainer>
+
+        {content.video && (
+          <GridContainer className="mt-20">
+            <div className="col-span-12">
+              <Video
+                url={content.video.url}
+                thumbnail={content.video.thumbnail}
+                autoplay={content.video.autoplay}
+                inline={content.video.inline}
+              />
+            </div>
+          </GridContainer>
+        )}
 
         <GridContainer className="mt-20">
           {content.cards &&

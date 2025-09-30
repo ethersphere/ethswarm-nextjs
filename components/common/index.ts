@@ -13,6 +13,7 @@ import FeatureBzzPot from "./FeatureBzzPot";
 import FeatureBzzPrice from "./FeatureBzzPrice";
 import FeatureExchanges from "./FeatureExchanges";
 import Status from "./Status";
+import Video from "./Video";
 
 export {
   InputField,
@@ -30,4 +31,5 @@ export {
   FeatureBzzPrice,
   FeatureExchanges,
   Status,
+  Video,
 };
