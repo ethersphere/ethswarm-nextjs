@@ -50,7 +50,9 @@ const Video: React.FC<VideoProps> = ({
   className = "",
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
   const modalVideoRef = useRef<HTMLVideoElement>(null);
+  const inlineVideoRef = useRef<HTMLVideoElement>(null);
 
   const handleOpenModal = () => {
     setIsModalOpen(true);
@@ -73,23 +75,47 @@ const Video: React.FC<VideoProps> = ({
     setIsModalOpen(false);
   };
 
+  const handlePlayInline = () => {
+    if (inlineVideoRef.current) {
+      inlineVideoRef.current.play().catch((error) => {
+        console.log("Inline video play prevented:", error);
+      });
+      setIsPlaying(true);
+    }
+  };
+
   return (
     <>
       <div
         className={cx("relative w-full rounded-lg overflow-hidden", className)}
       >
         {autoplay || inline ? (
-          <video
-            className="w-full h-auto"
-            controls={inline}
-            muted={autoplay}
-            autoPlay={autoplay}
-            loop={autoplay}
-            playsInline
-            preload={autoplay ? "auto" : "metadata"}
-          >
-            <source src={url} type="video/mp4" />
-          </video>
+          <>
+            <video
+              ref={inlineVideoRef}
+              className="w-full h-auto"
+              controls={isPlaying || !thumbnail}
+              muted={autoplay}
+              autoPlay={autoplay}
+              loop={autoplay}
+              playsInline
+              preload={autoplay ? "auto" : "metadata"}
+              poster={thumbnail}
+            >
+              <source src={url} type="video/mp4" />
+            </video>
+
+            {inline && thumbnail && !autoplay && !isPlaying && (
+              <button
+                className="absolute inset-0 flex items-center justify-center"
+                onClick={handlePlayInline}
+              >
+                <div className="w-12 h-12 bg-black/40 rounded-full flex items-center justify-center">
+                  <PlayIcon className="w-5 h-5 text-white" />
+                </div>
+              </button>
+            )}
+          </>
         ) : (
           <img
             src={thumbnail}
