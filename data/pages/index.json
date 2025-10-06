@@ -24,6 +24,15 @@
       }
     ]
   },
+  "video": {
+    "title": "Why Swarm Exists",
+    "video": {
+      "url": "https://bzz.link/bzz/dbec11c4efe36ad932ebccf91ca1c711e589a1c8e15741008bbe59ae6bab755f/TOGETHER%20WE%20ARE%20SWARM-c.mp4",
+      "thumbnail": "/thumbnail.jpg",
+      "autoplay": false,
+      "inline": true
+    }
+  },
   "unstoppable": {
     "tagline": "Serverless Cloud ↔ Web3 Infrastructure",
     "title": "The Backbone of Web3",
@@ -36,12 +45,6 @@
         "title": "Learn more ->"
       }
     ],
-    "video": {
-      "url": "https://bzz.link/bzz/dbec11c4efe36ad932ebccf91ca1c711e589a1c8e15741008bbe59ae6bab755f/TOGETHER%20WE%20ARE%20SWARM-c.mp4",
-      "thumbnail": "/thumbnail.jpg",
-      "autoplay": false,
-      "inline": true
-    },
     "cards": [
       {
         "title": "Open & Borderless",
