@@ -14,6 +14,7 @@ import { CtaType, TabType } from "types";
 import { Meta } from "@/components/common";
 import { getAllEvents } from "lib/events";
 import { getHome } from "lib/home";
+import VideoSection from "@/components/sections/VideoSection";
 
 const Home: NextPage = (props: any) => {
   return (
@@ -34,6 +35,8 @@ const Home: NextPage = (props: any) => {
         // @ts-ignore
         image={content.event.image}
       />
+
+      <VideoSection content={content.video} />
 
       <GeneralSection content={content.unstoppable} />
 
