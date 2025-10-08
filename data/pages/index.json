@@ -220,32 +220,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-august-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-september-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/082025-devupdate.jpg",
-            "alt": "Monthly Development Update – August 2025"
+            "src": "https://blog.ethswarm.org/uploads/092025-devupdate.jpg",
+            "alt": "Monthly Development Update – September 2025"
           },
-          "title": "Monthly Development Update – August 2025",
-          "content": "The Bee team made steady progress on the WASM implementation contributions, a key part of assisting in the otherwise community driven development of Bee in the browser.",
+          "title": "Monthly Development Update – September 2025",
+          "content": "Bee 2.7 is close to having all release items finalized, with a strong mix of performance improvements and new features. The research track is benchmarking different scenarios in the ongoing...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-august-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-september-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-28-august-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-25-september-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-recap0825.png",
-            "alt": "Swarm Community Call, 28 August – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC-recap-092025.png",
+            "alt": "Swarm Community Call, 28 September – Recap"
           },
-          "title": "Swarm Community Call, 28 August – Recap",
-          "content": "The August 2025 Swarm Community Call covered progress in core development, looked ahead to the development roadmap ...",
+          "title": "Swarm Community Call, 28 September – Recap",
+          "content": "The September Swarm Community Call highlighted major progress toward the upcoming Bee 2.7 release...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-28-august-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-25-september-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
