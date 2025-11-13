@@ -204,16 +204,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/shtuka-partnership/",
+          "href": "https://blog.ethswarm.org/foundation/2025/cryptomondays-partnership/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/swarm-shtuka.png",
-            "alt": "Programme announcement: Swarmonomics"
+            "src": "https://blog.ethswarm.org/uploads/cryptomondays.png",
+            "alt": "Swarm Foundation Partners with CryptoMondays"
           },
-          "title": "Programme announcement: Swarmonomics",
-          "content": "Swarm Foundation is excited to announce that Shtuka Research is partnering with the organisation as an external research contributor to map out the economic landscape of the Swarm Network",
+          "title": "Swarm Foundation Partners with CryptoMondays",
+          "content": "Swarm Foundation Partners with CryptoMondays to Power the Future of Decentralized Media",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/shtuka-partnership/",
+            "href": "https://blog.ethswarm.org/foundation/2025/cryptomondays-partnership/",
             "background": "transparent",
             "color": "white",
             "arrow": true
