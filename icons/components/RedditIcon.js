@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const RedditIcon = ({
   title,
@@ -17,4 +17,4 @@ const RedditIcon = ({
   fill: "currentColor"
 }));
 const ForwardRef = forwardRef(RedditIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

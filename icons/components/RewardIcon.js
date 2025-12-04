@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const RewardIcon = ({
   title,
@@ -26,4 +26,4 @@ const RewardIcon = ({
   d: "M0 0h41.52v48H0z"
 }))));
 const ForwardRef = forwardRef(RewardIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const UniswapIcon = ({
   title,
@@ -44,4 +44,4 @@ const UniswapIcon = ({
   d: "M4 3h16v17H4z"
 }))));
 const ForwardRef = forwardRef(UniswapIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

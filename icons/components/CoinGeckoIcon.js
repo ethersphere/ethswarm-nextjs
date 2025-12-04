@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const CoinGeckoIcon = ({
   title,
@@ -69,4 +69,4 @@ const CoinGeckoIcon = ({
   fill: "white"
 }))));
 const ForwardRef = forwardRef(CoinGeckoIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

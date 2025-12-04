@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const ConnectIcon = ({
   title,
@@ -19,4 +19,4 @@ const ConnectIcon = ({
   d: "M14.09 17.4c-.44 0-.8.36-.8.8v3.59c0 .44.36.8.8.8s.8-.36.8-.8V18.2c0-.44-.36-.8-.8-.8ZM20.55 22.6c.44 0 .8-.36.8-.8v-3.59c0-.44-.36-.8-.8-.8s-.8.36-.8.8v3.59c0 .44.36.8.8.8Z"
 }));
 const ForwardRef = forwardRef(ConnectIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const RedistributionIcon = ({
   title,
@@ -28,4 +28,4 @@ const RedistributionIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(RedistributionIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

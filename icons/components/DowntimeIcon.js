@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const DowntimeIcon = ({
   title,
@@ -70,4 +70,4 @@ const DowntimeIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(DowntimeIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

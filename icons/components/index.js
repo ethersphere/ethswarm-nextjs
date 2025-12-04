@@ -1,60 +1,60 @@
-module.exports.ArrowIcon = require("./ArrowIcon.js")
-module.exports.BoxArrowIcon = require("./BoxArrowIcon.js")
-module.exports.BuildersIcon = require("./BuildersIcon.js")
-module.exports.BzzarIcon = require("./BzzarIcon.js")
-module.exports.CoinGeckoIcon = require("./CoinGeckoIcon.js")
-module.exports.CoinMarketCapIcon = require("./CoinMarketCapIcon.js")
-module.exports.CompassIcon = require("./CompassIcon.js")
-module.exports.ConnectIcon = require("./ConnectIcon.js")
-module.exports.CowSwapIcon = require("./CowSwapIcon.js")
-module.exports.CredibleIcon = require("./CredibleIcon.js")
-module.exports.DataIcon = require("./DataIcon.js")
-module.exports.DdosIcon = require("./DdosIcon.js")
-module.exports.DecentralisedIcon = require("./DecentralisedIcon.js")
-module.exports.DiscordIcon = require("./DiscordIcon.js")
-module.exports.DowntimeIcon = require("./DowntimeIcon.js")
-module.exports.ExpandIcon = require("./ExpandIcon.js")
-module.exports.ExploreIcon = require("./ExploreIcon.js")
-module.exports.FaultIcon = require("./FaultIcon.js")
-module.exports.ForkIcon = require("./ForkIcon.js")
-module.exports.GitHubIcon = require("./GitHubIcon.js")
-module.exports.GnosisIcon = require("./GnosisIcon.js")
-module.exports.GrowIcon = require("./GrowIcon.js")
-module.exports.HeartIcon = require("./HeartIcon.js")
-module.exports.HoneyswapIcon = require("./HoneyswapIcon.js")
-module.exports.HostIcon = require("./HostIcon.js")
-module.exports.JoinIcon = require("./JoinIcon.js")
-module.exports.JumperIcon = require("./JumperIcon.js")
-module.exports.KademliaIcon = require("./KademliaIcon.js")
-module.exports.LayersIcon = require("./LayersIcon.js")
-module.exports.LeakIcon = require("./LeakIcon.js")
-module.exports.LockIcon = require("./LockIcon.js")
-module.exports.MessariIcon = require("./MessariIcon.js")
-module.exports.NutIcon = require("./NutIcon.js")
-module.exports.OpenIcon = require("./OpenIcon.js")
-module.exports.OpenbzzIcon = require("./OpenbzzIcon.js")
-module.exports.PancakeswapIcon = require("./PancakeswapIcon.js")
-module.exports.PermissionlessIcon = require("./PermissionlessIcon.js")
-module.exports.PlusIcon = require("./PlusIcon.js")
-module.exports.PriceIcon = require("./PriceIcon.js")
-module.exports.PrivacyIcon = require("./PrivacyIcon.js")
-module.exports.PublicIcon = require("./PublicIcon.js")
-module.exports.PullIcon = require("./PullIcon.js")
-module.exports.PushIcon = require("./PushIcon.js")
-module.exports.RedditIcon = require("./RedditIcon.js")
-module.exports.RedistributionIcon = require("./RedistributionIcon.js")
-module.exports.RetrieveIcon = require("./RetrieveIcon.js")
-module.exports.RewardIcon = require("./RewardIcon.js")
-module.exports.RouteIcon = require("./RouteIcon.js")
-module.exports.ScalableIcon = require("./ScalableIcon.js")
-module.exports.SearchIcon = require("./SearchIcon.js")
-module.exports.StatsIcon = require("./StatsIcon.js")
-module.exports.SushiSwapIcon = require("./SushiSwapIcon.js")
-module.exports.TwitterIcon = require("./TwitterIcon.js")
-module.exports.UniswapIcon = require("./UniswapIcon.js")
-module.exports.UnlimitedIcon = require("./UnlimitedIcon.js")
-module.exports.UploadIcon = require("./UploadIcon.js")
-module.exports.Upload2Icon = require("./Upload2Icon.js")
-module.exports.WriteIcon = require("./WriteIcon.js")
-module.exports.YouTubeIcon = require("./YouTubeIcon.js")
-module.exports.InfoIcon = require("./InfoIcon.js")
+export { default as ArrowIcon } from './ArrowIcon.js'
+export { default as BoxArrowIcon } from './BoxArrowIcon.js'
+export { default as BuildersIcon } from './BuildersIcon.js'
+export { default as BzzarIcon } from './BzzarIcon.js'
+export { default as CoinGeckoIcon } from './CoinGeckoIcon.js'
+export { default as CoinMarketCapIcon } from './CoinMarketCapIcon.js'
+export { default as CompassIcon } from './CompassIcon.js'
+export { default as ConnectIcon } from './ConnectIcon.js'
+export { default as CowSwapIcon } from './CowSwapIcon.js'
+export { default as CredibleIcon } from './CredibleIcon.js'
+export { default as DataIcon } from './DataIcon.js'
+export { default as DdosIcon } from './DdosIcon.js'
+export { default as DecentralisedIcon } from './DecentralisedIcon.js'
+export { default as DiscordIcon } from './DiscordIcon.js'
+export { default as DowntimeIcon } from './DowntimeIcon.js'
+export { default as ExpandIcon } from './ExpandIcon.js'
+export { default as ExploreIcon } from './ExploreIcon.js'
+export { default as FaultIcon } from './FaultIcon.js'
+export { default as ForkIcon } from './ForkIcon.js'
+export { default as GitHubIcon } from './GitHubIcon.js'
+export { default as GnosisIcon } from './GnosisIcon.js'
+export { default as GrowIcon } from './GrowIcon.js'
+export { default as HeartIcon } from './HeartIcon.js'
+export { default as HoneyswapIcon } from './HoneyswapIcon.js'
+export { default as HostIcon } from './HostIcon.js'
+export { default as JoinIcon } from './JoinIcon.js'
+export { default as JumperIcon } from './JumperIcon.js'
+export { default as KademliaIcon } from './KademliaIcon.js'
+export { default as LayersIcon } from './LayersIcon.js'
+export { default as LeakIcon } from './LeakIcon.js'
+export { default as LockIcon } from './LockIcon.js'
+export { default as MessariIcon } from './MessariIcon.js'
+export { default as NutIcon } from './NutIcon.js'
+export { default as OpenIcon } from './OpenIcon.js'
+export { default as OpenbzzIcon } from './OpenbzzIcon.js'
+export { default as PancakeswapIcon } from './PancakeswapIcon.js'
+export { default as PermissionlessIcon } from './PermissionlessIcon.js'
+export { default as PlusIcon } from './PlusIcon.js'
+export { default as PriceIcon } from './PriceIcon.js'
+export { default as PrivacyIcon } from './PrivacyIcon.js'
+export { default as PublicIcon } from './PublicIcon.js'
+export { default as PullIcon } from './PullIcon.js'
+export { default as PushIcon } from './PushIcon.js'
+export { default as RedditIcon } from './RedditIcon.js'
+export { default as RedistributionIcon } from './RedistributionIcon.js'
+export { default as RetrieveIcon } from './RetrieveIcon.js'
+export { default as RewardIcon } from './RewardIcon.js'
+export { default as RouteIcon } from './RouteIcon.js'
+export { default as ScalableIcon } from './ScalableIcon.js'
+export { default as SearchIcon } from './SearchIcon.js'
+export { default as StatsIcon } from './StatsIcon.js'
+export { default as SushiSwapIcon } from './SushiSwapIcon.js'
+export { default as TwitterIcon } from './TwitterIcon.js'
+export { default as UniswapIcon } from './UniswapIcon.js'
+export { default as UnlimitedIcon } from './UnlimitedIcon.js'
+export { default as UploadIcon } from './UploadIcon.js'
+export { default as Upload2Icon } from './Upload2Icon.js'
+export { default as WriteIcon } from './WriteIcon.js'
+export { default as YouTubeIcon } from './YouTubeIcon.js'
+export { default as InfoIcon } from './InfoIcon.js'

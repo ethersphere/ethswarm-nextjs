@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const LeakIcon = ({
   title,
@@ -35,4 +35,4 @@ const LeakIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(LeakIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

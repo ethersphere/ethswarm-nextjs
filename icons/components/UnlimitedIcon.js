@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const UnlimitedIcon = ({
   title,
@@ -48,4 +48,4 @@ const UnlimitedIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(UnlimitedIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const TwitterIcon = ({
   title,
@@ -17,4 +17,4 @@ const TwitterIcon = ({
   fill: "currentColor"
 }));
 const ForwardRef = forwardRef(TwitterIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

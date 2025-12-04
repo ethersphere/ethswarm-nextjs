@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const OpenbzzIcon = ({
   title,
@@ -20,4 +20,4 @@ const OpenbzzIcon = ({
   d: "M17.53 9.007a1.274 1.274 0 0 1 1.811 0 .57.57 0 0 1 0 .813c-.242.242-.571.242-.814 0-.067-.068-.164-.068-.242 0-.067.068-.067.165 0 .242a.57.57 0 0 1 0 .814.57.57 0 0 1-.813 0c-.446-.562-.446-1.366.058-1.87Z"
 }));
 const ForwardRef = forwardRef(OpenbzzIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

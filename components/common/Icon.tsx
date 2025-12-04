@@ -1,5 +1,5 @@
 import * as React from "react";
-import Icons, { KademliaIcon, ScalableIcon } from "@/icons/components/index";
+import * as Icons from "@/icons/components/index";
 import Image from "next/image";
 
 const icons: any = {

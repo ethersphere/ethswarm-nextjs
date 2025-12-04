@@ -1,4 +1,5 @@
 {
-  "module": "./esm/index.js",
+  "type": "module",
+  "main": "index.js",
   "sideEffects": false
 }

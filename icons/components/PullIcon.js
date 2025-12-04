@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const PullIcon = ({
   title,
@@ -38,4 +38,4 @@ const PullIcon = ({
   strokeLinecap: "round"
 }));
 const ForwardRef = forwardRef(PullIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

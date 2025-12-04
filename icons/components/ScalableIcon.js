@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const ScalableIcon = ({
   title,
@@ -35,4 +35,4 @@ const ScalableIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(ScalableIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

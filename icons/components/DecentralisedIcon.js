@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const DecentralisedIcon = ({
   title,
@@ -98,4 +98,4 @@ const DecentralisedIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(DecentralisedIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

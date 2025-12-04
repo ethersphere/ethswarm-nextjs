@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const CowSwapIcon = ({
   title,
@@ -24,4 +24,4 @@ const CowSwapIcon = ({
   clipRule: "evenodd"
 }));
 const ForwardRef = forwardRef(CowSwapIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

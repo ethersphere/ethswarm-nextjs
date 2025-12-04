@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const GitHubIcon = ({
   title,
@@ -26,4 +26,4 @@ const GitHubIcon = ({
   d: "M0 0h24v24H0z"
 }))));
 const ForwardRef = forwardRef(GitHubIcon);
-module.exports = ForwardRef;
+export default ForwardRef;
