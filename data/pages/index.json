@@ -220,32 +220,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-october-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-november-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1025.png",
+            "src": "https://blog.ethswarm.org/uploads/scc-recap1125.png",
             "alt": "Monthly Development Update – October 2025"
           },
           "title": "Monthly Development Update – October 2025",
           "content": "This month’s efforts continued to concentrate on delivering the Bee v2.7 release, now in its final testing phase...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-october-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-november-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-30-october-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-november-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-recap-1025.png",
-            "alt": "Swarm Community Call, 30 October – Recap"
+            "src": "https://blog.ethswarm.org/uploads/scc-recap1125.png",
+            "alt": "Swarm Community Call, 27 November – Recap"
           },
-          "title": "Swarm Community Call, 30 October – Recap",
-          "content": "The October Swarm Community Call delivered major updates on Bee v2.7, Devconnect plans...",
+          "title": "Swarm Community Call, 27 November – Recap",
+          "content": "After opening with core development updates, the November Swarm Community Call focused on the fresh impressions from Devconnect Buenos Aires...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-30-october-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-27-november-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
