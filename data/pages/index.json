@@ -7,8 +7,8 @@
       "alt": ""
     },
     "cta": {
-      "href": "https://www.addevent.com/event/hmz6zmv067bl",
-      "title": "Add to Calendar ->"
+      "href": "https://x.com/i/broadcasts/1ZkJzZdLAAdJv",
+      "title": "Watch the Stream ->"
     }
   },
   "hero": {
@@ -220,32 +220,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-october-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-november-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1025.png",
-            "alt": "Monthly Development Update – October 2025"
+            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1125.png",
+            "alt": "Monthly Development Update – November 2025"
           },
-          "title": "Monthly Development Update – October 2025",
+          "title": "Monthly Development Update – November 2025",
           "content": "This month’s efforts continued to concentrate on delivering the Bee v2.7 release, now in its final testing phase...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-october-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-november-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-30-october-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2025/swarm-strategic-focus-framework-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC-recap-1025.png",
-            "alt": "Swarm Community Call, 30 October – Recap"
+            "src": "https://blog.ethswarm.org/uploads/swarm2026.png",
+            "alt": "Swarm Strategic Focus Framework (2026)"
           },
-          "title": "Swarm Community Call, 30 October – Recap",
-          "content": "The October Swarm Community Call delivered major updates on Bee v2.7, Devconnect plans...",
+          "title": "Swarm Strategic Focus Framework (2026)",
+          "content": "The strategic direction for 2026 is structured around five key themes that define where Swarm will concentrate research, core development, and ecosystem efforts over the year.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-community-call-30-october-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2025/swarm-strategic-focus-framework-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
