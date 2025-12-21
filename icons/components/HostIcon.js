@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const HostIcon = ({
   title,
@@ -42,4 +42,4 @@ const HostIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(HostIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

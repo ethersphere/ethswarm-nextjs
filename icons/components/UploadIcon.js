@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const UploadIcon = ({
   title,
@@ -56,4 +56,4 @@ const UploadIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(UploadIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

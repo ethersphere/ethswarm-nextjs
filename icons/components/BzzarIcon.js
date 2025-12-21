@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const BzzarIcon = ({
   title,
@@ -24,4 +24,4 @@ const BzzarIcon = ({
   d: "M0 0h24v24H0z"
 }))));
 const ForwardRef = forwardRef(BzzarIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

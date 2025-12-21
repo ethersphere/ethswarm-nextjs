@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const ArrowIcon = ({
   title,
@@ -17,4 +17,4 @@ const ArrowIcon = ({
   fill: "currentColor"
 }));
 const ForwardRef = forwardRef(ArrowIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

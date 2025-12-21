@@ -18,15 +18,6 @@ let transform = async (svg, componentName, format) => {
     { componentName }
   );
   
-  // Ensure the component is properly wrapped as a React component
-  if (!component.includes('export default') && !component.includes('module.exports')) {
-    if (format === "esm") {
-      component = `import * as React from "react";\nconst ${componentName} = ${component};\nexport default ${componentName};`;
-    } else {
-      component = `const React = require("react");\nconst ${componentName} = ${component};\nmodule.exports = ${componentName};`;
-    }
-  }
-  
   let { code } = await babel.transformAsync(component, {
     plugins: [
       [require("@babel/plugin-transform-react-jsx"), { 
@@ -37,11 +28,11 @@ let transform = async (svg, componentName, format) => {
   });
 
   if (format === "esm") {
-    return code;
+    return code.replace('import * as React from "react";', 'import React from "react";');
   }
 
   return code
-    .replace('import * as React from "react"', 'const React = require("react")')
+    .replace('import * as React from "react";', 'const React = require("react");')
     .replace("export default", "module.exports =");
 };
 
@@ -93,8 +84,8 @@ async function ensureWriteJson(file, json) {
 
 async function buildIcons(format) {
   let outDir = `./icons/components`;
-  if (format === "esm") {
-    outDir += "/esm";
+  if (format === "cjs") {
+    outDir += "/cjs";
   }
 
   let icons = await getIcons();
@@ -107,7 +98,7 @@ async function buildIcons(format) {
       return [
         ensureWrite(`${outDir}/${componentName}.js`, content),
         ...(types
-          ? [ensureWrite(`${outDir}/${componentName}.d.ts`, types)]
+          ? [ensureWrite(`${outDir.replace('/cjs', '')}/${componentName}.d.ts`, types)]
           : []),
       ];
     })
@@ -115,12 +106,14 @@ async function buildIcons(format) {
 
   await ensureWrite(`${outDir}/index.js`, exportAll(icons, format));
 
-  await ensureWrite(`${outDir}/index.d.ts`, exportAll(icons, "esm", false));
+  if (format === 'esm') {
+    await ensureWrite(`${outDir}/index.d.ts`, exportAll(icons, "esm", false));
+  }
 }
 
 async function main() {
-  const cjsPackageJson = { module: "./esm/index.js", sideEffects: false };
-  const esmPackageJson = { type: "module", sideEffects: false };
+  const cjsPackageJson = { main: "index.js", sideEffects: false };
+  const esmPackageJson = { type: "module", main: "index.js", sideEffects: false };
 
   console.log(`Building package...`);
 
@@ -129,8 +122,8 @@ async function main() {
   await Promise.all([
     buildIcons("cjs"),
     buildIcons("esm"),
-    ensureWriteJson(`./icons/components/esm/package.json`, esmPackageJson),
-    ensureWriteJson(`./icons/components/package.json`, cjsPackageJson),
+    ensureWriteJson(`./icons/components/cjs/package.json`, cjsPackageJson),
+    ensureWriteJson(`./icons/components/package.json`, esmPackageJson),
   ]);
 
   return console.log(`Finished building package.`);

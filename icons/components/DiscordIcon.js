@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const DiscordIcon = ({
   title,
@@ -26,4 +26,4 @@ const DiscordIcon = ({
   d: "M0 0h24v24H0z"
 }))));
 const ForwardRef = forwardRef(DiscordIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

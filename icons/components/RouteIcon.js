@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const RouteIcon = ({
   title,
@@ -15,4 +15,4 @@ const RouteIcon = ({
   d: "M0 10v20l17.32 10 17.32-10V10L17.32 0 0 10Zm33.03 19.07-15.71 9.07-15.71-9.07V10.93l14.91-8.61v17.13L7 24.94a.8.8 0 0 0-.29 1.1.8.8 0 0 0 1.1.29l9.51-5.49 9.51 5.49a.8.8 0 0 0 1.1-.29c.22-.38.09-.87-.29-1.1l-9.52-5.49V2.32l14.91 8.61v18.14Z"
 }));
 const ForwardRef = forwardRef(RouteIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

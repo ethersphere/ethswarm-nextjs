@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const BuildersIcon = ({
   title,
@@ -42,4 +42,4 @@ const BuildersIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(BuildersIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

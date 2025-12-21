@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const StatsIcon = ({
   title,
@@ -17,4 +17,4 @@ const StatsIcon = ({
   stroke: "currentColor"
 }));
 const ForwardRef = forwardRef(StatsIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const PancakeswapIcon = ({
   title,
@@ -37,4 +37,4 @@ const PancakeswapIcon = ({
   d: "M0 0h24v24.227H0z"
 }))));
 const ForwardRef = forwardRef(PancakeswapIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

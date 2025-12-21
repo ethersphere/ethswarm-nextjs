@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const DdosIcon = ({
   title,
@@ -42,4 +42,4 @@ const DdosIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(DdosIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

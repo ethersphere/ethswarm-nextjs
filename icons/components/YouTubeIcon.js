@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const YouTubeIcon = ({
   title,
@@ -17,4 +17,4 @@ const YouTubeIcon = ({
   fill: "currentColor"
 }));
 const ForwardRef = forwardRef(YouTubeIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const SushiSwapIcon = ({
   title,
@@ -65,4 +65,4 @@ const SushiSwapIcon = ({
   stopColor: "#FA52A0"
 }))));
 const ForwardRef = forwardRef(SushiSwapIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

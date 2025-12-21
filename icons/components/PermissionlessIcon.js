@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const PermissionlessIcon = ({
   title,
@@ -35,4 +35,4 @@ const PermissionlessIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(PermissionlessIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

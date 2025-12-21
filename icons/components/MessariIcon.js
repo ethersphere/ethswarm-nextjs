@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const MessariIcon = ({
   title,
@@ -17,4 +17,4 @@ const MessariIcon = ({
   d: "M0 0v32l8.758-8.76V8.76L0 0ZM16 15.982l-4.379-4.361v20.377l8.758-8.723V11.62l-4.38 4.361ZM23.242 8.745V32L32 23.254V0l-8.758 8.745Z"
 }));
 const ForwardRef = forwardRef(MessariIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

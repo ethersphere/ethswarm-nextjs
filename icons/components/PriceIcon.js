@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const PriceIcon = ({
   title,
@@ -27,4 +27,4 @@ const PriceIcon = ({
   strokeWidth: 0.8
 }));
 const ForwardRef = forwardRef(PriceIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

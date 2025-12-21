@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const CoinMarketCapIcon = ({
   title,
@@ -22,4 +22,4 @@ const CoinMarketCapIcon = ({
   fill: "white"
 }));
 const ForwardRef = forwardRef(CoinMarketCapIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

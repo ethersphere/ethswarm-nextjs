@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const PlusIcon = ({
   title,
@@ -17,4 +17,4 @@ const PlusIcon = ({
   d: "M0 10v20l17.32 10 17.32-10V10L17.32 0 0 10Zm33.03 19.07-15.71 9.07-15.71-9.07V10.93l15.71-9.08 15.71 9.07v18.15Z"
 }));
 const ForwardRef = forwardRef(PlusIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

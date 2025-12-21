@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const WriteIcon = ({
   title,
@@ -26,4 +26,4 @@ const WriteIcon = ({
   d: "M0 0h41.52v48H0z"
 }))));
 const ForwardRef = forwardRef(WriteIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

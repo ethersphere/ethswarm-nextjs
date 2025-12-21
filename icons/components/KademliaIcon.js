@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const KademliaIcon = ({
   title,
@@ -32,4 +32,4 @@ const KademliaIcon = ({
   strokeLinecap: "round"
 }));
 const ForwardRef = forwardRef(KademliaIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

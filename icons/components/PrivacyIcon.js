@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const PrivacyIcon = ({
   title,
@@ -35,4 +35,4 @@ const PrivacyIcon = ({
   strokeLinejoin: "round"
 }));
 const ForwardRef = forwardRef(PrivacyIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

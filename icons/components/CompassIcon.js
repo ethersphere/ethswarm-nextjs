@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const CompassIcon = ({
   title,
@@ -17,4 +17,4 @@ const CompassIcon = ({
   d: "m17.32 7.6-6.1 12.29.09.19c0 .24.12.45.29.6l5.72 11.75 5.72-11.75c.17-.15.29-.36.29-.6l.09-.19-6.1-12.29Zm4 11.67h-8l4-8.06 4 8.06Zm-7.84 1.61h7.67l-3.83 7.88-3.83-7.88Z"
 }));
 const ForwardRef = forwardRef(CompassIcon);
-module.exports = ForwardRef;
+export default ForwardRef;

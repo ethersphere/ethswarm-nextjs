@@ -1,5 +1,5 @@
 import * as React from "react";
-import Icons from "@/icons/components/index";
+import * as Icons from "@/icons/components/index";
 import { cx } from "utils";
 
 type Props = {};

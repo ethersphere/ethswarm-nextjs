@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const Upload2Icon = ({
   title,
@@ -19,4 +19,4 @@ const Upload2Icon = ({
   d: "M8.69 12.02a.8.8 0 0 0-.29 1.1.8.8 0 0 0 1.1.29l7.02-4.05v13.52c0 .44.36.8.8.8s.8-.36.8-.8V9.35l7.03 4.06a.8.8 0 0 0 1.1-.29c.22-.38.09-.88-.29-1.1l-8.63-4.98-8.63 4.98Z"
 }));
 const ForwardRef = forwardRef(Upload2Icon);
-module.exports = ForwardRef;
+export default ForwardRef;

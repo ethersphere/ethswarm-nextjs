@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 import { forwardRef } from "react";
 const ExpandIcon = ({
   title,
@@ -17,4 +17,4 @@ const ExpandIcon = ({
   d: "M26.9 25.99a.8.8 0 0 0 .29-1.1.8.8 0 0 0-1.1-.29l-7.95 4.59V10.81l7.95 4.59a.8.8 0 0 0 1.1-.29c.22-.38.09-.87-.29-1.1l-9.58-5.53-9.58 5.53a.8.8 0 0 0-.29 1.1.8.8 0 0 0 1.1.29l7.99-4.62v18.44L8.55 24.6a.811.811 0 0 0-1.1.29c-.22.38-.09.87.29 1.1l9.58 5.53 9.58-5.53Z"
 }));
 const ForwardRef = forwardRef(ExpandIcon);
-module.exports = ForwardRef;
+export default ForwardRef;
