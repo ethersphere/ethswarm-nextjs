@@ -19,7 +19,7 @@
     "framer-motion": "^12.23.25",
     "gray-matter": "^4.0.3",
     "keen-slider": "^6.8.6",
-    "next": "^16.0.9",
+    "next": "^16.0.8",
     "next-mdx-remote": "^5.0.0",
     "react": "19.2.3",
     "react-dom": "19.1.1",
