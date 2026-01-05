@@ -17,12 +17,12 @@ const Newsletter: FC<NewsletterProps> = () => {
                   var head            = document.getElementsByTagName('head')[0];
                   var script          = document.createElement('script');
                   script.type         = 'text/javascript';
-                  script.src          = 'https://mautic.int.ethswarm.org/index.php/media/js/mautic-form.js';
+                  script.src          = 'https://mautic.ethswarm.org/index.php/media/js/mautic-form.js';
                   script.onload       = function() {
                       MauticSDK.onLoad();
                   };
                   head.appendChild(script);
-                  var MauticDomain = 'https://mautic.int.ethswarm.org/index.php';
+                  var MauticDomain = 'https://mautic.ethswarm.org/index.php';
                   var MauticLang   = {
                       'submittingMessage': "Please wait..."
                   }
@@ -38,7 +38,7 @@ const Newsletter: FC<NewsletterProps> = () => {
           autoComplete="false"
           role="form"
           method="post"
-          action="https://mautic.int.ethswarm.org/index.php/form/submit?formId=4"
+          action="https://mautic.ethswarm.org/index.php/form/submit?formId=4"
           id="mauticform_websitenewslettersubscription"
           data-mautic-form="websitenewslettersubscription"
           encType="multipart/form-data"
