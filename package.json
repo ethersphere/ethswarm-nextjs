@@ -22,7 +22,7 @@
     "next": "^16.0.9",
     "next-mdx-remote": "^5.0.0",
     "react": "19.2.3",
-    "react-dom": "19.1.1",
+    "react-dom": "19.2.3",
     "remark": "^15.0.1",
     "remark-external-links": "^6.0.0",
     "remark-html": "^16.0.1",
