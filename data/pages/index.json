@@ -1,14 +1,14 @@
 {
   "event": {
     "title": "Community Call",
-    "content": "Swarm Community Call - Solstice Edition, online, December 21",
+    "content": "Swarm Community Call, online, January 29",
     "image": {
-      "src": "/uploads/1225.jpg",
+      "src": "/uploads/0126.jpg",
       "alt": ""
     },
     "cta": {
-      "href": "https://x.com/i/broadcasts/1ZkJzZdLAAdJv",
-      "title": "Watch the Stream ->"
+      "href": "https://www.addevent.com/event/dllyvt0cfhqn",
+      "title": "Add to Calendar ->"
     }
   },
   "hero": {
@@ -204,32 +204,32 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/cryptomondays-partnership/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-december-solstice-edition-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/cryptomondays.png",
-            "alt": "Swarm Foundation Partners with CryptoMondays"
+            "src": "https://blog.ethswarm.org/uploads/SCC122025-RECAP.png",
+            "alt": "Swarm Community Call December - Solstice Edition – Recap"
           },
-          "title": "Swarm Foundation Partners with CryptoMondays",
-          "content": "Swarm Foundation Partners with CryptoMondays to Power the Future of Decentralized Media",
+          "title": "Swarm Community Call December - Solstice Edition – Recap",
+          "content": "The Solstice edition of the Swarm Community Call offered a thorough overview of the past half year...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/cryptomondays-partnership/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-december-solstice-edition-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-november-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-december-2025/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1125.png",
-            "alt": "Monthly Development Update – November 2025"
+            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1225.png",
+            "alt": "Monthly Development Update – December 2025"
           },
-          "title": "Monthly Development Update – November 2025",
-          "content": "This month’s efforts continued to concentrate on delivering the Bee v2.7 release, now in its final testing phase...",
+          "title": "Monthly Development Update – December 2025",
+          "content": "December closed out a focused month of release readiness and ecosystem momentum across Swarm...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/monthly-development-update-november-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-december-2025/",
             "background": "transparent",
             "color": "white",
             "arrow": true
