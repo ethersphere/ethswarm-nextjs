@@ -220,16 +220,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-december-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-january-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1225.png",
-            "alt": "Monthly Development Update – December 2025"
+            "src": "https://blog.ethswarm.org/uploads/DevUpate022026.png",
+            "alt": "Monthly Development Update – January 2026"
           },
-          "title": "Monthly Development Update – December 2025",
-          "content": "December closed out a focused month of release readiness and ecosystem momentum across Swarm...",
+          "title": "Monthly Development Update – January 2026",
+          "content": "This month's update covers progress across the Bee, Research, and JS tracks. On the Bee side, the 2.7 implementation is complete...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-december-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-january-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
