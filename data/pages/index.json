@@ -204,16 +204,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-december-solstice-edition-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-january-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC122025-RECAP.png",
-            "alt": "Swarm Community Call December - Solstice Edition – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC012026-RECAP.png",
+            "alt": "Swarm Community Call January - Recap"
           },
-          "title": "Swarm Community Call December - Solstice Edition – Recap",
-          "content": "The Solstice edition of the Swarm Community Call offered a thorough overview of the past half year...",
+          "title": "Swarm Community Call January - Recap",
+          "content": "The first Swarm Community Call of 2026 focused on what's shipping next in Bee 2.7, what the Research track is stabilizing at the protocol level...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-december-solstice-edition-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-january-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
