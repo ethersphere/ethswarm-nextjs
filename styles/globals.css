@@ -50,6 +50,37 @@
   border-top-color: #1f2937; /* Same as tooltip background */
 }
 
+.faq-answer .prose :where(ul):not(:where([class~="not-prose"] *)) {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq-answer .prose :where(ol):not(:where([class~="not-prose"] *)) {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq-answer .prose :where(li):not(:where([class~="not-prose"] *)) {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.faq-answer .prose :where(a):not(:where([class~="not-prose"] *)) {
+  color: #FF6B26;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(255, 107, 38, 0.4);
+  transition: text-decoration-color 0.2s;
+}
+
+.faq-answer .prose :where(a):not(:where([class~="not-prose"] *)):hover {
+  text-decoration-color: #FF6B26;
+}
+
 .prose.md\:prose-lg :where(h2):not(:where([class~="not-prose"] *)) {
   padding-left: 0.5rem;
   padding-right: 0.5rem;

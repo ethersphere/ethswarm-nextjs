@@ -1,0 +1,373 @@
+{
+  "categories": [
+    "community",
+    "general",
+    "bzz-token",
+    "running-a-bee-node",
+    "staking",
+    "swarm-desktop",
+    "bee-full-node-operators"
+  ],
+  "faqs": [
+    {
+      "slug": "official-channels",
+      "title": "What are the Swarm Foundation's official channels?",
+      "category": "community"
+    },
+    {
+      "slug": "technical-support",
+      "title": "Where can I find technical support and get answers to my other questions?",
+      "category": "community"
+    },
+    {
+      "slug": "dappnode-support",
+      "title": "Where can I find support for running Bee node on DAppNode?",
+      "category": "community"
+    },
+    {
+      "slug": "other-inquiries",
+      "title": "Who can I contact for other inquiries?",
+      "category": "community"
+    },
+    {
+      "slug": "swarm-and-ethereum-relationship",
+      "title": "What's the relationship between Swarm and Ethereum?",
+      "category": "community"
+    },
+    {
+      "slug": "chunk-destination-xor-kademlia",
+      "title": "How will the chunk determine the optimal destination node when using the XOR metric in Kademlia?",
+      "category": "community"
+    },
+    {
+      "slug": "node-peer-connections",
+      "title": "I want to know how many peers my node can connect to under normal circumstances.",
+      "category": "general"
+    },
+    {
+      "slug": "api-pinned-data-size",
+      "title": "Will it be possible to get with a simple API how much data is pinned on a node?",
+      "category": "general"
+    },
+    {
+      "slug": "what-is-bzz-token",
+      "title": "What is BZZ Token?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "what-is-plur",
+      "title": "What is PLUR?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "where-to-buy-bzz",
+      "title": "Where can I buy BZZ?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "bzz-token-address",
+      "title": "What is the BZZ token address?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "bzz-token-supply",
+      "title": "What is the BZZ token supply?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "what-is-bonding-curve",
+      "title": "What is the bonding curve?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "bzz-token-tokenomics",
+      "title": "BZZ token tokenomics",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "what-is-bzzaar-bonding-curve",
+      "title": "What is the \"Bzzaar\" bonding curve?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "bzzaar-bonding-curve-audit",
+      "title": "Is Bzzaar's bonding curve audited?",
+      "category": "bzz-token"
+    },
+    {
+      "slug": "become-part-of-swarm-network",
+      "title": "How can I become part of the Swarm network?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "bee-node-types-differences",
+      "title": "What are the differences between Bee node types?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "easiest-way-run-ultralight-light-node",
+      "title": "What is the easiest way to run an Ultra-light or Light bee node?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "requirements-ultralight-light-node",
+      "title": "What are the requirements for running an Ultra-Light or Light node?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "hardware-requirements-full-node",
+      "title": "What are the hardware requirements for running a full node?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "bandwidth-requirements",
+      "title": "How much bandwidth is required for each node?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "disk-space-needed",
+      "title": "How much disk space is needed?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "bee-documentation",
+      "title": "Where can I find Bee Documentation?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "install-bee-linux-osx",
+      "title": "How to Install Bee on Linux or OSX?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "install-bee-windows",
+      "title": "Is it possible to install a Bee Node on Windows?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "how-to-install-bee-windows",
+      "title": "How do I Install Bee on Windows?",
+      "category": "running-a-bee-node"
+    },
+    {
+      "slug": "operate-after-downloading-client",
+      "title": "How to operate after downloading the client",
+      "category": "staking"
+    },
+    {
+      "slug": "stake-more-than-10-bzz",
+      "title": "What happens if I stake more than 10 BZZ?",
+      "category": "staking"
+    },
+    {
+      "slug": "query-my-neighborhood",
+      "title": "Can you tell me how to query my neighborhood?",
+      "category": "staking"
+    },
+    {
+      "slug": "last-won-played-frozen-round",
+      "title": "lastWonRound, lastPlayedRound, lastFrozenRound, is there any difference between them?",
+      "category": "staking"
+    },
+    {
+      "slug": "sampler-stopped-evictions-error",
+      "title": "Why does my node show \"sampler stopped due to ongoing evictions\" error?",
+      "category": "staking"
+    },
+    {
+      "slug": "bee-storage-disk-usage",
+      "title": "You don't need to specify the storage Bee will use, right? Does it use the whole disk?",
+      "category": "staking"
+    },
+    {
+      "slug": "more-storage-more-returns",
+      "title": "True or false: the more storage I give to the network the more I get in return",
+      "category": "staking"
+    },
+    {
+      "slug": "minimum-bzz-mainnet-node",
+      "title": "What's the minimum amount of BZZ required to operate a mainnet node and how to become eligible for rewards?",
+      "category": "staking"
+    },
+    {
+      "slug": "how-long-new-node-cheque",
+      "title": "How long does it take for the new node to see a cheque?",
+      "category": "staking"
+    },
+    {
+      "slug": "pullsync-rate-value",
+      "title": "What should the pullsyncRate value be, and is it normal for it to be 0?",
+      "category": "staking"
+    },
+    {
+      "slug": "transfer-swarm-desktop-settings",
+      "title": "How can I transfer my Swarm Desktop Settings and Accounts from one Desktop to another Desktop?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "earn-bzz-swarm-desktop",
+      "title": "Can I earn BZZ with Swarm Desktop App?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "does-desktop-support-pinning",
+      "title": "Does it support pinning?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "command-line-shut-down-desktop",
+      "title": "Can I use some command line to shut down bee-desktop?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "topped-up-credits-wont-load",
+      "title": "Topped up credits, but it won't load",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "send-bzz-directly-to-node",
+      "title": "Is there an option to send bzz directly to the node?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "find-rpc-endpoint-address",
+      "title": "How does one find an RPC endpoint address?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "bee-node-rpi-desktop-conflict",
+      "title": "If I have a Bee node already running on RPI, can I install the Desktop app or will it cause issues?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "upgrade-to-light-node",
+      "title": "What do you need to do additionally to upgrade to light node?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "method-not-allowed-no-chain-backend",
+      "title": "Error: \"Method Not Allowed: no chain backend\" when trying to buy a stamp",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "determine-neighbourhood",
+      "title": "How to determine which neighbourhood your node is in?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "desktop-full-node-mode-future",
+      "title": "Will Swarm Desktop support full-node mode in the future?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "video-tutorial-swarm-desktop",
+      "title": "Is there a video tutorial to set up Swarm Desktop?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "installation-failure-logs",
+      "title": "Are there any logs to see why the initial installation fails?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "transfer-xbzz-xdai-from-desktop",
+      "title": "Can we transfer xBZZ or xDai from Swarm desktop to another bee node?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "install-swarm-nodes-windows",
+      "title": "I successfully installed Swarm Desktop on my windows, but there is no way to install Swarm nodes, is it not possible to install swarm nodes on a windows system?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "best-way-update-intel-mac",
+      "title": "What's the best way to update on an intel mac? Should I use Brew?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "find-peer-id",
+      "title": "Is there a way to find my peer ID?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "find-swarm-hash",
+      "title": "Where to find Swarm hash?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "swarm-desktop-logs-location",
+      "title": "Where are the Swarm Desktop logs?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "stamp-capacity-function",
+      "title": "How does the stamp capacity function?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "cant-communicate-with-nodes",
+      "title": "Can't communicate with any nodes (bootnodes, trusted nodes, persisted nodes). What could be the issue?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "generate-gift-wallet-failed",
+      "title": "Generate gift wallet failed with internal server error, 5 xBZZ gone. How long does it take to get it back?",
+      "category": "swarm-desktop"
+    },
+    {
+      "slug": "list-chunks-from-swarm-hash",
+      "title": "Is there any way to get list of all chunks from a swarm hash?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "risks-building-nodes",
+      "title": "What are the risks associated with building nodes, and have there been any incidents of node failure or penalties that have resulted in losses to node owners?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "bee-js-custom-user-agent",
+      "title": "Is there a way using bee-js to send a custom User-Agent?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "change-user-agent-upload-data",
+      "title": "How can I change the User-Agent for each invocation of bee.uploadData() and log the contents of the PUT request to /bytes?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "chunk-missing-replacement",
+      "title": "If a chunk goes missing, will it be replaced immediately or only when requested during a download?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "cpu-need-bee-nodes-increase",
+      "title": "Did the CPU need of bee nodes increase recently?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "find-node-id-neighbourhood",
+      "title": "How do I find my node id? The one used for neighbourhood calculation",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "retrieve-private-key-swarm-key",
+      "title": "How to retrieve the private key associated with the address in /var/lib/bee/keys/swarm.key?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "stamp-capacity-used-small-data",
+      "title": "Why has all the capacity of my stamp been used up when I'm only storing small amounts of data?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "light-node-activity-expectations",
+      "title": "How much activity can I expect running a light node (doing only SWAP, no storage)?",
+      "category": "bee-full-node-operators"
+    },
+    {
+      "slug": "mantaray-js-still-in-use",
+      "title": "Does the Mantaray code on GitHub still work? (https://github.com/ethersphere/mantaray-js)",
+      "category": "bee-full-node-operators"
+    }
+  ]
+}
