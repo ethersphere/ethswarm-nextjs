@@ -204,16 +204,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-january-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/bee-2-7-0-release/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC012026-RECAP.png",
-            "alt": "Swarm Community Call January - Recap"
+            "src": "https://blog.ethswarm.org/uploads/bee-2-7-0.jpg",
+            "alt": "Bee Version 2.7.0 Release Announcement"
           },
-          "title": "Swarm Community Call January - Recap",
-          "content": "The first Swarm Community Call of 2026 focused on what's shipping next in Bee 2.7, what the Research track is stabilizing at the protocol level...",
+          "title": "Bee Version 2.7.0 Release Announcement",
+          "content": "Bee 2.7.0 is now live. This release introduces support for AutoTLS and secure WebSocket connectivity, improves the flexibility of the networking layer with support for multiple underlay addresses...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-january-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/bee-2-7-0-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
