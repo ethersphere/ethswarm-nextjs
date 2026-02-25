@@ -1,13 +1,13 @@
 {
   "event": {
     "title": "Community Call",
-    "content": "Swarm Community Call, online, January 29",
+    "content": "Swarm Community Call, online, February 26",
     "image": {
-      "src": "/uploads/0126.jpg",
+      "src": "/uploads/0226.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://www.addevent.com/event/dllyvt0cfhqn",
+      "href": "https://www.addevent.com/event/wng3nl5ssfk3",
       "title": "Add to Calendar ->"
     }
   },
@@ -204,32 +204,32 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-december-solstice-edition-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/bee-2-7-0-release/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC122025-RECAP.png",
-            "alt": "Swarm Community Call December - Solstice Edition – Recap"
+            "src": "https://blog.ethswarm.org/uploads/bee-2-7-0.jpg",
+            "alt": "Bee Version 2.7.0 Release Announcement"
           },
-          "title": "Swarm Community Call December - Solstice Edition – Recap",
-          "content": "The Solstice edition of the Swarm Community Call offered a thorough overview of the past half year...",
+          "title": "Bee Version 2.7.0 Release Announcement",
+          "content": "Bee 2.7.0 is now live. This release introduces support for AutoTLS and secure WebSocket connectivity, improves the flexibility of the networking layer with support for multiple underlay addresses...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-december-solstice-edition-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/bee-2-7-0-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-december-2025/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-january-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpdate-1225.png",
-            "alt": "Monthly Development Update – December 2025"
+            "src": "https://blog.ethswarm.org/uploads/DevUpate022026.png",
+            "alt": "Monthly Development Update – January 2026"
           },
-          "title": "Monthly Development Update – December 2025",
-          "content": "December closed out a focused month of release readiness and ecosystem momentum across Swarm...",
+          "title": "Monthly Development Update – January 2026",
+          "content": "This month's update covers progress across the Bee, Research, and JS tracks. On the Bee side, the 2.7 implementation is complete...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-december-2025/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-january-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
