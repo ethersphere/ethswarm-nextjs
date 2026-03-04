@@ -236,16 +236,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2025/swarm-strategic-focus-framework-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-february-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/swarm2026.png",
-            "alt": "Swarm Strategic Focus Framework (2026)"
+            "src": "https://blog.ethswarm.org/uploads/scc0226-recap.png",
+            "alt": "Swarm Community Call, 26 February – Recap"
           },
-          "title": "Swarm Strategic Focus Framework (2026)",
-          "content": "The strategic direction for 2026 is structured around five key themes that define where Swarm will concentrate research, core development, and ecosystem efforts over the year.",
+          "title": "Swarm Community Call, 26 February – Recap",
+          "content": "February's Swarm Community Call focused on three areas: a look back at the Bee 2.7 release and what comes next, a walkthrough of the new \"Building on Swarm\" developer guides, and a forward-looking community talk on identity management.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2025/swarm-strategic-focus-framework-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-february-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
