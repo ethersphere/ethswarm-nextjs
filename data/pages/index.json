@@ -220,16 +220,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-january-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-february-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/DevUpate022026.png",
-            "alt": "Monthly Development Update – January 2026"
+            "src": "https://blog.ethswarm.org/uploads/devupdate0226.png",
+            "alt": "Monthly Development Update – February 2026"
           },
-          "title": "Monthly Development Update – January 2026",
-          "content": "This month's update covers progress across the Bee, Research, and JS tracks. On the Bee side, the 2.7 implementation is complete...",
+          "title": "Monthly Development Update – February 2026",
+          "content": "February was a strong month of steady execution across the stack: Bee 2.7.0 rolled out smoothly and is already followed by active testing for the next patch release...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-january-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-february-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
