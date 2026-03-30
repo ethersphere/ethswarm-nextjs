@@ -1,13 +1,13 @@
 {
   "event": {
     "title": "Community Call",
-    "content": "Swarm Community Call, online, March 26",
+    "content": "Swarm Community Call, online, April 30",
     "image": {
-      "src": "/uploads/0326.png",
+      "src": "/uploads/scc0426.jpg",
       "alt": ""
     },
     "cta": {
-      "href": "https://scc.swarm-devrel.bzz.link/",
+      "href": "https://scc.swarm.bzz.link/",
       "title": "Add to Calendar ->"
     }
   },
