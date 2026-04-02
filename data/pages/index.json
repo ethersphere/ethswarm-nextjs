@@ -1,13 +1,13 @@
 {
   "event": {
-    "title": "Community Call",
-    "content": "Swarm Community Call, online, April 30",
+    "title": "Swarm Workshop",
+    "content": "Make Your AI Agent Decentralized with Swarm, online, April 8",
     "image": {
-      "src": "/uploads/scc0426.jpg",
-      "alt": ""
+      "src": "/assets/workshop.png",
+      "alt": "Swarm Workshop – Make Your AI Agent Decentralized with Swarm"
     },
     "cta": {
-      "href": "https://scc.swarm.bzz.link/",
+      "href": "https://workshops.swarm.bzz.link/",
       "title": "Add to Calendar ->"
     }
   },
@@ -236,16 +236,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-february-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-march-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/scc0226-recap.png",
-            "alt": "Swarm Community Call, 26 February – Recap"
+            "src": "https://blog.ethswarm.org/uploads/scc-0326-recap.png",
+            "alt": "Swarm Community Call, 26 March – Recap"
           },
-          "title": "Swarm Community Call, 26 February – Recap",
-          "content": "February's Swarm Community Call focused on three areas: a look back at the Bee 2.7 release and what comes next, a walkthrough of the new \"Building on Swarm\" developer guides...",
+          "title": "Swarm Community Call, 26 March – Recap",
+          "content": "March's Swarm Community Call widened the lens beyond pure client updates: we introduced Koss as Swarm's new Community Lead, shared a short preview...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-february-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-march-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
