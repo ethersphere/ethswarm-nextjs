@@ -236,16 +236,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-february-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-march-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/scc0226-recap.png",
-            "alt": "Swarm Community Call, 26 February – Recap"
+            "src": "https://blog.ethswarm.org/uploads/scc-0326-recap.png",
+            "alt": "Swarm Community Call, 26 March – Recap"
           },
-          "title": "Swarm Community Call, 26 February – Recap",
-          "content": "February's Swarm Community Call focused on three areas: a look back at the Bee 2.7 release and what comes next, a walkthrough of the new \"Building on Swarm\" developer guides...",
+          "title": "Swarm Community Call, 26 March – Recap",
+          "content": "March's Swarm Community Call widened the lens beyond pure client updates: we introduced Koss as Swarm's new Community Lead, shared a short preview...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-february-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-march-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
