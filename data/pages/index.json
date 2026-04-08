@@ -1,13 +1,13 @@
 {
   "event": {
-    "title": "Swarm Workshop",
-    "content": "Make Your AI Agent Decentralized with Swarm, online, April 8",
+    "title": "Community Call",
+    "content": "Swarm Community Call, online, April 30",
     "image": {
-      "src": "/assets/workshop.png",
-      "alt": "Swarm Workshop – Make Your AI Agent Decentralized with Swarm"
+      "src": "/uploads/scc0426.jpg",
+      "alt": ""
     },
     "cta": {
-      "href": "https://workshops.swarm.bzz.link/",
+      "href": "https://scc.swarm.bzz.link/",
       "title": "Add to Calendar ->"
     }
   },
