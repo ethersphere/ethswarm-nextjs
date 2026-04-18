@@ -204,16 +204,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/bee-2-7-0-release/",
+          "href": "https://workshops.swarm.bzz.link/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/bee-2-7-0.jpg",
-            "alt": "Bee Version 2.7.0 Release Announcement"
+            "src": "/uploads/workshop-frontend-may.png",
+            "alt": "Workshop: How to Decentralize Any Frontend?"
           },
-          "title": "Bee Version 2.7.0 Release Announcement",
-          "content": "Bee 2.7.0 is now live. This release introduces support for AutoTLS and secure WebSocket connectivity, improves the flexibility of the networking layer with support for multiple underlay addresses...",
+          "title": "Workshop: How to Decentralize Any Frontend?",
+          "content": "Host dApps and websites entirely on decentralized infrastructure. Beeport, Desktop App, Bee light node, and Swarm-cli. May 5 · 14:00 CET.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/bee-2-7-0-release/",
+            "href": "https://workshops.swarm.bzz.link/",
             "background": "transparent",
             "color": "white",
             "arrow": true
