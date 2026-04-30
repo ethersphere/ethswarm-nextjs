@@ -1,13 +1,13 @@
 {
   "event": {
-    "title": "Community Call",
-    "content": "Swarm Community Call, online, April 30",
+    "title": "Workshop",
+    "content": "How to Decentralize Any Frontend, online, May 5",
     "image": {
-      "src": "/uploads/scc0426.jpg",
+      "src": "/uploads/ws2024.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://scc.swarm.bzz.link/",
+      "href": "https://workshops.swarm.bzz.link/",
       "title": "Add to Calendar ->"
     }
   },
