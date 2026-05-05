@@ -1,13 +1,13 @@
 {
   "event": {
-    "title": "Workshop",
-    "content": "How to Decentralize Any Frontend, online, May 5",
+    "title": "Community Call",
+    "content": "Swarm Community Call, online, May 28",
     "image": {
-      "src": "/uploads/ws2024.png",
+      "src": "/uploads/scc-0526-banner.png",
       "alt": ""
     },
     "cta": {
-      "href": "https://workshops.swarm.bzz.link/",
+      "href": "https://scc.swarm.bzz.link/",
       "title": "Add to Calendar ->"
     }
   },
@@ -206,11 +206,11 @@
         {
           "href": "https://workshops.swarm.bzz.link/",
           "image": {
-            "src": "/uploads/workshop-frontend-may.png",
-            "alt": "Workshop: How to Decentralize Any Frontend?"
+            "src": "https://workshops.swarm.bzz.link/assets/workshop3.png",
+            "alt": "Workshop: Decentralized Streaming"
           },
-          "title": "Workshop: How to Decentralize Any Frontend?",
-          "content": "Host dApps and websites entirely on decentralized infrastructure. Beeport, Desktop App, Bee light node, and Swarm-cli. May 5 · 14:00 CET.",
+          "title": "Workshop: Decentralized Streaming",
+          "content": "Video, audio, and live content across P2P networks. Host on-demand media on decentralized infrastructure — censorship-resistant by design. May 12 · 14:00 CET.",
           "cta": {
             "title": "Read more ->",
             "href": "https://workshops.swarm.bzz.link/",
@@ -220,32 +220,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-march-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-april-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/dev-update0326.jpg",
-            "alt": "Monthly Development Update – March 2026"
+            "src": "https://blog.ethswarm.org/uploads/devupdate-0526.png",
+            "alt": "Monthly Development Update – April 2026"
           },
-          "title": "Monthly Development Update – March 2026",
-          "content": "March focused on stabilizing the foundations laid in the 2.7 cycle while starting to reshape how protocol work gets done. Bee v2.7.1 landed as a stable release...",
+          "title": "Monthly Development Update – April 2026",
+          "content": "April’s development work focused on tightening the foundations: better performance, cleaner tooling, stronger reliability...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-march-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-april-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-march-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-30-april-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/scc-0326-recap.png",
-            "alt": "Swarm Community Call, 26 March – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCCRecap0426.png",
+            "alt": "Swarm Community Call, 30 April – Recap"
           },
-          "title": "Swarm Community Call, 26 March – Recap",
-          "content": "March's Swarm Community Call widened the lens beyond pure client updates: we introduced Koss as Swarm's new Community Lead, shared a short preview...",
+          "title": "Swarm Community Call, 30 April – Recap",
+          "content": "April’s Swarm Community Call was intentionally different: rather than the usual monthly segment rotation, the call served as a high-level report-out...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-26-march-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-30-april-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
