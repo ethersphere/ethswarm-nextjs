@@ -220,32 +220,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-april-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-accelerator-2026-hackdays-eleven-projects-one-decentralized-stack/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate-0526.png",
-            "alt": "Monthly Development Update – April 2026"
+            "src": "https://blog.ethswarm.org/uploads/hackdays-2026-hero.jpg",
+            "alt": "Swarm Accelerator 2026 Hackdays: Eleven Projects, One Decentralized Stack"
           },
-          "title": "Monthly Development Update – April 2026",
-          "content": "April’s development work focused on tightening the foundations: better performance, cleaner tooling, stronger reliability...",
+          "title": "Swarm Accelerator 2026 Hackdays: Eleven Projects, One Decentralized Stack",
+          "content": "For five days in late April, eleven teams formed, built, and demoed projects on top of Swarm — AI agents, data marketplaces, mobile browsers, food traceability, email bridges, and more...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-april-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-accelerator-2026-hackdays-eleven-projects-one-decentralized-stack/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-30-april-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-at-ethprague-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCCRecap0426.png",
-            "alt": "Swarm Community Call, 30 April – Recap"
+            "src": "https://blog.ethswarm.org/uploads/ethprague-2026-hero.jpg",
+            "alt": "Swarm at ETHPrague 2026: booth, bounties, and nine winning projects"
           },
-          "title": "Swarm Community Call, 30 April – Recap",
-          "content": "April’s Swarm Community Call was intentionally different: rather than the usual monthly segment rotation, the call served as a high-level report-out...",
+          "title": "Swarm at ETHPrague 2026: booth, bounties, and nine winning projects",
+          "content": "Swarm Foundation joined ETHPrague 2026 — a booth, on-site mentors, three talks, and bounties across every hackathon track. Nine projects took home Swarm prizes...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-30-april-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-at-ethprague-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
