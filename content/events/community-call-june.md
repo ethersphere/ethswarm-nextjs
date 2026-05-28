@@ -1,6 +1,6 @@
 ---
-title: "Swarm Community Call, online, May 28"
+title: "Swarm Community Call, online, June 25"
 href: "https://scc.swarm.bzz.link/"
 add_to_calendar: "https://scc.swarm.bzz.link/"
-start_date: 2026-05-28T17:00:00.000Z
+start_date: 2026-06-25T17:00:00.000Z
 ---
