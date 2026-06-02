@@ -204,16 +204,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://workshops.swarm.bzz.link/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-may-2026-recap/",
           "image": {
-            "src": "https://workshops.swarm.bzz.link/assets/workshop3.png",
-            "alt": "Workshop: Decentralized Streaming"
+            "src": "https://blog.ethswarm.org/uploads/SCC0526-recap.png",
+            "alt": "Swarm Community Call, 28 May – Recap"
           },
-          "title": "Workshop: Decentralized Streaming",
-          "content": "Video, audio, and live content across P2P networks. Host on-demand media on decentralized infrastructure — censorship-resistant by design. May 12 · 14:00 CET.",
+          "title": "Swarm Community Call, 28 May – Recap",
+          "content": "May's Swarm Community Call covered a breaking Bee 2.8.0 release, a research update on the next wave of protocol work, two Hackweek follow-ups including a collaborative editor on Swarm, and a full EthPrague + hackathon report with bounty winners...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://workshops.swarm.bzz.link/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-may-2026-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
