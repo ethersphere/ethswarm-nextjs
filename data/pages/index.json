@@ -220,16 +220,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-accelerator-2026-hackdays-eleven-projects-one-decentralized-stack/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-may-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/hackdays-2026-hero.jpg",
-            "alt": "Swarm Accelerator 2026 Hackdays: Eleven Projects, One Decentralized Stack"
+            "src": "https://blog.ethswarm.org/uploads/devupdate0526.png",
+            "alt": "Monthly Development Update – May 2026"
           },
-          "title": "Swarm Accelerator 2026 Hackdays: Eleven Projects, One Decentralized Stack",
-          "content": "For five days in late April, eleven teams formed, built, and demoed projects on top of Swarm — AI agents, data marketplaces, mobile browsers, food traceability, email bridges, and more...",
+          "title": "Monthly Development Update – May 2026",
+          "content": "May was a month of hardening, cleanup, and practical progress across the Swarm stack: Bee v2.8.0 shipped as a targeted security release, research moved closer to publishing the tokenomics roadmap, and tooling across Bee-JS, Swarm-CLI, Gateway, and Bee Factory saw usability updates...",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-accelerator-2026-hackdays-eleven-projects-one-decentralized-stack/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-may-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
