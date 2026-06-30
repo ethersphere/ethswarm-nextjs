@@ -204,16 +204,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-may-2026-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/bee-2-8-1-release/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC0526-recap.png",
-            "alt": "Swarm Community Call, 28 May – Recap"
+            "src": "https://blog.ethswarm.org/uploads/bee-2-8-1.png",
+            "alt": "Bee Version 2.8.1 Release Announcement"
           },
-          "title": "Swarm Community Call, 28 May – Recap",
-          "content": "May's Swarm Community Call covered a breaking Bee 2.8.0 release, a research update on the next wave of protocol work, two Hackweek follow-ups including a collaborative editor on Swarm, and a full EthPrague + hackathon report with bounty winners...",
+          "title": "Bee Version 2.8.1 Release Announcement",
+          "content": "Bee v2.8.1 is a non-disruptive release focused on performance, data durability, and developer experience, with some operational cleanup. It is scheduled for release on July 7th, 2026.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-may-2026-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/bee-2-8-1-release/",
             "background": "transparent",
             "color": "white",
             "arrow": true
