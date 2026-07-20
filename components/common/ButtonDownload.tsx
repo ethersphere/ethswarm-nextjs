@@ -39,8 +39,10 @@ const DownloadButton: React.FC<ButtonProps> = ({
     return null;
   }
 
+  const classNameBase =
+    "transition duration-200 inline-flex items-center text-sm font-semibold px-4 text-center rounded-full leading-[2.3] group focus:outline-none";
   const className = cx(
-    "transition duration-200 inline-flex items-center text-sm font-semibold px-4 text-center rounded-full leading-[2.3] group focus:outline-none",
+    classNameBase,
     classNameBackground,
     classNameColor
   );
@@ -48,14 +50,26 @@ const DownloadButton: React.FC<ButtonProps> = ({
   const downloadText = "Download for " + assetInfo.osName + " ->";
 
   return (
-    <a
-      href={assetInfo.downloadUrl}
-      target="_blank"
-      rel="noreferrer"
-      className={className}
-    >
-      {downloadText}
-    </a>
+    <>
+      <a
+        href={assetInfo.downloadUrl}
+        target="_blank"
+        rel="noreferrer"
+        className={className}
+      >
+        {downloadText}
+      </a>
+      {assetInfo.alternativeDownloadUrl && (
+        <a
+          href={assetInfo.alternativeDownloadUrl}
+          target="_blank"
+          rel="noreferrer"
+          className={cx(classNameBase, "text-[#F6F7F9] hover:text-opacity-70")}
+        >
+          Download for Intel Mac -&gt;
+        </a>
+      )}
+    </>
   );
 };
 
