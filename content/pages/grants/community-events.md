@@ -9,18 +9,14 @@ sections:
         titleSize: medium-large
         id: swarm-20-wave
         content: >-
+          __Swarm community events grants are not open for applications at this time.__ Follow our official channels for updates.
+
+
           The Swarm Community Events Grant Programme, an initiative by the Swarm Association, aims to enhance the global dialogue about Swarm technology. Our objective is to simplify the onboarding process by supporting the organisation of dedicated Swarm events.
           
 
           This initiative provides grants of up to $1,000 in BZZ, helping cover the costs of organising small-scale events such as local meetups, workshops, and other educational activities at the community level.
-        ctas:
-          - title: Apply ->
-            href: "https://swarm.odoo.com/community-events-form"
-            arrow: true
-            background: orange
-            type: default
-            back: false
-            template: cta
+        ctas: []
         footnote: ""
       items:
         - tagline: ""
@@ -122,21 +118,11 @@ sections:
           code: ""
           template: section-item
         - tagline: ""
-          title: Apply now
+          title: Future community events grants
           content: >-
-            Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together!
-
-
-            Apply now and become part of the swarm.
+            Swarm community events grants are not open for applications at this time. Follow our official channels for updates.
           image: ""
-          contentCtas:
-            - title: Apply ->
-              href: "https://swarm.odoo.com/community-events-form"
-              arrow: true
-              background: orange
-              type: default
-              back: false
-              template: cta
+          contentCtas: []
           ctas: []
           code: ""
           template: section-item
