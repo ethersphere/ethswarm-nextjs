@@ -5,12 +5,14 @@ sections:
   - type: Section
     data:
       hero:
-        title: Grants currently closed
+        title: Make an impact
         id: impact
         content: >-
-          __Swarm grants are not open for applications at this time.__ Explore
-          the projects already building on Swarm below, and follow our official
-          channels for updates on future grant waves.
+          __Swarm grants are not open for applications at this time.__
+
+
+          Explore the projects already building on Swarm below, and follow our
+          official channels for updates on future grant waves.
         ctas: []
         background:
           src: /assets/hero/impact.png
