@@ -9,19 +9,15 @@ sections:
         titleSize: medium-large
         id: swarm-20-wave
         content: >-
+          __Swarm grants are not open for applications at this time.__ Follow our official channels for updates on future grant waves.
+
+
           The Swarm Grants Programme, an initiative by the Swarm Association, stands at the forefront of technological evolution, committed to narrowing the gap between Web3 ecosystems and the traditional Web2 space. By empowering a diverse array of talents including developers, researchers, artists, and community activists, we aim to unlock a new realm of digital innovation and collaboration.
 
 
           Our mission is to catalyse the development of decentralised technologies that promote digital freedom, aiming for a future where the internet is more inclusive and accessible to all.
 
-        ctas:
-          - title: Apply for a grant ->
-            href: "https://swarm.odoo.com/swarm-grants-application-form"
-            arrow: true
-            background: orange
-            type: default
-            back: false
-            template: cta
+        ctas: []
         footnote: ""
       items:
         - tagline: ""
@@ -128,24 +124,14 @@ sections:
           code: ""
           template: section-item
         - tagline: ""
-          title: Apply now
+          title: Future grant waves
           content: >-
-            Don't miss this opportunity to contribute to the self-sovereign society we're collectively building. Join our community on the path towards a decentralised future, and let's shape the future of the internet together! 
+            Swarm grants are not open for applications at this time. Follow our official channels for updates on future grant waves.
 
 
             The programme supports [Fair Data Principles](https://fairdatasociety.org/) of interoperability, self-sovereignty, and privacy.
-
-
-            Apply now and become part of the swarm.
           image: ""
-          contentCtas:
-            - title: Apply for a grant ->
-              href: "https://swarm.odoo.com/swarm-grants-application-form"
-              arrow: true
-              background: orange
-              type: default
-              back: false
-              template: cta
+          contentCtas: []
           ctas: []
           code: ""
           template: section-item

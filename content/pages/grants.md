@@ -8,17 +8,10 @@ sections:
         title: Make an impact
         id: impact
         content: >-
-          Swarm grants support many interesting projects that are already
-          building their products on top of Swarm. Swarm bounties extend the
-          ecosystem with tooling and infrastructure.
-        ctas:
-          - title: Apply for a grant ->
-            href: "/grants/swarm-grants-programme"
-            arrow: true
-            background: orange
-            type: default
-            back: false
-            template: cta
+          Swarm grants are not open for applications at this time. Explore the
+          projects already building on Swarm below, and follow our official
+          channels for updates on future grant waves.
+        ctas: []
         background:
           src: /assets/hero/impact.png
           alt: ""
