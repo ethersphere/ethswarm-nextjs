@@ -220,16 +220,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-june-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-july-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate0626.png",
-            "alt": "Monthly Development Update – June 2026"
+            "src": "https://blog.ethswarm.org/uploads/devupdate0726.png",
+            "alt": "Monthly Development Update – July 2026"
           },
-          "title": "Monthly Development Update – June 2026",
-          "content": "June was a month of steady, practical progress across the Swarm stack: Bee v2.8.1 was locked in and announced for July 7, Swarm-CLI v3.3.0 redesigned ACT access control, Bee Factory and Gateway kept maturing as developer infrastructure, and Swarm spent a full week at Berlin Blockchain Week...",
+          "title": "Monthly Development Update – July 2026",
+          "content": "July saw Swarm development return to its regular pace after the Bee v2.8.1 stabilization release, with work advancing across the protocol, research, developer tooling, applications, and the wider ecosystem.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-june-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-july-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
