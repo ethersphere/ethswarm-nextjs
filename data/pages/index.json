@@ -1,9 +1,9 @@
 {
   "event": {
     "title": "Community Call",
-    "content": "Swarm Community Call, online, July 30",
+    "content": "Swarm Community Call, online, August 27",
     "image": {
-      "src": "/uploads/0726.png",
+      "src": "/uploads/scc0826banner.jpg",
       "alt": ""
     },
     "cta": {
@@ -220,32 +220,32 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-june-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-july-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate0626.png",
-            "alt": "Monthly Development Update – June 2026"
+            "src": "https://blog.ethswarm.org/uploads/devupdate0726.png",
+            "alt": "Monthly Development Update – July 2026"
           },
-          "title": "Monthly Development Update – June 2026",
-          "content": "June was a month of steady, practical progress across the Swarm stack: Bee v2.8.1 was locked in and announced for July 7, Swarm-CLI v3.3.0 redesigned ACT access control, Bee Factory and Gateway kept maturing as developer infrastructure, and Swarm spent a full week at Berlin Blockchain Week...",
+          "title": "Monthly Development Update – July 2026",
+          "content": "July saw Swarm development return to its regular pace after the Bee v2.8.1 stabilization release, with work advancing across the protocol, research, developer tooling, applications, and the wider ecosystem.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-june-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-july-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-25-june-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-30-july-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC0626-recap.png",
-            "alt": "Swarm Community Call, 25 June – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC0726-recap.png",
+            "alt": "Swarm Community Call, 30 July – Recap"
           },
-          "title": "Swarm Community Call, 25 June – Recap",
-          "content": "June's Swarm Community Call covered the upcoming non-breaking Bee 2.8.1 release in final testing, and an extended field report from Berlin Blockchain Week — talks, panels, The Plural Monolith livecoding installation, a Subcult demo, and DeSci conversations...",
+          "title": "Swarm Community Call, 30 July – Recap",
+          "content": "July’s Swarm Community Call covered the protocol work following Bee 2.8.1 — Hive peer discovery, PullSync hardening, simulation tooling and backward compatibility between versions — a research reprioritization toward network usability, and a community talk introducing Vertex, an independent Rust implementation of a Swarm node.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-25-june-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-30-july-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true

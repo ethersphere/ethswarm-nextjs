@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
+          # setup-node >=6.5.0 probes `npm --version` to auto-detect the package
+          # manager. That probe hangs on our self-hosted runners. package.json
+          # declares no packageManager/devEngines field, so no caching is lost.
+          package-manager-cache: false
       - name: Build
         env:
           TINA_BRANCH: ${{ secrets.TINA_BRANCH }}
