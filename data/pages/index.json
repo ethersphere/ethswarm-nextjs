@@ -167,14 +167,7 @@
     "title": "Odyssey Data Upload",
     "tagline": "Sustainable Development Goals",
     "content": "The Swarm Foundation aims to empower non-profits to store their data securely and censorship-resistant. Swarm will subsidise data uploads from selected projects to incentivise public goods and advance the Sustainable Development Goals.",
-    "ctas": [
-      {
-        "href": "https://my.ethswarm.org/uploads",
-        "background": "purple",
-        "color": "black",
-        "title": "Apply ->"
-      }
-    ]
+    "ctas": []
   },
   "fairdata": {
     "tagline": "Interoperability and data sovereignty",
