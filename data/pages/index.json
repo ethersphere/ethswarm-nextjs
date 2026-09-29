@@ -197,16 +197,16 @@
       "content": "An open-source, censorship-resistant blog hosted on Swarm.",
       "cards": [
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-27-august-recap/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-24-september-recap/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/SCC0826-recap.png",
-            "alt": "Swarm Community Call, 27 August – Recap"
+            "src": "https://blog.ethswarm.org/uploads/SCC0926-recap.png",
+            "alt": "Swarm Community Call, 24 September – Recap"
           },
-          "title": "Swarm Community Call, 27 August – Recap",
-          "content": "August's Swarm Community Call was streamed over Swarm itself for the first time — covering the security-focused Bee 2.8.2 release, Etherchunk's practical approach to reclaiming storage capacity, and a close look at the streaming system delivering the broadcast, including an in-browser Swarm node test.",
+          "title": "Swarm Community Call, 24 September – Recap",
+          "content": "September's Swarm Community Call showed work moving from proposition into practice — Bee's first PubSub implementation, a published paper on deletable content in immutable storage, SwarmID in use at ETHRome, and a working demo of AI agents discovering data, paying for access and building verifiable reputation on Swarm.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-27-august-recap/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-community-call-24-september-recap/",
             "background": "transparent",
             "color": "white",
             "arrow": true
