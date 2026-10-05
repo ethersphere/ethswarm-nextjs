@@ -213,16 +213,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-august-2026/",
+          "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-september-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/devupdate0826.png",
-            "alt": "Monthly Development Update – August 2026"
+            "src": "https://blog.ethswarm.org/uploads/devupdate0926.png",
+            "alt": "Monthly Development Update – September 2026"
           },
-          "title": "Monthly Development Update – August 2026",
-          "content": "August was a month of hardening the foundations while pushing more of Swarm into practical use: Bee 2.8.2 strengthened node resilience and security, Bee-JS 13 and the new Core SDK brought Swarm primitives out of the node and into applications, and for the first time the Swarm Community Call was streamed live over Swarm.",
+          "title": "Monthly Development Update – September 2026",
+          "content": "September brought work on faster syncing, greater operator control and reliability as the Bee team prepared the next release. Research set a firm direction for moving stamp handling to Ethereum, while SDK and app updates improved feeds, file management and video streaming.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-august-2026/",
+            "href": "https://blog.ethswarm.org/foundation/2026/monthly-development-update-september-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
