@@ -229,16 +229,16 @@
           }
         },
         {
-          "href": "https://blog.ethswarm.org/foundation/2026/bee-2-8-2-release/",
+          "href": "https://blog.ethswarm.org/foundation/2026/swarm-state-of-the-network-september-2026/",
           "image": {
-            "src": "https://blog.ethswarm.org/uploads/bee-2-8-2.png",
-            "alt": "Bee Version 2.8.2 Release Announcement"
+            "src": "https://blog.ethswarm.org/uploads/sotn-sep-26.jpg",
+            "alt": "State of the Network: September 2026"
           },
-          "title": "Bee Version 2.8.2 Release Announcement",
-          "content": "Bee v2.8.2 is a security-related release scheduled for August 26th, 2026. All node operators are urged to upgrade as soon as it becomes available — technical details will be shared once the network has moved to the patched version.",
+          "title": "State of the Network: September 2026",
+          "content": "September's report on the Swarm network's key metrics: total rewards rose for a fifth consecutive month to 27,724 xBZZ, and active staking nodes, reachable full nodes and winning nodes all increased from August.",
           "cta": {
             "title": "Read more ->",
-            "href": "https://blog.ethswarm.org/foundation/2026/bee-2-8-2-release/",
+            "href": "https://blog.ethswarm.org/foundation/2026/swarm-state-of-the-network-september-2026/",
             "background": "transparent",
             "color": "white",
             "arrow": true
